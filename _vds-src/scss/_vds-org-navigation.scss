@@ -42,6 +42,10 @@ NAVIGATION
     color: hsla(0,0%,100%,.5);
     border-color: hsla(0,0%,100%,.1);
 }
+.dropdown-inline-menu {
+    padding-left: 1rem;
+    //background-color: var(--colors-voltas-dark_1);
+}
 /* set padding between menu items for larger screens */
 /* @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-md .navbar-nav .nav-link {

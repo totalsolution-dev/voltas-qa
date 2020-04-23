@@ -24,6 +24,8 @@ $spacers:
 6: ($spacer * 5)
 );
 
+// $primary: var(--colors-voltas-primary); 
+
 // globally disbale rounded corners
 $enable-rounded:                false;
 
@@ -117,3 +119,44 @@ R&D
     background-position: center;
     background-repeat: no-repeat;
   }
+
+.vds-org-accordion {
+    .card {
+        font-variant: unset;
+        border: none;
+        &:first-child .card-header {
+            border-top:1px solid #C4C4C4;
+        }
+        .card-header {
+            background-color: #fff;
+            border-bottom:1px solid #C4C4C4;
+            padding: 2rem 1rem;
+            h5 {
+                font-variant: unset;
+                vertical-align: middle;
+                i {
+                    float: right;
+                    padding: 0.25rem 0 0 0;
+                }
+                
+            }
+            a {
+                font-variant: unset;
+                color: var(--colors-aqua-primary);
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        .card-body {
+        font-variant: unset;
+
+        }
+    }
+}
+
+.financial-snapshot-accordion-content {
+    .dropdown {
+        
+    }
+}
