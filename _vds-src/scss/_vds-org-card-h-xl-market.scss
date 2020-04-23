@@ -1,0 +1,81 @@
+/* Market Card */
+/* experiment to stack cards with no marhin */
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: -2rem;
+}
+
+.voltas-card.voltas-card-market {
+    background-color: var(--colors-voltas-primary)!important;
+}
+.voltas-card.voltas-card-market .card-body {
+    padding-bottom: 0rem;
+}
+
+/* Market Card — stock values table */
+.voltas-card.voltas-card-market .table {
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    color: #fff;
+}
+    /* Define table left/right padding equal to bootstrap grid */
+    .voltas-card.voltas-card-market .table td:first-child,
+    .voltas-card.voltas-card-market .table th:first-child {
+        padding-left: 2rem;
+    }
+    .voltas-card.voltas-card-market .table td:last-child,
+    .voltas-card.voltas-card-market .table th:last-child {
+        padding-right: 1rem;
+    }
+    /* set vertical padding for the rows */
+    .voltas-card.voltas-card-market .table td,
+    .voltas-card.voltas-card-market .table th {
+        padding-top: .4375rem;
+        padding-bottom: .4375rem;
+    }
+
+    /* Table Header — re4move padding*/
+    .table td, .table th {
+        padding: 0rem;
+    }
+    .voltas-card.voltas-card-market .table thead th {
+        font-weight: 200;
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+        color: #fff;
+    }
+
+    /* Alternate row colors except the first row which is same as the card */
+    .voltas-card.voltas-card-market .table-striped tbody tr {
+        background-color: var(--colors-voltas-light_2);
+    }
+    .voltas-card.voltas-card-market .table-striped tbody tr:first-child {
+        background-color: var(--colors-voltas-primary);
+    }
+    .voltas-card.voltas-card-market .table-striped tbody tr:nth-of-type(odd) {
+        background-color: var(--colors-voltas-light_1);
+    }
+
+    /* Highlighted cell text for current value */
+    .voltas-card.voltas-card-market .table tbody td.highlighted {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+        color: #B4E27A;
+        padding-bottom: 1rem;
+        padding-top: 0.5rem;
+    }
+    /* Normall cell content */
+    .voltas-card.voltas-card-market .table tbody td {
+        font-size: 1rem;
+        line-height: 1.325rem;
+        /* color: #fff; */
+        font-weight: 300;
+    }
+    /* <small> cell content */
+    .voltas-card.voltas-card-market .table tbody td small {
+        font-size: .625rem;
+        line-height: 1rem;
+        font-weight: 800;
+    }

@@ -1,0 +1,473 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Using Gulp.js for CSS tasks</title>
+  <link rel="stylesheet" media="all" href="css/custom.css">
+  <link rel="stylesheet" href="http://www.twostaging.com/themes/user/site/default/asset/font/font-awesome.min.css" async>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+
+  <nav class="navbar navbar-expand-md voltas-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="http://twostaging.com/themes/user/site/default/asset/img/logo_white.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+        
+        <ul class="nav navbar-nav ml-auto">
+        
+          <li class="nav-item dropdown">
+            
+            <a class="dropdown-toggle nav-link " data-toggle="dropdown" aria-expanded="false" href="/about-us/">About Us</a>
+            <div class="dropdown-menu" role="menu">
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/overview/">Overview</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/leadership/">Leadership</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/smart-engineering/">Smart Engineering</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/awards-recognition/">Awards & Recognition</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/corporate-governance/">Corporate Governance</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/business-excellence/">Business Excellence</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/history/">History</a>
+              
+              <a class="dropdown-item " role="presentation" href="/about-us/under-about/">under about</a>
+              
+            </div>
+            
+          </li>
+        
+        
+        
+          <li class="nav-item dropdown">
+            
+            <a class="dropdown-toggle nav-link " data-toggle="dropdown" aria-expanded="false" href="/businesses/">Businesses</a>
+            <div class="dropdown-menu" role="menu">
+              
+              <a class="dropdown-item " role="presentation" href="/businesses/products/">Products</a>
+              
+              <a class="dropdown-item " role="presentation" href="/businesses/projects/">Projects</a>
+              
+            </div>
+            
+          </li>
+        
+        
+        
+          <li class="nav-item dropdown">
+            
+            <a class="dropdown-toggle nav-link " data-toggle="dropdown" aria-expanded="false" href="/investors/">Investors</a>
+            <div class="dropdown-menu" role="menu">
+              
+              <a class="dropdown-item " role="presentation" href="/investors/overview/">Overview</a>
+              
+              <a class="dropdown-item " role="presentation" href="/investors/financial-snapshot/">Financial Snapshot</a>
+              
+              <a class="dropdown-item " role="presentation" href="/investors/stock-information/">Stock Information</a>
+              
+              <a class="dropdown-item " role="presentation" href="/investors/schedule-announcements/">Schedule & Announcements</a>
+              
+            </div>
+            
+          </li>
+        
+        
+        
+          <li class="nav-item dropdown">
+            
+            <a class="dropdown-toggle nav-link " data-toggle="dropdown" aria-expanded="false" href="/sustainability/">Sustainability</a>
+            <div class="dropdown-menu" role="menu">
+              
+              <a class="dropdown-item " role="presentation" href="/sustainability/overview/">Overview</a>
+              
+              <a class="dropdown-item " role="presentation" href="/sustainability/sustainable-livelihood/">Sustainable Livelihood</a>
+              
+              <a class="dropdown-item " role="presentation" href="/sustainability/community-development/">Community Development</a>
+              
+              <a class="dropdown-item " role="presentation" href="/sustainability/national-importance/">National Importance</a>
+              
+            </div>
+            
+          </li>
+        
+        
+        
+          <li class="nav-item dropdown">
+            
+            <a class="dropdown-toggle nav-link " data-toggle="dropdown" aria-expanded="false" href="/newsroom/">Newsroom</a>
+            <div class="dropdown-menu" role="menu">
+              
+              <a class="dropdown-item " role="presentation" href="/newsroom/media-releases/">Media Releases</a>
+              
+              <a class="dropdown-item " role="presentation" href="/newsroom/resources/">Resources</a>
+              
+            </div>
+            
+          </li>
+        
+        
+        
+          <li class="nav-item dropdown">
+            
+            <a class="dropdown-toggle nav-link " data-toggle="dropdown" aria-expanded="false" href="/careers/">Careers</a>
+            <div class="dropdown-menu" role="menu">
+              
+              <a class="dropdown-item " role="presentation" href="/careers/overview/">Overview</a>
+              
+              <a class="dropdown-item " role="presentation" href="/careers/join-us/">Join Us</a>
+              
+              <a class="dropdown-item " role="presentation" href="/careers/stories-people/">Stories & People</a>
+              
+            </div>
+            
+          </li>
+        
+        
+        
+          <li class="nav-item dropdown">
+            
+            <li class="nav-item" role="presentation"><a class="nav-link " href="/contact/">Contact</a></li>
+            
+          </li>
+        
+        </ul>
+        
+      
+      </div>
+    </div>
+  </nav>
+  
+      
+      
+      
+      
+  
+      
+    
+  
+  <!-- Don't wrap carousel in container to avoid left and right margin -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+          <!-- <div class="carousel-item active">
+              <picture>
+                  <source srcset="https://dummyimage.com/2000x800/007aeb/4196e5" media="(min-width: 1400px)">
+                  <source srcset="https://dummyimage.com/1400x800/007aeb/4196e5" media="(min-width: 768px)">
+                  <source srcset="https://dummyimage.com/800x800/007aeb/4196e5" media="(min-width: 576px)">
+                  <img srcset="https://dummyimage.com/600x800/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                  </picture>
+          </div> -->
+          <div class="carousel-item active">
+              <img class="d-block w-100" src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/carousel-1-compressor.png" alt="Second slide">
+              <div class="container">
+                  <div class="carousel-caption voltas-carousel-caption d-md-block col-6 col-md-5">
+                      <h4 class="h1 display">Engineering innovative solutions that generate value</h4>
+                      <p class="lead">We challenge the norm with smart engineering, revolutionising outcomes for our customers. Know More</p>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/carousel-1-compressor.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/carousel-1-compressor.png" alt="Second slide">
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+  
+   
+  
+  <div class="container">
+      <div class="row justify-content-center d-flex my-3 mb-5">
+          <div class="col-12 col-md-12 col-lg-10 d-flex">
+              <div class="card-group facts-group w-100">
+                  
+  <div class="card">
+      <div class="card-body">
+          
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          
+          <h1 class="card-title display">8500 and More</h1>
+          
+          <p class="card-text">Voltasites, Innovate Solutions Around the Globe</p>
+      </div>
+  </div>
+  
+  
+                  
+  <div class="card">
+      <div class="card-body">
+          
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          
+          <h1 class="card-title display">8500 and More</h1>
+          
+          <p class="card-text">Voltasites, Innovate Solutions Around the Globe</p>
+      </div>
+  </div>
+  
+  
+                  
+  <div class="card">
+      <div class="card-body">
+          
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          
+          <h1 class="card-title display">8500 and More</h1>
+          
+          <p class="card-text">Voltasites, Innovate Solutions Around the Globe</p>
+      </div>
+  </div>
+  
+  
+                  
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+  
+   
+  
+  <div class="container">
+      <div class="row justify-content-center d-flex">
+          <div class="col-12 col-md-10">
+              
+              
+              
+  
+              
+              <div class="jumbotron highlighted">
+                  <h6 class="card-overtitle">About Us</h6>
+                  <h1 class="display">At Voltas, we believe in engineering smart, intuitive and innovative solutions to craft a world that is more efficient. A world that keeps people’s needs at its core.</h1>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </div>
+              
+              
+  
+              
+              
+              
+          </div>
+      </div>
+  </div>
+  
+   
+  <div class="container">
+      <div class="row justify-content-center d-flex">
+          
+  <div class="col-12 col-md-7 col-lg-6 d-flex">
+      <div class="card voltas-card">
+          <img src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/simplifying-lives-card-bg-compressor.png" class="card-img w-100 h-100 object-fit_cover" alt="...">
+          <div class="card-img-overlay d-flex flex-column col-11 col-sm-10 col-md-7">
+              <h6 class="card-overtitle">Customer FOCUS</h6>
+              <h1 class="card-title display">Simplifying lives</h1>
+              <p class="card-text">Our customers are always at the center of how we engineer our products and services. We ensure that every interaction makes their lives easier.</p>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </div>
+  </div>
+  
+  
+          
+  <div class="col-12 col-md-5 col-lg-4 d-flex">
+      <div class="card voltas-card">
+          <img src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/card-top-compressor.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h6 class="card-overtitle">technology</h4>
+              <h1 class="card-title display">Through intelligent technology</h1>
+              <p class="card-text">Our commitment to maintain high professional standards, as well as our dedication to create a healthy.</p>
+              <i class="fa fa-external-link"></i>
+              <!-- <i class="fa fa-external-link-alt"></i> -->
+          </div>
+      </div>
+  </div>
+  
+  
+      </div>
+      <div class="row justify-content-center d-flex">
+          
+  <div class="col-12 col-md-5 col-lg-4 d-flex">
+      <div class="card voltas-card">
+          <img src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/card-top-compressor.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h6 class="card-overtitle">technology</h4>
+              <h1 class="card-title display">Through intelligent technology</h1>
+              <p class="card-text">Our commitment to maintain high professional standards, as well as our dedication to create a healthy.</p>
+              <i class="fa fa-external-link"></i>
+              <!-- <i class="fa fa-external-link-alt"></i> -->
+          </div>
+      </div>
+  </div>
+  
+  
+          
+  <div class="col-12 col-md-7 col-lg-6 d-flex">
+      <div class="card voltas-card">
+          <img src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/simplifying-lives-card-bg-compressor.png" class="card-img w-100 h-100 object-fit_cover" alt="...">
+          <div class="card-img-overlay d-flex flex-column col-11 col-sm-10 col-md-7">
+              <h6 class="card-overtitle">Customer FOCUS</h6>
+              <h1 class="card-title display">Simplifying lives</h1>
+              <p class="card-text">Our customers are always at the center of how we engineer our products and services. We ensure that every interaction makes their lives easier.</p>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </div>
+  </div>
+  
+  
+      </div>
+      <div class="row justify-content-center d-flex">
+          
+  <div class="col-12 col-md-4 col-lg-3 d-flex pr-0">
+      <div class="card voltas-card bg-gradient-horizontal-primary">
+          <div class="card-body">
+              <h6 class="card-overtitle">careers</h4>
+                  <h1 class="card-title display">Work at Voltas</h1>
+                  <p class="card-text">Discover a journey of opportunity, sustained  growth & excellence.</p>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  <!-- <i class="fa fa-external-link-alt"></i> -->
+          </div>
+      </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-5 d-flex pl-0">
+      <div class="card voltas-card w-100">
+          <img src="http://twostaging.com/themes/user/site/default/asset/img/placeholders/card-5-col-compressor.png"
+              class="card-img w-100 h-100 object-fit_cover position-absolute" alt="...">
+          <div class="card-body d-flex flex-column col-9 col-lg-8 col-xl-7">
+              <h6 class="card-overtitle">CAREERS</h4>
+                  <h1 class="card-title display">Experience your growth</h1>
+                  <p class="card-text">Experience the stories of people that are leading us into tomorrow.</p>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </div>
+  </div>
+  <div class="col-12 col-md-10 col-lg-4 d-flex">
+      <div class="card voltas-card voltas-card-market w-100">
+          <div class="card-body">
+              <h6 class="card-overtitle">market</h4>
+          </div>
+          <table class="table table-striped table-borderless">
+              <thead>
+                  <tr>
+                      <th scope="col">BSE <i class="fa fa-arrow-up" aria-hidden="true"></i></th>
+                      <th scope="col">NSE <i class="fa fa-arrow-down" aria-hidden="true"></i></th>
+                      <th scope="col"></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="highlighted">296.90</td>
+                      <td class="highlighted">296.90</td>
+                      <td><small>CURRENT</small></td>
+                  </tr>
+                  <tr>
+                      <td>299.00</td>
+                      <td>299.00</td>
+                      <td><small>HIGH</small></td>
+                  </tr>
+                  <tr>
+                      <td>299.00</td>
+                      <td>299.00</td>
+                      <td><small>LOW</small></td>
+                  </tr>
+                  <tr>
+                      <td>299.00</td>
+                      <td>299.00</td>
+                      <td><small>CHANGE</small></td>
+                  </tr>
+                  <tr>
+                      <td>299.00</td>
+                      <td>299.00</td>
+                      <td><small>VOLUME</small></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  
+   
+      </div>
+      <div class="row justify-content-center d-flex">
+          
+  <div class="col-12 col-md-12">
+      <div class="card voltas-card voltas-card-video bg-aqua-primary">
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+              <h6 class="card-overtitle">communication</h4>
+              <h1 class="card-title display">A Day of Smart Engineering</h1>
+              <h2 class="h1">Voltas Culture</h2>
+          </div>
+      </div>
+  </div>
+  
+  
+      </div>
+  </div>
+    
+    
+      
+      
+  <div class="container-fluid voltas-footer">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-5 footer-section">
+                      <h1>Quick Links</h1>
+                      <div class="row">
+                          <div class="col d-flex">
+                              <ul class="col-6 d-block">
+                                  <li>About us</li>
+                                  <li>Businesses</li>
+                                  <li>Sustainability</li>
+                              </ul>
+                              <ul class="col-6 d-block">
+                                  <li>Investors</li>
+                                  <li>Newsroom</li>
+                                  <li>Careers</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-4 footer-section">
+                      <h1>Get in Touch</h1>
+                      <p>Do you have queries, or need support for any of our products or services?</p>
+                      <a href="" class="btn btn-outline-light">contact us</a>
+                  </div>
+                  <div class="col-12 col-md-3 footer-section">
+                      <h1>Follow us</h1>
+                      <p><i class="fa fa-linkedin" aria-hidden="true"></i></p>
+                  </div>
+              </div>
+          </div>
+      </footer>   
+  </div>
+  
+  
+  
+      
+      <!-- TODO move all common script includes to a LOW variables setting -->
+      <script src="http://www.twostaging.com/themes/user/site/default/asset/js/jquery.min.js"></script>
+      <script src="http://www.twostaging.com/themes/user/site/default/asset/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.vds-logo-carousel {
+    .carousel-control-next {
+        color: var(--colors-slate-primary);
+        width:10%;
+        right: -10%;
+    }
+    .carousel-control-prev {
+        color: var(--colors-slate-primary);
+        width:10%;
+        left: -10%;
+    }
+}

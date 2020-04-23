@@ -1,0 +1,18 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / CARD - VERTICAL - MEDIUM - IMAGE WITH TEXT OVERLAY
+:: Usage: {vds-org-card-h-md-image_text_overlay}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="col-12 col-md-7 col-lg-6 d-flex">
+    <div class="card voltas-card">
+        {if card-image != ""}
+        <img src="{card-image}" class="card-img w-100 h-100 object-fit_cover" alt="...">
+        {/if}
+        <div class="card-img-overlay d-flex flex-column col-11 col-sm-10 col-md-7">
+            {vds-mol-card-body-inner}
+        </div>
+    </div>
+</div>
+{!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / CARD - VERTICAL - MEDIUM - IMAGE WITH TEXT OVERLAY      --}

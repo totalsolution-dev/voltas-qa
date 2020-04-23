@@ -1,0 +1,51 @@
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+NAVIGATION
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* custom class .voltas-navbar for all
+   extensions to nav.navbar
+*/
+.voltas-navbar {
+    background-color: #096BCE!important;
+    padding: 1.75rem 3rem;
+}
+.voltas-navbar .navbar-brand img{
+    width: 7.5rem;
+}
+/* menu link li>a.nav-link */
+.voltas-navbar .navbar-nav .nav-link {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #fff;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 2rem;
+}
+/* active color styles */
+.voltas-navbar .navbar-nav .active>.nav-link, 
+.voltas-navbar .navbar-nav .nav-link.active, 
+.voltas-navbar .navbar-nav .nav-link.show, 
+.voltas-navbar .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+/* mobile nav hamburger icon */
+.voltas-navbar .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.voltas-navbar.navbar-toggler {
+    color: hsla(0,0%,100%,.5);
+    border-color: hsla(0,0%,100%,.1);
+}
+/* set padding between menu items for larger screens */
+/* @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left: 2rem;
+    }
+} */

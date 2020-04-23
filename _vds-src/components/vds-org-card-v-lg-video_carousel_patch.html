@@ -1,0 +1,28 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / CARD - VERTICAL - LARGE - VIDEO CAROUSEL + PATCH
+:: Usage: {vds-org-card-v-lg-video_carousel_patch}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="col-12 col-md-12">
+    <div class="card voltas-card voltas-card-video bg-{card-plate-color}">
+        <div class="embed-responsive embed-responsive-21by9">
+            {if card-video-url != ""}
+            <iframe class="embed-responsive-item" src="{card-video-url}" allowfullscreen></iframe>
+            {/if}
+        </div>
+        <div class="card-body">
+            {if card-overtitle != ""}
+            <h6 class="card-overtitle">{card-overtitle}</h4>
+			{/if}
+            {if card-title != ""}
+            <h1 class="card-title display">{card-title}</h1>
+			{/if}
+            {if card-text != ""}
+            <h2 class="h1">{card-text}</h2>
+			{/if}
+        </div>
+    </div>
+</div>
+{!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / CARD - VERTICAL - LARGE - VIDEO CAROUSEL + PATCH      --}

@@ -1,0 +1,49 @@
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+HEADER CAROUSEL STYLES
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.container .carousel {
+    margin-bottom: 2rem;
+}
+
+.carousel-caption.voltas-carousel-caption {
+    background: rgba(255,255,255,0.75);
+    padding: 2rem;
+    bottom: 20%;
+    /* margin-top:50%; */
+    border-top: 4px solid #80B240;
+    text-align: left;
+}
+.carousel-caption.voltas-carousel-caption .h1.display {
+    color: #323232;
+}
+.carousel-caption.voltas-carousel-caption p.lead {
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060;
+}
+.carousel-item.slide-quote .voltas-carousel-caption{
+    background: unset;
+    padding: 2rem;
+    bottom: unset;
+    border-top: none;
+    text-align: left;
+    top: 6rem;
+    right: 0;
+    position: absolute;
+    left: unset;
+    padding-right: 11%;
+    
+    h1 {
+        color: #fff;
+    }
+}
+    

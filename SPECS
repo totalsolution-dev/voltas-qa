@@ -1,0 +1,83 @@
+SQL
+EE_admin / X8kZNmaqLr9UZLt 
+
+FTP
+two_staging_EE / xXdJ6ESVcTF7ri4
+
+
+# SEO & SOCIAL FIELDS
+
+    # GENERIC
+        # Currently found in Voltas
+            HTML TAG Properties: class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" data-countrycode="in" xmlns:og="http://opengraphprotocol.org/schema/" data-java-localecode="en_IN" >
+            <meta name="google-site-verification" content="J7E92FztDL_s0vmWrxPBmLw8MratGG5qkIrEtNjrmU0" />
+            <link rel="shortcut icon" href="assets/img/brand-logo.gif">
+            <link rel="icon" href="assets/img/Voltas_Favicon 32x32px-01.png">
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        
+        # Our Recommendations along with ammunition
+          + <meta property="og:site_name" content="European Travel, Inc.">
+            HTML TAG Properties: class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" data-countrycode="in" xmlns:og="http://opengraphprotocol.org/schema/" data-java-localecode="en_IN" >
+            <meta name="google-site-verification" content="J7E92FztDL_s0vmWrxPBmLw8MratGG5qkIrEtNjrmU0" />
+            <link rel="shortcut icon" href="assets/img/brand-logo.gif">
+            <link rel="icon" href="assets/img/Voltas_Favicon 32x32px-01.png">
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+
+    # PAGE
+        # Currently found in Voltas
+            <title>
+            <meta name = "description">
+            <meta name="language" content="en" />
+            <meta property="og:title" content="Voltas.com | Driving value through smart engineering" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://voltas.com" />
+            <meta property="og:description" content="Voltas world's premier engineering solution providers and project specialists. India's largest air conditioning Company. We engineer programs that empower thousands of lives every year." />
+            <meta property="og:image" content="https://voltas.com/assets/images/brand-logo.png" />
+            <meta name="robots" content="index, follow, noodp, noydir" />
+            <link rel="canonical" href="https://voltas.com" />
+            <meta name="revised" content="February, 07, 2020" />
+            <meta name="HandheldFriendly" content="True">
+        
+        # Our Recommendations along with ammunition (https://css-tricks.com/essential-meta-tags-social-media/   https://neilpatel.com/blog/open-graph-meta-tags/    )
+            <title>
+            <meta name="description">
+            <meta name="language" content="en" />
+            <meta name="robots" content="index, follow, noodp, noydir" />
+            <link rel="canonical" href="https://voltas.com" />
+            <meta name="revised" content="February, 07, 2020" />
+            <meta name="HandheldFriendly" content="True">
+
+            // Reconsiled OpenGraph tags for Facebook and Twitter
+            <meta property="og:title" content="European Travel Destinations">
+            <meta property="og:description" content="Offering tour packages for individuals or groups.">
+            <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+                // Image constraints: follow Facebook's recommendation of a minimum dimension of 1200x630 pixels and 
+                an aspect ratio of 1.91:1, but adhere to Twitter's file size requirement of less than 1MB.
+            <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:image:alt" content="Alt text for image">
+                // This provides an alternative image description for those who are visually impaired.
+
+
+
+index	    Yes	Yes	Yes	Yes
+noindex	    Yes	Yes	Yes	Yes
+follow	    Yes	No	No	Yes
+nofollow	Yes	Yes	Yes	Yes
+none	    Yes	No	No	Yes
+noarchive	Yes	Yes	Yes	Yes
+nosnippet	Yes	No	No	No
+noodp	    Yes	Yes	Yes	No
+noydir	    No	Yes	No	No                
+
+
+GULP
+https://www.sitepoint.com/introduction-gulp-js/
+https://www.sitepoint.com/automate-css-tasks-gulp/

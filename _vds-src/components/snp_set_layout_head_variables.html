@@ -1,0 +1,15 @@
+{!-- This template partial is to be used inside a {exp:channel:entries} tag
+    and basically tries to fetch all entry data that needs to end up inside
+    the html <head> such as page title, meta data, open graph meta, etc.
+
+    Usage: {snp_set_layout_head_variables}
+--}
+
+{!-- meta output --}
+{layout:set name='title'}{if seo_title}{seo_title}{if:else}{title}{/if}{/layout:set}
+{layout:set name='seo_desc' value='{seo_desc}'}
+{layout:set name='robots' value='{robots}'}
+{!-- OpenGraph meta output --}
+{layout:set name='og_title' value='{if seo_title}{seo_title}{if:else}{title}{/if}'}
+{layout:set name='og_url'}{path='{p_url}'}{/layout:set}
+{layout:set name='og_description' value='{seo_desc}'}

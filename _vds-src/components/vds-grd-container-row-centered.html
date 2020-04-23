@@ -1,0 +1,66 @@
+{!-- ++++++++++++++++++++++++++++++++++++ 		--}
+{!-- COMPONENT: Row				          		--}
+{!-- Styles: Default, Cards		          		--}
+{!-- Usage: {vds-grd-container-row-centered}	--}
+{!-- ++++++++++++++++++++++++++++++++++++ 		--}
+{!-- 
+	Row to wrap any number of columns. 
+	Colums will be justified in the center 
+--}
+{row}
+		
+	{!-- default row style --}
+	{if style == "vds-row-default"}
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	{/if}
+	{!-- Row for fact cards --}
+	{if style == "vds-row-facts-group"}
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+			<div class="col-12 col-md-12 col-lg-10 d-flex my-3 mb-5">
+				<div class="card-group facts-group w-100">
+					{!-- {if style == "vds-row-process-steps"}process-steps{/if} --}
+	{/if}
+	{if style == "vds-row-process-steps"}
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+			<div class="col-12 col-md-12 col-lg-10 d-flex my-3 mb-5">
+				<div class="card-group facts-group process-steps w-100">
+					{!-- {if style == "vds-row-process-steps"}process-steps{/if} --}
+	{/if}
+	{!-- Row 10 col content for cards --}
+	{if style == "vds-row-card-grid-10"}
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+
+	{/if}
+	{!-- Row 12 col content for cards --}
+	{if style == "vds-row-card-grid-12"}
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	{/if}
+	
+
+
+
+
+
+	{!--  ::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+	{!--  :::::::: CLOSE SECTIONS PER CARD STYLE :::::::::::::: --}
+	
+	{close:row}
+		{!-- in case of cards style closing .col-12 > .card-group --}
+		{if style == "vds-row-facts-group"}
+				</div>
+			</div>
+		{/if}
+		{if style == "vds-row-process-steps"}
+				</div>
+			</div>
+		{/if}
+		{!-- Default row closing .container > .row --}
+		</div>
+	</div>
+	{/close:row}
+{/row}

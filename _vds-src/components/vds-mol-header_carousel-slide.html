@@ -1,0 +1,19 @@
+{mol-header_carousel-slide}
+<div class="carousel-item {if slide-appearance == 'slide_quote'} slide-quote{/if}{if '{blocks:index:of:type}' ==0} active{/if}">
+	<img class="w-100 d-block" src="{slide-image}" alt="{slide_header_text}">
+    <div class="container">
+        <div class="carousel-caption voltas-carousel-caption d-md-block col-7 col-md-7">
+            <h4 class="h1 {if slide-appearance != 'slide_quote'}display{/if}">{slide-title}</h4>
+            <p class="lead">{slide-text}</p>
+            <p class="quoted-by">{slide-quoted-by-name}</p>
+            {!-- {slide-quoted-by-name} --}
+            {!-- {slide-appearance} --}
+            {!-- {slide-button-text} --}
+            {!-- {slide-button-link} --}
+        </div>
+    </div>
+</div>
+{close:mol-header_carousel-slide}
+{!-- This component can have no children --}
+{/close:mol-header_carousel-slide}
+{/mol-header_carousel-slide}

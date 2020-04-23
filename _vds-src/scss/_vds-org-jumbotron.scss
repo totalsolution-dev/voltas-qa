@@ -1,0 +1,66 @@
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+JUMBOTRON STYLES
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* GENERIC for all Jumbotrons */
+/* align jumbotron content center */
+.jumbotron {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 0rem;
+    border: none;
+}
+.jumbotron {
+    padding: 2rem 2rem;
+}
+.jumbotron a {
+    color: var(--colors-slate-light_2);
+}
+/* Give extra padding for large screens */
+@media (min-width: 992px){
+    .jumbotron {
+        padding: 2rem 5rem;
+    }
+}
+.jumbotron .card-overtitle {
+    font-size: 0.75rem;
+}
+.jumbotron h1 {
+    margin-bottom: 2rem;
+    color: #4392F3;
+}
+.jumbotron h6 {
+    margin-bottom: 2rem;
+}
+.jumbotron p {
+    color: #606060;
+    margin-bottom: 0rem;
+}
+
+// compacted version for text headings
+.jumbotron.jumbotron-compacted {
+    padding: 0;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+/* JUMBOTRON Muted */
+/* No border, all grey text */
+.jumbotron.muted h6, .jumbotron.muted h1 {
+    color: #606060;
+}
+
+/* JUMBOTRON Highlighted */
+/* border top and bottom for jumbotron */
+.jumbotron.highlighted {
+    border-top: solid .25rem #80B240;
+    border-bottom: solid .25rem #80B240;
+}
+.jumbotron.highlighted h1 {
+    background: linear-gradient(90.35deg, #4392F3 0.08%, #009174 96.12%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

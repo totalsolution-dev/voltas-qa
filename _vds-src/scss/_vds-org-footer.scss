@@ -1,0 +1,31 @@
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+VDS / ORG / FOOTER
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/* Footer */
+.voltas-footer {
+    background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
+    border-top: .25rem solid #80B240;
+    padding: 2rem 0rem;
+    color: #fff;
+    margin-top: 6rem;
+}
+.voltas-footer .btn-outline-light {
+    border: .125rem solid #65D2B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .75rem;
+    font-variant: small-caps;
+}
+.voltas-footer .btn-outline-light:hover {
+    color: #212529;
+    border-color: #f8f9fa;
+}
+.voltas-footer .footer-section {
+    margin-bottom: 2rem;
+}

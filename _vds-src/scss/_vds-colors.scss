@@ -1,0 +1,78 @@
+:root { 
+    /* Colors / Voltas  */
+    --colors-voltas-primary: #096BCE; /* Colours/Voltas/Primary */
+    --colors-voltas-light_1: #4392F3; /* Colours/Voltas/Light 1 */
+    --colors-voltas-light_2: #86B9FF; /* Colours/Voltas/Light 2 */
+    --colors-voltas-light_3: #CAE0FF; /* Colours/Voltas/Light 3 */
+    --colors-voltas-dark_1: #004992; /* Colours/Voltas/Dark 1 */
+    --colors-voltas-dark_2: #003872; /* Colours/Voltas/Dark 2 */
+    
+    /* Colors / Green  */
+    --colors-green-primary: #80B240; /* Colours/Green/Primary */
+    --colors-green-light_1: #B4E27A; /* Colours/Green/Light 1 */
+    --colors-green-light_2: #E6FBCB; /* Colours / Green / Light 2 */
+    --colors-green-dark_1: #568C11; /* Colours / Green / Dark 1 */
+    --colors-green-dark_2: #3F6E03; /* Colours / Green / Dark 2 */
+    
+    /* Colors / Aqua  */
+    --colors-aqua-primary: #009174; /* Colours / Aqua / Primary */
+    --colors-aqua-light_1: #32B598; /* Colours / Aqua / Light 1 */
+    --colors-aqua-light_2: #65D2B8; /* Colours / Aqua / Light 2 */
+    --colors-aqua-light_3: #97E8D4; /* Colours / Aqua / Light 3 */
+    --colors-aqua-light_4: #CAF7EB; /* Colours / Aqua / Light 4 */
+    --colors-aqua-dark_1: #006C51; /* Colours / Aqua / Dark 1 */
+    
+    /* Colors / Slate  */
+    --colors-slate-primary: #323232; /* Colours / Slate / Primary */
+    --colors-slate-light_1: #606060; /* Colours / Slate / Light 1 */
+    --colors-slate-light_2: #8E8E8E; /* Colours / Slate / Light 2 */
+    --colors-slate-light_3: #BCBCBC; /* Colours / Slate / Light 3 */
+    --colors-slate-light_4: #EBEBEB; /* Colours / Slate / Light 4 */
+        
+    /* Colors / Gradients  */
+    --gradient-horizontal-primary: linear-gradient(90.05deg, #4392F3 0.08%, #009174 96.12%); /* Gradient / Horizontal / Primary */
+    --gradient-horizontal-inverted: linear-gradient(90.05deg, #009174 0.08%, #4392F3 90.3%); /* Gradient / Horizontal / Inverted */    
+    --gradient-vertical-primary: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%); /* Gradient / Vertical / Primary */
+    --gradient-vertical-inverted: linear-gradient(180deg, #009174 -6.2%, #4392F3 104.18%); /* Gradient / Vertical / Inverted */   
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+BACKGROUND COLOR STYLE SWATCHES 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/* Colors / Voltas  */
+.bg-voltas-primary {background-color: var(--colors-voltas-primary) !important;}
+.bg-voltas-light_1 {background-color: var(--colors-voltas-light_1) !important;}
+.bg-voltas-light_2 {background-color: var(--colors-voltas-light_2) !important;}
+.bg-voltas-light_3 {background-color: var(--colors-voltas-light_3) !important;}
+.bg-voltas-dark_1 {background-color: var(--colors-voltas-dark_1) !important;}
+.bg-voltas-dark_2 {background-color: var(--colors-voltas-dark_2) !important;}
+
+/* Colors / Green  */
+.bg-aqua-primary { background-color: var(--colors-aqua-primary) !important;}
+.bg-aqua-light_1 {background-color: var(--colors-aqua-light_1) !important;}
+.bg-aqua-light_2 {background-color: var(--colors-aqua-light_2) !important;}
+.bg-aqua-light_3 {background-color: var(--colors-aqua-light_3) !important;}
+.bg-aqua-light_4 {background-color: var(--colors-aqua-light_4) !important;}
+.bg-aqua-dark_1 {background-color: var(--colors-aqua-dark_1) !important;}
+
+/* Colors / Aqua  */
+.bg-green-primary {background-color: var(--colors-green-primary) !important;}
+.bg-green-light_1 {background-color: var(--colors-green-light_1) !important;}
+.bg-green-light_2 {background-color: var(--colors-green-light_2) !important;}
+.bg-green-dark_1 {background-color: var(--colors-green-dark_1) !important;}
+.bg-green-dark_2 {background-color: var(--colors-green-dark_2) !important;}
+
+/* Colors / Slate  */
+.bg-slate-primary {background-color: var(--colors-slate-primary) !important;}
+.bg-slate-light_1 {background-color: var(--colors-slate-light_1) !important;}
+.bg-slate-light_2 {background-color: var(--colors-slate-light_2) !important;}
+.bg-slate-light_3 {background-color: var(--colors-slate-light_3) !important;}
+.bg-slate-light_4 {background-color: var(--colors-slate-light_4) !important;}
+
+/* Colors / Gradients  */
+.bg-gradient-horizontal-primary {background: var(--gradient-horizontal-primary) !important;}
+.bg-gradient-horizontal-inverted {background: var(--gradient-horizontal-inverted) !important;}
+.bg-gradient-vertical-primary {background: var(--gradient-vertical-primary) !important;}
+.bg-gradient-vertical-inverted {background: var(--gradient-vertical-inverted) !important;}

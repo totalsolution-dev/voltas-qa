@@ -1,0 +1,23 @@
+.facts-group.process-steps { 
+    .card {
+        .step-connector-line-left, .step-connector-line-right {
+            background: #C4C4C4;
+            height: .125rem;
+            position: absolute;
+            top: 3.5rem;
+            width: 20%;
+        }
+        .step-connector-line-right {
+            right: 0;
+        }
+        .step-connector-line-left {
+            left: 0;
+        }
+    }
+    .card:first-child .step-connector-line-left{
+        display: none;
+    }
+    .card:last-child .step-connector-line-right{
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.vds-bse-nse-ticker {
+    color: #fff;
+    text-align: center;
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    .vds-bse-nse-left{
+        background-color: var(--colors-voltas-primary);
+        padding: 3rem 0;
+    }
+    .vds-bse-nse-right {
+        background-color: var(--colors-voltas-dark_1);
+        padding: 3rem 0;
+    }
+    h1 {
+        span {
+            @include font-market-title-large;
+            color: #fff;
+        }
+        @include font-market-numbers-large;
+        color: var(--colors-green-light_1);
+    }
+    p {
+        @include caption;
+        color: #fff;
+        margin-bottom: 0rem;
+    }
+    i {
+        font-size: 1.25rem;
+        color: #fff;
+        vertical-align: middle;
+    }
+}
