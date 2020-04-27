@@ -1,0 +1,18 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / CARD - VERTICAL - SMALL - PATCH
+:: Usage: {vds-org-card-v-sm-patch}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="col-12 col-md-4 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card bg-{card-plate-color}">
+        {if card-image != ""}
+        <img src="{card-image}" class="card-img-top" alt="...">
+        {/if}  
+        <div class="card-body">
+            {vds-mol-card-body-inner}
+        </div>
+    </div>
+</div>
+{!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / CARD - VERTICAL - SMALL - IMAGE + PATCH      --}
