@@ -1,0 +1,57 @@
+<div class="container">
+	{exp:channel:categories channel="{page_listing_channel}" category_group="9" sort="desc" style="linear" disable="category_fields"}
+	<div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+		
+		<div class="card">
+			{!-- ACCORDION ROW HEADER (category name) --}
+			<div class="card-header" role="tab" id="section{count}HeaderId">
+				<a 
+					data-toggle="collapse" 
+					aria-expanded="true" 
+					data-parent="#accordionId" 
+					href="#section{count}ContentId" 
+					aria-controls="accordion-1 .item-{count}">
+					<h5 class="mb-0 intro-body">
+						{category_name}
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</h5>
+				</a>	
+			</div>
+			{!-- ACCORDION ROW BODY CONTAINER (businesses) --}
+			<div 
+				id="section{count}ContentId" 
+				class="collapse filter-group {if count == 1}show{/if} item-{count}"
+				role="tabpanel" 
+				aria-labelledby="section{count}HeaderId">
+				<div class="row ">
+					 <div class="col-12 filter-labels">
+						<a href="" data-filter="corporate-office">corporate office</a>
+						<a href="" data-filter="branch-office">branch office</a>
+						<a href="" data-filter="subsidiaries-jv">subsidiaries jv</a>
+					</div>
+				</div>
+				<div class="row filter-items">
+					{exp:channel:entries channel="{page_listing_channel}" category="{category_id}" disable="{ch_disable}" dynamic="no"}
+						{!-- Announcements go here --}
+						<div class='col-6 col-md-3 {branch_type}'>
+							<div class="card">
+								<div class="card-body">
+									<h1>{title}</h1>
+									<p class="card-text">{business_address}</p>
+								</div>
+							</div>
+						</div>
+						{!-- Announcements go here --}
+					{/exp:channel:entries}
+				</div>
+			</div>
+		</div>
+		{!-- no results output --}
+		{if no_results}
+			<div class="alert warn no-results">
+				<p>{gv_entries_none}</p>
+			</div>
+		{/if}
+	</div>
+	{/exp:channel:categories}
+</div>
