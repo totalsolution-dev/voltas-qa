@@ -45,17 +45,16 @@ HEADER CAROUSEL STYLES
 }
 .carousel-item.slide-quote {
     .voltas-carousel-caption{
-        background: unset;
-        padding: 2rem;
-        bottom: unset;
-        border-top: none;
-        text-align: left;
+        position: absolute;
         top: 6rem;
         right: 0;
-        position: absolute;
         left: unset;
+        bottom: unset;
+        padding: 2rem;
         padding-right: 11%;
-
+        border-top: none;
+        text-align: left;
+        background: unset;
         .h1 {
             color: #fff;
         }
@@ -67,4 +66,61 @@ HEADER CAROUSEL STYLES
             font-size: .75rem;
         }
     }
-}  
+}
+.temp{
+    .voltas-carousel {
+        .carousel-controls{
+            position: relative;
+            width: 400px;
+            border: solid 1px #fff;
+            bottom: 0;
+            left: 0;
+        }
+        .carousel-controls-container {
+            position: absolute;
+            bottom: 2rem;
+            left: 15%;
+            padding-left: 0;
+        }
+        .carousel-control-next, .carousel-control-prev {
+            position: absolute;
+            top: unset;
+            left: unset;
+            bottom: 0;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 15%;
+            color: #fff;
+            text-align: center;
+            opacity: .5;
+            transition: opacity .15s ease;
+            border: solid 1px #fff;
+        }
+        .carousel-control-prev {
+            left: 0%;
+        }
+        .carousel-control-next {
+            right: 0%;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .carousel-item {
+        img {
+            height: 70vh;
+            object-fit: cover;
+        }
+        .carousel-caption{
+            .lead {
+                display: none;
+            }
+            &.voltas-carousel-caption {
+                bottom: unset;
+                top: 2rem;
+            }
+        }
+    }
+  }
