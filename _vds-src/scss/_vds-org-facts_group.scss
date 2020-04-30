@@ -1,26 +1,25 @@
 /* Facts group (3 facts) */
-.card-group.facts-group .card {
-    border-radius: 0 !important;
-    border: 0;
-}
-.card-group.facts-group .card-body {
-    text-align: center;
-    color: #606060
-}
-.card-group.facts-group .card-title {
-    color: #32B598;
-}
-.facts-group.process-steps .card-text{
-    @extend .overline;
-    color: #096BCE;
-}
-
-
-.card-group.facts-group .card-body i{
-    font-size: 5rem;
-    margin-bottom: 1.5rem;
-    background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.card-group.facts-group {
+    .card {
+        border: 0;
+        .card-body {
+            text-align: center;
+            color: #606060;
+            i{
+                font-size: 5rem;
+                margin-bottom: 1.5rem;
+                background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .card-title {
+            color: #32B598;
+        }
+        .process-steps .card-text{
+            @extend .overline;
+            color: #096BCE;
+        }
+    }
 }
