@@ -31,11 +31,12 @@ CARD STYLES
         text-transform: uppercase;
         margin-bottom: 0.8rem;
     }
-    
+    .card-text {
+        line-height: 1.5rem;
+    }
     .card-title {
         margin-bottom: 1rem;
     }
-    
     .card-body {
         padding: 2rem;
     }
@@ -58,84 +59,7 @@ CARD STYLES
             background-color: rgba(255, 255, 255, 0.5);
         }
     }
-
-    /* Original .card properties from bootstrap.css
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        background-color: #fff;
-        background-clip: border-box;
-        border: 1px solid rgba(0,0,0,.125);
-        border-radius: .25rem;
-    */
 }
-
-// .voltas-card:hover {
-//     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
-// }
-
-/* CARD TYPOGRAPHY */
-/* Adding style for card-overtitle based on card-subtitle */
-// .card-overtitle {
-//     font-family: 'FS Elliot Pro';
-//     font-style: normal;
-//     font-weight: normal;
-//     font-size: .625rem;
-//     line-height: 1.25rem;
-//     /* identical to box height, or 167% */
-//     letter-spacing: 0.0625rem;
-//     text-transform: uppercase;
-//     margin-bottom: 0.8rem;
-// }
-
-// .voltas-card .card-title {
-//     margin-bottom: 1rem;
-// }
-
-// .voltas-card .card-body {
-//     padding: 2rem;
-// }
-
-// /* secondary card color */
-// /* FIXME change to color swatch */
-// .voltas-card.secundary {
-//     background: #009174 !important;
-// }
-
-// /* secondary card color */
-// /* FIXME change to color swatch */
-// .voltas-card a {
-//     color: #fff !important;
-// }
-
-// .voltas-card a.btn {
-//     border: solid .125rem;
-//     border-radius: .25rem;
-//     font-size: .75rem;
-//     font-variant: small-caps;
-//     color: #fff;
-//     border-color: var(--colors-aqua-light_2);
-//     padding: .5rem 3rem;
-// }
-// .voltas-card a.btn:hover {
-//     background-color: rgba(255, 255, 255, 0.5);
-// }
-
-// /* remove rounded corners from card */
-// // FIXME adjust in bootstrap main styles
-// .voltas-card .card-img,
-// .voltas-card .card-img-top {
-//     border-top-left-radius: 0 !important;
-//     border-top-right-radius: 0 !important;
-//     /* original styles
-//     border-top-left-radius: calc(.25rem - 1px);
-//     border-top-right-radius: calc(.25rem - 1px);
-//     */
-// }
 
 /* Image fix for full height image */
 /* Make image fit based on card hide with hidden overflow */
