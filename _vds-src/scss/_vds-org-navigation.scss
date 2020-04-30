@@ -10,6 +10,8 @@ NAVIGATION
 .voltas-navbar {
     background-color: #096BCE!important;
     padding: 1.75rem 3rem;
+    font-family: 'FS Elliot Pro';
+    letter-spacing: 0.04rem;
 }
 .voltas-navbar .navbar-brand img{
     width: 7.5rem;
@@ -53,3 +55,89 @@ NAVIGATION
         padding-left: 2rem;
     }
 } */
+
+.voltas-navbar .dropdown-menu {
+    background-color: #096BCE!important;
+    margin: 2.25rem 0 0;
+    color: #fff;
+    border: none;
+}
+.voltas-navbar .dropdown-item {
+    font-weight: normal;
+    padding: 1rem 2rem;
+    color: #fff;
+    &:hover, &.active, &:active {
+        color: #65D2B8;
+        background: transparent;
+    }
+}
+.voltas-navbar .nav-item .active {
+    .nav-indicator{
+        height: .25rem;
+        width: 3rem;
+        background: var(--colors-aqua-light_2);
+        display: block;
+        position: absolute;
+        bottom: -2px;
+    }    
+}
+// @include media-breakpoint-down(md) {
+//     .custom-class {
+//       display: block;
+//     }
+//   }
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    .voltas-navbar .navbar-nav {
+        margin-top: 6.25rem;
+    }
+    .voltas-navbar .navbar-nav .nav-link {
+        font-size: 24px;
+    }
+    .voltas-navbar .navbar-nav li {
+        margin-bottom: 1rem;
+    }
+    .voltas-navbar .dropdown-menu, .voltas-navbar .navbar-nav .nav-link {
+        font-size: 24px;
+    }
+    .voltas-navbar .dropdown-menu {
+        margin-top: 0;
+    }
+    .voltas-navbar .dropdown-item {
+        padding: 1rem 0rem 0.15rem 4rem;
+        white-space: pre-line;
+    }
+    .voltas-navbar {
+        background-color: #096bce!important;
+        padding: 1.75rem 1.75rem;
+    }
+    .voltas-navbar .nav-item .active .nav-indicator {
+        bottom: unset;
+        margin-top: 5px;
+    }
+}
+/* actual dropdown animation */
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu {
+    max-height: 600px;
+    opacity: 1;
+}
+.dropdown-toggle:after {
+    display: none;
+}
