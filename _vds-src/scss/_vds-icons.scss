@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'vds-icons';
+    src:  url('themes/user/site/default/asset/font/vds-icons-fonts/Voltas.eot');
+    src:  url('themes/user/site/default/asset/font/vds-icons-fonts/Voltas.eot?8vso9e#iefix') format('embedded-opentype'),
+      url('themes/user/site/default/asset/font/vds-icons-fonts/Voltas.ttf?8vso9e') format('truetype'),
+      url('themes/user/site/default/asset/font/vds-icons-fonts/Voltas.woff?8vso9e') format('woff'),
+      url('themes/user/site/default/asset/font/vds-icons-fonts/Voltas.svg?8vso9e#Voltas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'vds-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-Application-Acceprance:before {
+    content: "\e900";
+  }
+  .icon-Application-Review:before {
+    content: "\e901";
+  }
+  .icon-Employees:before {
+    content: "\e902";
+  }
+  .icon-Farmer:before {
+    content: "\e903";
+  }
+  .icon-Globe:before {
+    content: "\e904";
+  }
+  .icon-Job-Offer:before {
+    content: "\e905";
+  }
+  .icon-Job-Posting:before {
+    content: "\e906";
+  }
+  .icon-Legacy:before {
+    content: "\e907";
+  }
+  .icon-Market-Share:before {
+    content: "\e908";
+  }
+  .icon-Personal-Interview:before {
+    content: "\e909";
+  }
+  .icon-Placement:before {
+    content: "\e90a";
+  }
+  .icon-Projects-1:before {
+    content: "\e90b";
+  }
+  .icon-Projects-2:before {
+    content: "\e90c";
+  }
+  .icon-Recognition:before {
+    content: "\e90d";
+  }
+  .icon-School:before {
+    content: "\e90e";
+  }
+  .icon-Student:before {
+    content: "\e90f";
+  }
+  .icon-Support:before {
+    content: "\e910";
+  }
+  .icon-Teacher:before {
+    content: "\e911";
+  }
+  .icon-Women:before {
+    content: "\e912";
+  }
+  .icon-Youth:before {
+    content: "\e913";
+  }
+  
