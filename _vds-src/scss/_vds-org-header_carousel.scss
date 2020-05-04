@@ -8,119 +8,127 @@ HEADER CAROUSEL STYLES
 .carousel {
     margin-bottom: 4rem;
 }
+
 // on grid carousel
 .container .carousel {
     margin-bottom: 2rem;
 }
 
 .carousel-caption.voltas-carousel-caption {
-    background: rgba(255,255,255,0.75);
-    padding: 2rem;
-    bottom: 20%;
+    background   : rgba(255, 255, 255, 0.75);
+    padding      : 2rem;
+    bottom       : unset;
+    top          : 30%;
     /* margin-top:50%; */
-    border-top: 4px solid #80B240;
-    text-align: left;
+    border-top   : 4px solid #80B240;
+    text-align   : left;
+
     .h1.display {
         color: #323232;
-    }    
+    }
+
     p.lead {
         /* font-family: Roboto; */
-        font-style: normal;
+        font-style : normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size  : 16px;
         line-height: 20px;
-        color: #606060;
+        color      : #606060;
     }
+
     .btn-outline-primary {
         border-radius: .25rem;
-        border-width: .125rem;
-        font-variant: small-caps;
-        border-color: var(--colors-voltas-primary);
-        color: var(--colors-voltas-primary);
-        &:hover{
+        border-width : .125rem;
+        font-variant : small-caps;
+        border-color : var(--colors-voltas-primary);
+        color        : var(--colors-voltas-primary);
+
+        &:hover {
             background-color: var(--colors-voltas-primary);
-            color: #fff;
+            color           : #fff;
         }
     }
 }
+
 .carousel-item.slide-quote {
-    .voltas-carousel-caption{
-        position: absolute;
-        top: 6rem;
-        right: 0;
-        left: unset;
-        bottom: unset;
-        padding: 2rem;
+    .voltas-carousel-caption {
+        position     : absolute;
+        top          : 6rem;
+        right        : 0;
+        left         : unset;
+        bottom       : unset;
+        padding      : 2rem;
         padding-right: 11%;
-        border-top: none;
-        text-align: left;
-        background: unset;
+        border-top   : none;
+        text-align   : left;
+        background   : unset;
+
         .h1 {
             color: #fff;
         }
     }
+
     .quoted-by {
-        font-size: .875rem;
+        font-size  : .875rem;
         font-weight: bold;
+
         small {
             font-size: .75rem;
         }
     }
 }
-.temp{
-    .voltas-carousel {
-        .carousel-controls{
-            position: relative;
-            width: 400px;
-            border: solid 1px #fff;
-            bottom: 0;
-            left: 0;
-        }
-        .carousel-controls-container {
-            position: absolute;
-            bottom: 2rem;
-            left: 15%;
-            padding-left: 0;
-        }
-        .carousel-control-next, .carousel-control-prev {
-            position: absolute;
-            top: unset;
-            left: unset;
-            bottom: 0;
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 15%;
+
+.voltas-carousel {
+    .vds-carousel-controls {
+        position: absolute;
+        bottom  : -2rem;
+        left    : 0;
+        a {
             color: #fff;
-            text-align: center;
-            opacity: .5;
-            transition: opacity .15s ease;
-            border: solid 1px #fff;
+            transition: color .3s;
+            &:hover{
+                color: var(--colors-aqua-primary);
+                text-decoration: none;
+            }
         }
-        .carousel-control-prev {
-            left: 0%;
-        }
-        .carousel-control-next {
-            right: 0%;
+
+        .vds-carousel-control-prev,
+        .vds-carousel-control-next {
+            width : 2rem;
+            height: 2rem;
+
         }
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 @include media-breakpoint-down(md) {
     .carousel-item {
         img {
-            height: 70vh;
+            height    : 70vh;
             object-fit: cover;
         }
-        .carousel-caption{
+
+        .carousel-caption {
             .lead {
                 display: none;
             }
+
             &.voltas-carousel-caption {
                 bottom: unset;
-                top: 2rem;
+                top   : 2rem;
             }
         }
     }
-  }
+}
