@@ -5,8 +5,8 @@
         .card-body {
             text-align: center;
             color: #606060;
-            i{
-                font-size: 5rem;
+            [class^="icon-"], [class*=" icon-"] {
+                font-size: 6rem;
                 margin-bottom: 1.5rem;
                 background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
                 -webkit-background-clip: text;
@@ -16,6 +16,7 @@
         }
         .card-title {
             color: #32B598;
+            margin-top: 1.5rem;
         }
         .process-steps .card-text{
             @extend .overline;
