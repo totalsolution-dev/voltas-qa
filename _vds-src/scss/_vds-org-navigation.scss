@@ -9,7 +9,7 @@ NAVIGATION
 */
 .voltas-navbar {
     background-color: #096BCE!important;
-    padding: 1.75rem 3rem;
+    padding: 1.5rem 3rem;
     font-family: 'FS Elliot Pro';
     letter-spacing: 0.04rem;
 }
@@ -141,3 +141,48 @@ NAVIGATION
 .dropdown-toggle:after {
     display: none;
 }
+
+// form nav
+.vds-nav-search {
+    float: right;
+    .wrapper {
+        min-width: 3rem;
+        position: relative;
+        vertical-align: middle;
+        .form-search-input::placeholder {
+            color: #fff;
+            opacity: .7;
+        }
+        .form-search-input { 
+            width: 0rem;
+            background: transparent;
+            border: unset;
+            font-family: FS Elliot Pro;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.25rem;
+            color: #fff;
+            transition: width .5s;
+            &.visible {
+                text-indent: 0rem;
+                padding: .25rem;
+                border-bottom:solid .125rem #fff;
+                width: 40vw;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+        i { 
+            color: #fff;
+            position: absolute;
+            top: 0.25rem;
+            right: 0rem;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+    
