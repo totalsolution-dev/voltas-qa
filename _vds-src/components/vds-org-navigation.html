@@ -44,21 +44,23 @@
 		{/if}
 		{/exp:structure:nav_basic}
 		
-		{!-- nav search --} 
-		<form class="form-inline vds-nav-search d-none d-md-block">
-			{!-- <div class="hiddenFields">
-				<input type="hidden" name="ACT" value="24">
-				<input type="hidden" name="RES" value="">
-				<input type="hidden" name="meta" value="itND+5wNKzbklw1T+Bvar5KjJ4CDdfHU0quGy/zIFbRfmbP+oWpCWTUvvdseyqhDQgopSUF6ALkyxroo6X838GNj5Pcdz4LIvU0FtmEZZodAl7cqfP6tl6U9DMp7G3HNZa5x91GkjVl7F7bzs4e5xhQKIQOa1w9VE+cDlI/eqofBM1Gh61pfnu0jJO6ZKyrYOu5AJvFbTat1xa5vO6hFJ6iiGwp/OOUmSYZRbWWIjQ2yrR5L+QlS58dYU4KiMSduxsW4BpZ3BWMig06y6kiRKkESbeDwdkyKJPc7P/+WLI3g5G95VIz9rla2cCTCza/qKVjbc8r+Pcm5qT6i7s22YREdMFOvT8Meh05nc4HNkUQBdCazmZzia+OPeV9F3v8ZgY+dFD4doMqiuoBs1W0xqJTUBRwynwDqkIDm/JkdVZWwpUJC1zwPXbvEN+tosNGM">
-				<input type="hidden" name="site_id" value="1">
-				<input type="hidden" name="csrf_token" value="b0f27d17c19109da90123d869da5b21afc829b1b">
-			</div> --}
+		{!-- nav search --}
+		<div class="form-inline vds-nav-search d-none d-md-block">
+			{exp:search:simple_form 
+				channel="pages" 
+				search_in="entries" 
+				where="all"
+				result_page="search/results"
+				no_result_page="search/no-results"  
+				status="open"
+			}
+			{!-- <input type="text"  id="keywords" value="" size="18" maxlength="100"> --}
 			<div class="md-form my-0 wrapper">
-				<input class="form-search-input" type="text" placeholder="Enter your keyword" aria-label="Search">
+				<input type="text" id="keywords" name="keywords" class="form-search-input"  placeholder="Enter your keyword" aria-label="Search">
 				<i class="fa fa-search" aria-hidden="true"></i>
 			</div>
-        </form>
-
+			{/exp:search:simple_form}
+		</div>
 		</div>
 	</div>
 </nav>
