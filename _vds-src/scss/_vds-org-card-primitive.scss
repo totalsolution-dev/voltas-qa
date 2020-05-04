@@ -45,6 +45,14 @@ CARD STYLES
     /* FIXME change to color swatch */
     a {
         color: #fff !important;
+        i {
+            transition : padding .5s;
+        }
+        &:hover{
+            i{
+                padding-left: 1rem;
+            }
+        }
     }
     
     a.btn {
