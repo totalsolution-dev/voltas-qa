@@ -1,5 +1,5 @@
 # Ignore build folder
-/public_html/
-/node_modules/
-/EE_system/
+public_html/
+node_modules/
+EE_system/
 /.vscode/

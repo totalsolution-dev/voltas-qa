@@ -63,7 +63,7 @@
         watch       : dir.src + 'scss/**/*',
         build       : dir.build + 'css/',
         sassOpts: {
-        sourceMap       : devBuild,
+        //sourceMap       : devBuild,
         imagePath       : '/images/',
         precision       : 3,
         errLogToConsole : true
@@ -87,10 +87,10 @@
     function css() {
     
         return gulp.src(cssConfig.src)
-        .pipe(sourcemaps ? sourcemaps.init() : noop())
+        //.pipe(sourcemaps ? sourcemaps.init() : noop())
         .pipe(sass(cssConfig.sassOpts).on('error', sass.logError))
         .pipe(postcss(cssConfig.postCSS))
-        .pipe(sourcemaps ? sourcemaps.write() : noop())
+        //.pipe(sourcemaps ? sourcemaps.write() : noop())
         .pipe(size({ showFiles: true }))
         .pipe(gulp.dest(cssConfig.build))
         .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
