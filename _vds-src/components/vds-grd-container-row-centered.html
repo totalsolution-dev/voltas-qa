@@ -40,15 +40,18 @@
 	<div class="container">
 		<div class="row justify-content-center d-flex">
 	{/if}
-	
-
-
-
-
-
+	{!-- Row 12 col extra spacer --}
+	{if style == "vds-row-spacer-1rem"}
+	<div class="container">
+		<div class="row justify-content-center d-flex mb-2">
+	{/if}
+	{!-- Row 12 col extra spacer --}
+	{if style == "vds-row-spacer-2rem"}
+	<div class="container">
+		<div class="row justify-content-center d-flex mb-4">
+	{/if}
 	{!--  ::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
 	{!--  :::::::: CLOSE SECTIONS PER CARD STYLE :::::::::::::: --}
-	
 	{close:row}
 		{!-- in case of cards style closing .col-12 > .card-group --}
 		{if style == "vds-row-facts-group"}
