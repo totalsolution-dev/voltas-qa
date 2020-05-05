@@ -31,15 +31,24 @@
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='{page_listing_channel}' category="{category_id}" disable='{ch_disable}' dynamic="no"}
 					{!-- Announcements go here --}
-					<div class="col-12 col-md-4">
-						<div class="card voltas-card">
+					{vds-mol-awards_card}	
+					{!-- Announcements go here --}
+
+					{!-- <div class="col-12 col-md-4 d-flex">
+						<div class="card voltas-card voltas-card-awards bg-slate-light_4">
+							<div class="card-image-wrapper">
+								<img src="http://loremflickr.com/300/640?random=1" class="card-img-top" alt="...">
+							</div>
 							<div class="card-body">
-								<img src="{award_image}" alt="">
-								<p class="card-text">{award-body}{award-body:label}: {award-body:text}<br>{/award-body}</p>
+								<h6 class="card-label">Business:<span> domestic projects</span></h6>
+								<h6 class="card-label">recognition: <span> CERTIFICATE OF APPRECIATION</span></h6>
+								<h6 class="card-label">Awarded by: <span> SAMSUNG C&T</span></h6>
+								<h6 class="card-label">awarded for: <span> ACHIEVing 5.0 million man hours without any lost time
+										incident</span></h6>
+								<h6 class="card-label">received by: <span> team domestic projects</span></h6>
 							</div>
 						</div>
-					</div>	
-					{!-- Announcements go here --}
+					</div> --}
 				{/exp:channel:entries}
 				</div>
 			</div>

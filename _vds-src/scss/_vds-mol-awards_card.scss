@@ -1,0 +1,37 @@
+.card.voltas-card.voltas-card-awards .card-image-wrapper{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    border-top: solid 0.0625rem;
+    border-right: solid 0.0625rem;
+    border-left: solid 0.0625rem;
+    border-color: var(--colors-slate-light_4);
+    background-color: #ffffff;
+}
+.card.voltas-card.voltas-card-awards .card-image-wrapper img{
+    top: 0rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+.card.voltas-card.voltas-card-awards .card-body .card-label{
+    font-family: FS Elliot Pro;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;        
+    margin-bottom: 1rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    color: var(--colors-voltas-primary);
+}
+.card.voltas-card.voltas-card-awards .card-body .card-label span{
+    font-weight: normal !important;
+    color: var(--colors-slate-light_1);
+
+}
+.card.voltas-card.voltas-card-awards .card-body .card-label:last-child{
+    margin-bottom: 0rem;
+}

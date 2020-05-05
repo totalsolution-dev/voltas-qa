@@ -103,7 +103,9 @@ $enable-responsive-font-sizes:  false;
   @import "_vds-org-logo_carousel.scss"; 
   @import "_vds-org-jumbotron.scss"; 
   @import "_vds-org-navigation.scss"; 
-  @import "_vds-org-bse_nse_ticker.scss"; 
+  @import "_vds-org-bse_nse_ticker.scss";
+  @import "_vds-mol-awards_card.scss";
+   
   @import "_vds-icons.scss";
 
   body {
@@ -159,6 +161,9 @@ R&D
                     text-decoration: none;
                 }
             }
+        }
+        .collapse {
+            padding-top: 2rem;
         }
         .card-body {
         font-variant: unset;

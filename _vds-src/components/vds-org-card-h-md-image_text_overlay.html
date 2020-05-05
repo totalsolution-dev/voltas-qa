@@ -5,13 +5,36 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 --}
 <div class="col-12 col-md-7 col-lg-6 d-flex {custom_css_class}">
-    <div class="card voltas-card">
-        {if card-image != ""}
+    {!-- <div class="card voltas-card"> --}
+    <div class="card voltas-card voltas-card-patch" style="background-image: url('{card-image}')">  
+        
+        {!-- OLD CARD STRUCTURE --}
+        {!-- {if card-image != ""}
         <img src="{card-image}" class="card-img w-100 h-100 object-fit_cover" alt="...">
         {/if}
-        <div class="card-img-overlay d-flex flex-column col-11 col-sm-10 col-md-7">
+         --}
+        {!-- <div class="card-img-overlay d-flex flex-column col-11 col-sm-10 col-md-7">
+            {vds-mol-card-body-inner}
+        </div> --}
+
+        {!-- Card body --}
+        <div class="card-body col-11 col-sm-10 col-md-7">
             {vds-mol-card-body-inner}
         </div>
+        {!-- END Card body --}
+        {!-- Contact us banner --}
+        <div class="card-body card-patch-icon">
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <div class="col-8 card-patch-text">
+                    <h6 class="card-text display">Do you have queries, or need support for any of our products or services?</h6>
+                    <a href="" class="btn btn-outline">CONTACT US</a>      
+                </div>
+            </div>
+        </div>
+        {!-- END Contact us banner --}
     </div>
 </div>
 {!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
