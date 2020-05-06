@@ -1,0 +1,39 @@
+.vds-org-accordion {
+    width: 100%!important;
+    .card {
+        font-variant: unset;
+        border: none;
+        &:first-child .card-header {
+            border-top: none;
+        }
+        .card-header {
+            background-color: #fff;
+            border-top:1px solid #C4C4C4;
+            border-bottom: none;
+            padding: 2rem 1rem;
+            h5 {
+                font-variant: unset;
+                vertical-align: middle;
+                i {
+                    float: right;
+                    padding: 0.25rem 0 0 0;
+                }
+                
+            }
+            a {
+                font-variant: unset;
+                color: var(--colors-aqua-primary);
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        .collapse {
+            padding-top: 0rem;
+        }
+        .card-body {
+        font-variant: unset;
+
+        }
+    }
+}

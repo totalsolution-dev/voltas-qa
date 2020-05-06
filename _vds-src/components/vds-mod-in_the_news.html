@@ -6,16 +6,8 @@
 --}
 <div class="container">
 	<div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+	{exp:channel:categories channel="{page_listing_channel}" category_group="8" sort="desc" style="linear" disable="category_fields"}
 		
-
-		{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
-		{exp:channel:entries channel='{page_listing_channel}' category="{exp:stash:get name='not_archived' default=''}" disable='{ch_disable}' parse="inward" dynamic="no"}
-		{!-- TAGS AVAILABLE:
-		{title}
-		{publication_display_date}
-		{news_publication_download}
-		{publication_excerpt}
-		--}
 		<div class="card">
 			<div class="card-header" role="tab" id="section{count}HeaderId">
 				<a 
@@ -25,7 +17,7 @@
 					href="#section{count}ContentId" 
 					aria-controls="accordion-1 .item-{count}">
 					<h5 class="mb-0 intro-body">
-						{if publication_display_date == ""}{entry_date format="%F %d %Y"}{if:else}{publication_display_date format="%F %d %Y"}{/if} / {title}
+						{category_name}
 						<i class="fa fa-plus" aria-hidden="true"></i>
 					</h5>
 				</a>	
@@ -35,20 +27,35 @@
 				class="collapse {if count == 1}show{/if} item-{count}"
 				role="tabpanel" 
 				aria-labelledby="section{count}HeaderId">
-				<div class="card-body">
-					<h1>some content here</h1>
-					<p class="card-text">{publication_excerpt}<a class="btn btn-warning" href="{news_publication_download}" role="button">download</a></p>
+					<div class="row">
+				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
+				{exp:channel:entries channel='{page_listing_channel}' category="{category_id}" disable='{ch_disable}' dynamic="no"}
+				{!-- News Items go here --}
+						<div class="col-12 col-md-4 d-flex">
+							<div class="card voltas-card voltas-card-news bg-slate-light_4 w-100">
+								<div class="card-image-wrapper">
+									<a class="model-lightbox" href="{news_image}" data-featherlight="image">
+										<img src="{news_image}" class="card-img-top" alt="..." >
+									</a>
+								</div>
+								<div class="card-body">
+									<h6 class="card-title">{title}</h6>
+									<h6 class="card-text">{news_text}</h6>
+									<h6 class="card-overtitle">{news_source}, {entry_date format="%F %Y"}</h6>
+								</div>
+							</div>
+						</div>
+				{!-- END News Items go here --}
+				{/exp:channel:entries}
+					</div>
 				</div>
 			</div>
-		</div>
 		{!-- no results output --}
 		{if no_results}
 			<div class="alert warn no-results">
 				<p>{gv_entries_none}</p>
 			</div>
 		{/if}
-		{!-- pagination --}
-		{snp_blog_list_paginate}
-		{/exp:channel:entries}
+	{/exp:channel:categories}
 	</div>
 </div>

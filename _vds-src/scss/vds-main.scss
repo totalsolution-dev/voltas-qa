@@ -55,7 +55,7 @@ $enable-responsive-font-sizes:  false;
   @import "../../node_modules/bootstrap/scss/buttons";
   @import "../../node_modules/bootstrap/scss/transitions";
   @import "../../node_modules/bootstrap/scss/dropdown";
-      // @import "../../node_modules/bootstrap/scss/button-group";
+  @import "../../node_modules/bootstrap/scss/button-group";
       // @import "../../node_modules/bootstrap/scss/input-group";
       // @import "../../node_modules/bootstrap/scss/custom-forms";
   @import "../../node_modules/bootstrap/scss/nav";
@@ -106,6 +106,11 @@ $enable-responsive-font-sizes:  false;
   @import "_vds-org-bse_nse_ticker.scss";
   @import "_vds-mol-awards_card.scss";
   @import "_vds-mod-search.scss";
+  @import "_vds-mod-in_the_news.scss";
+  @import "_vds-mod-business_queries.scss";
+  @import "_vds-org-contact_card.scss";
+  @import "_vds-org-tabbed_content.scss";
+  @import "_vds-org-accordion.scss";
    
   @import "_vds-icons.scss";
 
@@ -135,43 +140,7 @@ R&D
     background-repeat: no-repeat;
   }
 
-.vds-org-accordion {
-    .card {
-        font-variant: unset;
-        border: none;
-        &:first-child .card-header {
-            border-top:1px solid #C4C4C4;
-        }
-        .card-header {
-            background-color: #fff;
-            border-bottom:1px solid #C4C4C4;
-            padding: 2rem 1rem;
-            h5 {
-                font-variant: unset;
-                vertical-align: middle;
-                i {
-                    float: right;
-                    padding: 0.25rem 0 0 0;
-                }
-                
-            }
-            a {
-                font-variant: unset;
-                color: var(--colors-aqua-primary);
-                &:hover {
-                    text-decoration: none;
-                }
-            }
-        }
-        .collapse {
-            padding-top: 2rem;
-        }
-        .card-body {
-        font-variant: unset;
 
-        }
-    }
-}
 
 // .financial-snapshot-accordion-content {
 //     .dropdown {
