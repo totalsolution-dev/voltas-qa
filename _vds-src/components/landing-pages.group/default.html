@@ -1,0 +1,298 @@
+{layout='layouts/_html-wrapper'}
+
+{!-- We use preload replace variables for in-template replacements for things
+     like tag parameters that we might repeat here. That way if we change things
+     down the road, we can just change it here instead of looking all over the
+     template for them. --}
+
+{!-- page vars (prefix p_) --}
+{preload_replace:p_url='{structure:page:url}'}
+{preload_replace:p_url_entry='entry'}
+{!-- channel vars (prefix ch_) --}
+{preload_replace:ch_disable='category_fields|member_data'}
+
+{!-- make sure page is a structure managed page --}
+{if {structure:is:page} == 1} 
+	{!-- Since it's a page, define the channel as pages --}
+	{preload_replace:page_channel='pages'}
+	{!-- layout vars, channel/page related --}
+	{layout:set name='ch' value='{page_channel}'}
+	
+	{!-- fetch the page head information and pass to the layout through variables --}
+	{exp:channel:entries channel="{page_channel}" disable="{ch_disable}" dynamic="yes" cache="no" refresh="10"}
+		
+		{!-- Pass the page entry's <head> related data 
+			 into layout variables for use in the wrapper lay-out. --}
+		{snp_set_layout_head_variables} 
+
+		{!-- Check if there is page content to be displayed.
+			 Not to be confused with the channel listing entries, 
+			 those are fetched and rendered in the component grid --}
+		
+		{!-- Define the listing channel to be used later in the component grid to fetch the listing --}
+		<!-- TODO: make sure no funny things happen when no listing is attached to the page but a listing block is added to the grid. -->
+		{preload_replace:page_listing_channel='{structure:child_listing:short_name}'}
+
+		{!-- ### ACTUAL BODY CONTENT HTML SHOULD BE RENDERED BELOW HERE FOR CLARITY --}
+			{!-- Everything below is the "meat" of the template. We'll use tags to output content,
+			which will populate the layout:contents of the layouts/_html-wrapper layout --}
+
+		{!-- Fetch all blocks from the component grid of this page --}
+		{!-- If the page has a listing attached, make sure to define the listing channel --}
+		
+		{!-- {snp_bloqs_component_grid} --}
+		{!-- Inserted directly due to nested partial issue --}
+
+	{!-- RENDERING BLOQS COMPONENTS FROM HERE 
+
+		# COMPONENTS OVERVIEW
+			1. Row
+			2. Cards
+			3. Carousel Wrapper
+			4. Carousel Image
+			5. Jumbotron
+			6. Awards Accordion
+			7. Fact highlight
+			8. Attached Listing Overview
+			9. Freeform Form
+
+		--}
+ 		
+		 {!-- START OF Components loop  --}
+		{page_components_grid}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / BSE/NSE Ticker fluid
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-bse_nse_ticker}
+				{vds-org-bse_nse_ticker}
+			{/org-bse_nse_ticker}
+
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / GRID / ROW
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- {row} Container with Row - content centered 			 --}
+			{vds-grd-container-row-centered}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / GRID / COLUMN CAROUSEL
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- {row} Container with Row - content centered 			 --}
+			{grid-column-carousel}
+				{vds-grd-column-carousel}
+			{/grid-column-carousel}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / HEADER CAROUSEL
+			{!-- 	{auto_slide}
+					{stop_on_hover}
+					{hide_nav_controls}
+					{random_order} 					  					 --}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-header_carousel}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / LOGO CAROUSEL
+			{!-- 	{auto_slide}
+					{stop_on_hover}
+					{hide_nav_controls}
+					{random_order}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-logo_carousel}
+					
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS/ MOL / Carousel Slide
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-mol-header_carousel-slide}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / CARD
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-card}
+				{!-- card-v-sm-image_patch --}
+				{if 		card_type == "vds-org-card-v-sm-image_patch"}
+					{vds-org-card-v-sm-image_patch}	
+				{!-- card-v-sm-patch --}
+				{if:elseif	card_type == "vds-org-card-v-sm-patch"}
+					{vds-org-card-v-sm-patch}	
+				{!-- card-h-md-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay"}
+					{vds-org-card-h-md-image_text_overlay}	
+				{!-- card-h-md-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay_queries"}
+					{vds-org-card-h-md-image_text_overlay_queries}	
+				{!-- card-h-sm-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-sm-image_text_overlay"}
+					{vds-org-card-h-sm-image_text_overlay}	
+				{!-- card-v-lg-video_carousel_patch --}
+				{if:elseif 	card_type == "vds-org-card-v-lg-video_carousel_patch"}
+					{vds-org-card-v-lg-video_carousel_patch}	
+				{!-- card-h-xl-market --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-market"}
+					{vds-org-card-h-xl-market}	
+				{!-- card-h-xl-gallery_patch --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-gallery_patch" OR card_type == "vds-org-card-h-xl-gallery_patch-inverted"}
+					{vds-org-card-h-xl-gallery_patch}	
+				{!-- card-h-xl-gallery_patch_large --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-gallery_patch_large" OR card_type == "vds-org-card-h-xl-gallery_patch_large-inverted"}
+					{vds-org-card-h-xl-gallery_patch_large}
+				{/if}
+				{close:vds-org-card}
+				{/close:vds-org-card}
+			{/vds-org-card}	
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / Jumbotron
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-jumbotron}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / ACCORDION
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-accordion}
+				{vds-org-accordion}
+			{org-accordion}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / MOL / Facts Group — Card
+			{!-- Should be child of row > facts group
+			{!-- 
+			TODO See if we can use a generic card for this
+			--}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{fact-card}
+				{vds-mol-facts_group__fact}
+			{/fact-card}
+			
+		{/page_components_grid}
+		{!-- END OF Components loop  --}
+	{/exp:channel:entries}
+	{layout:contents}
+	
+	{!-- # APPEND LISTING PAGES MODULES (BASED ON TEMPLATE)
+		 #
+		 # A COUPLE OF PAGES HAVE MORE COMPLEX COMPONENTS THAT ARE
+		 # NOT PLACED USING THE PAGE COMPONENTS GRID BUT ARE ATTACHED
+		 # TO A PAGE BY SELECTING A PAGE TEMPLATE IN THE CMS.
+		 # THIS IS PRIMARILY FOR PAGES WITH ATTACHED LISTINGS IN THE
+		 # STRUCTURE MODULE.
+		 #
+		 # Each listing page has it's own template which is empty and
+		 # embeds this default template. Below based on the passed embed
+		 # variable we fetch the module using a template partial.
+		 # --}
+
+	{!-- Embed Financial Snapshop in case this template was embedded 
+		 from financial snapshot template --}
+	{if embed:landing_page_template == "financial-snapshot"}
+		{vds-mod-financial_snapshot}
+	{/if}
+	{!-- Embed Stock Information in case this template was embedded 
+		 from financial snapshot template --}
+	{if embed:landing_page_template == "stock-information"}
+		{vds-mod-stock_information}
+	{/if}
+	{!-- Embed In The News in case this template was embedded 
+		 from in-the-news template --}
+	{if embed:landing_page_template == "in-the-news"}
+		{vds-mod-in_the_news}
+	{/if}
+	{!-- Embed Schedule & Anouncement in case this template was embedded 
+		 from schedule-anouncement template --}
+	{if embed:landing_page_template == "schedule-anouncement"}
+		{vds-mod-schedule_anouncement}
+	{/if}
+	{!-- Embed Leadership in case this template was embedded 
+		 from leadership template --}
+	{if embed:landing_page_template == "leadership"}
+		{vds-mod-leadership}
+	{/if}
+	{!-- Embed Awards & Recognition in case this template was embedded 
+		 from awards-recognition template --}
+	{if embed:landing_page_template == "awards-recognition"}
+		{vds-mod-awards_recognition}
+	{/if}
+	{!-- Embed business-queries in case this template was embedded 
+		 from awards-recognition template --}
+	{if embed:landing_page_template == "business-queries"}
+		{vds-mod-business_queries}
+	{/if}
+{/if}
+	
+
+<!-- All structure's page variables -->
+<div style="display: none;">
+	<pre>
+	(!--- The channel ID of a channel attached as a listing --->
+	structure:child_listing:channel_id: {structure:child_listing:channel_id}
+
+	(!--- The channel short name of a channel attached as a listing --->
+	structure:child_listing:short_name:	{structure:child_listing:short_name}
+
+	(!--- Returns 1 or blank for the current page --->
+	(!--- Detects if the current page is a page type of "Page" in Structure » Channel Settings --->
+	structure:is:page: {structure:is:page}
+
+	(!--- Returns 1 or blank for the current page --->
+	(!--- Detects if the current page is a listing detail page --->
+	structure:is:listing: {structure:is:listing}
+
+	(!--- Returns 1 or blank for the current page --->
+	(!--- Detects if the current page is a page type of "Listing" in Structure » Channel Settings (has a listing attached to it) --->
+	structure:is:listing:parent: {structure:is:listing:parent}
+
+	(!--- The current page's "entry_id" variable --->
+	structure:page:entry_id: {structure:page:entry_id}
+
+	(!--- The same as EE's native "title" variable --->
+	structure:page:title: {structure:page:title}
+
+	(!--- The segment for the current page --->
+	structure:page:slug: {structure:page:slug}
+
+	(!--- The same as EE's native "page_uri" variable --->
+	structure:page:uri: {structure:page:uri}
+
+	(!--- The same as EE's native "page_url" variable --->
+	structure:page:url: {structure:page:url}
+
+	(!--- Returns IDs of children for the current page. --->
+	(!--- Example: "24" or "4|8|5|16|23|42" --->
+	structure:child_ids: {structure:child_ids}
+
+	(!--- The entry ID of the current page's parent --->
+	structure:parent:entry_id: {structure:parent:entry_id}
+
+	(!--- The "title" variable of the current page's parent --->
+	structure:parent:title: {structure:parent:title}
+
+	(!--- The single segment of the URL/URI of the current page's parent --->
+	structure:parent:slug: {structure:parent:slug}
+
+	(!--- The full URI of the current page's parent --->
+	structure:parent:uri: {structure:parent:uri}
+
+	(!--- The full URL of the current page's parent --->
+	structure:parent:url: {structure:parent:url}
+
+	(!--- Returns the sibling IDs of the current page. --->
+	(!--- Example: "24" or "4|8|5|16|23|42" --->
+	structure:sibling_ids: {structure:sibling_ids}
+
+	(!--- The entry ID of the current page's top level parent --->
+	structure:top:entry_id: {structure:top:entry_id}
+
+	(!--- The "title" variable of the current page's top level parent --->
+	structure:top:title: {structure:top:title}
+
+	(!--- The single segment of the URL/URI of the current page's top level parent --->
+	structure:top:slug: {structure:top:slug}
+
+	(!--- The full URI of the current page's top level parent --->
+	structure:top:uri: {structure:top:uri}
+
+	(!--- The full URL of the current page's top level parent --->
+	structure:top:url: {structure:top:url}
+	</pre>
+</div>
+
+<!-- END: landing-pages/default template -->	

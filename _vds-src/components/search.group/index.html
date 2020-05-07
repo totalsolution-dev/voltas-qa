@@ -1,0 +1,27 @@
+{layout='layouts/_html-wrapper'}
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				{exp:search:simple_form 
+                    channel="pages" 
+                    search_in="entries" 
+                    where="all"
+                    result_page="search/results"
+                    no_result_page="search/no-results"  
+                    status="open"
+                }
+					{!-- <input type="text"  id="keywords" value="" size="18" maxlength="100"> --}
+                    <div class="md-form my-0 wrapper">
+                        <input type="text" id="keywords" name="keywords" class="form-search-input"  placeholder="Enter your keyword" aria-label="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+				{/exp:search:simple_form}
+
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- END: landing-pages/default template -->	

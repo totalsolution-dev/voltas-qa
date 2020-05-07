@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-header" role="tab" id="{embed:accordion_item_id}-header">
+        <a data-toggle="collapse" data-parent="#financial-snapshot-accordion" href="#{embed:accordion_item_id}-content" aria-expanded="true" aria-controls="{embed:accordion_item_id}-content">
+        <h5 class="mb-0 intro-body">
+            {embed:accordion_header_title}
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </h5>
+    </a>	
+    </div>
+    <div id="{embed:accordion_item_id}-content" class="collapse in" role="tabpanel" aria-labelledby="{embed:accordion_item_id}-header">
+            {embed:accordion_body}
+    </div>
+</div>
