@@ -4,8 +4,12 @@
 :: Usage: 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 --}
+
 <div class="container">
-	<div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+	<input type="text" name="card-filter-input" id="card-filter-input">
+</div>
+<div class="container">
+	<div id="in-the-news-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
 	{exp:channel:categories channel="{page_listing_channel}" category_group="8" sort="desc" style="linear" disable="category_fields"}
 		
 		<div class="card">
@@ -13,7 +17,7 @@
 				<a 
 					data-toggle="collapse" 
 					aria-expanded="true" 
-					data-parent="#accordionId" 
+					data-parent="#in-the-news-accordion" 
 					href="#section{count}ContentId" 
 					aria-controls="accordion-1 .item-{count}">
 					<h5 class="mb-0 intro-body">
