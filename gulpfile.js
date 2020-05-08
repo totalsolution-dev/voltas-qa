@@ -26,6 +26,7 @@
       sourcemaps    = devBuild ? require('gulp-sourcemaps') : null,
       browsersync   = devBuild ? require('browser-sync').create() : null,
       htmlclean     = require('gulp-htmlclean');
+    //   print = require('gulp-print').default;
   
     console.log('Gulp', devBuild ? 'development' : 'production', 'build');
 
@@ -85,7 +86,9 @@
     };
     
     function css() {
-    
+        console.log('::::::: START: GULP / CSS  :::::::');
+        // console.log('Config: --------------------------');
+        // console.log(cssConfig);
         return gulp.src(cssConfig.src)
         //.pipe(sourcemaps ? sourcemaps.init() : noop())
         .pipe(sass(cssConfig.sassOpts).on('error', sass.logError))
@@ -98,17 +101,33 @@
     }
     exports.css = gulp.series(images, css);
 
-    // HTML processing
-    function html() {
-        const out = 'EE_system/user/templates/voltas/_partials';
-        
+    // JS processing
+    function js() {
+        console.log('::::::: START: GULP / JS  :::::::');
+        const out = 'public_html/themes/user/site/default/asset/js/';
+        console.log('output folder: '+out);
+
+        return gulp.src(dir.src + 'js/**/*')
+        .pipe(newer(out))
+        .pipe(size({ showFiles: true }))
+        .pipe(gulp.dest(out));
+    }
+    // exports.js = gulp.series();
+    
+     // HTML processing
+     function html() {
+        console.log('::::::: START: GULP / HTML  :::::::');
+        const out = 'EE_system/user/templates/voltas/';
+        console.log('output folder: '+out);
+
         return gulp.src(dir.src + 'components/**/*')
         .pipe(newer(out))
         // .pipe(htmlclean())
+        .pipe(size({ showFiles: true }))
         .pipe(devBuild ? noop() : htmlclean())
-        .pipe(gulp.dest(out));
+        .pipe(gulp.dest(out))
     }
-    exports.html = gulp.series(css, html);
+    // exports.html = gulp.series(css, html, js);
 
 
 
@@ -130,21 +149,23 @@
     
     /**************** watch task ****************/
     function watch(done) {
-    
+        
         // image changes
         gulp.watch(imgConfig.src, images);
         
         // CSS changes
         gulp.watch(cssConfig.watch, css);
-        gulp.watch(dir.build);
-        
+        // html
         gulp.watch(dir.src + 'components/**/*', html);
+        //  js
+        gulp.watch(dir.src + 'js/**/*', js);
+        // gulp.watch(dir.build);
+        console.log('::::::: START: GULP / WATCHER RUNNING  :::::::');
         done();
-    
     }
     
     /**************** default task ****************/
     // exports.default = gulp.series(exports.css, watch, server);                 
-    exports.default = gulp.series(exports.html, watch);                 
+    exports.default = gulp.series(html, css, js, watch);                 
   
   })();
