@@ -10,6 +10,9 @@
 //     padding: 1.25rem; */
 // }
 .card.voltas-card.voltas-card-patch .card-body{
+    margin-bottom: 2rem;
+}
+.card.voltas-card.voltas-card-patch.cta .card-body{
     margin-bottom: 11rem;
 }
 .card.voltas-card.voltas-card-patch .card-body.card-patch-icon{
@@ -17,13 +20,15 @@
     right: 0;
     bottom: 0;
     left: 0;
-    height: 10rem;
+    height: auto;
     background: var(--gradient-horizontal-inverted);
     width: 100%;
     margin-bottom: 0rem;
 }
 .card.voltas-card.voltas-card-patch .card-body.card-patch-icon i{
     font-size: 6rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
 }
 .card.voltas-card.voltas-card-patch .card-body.card-patch-icon .card-text{
     margin-bottom: 1rem;
