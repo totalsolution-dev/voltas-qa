@@ -4,7 +4,7 @@
             background: #C4C4C4;
             height: .125rem;
             position: absolute;
-            top: 3.5rem;
+            top: 4.5rem;
             width: 20%;
         }
         .step-connector-line-right {
@@ -21,3 +21,26 @@
         display: none;
     }
 }
+@include media-breakpoint-down(sm) {
+    .facts-group {
+        &.process-steps { 
+            .card {
+                background-color: transparent !important;
+                .step-connector-line-left, .step-connector-line-right {
+                    background: #c4c4c4;
+                    height: 30%;
+                    position: absolute;
+                    bottom: -2.25rem;
+                    width: 0.125rem;
+                    top: unset;
+                }
+            }
+            .step-connector-line-right {
+                right: 50% !important;
+            }
+            .step-connector-line-left {
+                display: none;
+            }
+        }
+      }
+    }
