@@ -66,9 +66,17 @@ NAVIGATION
 
 .voltas-navbar .dropdown-menu {
     background-color: #096BCE !important;
-    margin          : 2rem 0 0;
+    margin-top      : 2rem;
     color           : #fff;
     border          : none;
+}
+@include media-breakpoint-down(sm) {
+    .voltas-navbar .dropdown-menu {
+        margin-top      : 0rem;
+    }
+    .voltas-navbar .dropdown-item {
+        font-size: 80%;
+    }
 }
 
 .voltas-navbar .dropdown-item {
@@ -108,11 +116,11 @@ NAVIGATION
     }
 
     .voltas-navbar .navbar-nav {
-        margin-top: 6.25rem;
+        // margin-top: 6.25rem;
     }
 
     .voltas-navbar .navbar-nav .nav-link {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .voltas-navbar .navbar-nav li {
@@ -121,7 +129,7 @@ NAVIGATION
 
     .voltas-navbar .dropdown-menu,
     .voltas-navbar .navbar-nav .nav-link {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .voltas-navbar .dropdown-item {
@@ -163,7 +171,55 @@ NAVIGATION
     display: none;
 }
 
-// form nav
+// form nav Mobile
+.vds-nav-search-m {
+    // float: right;
+
+    .wrapper {
+        // min-width     : 3rem;
+        // position      : relative;
+        // vertical-align: middle;
+        margin-top: 6.25rem;
+
+        .form-search-input::placeholder {
+            color  : #fff;
+            opacity: .7;
+        }
+
+        .form-search-input {
+            background : transparent;
+            border     : unset;
+            font-family: FS Elliot Pro;
+            font-style : normal;
+            font-weight: 400;
+            font-size  : 1.25rem;
+            line-height: 1.75rem;
+            color      : #fff;
+            transition : width .5s;
+            text-indent  : 0rem;
+            padding      : .25rem;
+            border-bottom: solid .125rem #fff;
+            width        : 90%;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        i {
+            color   : #fff;
+            position: absolute;
+            margin-left: -1.5rem;
+            margin-top: 0.5rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// form nav Desktop
 .vds-nav-search {
     float: right;
 
@@ -213,3 +269,15 @@ NAVIGATION
         }
     }
 }
+
+@keyframes autofill {
+    to {
+      color: white;
+      background: transparent;
+    }
+  }
+  
+  input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+  }

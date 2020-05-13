@@ -15,37 +15,10 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
-		{exp:structure:nav_basic show_depth="4"}
-		{if root:count == 1}
-		<ul class="nav navbar-nav ml-auto">
-		{/if}
-		<li class="nav-item dropdown">
-			
-			<a class="{if root:has_children}dropdown-toggle{/if} nav-link {if root:active}active{/if}" {if root:has_children}data-toggle="dropdown"{/if}  href="{root:page_url}">{root:title}<span class="nav-indicator"></span></a>
-			{if root:has_children}
-				<div class="dropdown-menu" role="menu">
-					{root:children}
-					<a class="dropdown-item {if child:active}active{/if}" {if child:has_children}data-toggle="dropdown"{/if} role="presentation" href="{child:page_url}">{child:title}</a>
-				{!--  --}
-					{if child:has_children}
-						<div class="dropdown-inline-menu" role="menu">
-							{child:children}
-							<a class="dropdown-item {if grandchild:active}active{/if}" role="presentation" href="{grandchild:page_url}">{grandchild:title}</a>
-							{/child:children}
-						</div>
-					{/if}
-				{!--  --}
-					{/root:children}
-				</div>
-			{/if}
-		</li>
-		{if root:count == root:total_results}
-		</ul>
-		{/if}
-		{/exp:structure:nav_basic}
 		
-		{!-- nav search --}
-		<div class="form-inline vds-nav-search d-none d-md-block">
+		{!-- nav search Mobile --}
+		<div class="form-inline vds-nav-search-m d-block d-md-none">
+		{!-- <div class="form-inline vds-nav-search"> --}
 			{exp:search:simple_form 
 				channel="pages" 
 				search_in="entries" 
@@ -53,14 +26,64 @@
 				result_page="search/results"
 				no_result_page="search/no-results"  
 				status="open"
+				form_id="search-m-form"
 			}
 			{!-- <input type="text"  id="keywords" value="" size="18" maxlength="100"> --}
-			<div class="md-form my-0 wrapper">
+			<div class="md-form mb-4 wrapper">
 				<input type="text" id="keywords" name="keywords" class="form-search-input"  placeholder="Enter your keyword" aria-label="Search">
-				<i class="fa fa-search" aria-hidden="true"></i>
+				<i class="fa fa-search" id="m-submit" aria-hidden="true"></i>
 			</div>
 			{/exp:search:simple_form}
 		</div>
+
+			{exp:structure:nav_basic show_depth="4"}
+			{if root:count == 1}
+			<ul class="nav navbar-nav ml-auto">
+			{/if}
+			<li class="nav-item dropdown">
+				
+				<a class="{if root:has_children}dropdown-toggle{/if} nav-link {if root:active}active{/if}" {if root:has_children}data-toggle="dropdown"{/if}  href="{root:page_url}">{root:title}<span class="nav-indicator"></span></a>
+				{if root:has_children}
+					<div class="dropdown-menu" role="menu">
+						{root:children}
+						<a class="dropdown-item {if child:active}active{/if}" {if child:has_children}data-toggle="dropdown"{/if} role="presentation" href="{child:page_url}">{child:title}</a>
+					{!--  --}
+						{if child:has_children}
+							<div class="dropdown-inline-menu" role="menu">
+								{child:children}
+								<a class="dropdown-item {if grandchild:active}active{/if}" role="presentation" href="{grandchild:page_url}">{grandchild:title}</a>
+								{/child:children}
+							</div>
+						{/if}
+					{!--  --}
+						{/root:children}
+					</div>
+				{/if}
+			</li>
+			{if root:count == root:total_results}
+			</ul>
+			{/if}
+			{/exp:structure:nav_basic}
+		
+			{!-- nav search Desktop--}
+			<div class="form-inline vds-nav-search d-none d-md-block">
+			{!-- <div class="form-inline vds-nav-search"> --}
+				{exp:search:simple_form 
+					channel="pages" 
+					search_in="entries" 
+					where="all"
+					result_page="search/results"
+					no_result_page="search/no-results"  
+					status="open"
+					form_id="search-form"
+				}
+				{!-- <input type="text"  id="keywords" value="" size="18" maxlength="100"> --}
+				<div class="md-form my-0 wrapper">
+					<input type="text" id="keywords" name="keywords" class="form-search-input"  placeholder="Enter your keyword" aria-label="Search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+				{/exp:search:simple_form}
+			</div>
 		</div>
 	</div>
 </nav>
