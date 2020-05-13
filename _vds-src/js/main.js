@@ -2,38 +2,49 @@
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
-NAVIGATION
+NAVIGATION / Search
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
 // Search
-var $nav_search = $(".vds-nav-search")
+
+// Store jQuery objects in variables
+// nav bar
 var $navbar_nav = $(".navbar-nav");
+// nav search desktop
+var $nav_search = $(".vds-nav-search");
+var $nav_search_form = $(".vds-nav-search #search-form");
+// nav search mobile
+var $nav_search_m_submit = $(".vds-nav-search-m #m-submit");
+var $nav_search_m_form = $(".vds-nav-search-m #search-m-form");
+
+// bind form submit to click on mobile submit icon
+$nav_search_m_submit.on("click", function(event){
+    $nav_search_m_form.first().submit();
+})
+
+// bind click function on desktop to open search box
 $nav_search.find("i").on("click", function (event) {
-    // console.log($(this).hasClass("fa-times"))
-    if ($(this).hasClass("fa-times")){
+    if ($(".vds-nav-search .form-search-input").val() != ""){
     } else {
-        // $(this).removeClass("fa-search").addClass("fa-times")
-        // console.log($nav_search);
         $nav_search.addClass("ml-auto").find(".form-search-input").focus().addClass("visible");
         $navbar_nav.hide()
     }
-    // $nav_search.addClass("ml-auto")
 });
 
+// bind closing of search box to form blur event
 $nav_search.find(".form-search-input").on("blur", function (event) {
     $(this).removeClass("visible");
     $navbar_nav.fadeIn()
-    // $nav_search.removeClass("ml-auto").find("i").removeClass("fa-times").addClass("fa-search")
     $nav_search.removeClass("ml-auto")
 });
 
+// SEARCH RESULTS PAGE SCRIPTS
+// Remove slashes from search result text
 $(".vds-search").find("h2 span").each(function(){
     var search_text = $(this).text();
-    // console.log(search_text);
     var trimmed = search_text.slice(1,-1);
     var space_added = trimmed.replace(/\//g, " / ");
-    // console.log(space_added);
     $(this).text(space_added);
 });
 
@@ -44,27 +55,28 @@ HEADER CAROUSEL
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
-// // Activate Carousel
-// $("#myCarousel").carousel();
-
-// // Enable Carousel Controls
-// $(".carousel-control-prev").click(function(){
-//   $("#myCarousel").carousel("prev");
-// });
-
+//  Initiate each carousel object in the page
 $(".carousel").each(function () {
-    console.log($(this));
-    var carousel_play = 1;
+    // current carousel object
     var $this_carousel = $(this);
-    var $this_carousel_slidenumber = $(this).find(".vds-carousel-slidenumber");
-    console.log("slidenr: "+$this_carousel_slidenumber)
-    
+    // current slide / set intitial slide value to one
+    var carousel_play = 1;
+    // total number of slides
     var total_slides = $(this).find(".carousel-item").length;
-
+    // slide number container (in the carousel caption)
+    var $this_carousel_slidenumber = $(this).find(".vds-carousel-slidenumber");
+    // Set initial value for slide 1 on load.
     $this_carousel_slidenumber.html("1 / "+total_slides)
+    
+    // Hide carousel controls and page indicator if single slide
+    if(total_slides == 1){
+        console.log("only 1 slide");
+        $this_carousel.find(".vds-carousel-controls").hide();
+    }
+    
+    // $this_carousel.find(".vds-carousel-control-next")
 
-
-    // initiate carousel
+    // initiate carousel / cycle automatically
     $this_carousel.carousel("cycle");
 
     // bind click function to the prev/next buttons
@@ -76,28 +88,30 @@ $(".carousel").each(function () {
         event.preventDefault();
         $this_carousel.carousel("next");
     });
-    // bind click function to the play button
-    $this_carousel.find(".vds-carousel-control-play").click(function (event) {
-        event.preventDefault();
-        var $this_icon = $(this).find("i");
 
-        if(carousel_play == 0){
-            $this_carousel.carousel("cycle");
-            carousel_play = 1;
-            console.log("0");
-            console.log($this_icon);
-            $this_icon.addClass("fa-pause-circle").removeClass("fa-play-circle")
-        }
-        else if(carousel_play == 1){
-            $this_carousel.carousel("pause");
-            carousel_play = 0;
-            console.log("1");
-            console.log($this_icon);
-            $this_icon.addClass("fa-play-circle").removeClass("fa-pause-circle")
-        }
-        
-    });
+    // bind click function to the play button (currently unused)
+
+    // $this_carousel.find(".vds-carousel-control-play").click(function (event) {
+    //     event.preventDefault();
+    //     var $this_icon = $(this).find("i");
+
+    //     if(carousel_play == 0){
+    //         $this_carousel.carousel("cycle");
+    //         carousel_play = 1;
+    //         console.log("0");
+    //         console.log($this_icon);
+    //         $this_icon.addClass("fa-pause-circle").removeClass("fa-play-circle")
+    //     }
+    //     else if(carousel_play == 1){
+    //         $this_carousel.carousel("pause");
+    //         carousel_play = 0;
+    //         console.log("1");
+    //         console.log($this_icon);
+    //         $this_icon.addClass("fa-play-circle").removeClass("fa-pause-circle")
+    //     }
+    // });
     
+    // Bind updating of slide number to the sliding completed event
     $this_carousel.on('slid.bs.carousel', function (event) {
         
         // console.log("total slides: "+total_slides);
@@ -107,6 +121,67 @@ $(".carousel").each(function () {
     });
 
 });
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+MARKET TICKET / API INTEGRATION
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+// Call API on Total Solution Server.
+var jqxhr = $.getJSON( "https://voltas.totalsolution.net.in/appapi/api/ticker", function() {
+    // for local testing:
+    // var jqxhr = $.getJSON( "ticker.json", function() {
+    console.log( "Stock data loaded succesfully." );
+})
+.done(function( data ) {
+   
+    // Update BSE values ===================================
+    
+    // Check for price increase / decrease and update arrows
+    if(data[0].Price >= data[0].Prev){
+        // console.log("price up");
+        $("#bse-indicator-arrow").addClass("fa-arrow-up");
+    } else {
+        // console.log("price down");
+        $("#bse-indicator-arrow").addClass("fa-arrow-down");
+    }
+
+    // Update ticket values
+    $("#bse-current").html(data[0].Price);
+    $("#bse-high").html(data[0].High);
+    $("#bse-low").html(data[0].Low);
+    $("#bse-change").html(data[0].Change);
+    $("#bse-volume").html(data[0].ChangePercent);
+
+    // Update NSE values ===================================
+
+    // Check for price increase / decrease and update arrows
+    if(data[1].Price >= data[1].Prev){
+        // console.log("price up");
+        $("#nse-indicator-arrow").addClass("fa-arrow-up");
+    } else {
+        // console.log("price down");
+        $("#nse-indicator-arrow").addClass("fa-arrow-down");
+    }
+
+    // Update ticket values
+    $("#nse-current").html(data[1].Price);
+    $("#nse-high").html(data[1].High);
+    $("#nse-low").html(data[1].Low);
+    $("#nse-change").html(data[1].Change);
+    $("#nse-volume").html(data[1].ChangePercent);
+
+})
+.fail(function() {
+    // console.log( "error" );
+    // Remove ticket from page in case API fails.
+    $(".voltas-card-market").parent().remove();
+})
+.always(function() {
+    // console.log( "complete" );
+});
+
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
