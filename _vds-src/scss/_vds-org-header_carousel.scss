@@ -79,10 +79,25 @@ HEADER CAROUSEL STYLES
 }
 
 .voltas-carousel {
+    .vds-carousel-slidenumber {
+        font-size: .875rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+    .vds-carousel-imgcap {
+        font-size: .875rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        margin-left: 1rem;
+    }
     .vds-carousel-controls {
         position: absolute;
         bottom  : -2rem;
         left    : 0;
+        height: 2rem;
         a {
             color: #fff;
             transition: color .3s;
@@ -94,9 +109,15 @@ HEADER CAROUSEL STYLES
 
         .vds-carousel-control-prev,
         .vds-carousel-control-next {
-            width : 2rem;
+            background: #fff;
+            width: 2rem;
             height: 2rem;
-
+            display: inline-block;
+            color: var(--colors-aqua-light_1);
+            text-align: center;
+            i {
+                margin-top: .5rem;
+            }
         }
     }
 }
@@ -121,6 +142,7 @@ HEADER CAROUSEL STYLES
         }
 
         .carousel-caption {
+            left: 2rem;
             .lead {
                 display: none;
             }
