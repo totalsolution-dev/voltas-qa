@@ -21,22 +21,22 @@ var $nav_search_m_form = $(".vds-nav-search-m #search-m-form");
 // bind form submit to click on mobile submit icon
 $nav_search_m_submit.on("click", function(event){
     $nav_search_m_form.first().submit();
-})
+});
 
 // bind click function on desktop to open search box
 $nav_search.find("i").on("click", function (event) {
     if ($(".vds-nav-search .form-search-input").val() != ""){
     } else {
         $nav_search.addClass("ml-auto").find(".form-search-input").focus().addClass("visible");
-        $navbar_nav.hide()
+        $navbar_nav.hide();
     }
 });
 
 // bind closing of search box to form blur event
 $nav_search.find(".form-search-input").on("blur", function (event) {
     $(this).removeClass("visible");
-    $navbar_nav.fadeIn()
-    $nav_search.removeClass("ml-auto")
+    $navbar_nav.fadeIn();
+    $nav_search.removeClass("ml-auto");
 });
 
 // SEARCH RESULTS PAGE SCRIPTS
@@ -66,7 +66,7 @@ $(".carousel").each(function () {
     // slide number container (in the carousel caption)
     var $this_carousel_slidenumber = $(this).find(".vds-carousel-slidenumber");
     // Set initial value for slide 1 on load.
-    $this_carousel_slidenumber.html("1 / "+total_slides)
+    $this_carousel_slidenumber.html("1 / "+total_slides);
     
     // Hide carousel controls and page indicator if single slide
     if(total_slides == 1){
@@ -119,7 +119,6 @@ $(".carousel").each(function () {
         // console.log(event.to);
         $this_carousel_slidenumber.html((event.to+1)+" / "+total_slides);
     });
-
 });
 
 /*
@@ -201,7 +200,7 @@ jQuery("#card-filter-input").on({
     focus: function() {
         // open all accordions on focus of search
         // console.log( "focus search field" );
-        $("#in-the-news-accordion .collapse").collapse('show')
+        $("#in-the-news-accordion .collapse").collapse('show');
     },
     blur: function() {
         // collapse all except for the first one on blur if search box is empty
