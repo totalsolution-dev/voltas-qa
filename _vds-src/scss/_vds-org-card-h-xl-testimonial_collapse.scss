@@ -1,0 +1,38 @@
+ .card-collapse-body, .card-collapse-intro{
+     &.hidden {
+         display: none;
+     }
+     .testimonial-name {
+         font-family: FS Elliot Pro;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 1.375rem;
+         line-height: 1.75rem;
+         letter-spacing: 0.02em;
+         margin-bottom: 0rem;
+     }
+     .testimonial-designation {
+        font-family: FS Elliot Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+        letter-spacing: 0.0625rem;
+        text-transform: uppercase;
+        
+     }
+ }
+.card-collapse-intro {
+    // padding-left: 4rem !important;
+    padding-top: 4rem !important;
+}
+.card-collapse-body {
+    padding-right: 4rem !important;
+    // padding-left: 0rem !important;
+    .card-collapse-button {
+         position: absolute;
+         top: 1rem;
+         right: 1rem;
+     }
+
+ }

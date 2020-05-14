@@ -1,0 +1,37 @@
+ {!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / CARD - HORIZONTAL - XL - TESTIMONIAL COLLAPSE
+:: Usage: {vds-org-card-h-xl-testimonial_collapse}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="col-12 col-md-10 {custom_css_class}">
+    <div class="card voltas-card bg-{card-plate-color}">
+        <div class="row no-gutters">
+        {!-- <div class="row"> --}
+            <div class="col-lg-5 pr-md-4">
+                {if testimonial-image != ""}
+                <img src="{testimonial-image}" class="card-img w-100 h-100 object-fit_cover" alt="...">
+                {/if}
+            </div>
+            <div class="col-lg-7 card-collapse">
+                <div class="card-body card-collapse-intro col-12 col-md-10 pl-md-6">
+                    <h1 class="card-title display">{testimonial-quote}</h1>
+                    <p class="testimonial-name">{testimonial-name}</p>
+                    <p class="testimonial-designation">{testimonial-designation}</p>
+                    <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+                </div>
+                <div class="card-body card-collapse-body hidden col-12 col-md-12 pl-4 pl-md-0">
+                    <p class="card-text">{testimonial-collapse-text}</p>
+                    <p class="testimonial-name">{testimonial-name}</p>
+                    <p class="testimonial-designation">{testimonial-designation}</p>
+                    <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{close:org-card-h-xl-testimonial_collapse}
+{!-- This component can have no children --}
+{/close:org-card-h-xl-testimonial_collapse}
+{!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / CARD - HORIZONTAL - XL - TESTIMONIAL COLLAPSE      --}
