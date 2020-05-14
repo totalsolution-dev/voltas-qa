@@ -103,6 +103,13 @@
 			{!-- VDS/ MOL / Carousel Slide
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{vds-mol-header_carousel-slide}
+
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / CARD / TESTIMONIAL COLLAPSE
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-card-h-xl-testimonial_collapse}
+				{vds-org-card-h-xl-testimonial_collapse}
+			{/org-card-h-xl-testimonial_collapse}
 			
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / ORG / CARD
@@ -135,6 +142,10 @@
 				{!-- card-h-xl-gallery_patch_large --}
 				{if:elseif 	card_type == "vds-org-card-h-xl-gallery_patch_large" OR card_type == "vds-org-card-h-xl-gallery_patch_large-inverted"}
 					{vds-org-card-h-xl-gallery_patch_large}
+				{/if}
+				{!-- card-h-xl-testimonial_collapse --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-testimonial_collapse"}
+					{vds-org-card-h-xl-testimonial_collapse}
 				{/if}
 				{close:vds-org-card}
 				{/close:vds-org-card}
