@@ -43,8 +43,48 @@
     display: none !important;
 }
 
-
-
+// Search box
+.search-container {
+    h1 {
+        text-align: center;
+        color: var(--colors-voltas-light_1);
+        margin-bottom: 4rem;
+    }
+    
+    .vds-news-search-input::placeholder {
+        color  : #fff;
+        opacity: .7;
+    }
+    
+    .vds-news-search-input {
+        width      : 100%;
+        height  : 3rem;
+        padding      : 1rem;
+        background : transparent;
+        border     : 1px solid var(--colors-slate-light_3);
+        font-family: FS Elliot Pro;
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 1.5rem;
+        line-height: 1.25rem;
+        color      : var(--colors-aqua-primary);
+        text-indent  : 0rem;
+    
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    i {
+        color   : var(--colors-aqua-primary);
+        margin-top     : 1rem;
+        margin-left  : -2rem;
+    
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
 
 // Featherlight lightbox plugin code:
 /**
