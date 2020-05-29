@@ -5,7 +5,7 @@
       opacity: 1;
       bottom: unset;
       top: 4rem;
-    }
+    } 
     .carousel-control-prev {
         right:0;
         left: unset;
@@ -28,5 +28,26 @@
     .vds-card-wrapper {
         padding: 0;
         margin: 0;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .vds-card-carousel {
+        .carousel-control-prev, .carousel-control-next {
+          padding:0;
+          width: unset;
+          opacity: 1;
+          bottom: unset;
+          top: unset;
+        } 
+        .carousel-control-prev {
+            right:unset;
+            left: 0;
+            bottom: 0;
+        }
+        .carousel-control-next {
+            left:2rem;
+            right: unset;
+            top: -2rem;
+        }
     }
 }

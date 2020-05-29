@@ -1,0 +1,29 @@
+ {!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / CARD - HORIZONTAL - XL - TESTIMONIAL COLLAPSE
+:: Usage: {vds-org-card-h-xl-testimonial_collapse}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-{card-plate-color}">
+        {if leadership-image != ""}
+        <img src="{leadership-image}" class="card-img-top" alt="...">
+        {/if}  
+        <div class="card-body card-collapse-intro">
+            <h4 class="card-title">{leadership-name}</h4>
+            <p class="card-text">{leadership-designation}</p>
+            {!-- <p class="testimonial-designation">{leadership-designation}</p> --}
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <p class="card-text">{leadership-collapse-text}</p>
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+
+{close:org-card-h-md-leadership_collapse}
+{!-- This component can have no children --}
+{/close:org-card-h-md-leadership_collapse}
+{!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / CARD - HORIZONTAL - XL - leadership COLLAPSE      --}

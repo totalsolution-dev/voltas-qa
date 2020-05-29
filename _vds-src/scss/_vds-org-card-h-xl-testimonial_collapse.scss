@@ -1,38 +1,83 @@
- .card-collapse-body, .card-collapse-intro{
-     &.hidden {
-         display: none;
-     }
-     .testimonial-name {
-         font-family: FS Elliot Pro;
-         font-style: normal;
-         font-weight: normal;
-         font-size: 1.375rem;
-         line-height: 1.75rem;
-         letter-spacing: 0.02em;
-         margin-bottom: 0rem;
-     }
-     .testimonial-designation {
-        font-family: FS Elliot Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 0.75rem;
-        line-height: 1.25rem;
-        letter-spacing: 0.0625rem;
-        text-transform: uppercase;
-        
-     }
- }
-.card-collapse-intro {
-    // padding-left: 4rem !important;
-    padding-top: 4rem !important;
-}
-.card-collapse-body {
-    padding-right: 4rem !important;
-    // padding-left: 0rem !important;
-    .card-collapse-button {
-         position: absolute;
-         top: 1rem;
-         right: 1rem;
-     }
+.testimonial-card{  
 
- }
+    .carousel-control-next {
+        left: -2rem;
+        right: unset;
+        // &:hover i {
+        //     padding-left: 0rem !important;
+        // }
+    }
+    .carousel-control-prev {
+        right: 2rem;
+        left: unset;
+        // &:hover i {
+        //     padding-left: 0rem !important;
+        // }
+    }
+    .card-collapse-body, .card-collapse-intro{
+        &.hidden {
+            display: none;
+        }
+        .card-collapse-button {
+            color: #fff !important;
+        }
+        .testimonial-name {
+            font-family: FS Elliot Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.375rem;
+            line-height: 1.75rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0rem;
+        }
+        .testimonial-designation {
+            font-family: FS Elliot Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 0.75rem;
+            line-height: 1.25rem;
+            letter-spacing: 0.0625rem;
+            text-transform: uppercase;
+            
+        }
+    }
+    .card-collapse-intro {
+        // padding-left: 4rem !important;
+        padding-top: 4rem !important;
+    }
+    .card-collapse-body {
+        padding-right: 4rem !important;
+        // padding-left: 0rem !important;
+        .card-collapse-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+        
+    }
+} 
+@media only screen and (max-width: 460px) {
+    .testimonial-card {
+        .carousel-control-prev, .carousel-control-next {
+          padding:0;
+          width: unset;
+          opacity: 1;
+          bottom: unset;
+          top: unset;
+        } 
+        .carousel-control-prev {
+            right:unset;
+            left: 0;
+            bottom: 0;
+        }
+        .carousel-control-next {
+            left:2rem;
+            right: unset;
+            top: -2rem;
+        }
+    }
+    .carousel-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

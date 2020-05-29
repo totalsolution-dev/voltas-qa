@@ -5,10 +5,10 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 --}
 {if carousel-fluid == 0}
-<div class="container"> 
+<div class="container col-12 col-md-12 px-0"> 
 {/if}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
-<div id="vds-card-carousel" class="carousel vds-card-carousel" data-ride="carousel">
+<div id="vds-card-carousel-{blocks:id}" class="carousel vds-card-carousel carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
         
     
@@ -25,15 +25,15 @@
 </div>
 {if carousel-fluid == 0}
 </div>
-{/if}
+{/if} 
 
 <script>
 // TODO make this into a proper modular call generic for all cards.
-var ExOnload = function(){
+{!-- var ExOnload = function(){
     $(".vds-card-carousel .carousel-inner>.vds-card-wrapper").wrap( "<div class='carousel-item'></div>");
     $(".vds-card-carousel .d-none").removeClass("d-none");
     $(".vds-card-carousel .carousel-item").first().addClass("active");
-}
+} --}
 </script>
 {/close:grid-column-carousel}
 {!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: --}

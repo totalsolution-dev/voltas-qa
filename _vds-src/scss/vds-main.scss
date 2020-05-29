@@ -112,6 +112,9 @@ $enable-responsive-font-sizes:  false;
   @import "_vds-org-tabbed_content.scss";
   @import "_vds-org-accordion.scss";
   @import "_vds-org-card-h-xl-testimonial_collapse.scss";
+  @import "_vds-org-card-h-md-leadership_collapse.scss";
+  @import "_vds-mod-press_releases.scss";
+  @import "_vds-mod-corporate_governance.scss";
    
   @import "_vds-icons.scss";
 
@@ -142,9 +145,17 @@ R&D
   }
 
 
-
-// .financial-snapshot-accordion-content {
-//     .dropdown {
-        
-//     }
-// }
+.vds-card-carousel{
+  .carousel-control-next {
+      
+      &:hover i {
+          padding-left: 0rem !important;
+      }
+  }
+  .carousel-control-prev {
+      
+      &:hover i {
+          padding-left: 0rem !important;
+      }
+  }
+}

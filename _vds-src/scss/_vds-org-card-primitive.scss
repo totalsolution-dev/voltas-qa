@@ -68,7 +68,7 @@ CARD STYLES
         border-color: var(--colors-aqua-light_2);
         padding: .5rem 3rem;
         &:hover {
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: var(--colors-aqua-light_2);
         }
     }
 }

@@ -59,6 +59,8 @@ HEADER CAROUSEL
 $(".carousel").each(function () {
     // current carousel object
     var $this_carousel = $(this);
+    console.log($this_carousel);
+    console.log($this_carousel.attr("id"));
     // current slide / set intitial slide value to one
     var carousel_play = 1;
     // total number of slides
@@ -74,13 +76,16 @@ $(".carousel").each(function () {
         $this_carousel.find(".vds-carousel-controls").hide();
     }
 
-    // $this_carousel.find(".vds-carousel-control-next")
+    $this_carousel.find(".carousel-item").first().addClass("active");
 
     // initiate carousel / cycle automatically
     $this_carousel.carousel("cycle");
-
+    $this_carousel.carousel({
+        pause: "hover"
+    });
     // bind click function to the prev/next buttons
     $this_carousel.find(".vds-carousel-control-prev").click(function (event) {
+        console.log($this_carousel.attr("id"));
         event.preventDefault();
         $this_carousel.carousel("prev");
     });
@@ -129,7 +134,7 @@ var jqxhr = $.getJSON("https://voltas.totalsolution.net.in/appapi/api/ticker", f
     // var jqxhr = $.getJSON( "ticker.json", function() {
     console.log("Stock data loaded succesfully.");
 })
-    .done(function (data) {
+    .done(function (data) { 
 
         // Update BSE values ===================================
 
@@ -209,7 +214,24 @@ jQuery("#card-filter-input").on({
     }
 });
 
-
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+TABBED FILTER
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+if($(".filter-group").length){
+    $(".filter-group").each(function(){
+        //console.log($(this).find(".filter-labels a"));
+        var $filter_items =  $(this).find(".filter-items");
+        console.log($filter_items);
+        $(this).find(".filter-labels").on( "click", "a", function(event) {
+            event.preventDefault();
+            console.log($(this).data("filter"));
+            $filter_items.children().show();
+            $filter_items.children().not("."+$(this).data("filter")).hide();
+        });
+    });
+};
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -219,21 +241,74 @@ TESTIMONIAL COLLAPSE
 
 $(".card-collapse").each(function(){
     $this_collapse = $(this);
-    $this_collapse_intro = $this_collapse.find(".card-collapse-intro");
-    $this_collapse_body = $this_collapse.find(".card-collapse-body");
-
+    
     $this_collapse.find(".card-collapse-button").on("click", function(event){
+        $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
+        $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
+        // console.log($this_collapse_intro);
+        // console.log($this_collapse_body);
         $this_collapse_intro.toggleClass("hidden");
         $this_collapse_body.toggleClass("hidden");
     });
-    console.log(this);
-    console.log($(this));
+    // console.log(this);
+    // console.log($(this));
 });
 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+LEADERSHIP COLLAPSE
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+var clog = function(message) {
+    console.log("=========| "+message+" |=========");
+}
 
+$(".vds-row-leadership").each(function(){
+    $this_leadership_row = $(this);
 
+    // appened containers after every 4th card and the last for the collapse text
+    $this_leadership_row.find(".col-12:nth-child(4n), .col-12:last-child").after('<div class="col-12 collapse-container"></div>');
 
+    // on click, fetch the collapse content from the card and place in nearest next container
+    $this_leadership_row.find(".leadership-card").each(function(){
+        $this_leadership_card = $(this);
+    
+        $this_leadership_card.find(".card-collapse-button").on("click", function(event){
+            $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
+            $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
+            // find nearest collapse container to place the content
+            var colllapse_content = $(this).closest(".col-12").nextAll('.collapse-container').first()
+            // close content to place in container
+            var cloned_body = $this_collapse_body.clone();
+            // add content to container
+            colllapse_content.html(cloned_body);
+            // bind close button function to remove content on close
+            colllapse_content.find(".card-collapse-button").on("click", function(event){
+                $(this).closest('.card-collapse-body').remove();
+            });
+        });
+    });
+});
 
+    
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+ACCORDION CUSTOM ICONS
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+$(document).ready(function(){
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.show").each(function(){
+        $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    });
+    
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hide.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });
+});
 
 
 

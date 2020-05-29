@@ -54,20 +54,7 @@
         });
     });
 
-    // tabbed filtering
-    if($(".filter-group").length){
-        $(".filter-group").each(function(){
-            //console.log($(this).find(".filter-labels a"));
-            var $filter_items =  $(this).find(".filter-items");
-            console.log($filter_items);
-            $(this).find(".filter-labels").on( "click", "a", function(event) {
-                event.preventDefault();
-                console.log($(this).data("filter"));
-                $filter_items.children().show();
-                $filter_items.children().not("."+$(this).data("filter")).hide();
-            });
-        });
-    };
+    
 
 </script>
 {!-- END JavaScript Includes --}

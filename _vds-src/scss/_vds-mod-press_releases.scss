@@ -1,0 +1,47 @@
+.voltas-card-press_release {
+    background-color: transparent !important;
+    border-bottom: solid 1px var(--colors-slate-light_3) !important;
+    // &:last-child {
+    //     border-bottom: none !important;
+    // }
+    .card-body {
+        padding-bottom: 0rem !important;
+        padding-top: 0rem !important;
+    }
+    .card-title {
+        color: var(--colors-aqua-primary);
+    }
+    .card-text {
+        color: var(--colors-slate-light_2) !important;
+    }
+    .card-overtitle {
+        color: var(--colors-slate-light_2) !important;
+    }
+    a.press-download {
+        position: absolute;
+        right: 2rem;
+        top: 0rem;
+        color: var(--colors-aqua-primary) !important;
+        span {
+            display: none;
+        }
+    }
+}
+@media (max-width: 767px) {
+    a.press-download {
+        position: relative !important;
+        right: unset !important;
+        top: unset !important;
+        margin-bottom: 1rem;
+        display: block;
+        span {
+            display: inline-block !important;
+            margin-left: .5rem;
+            font-size: .75rem;
+            vertical-align: text-bottom;
+        }
+    }
+}
+#in-the-news-accordion .collapse .col-12:last-child .voltas-card-press_release {
+    border-bottom: none !important;
+}

@@ -26,6 +26,22 @@ JUMBOTRON STYLES
     a {
         color: var(--colors-slate-light_2);
     }
+    .btn-outline-dark {
+        border: .125rem solid var(--colors-voltas-dark_1);
+        color: var(--colors-voltas-dark_1);
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: .75rem;
+        font-variant: small-caps;
+        &:hover {
+            color: #fff;
+            background-color: var(--colors-voltas-dark_1);
+        }
+    }
     .card-overtitle {
         font-size: 0.75rem;
     }

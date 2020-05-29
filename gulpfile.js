@@ -90,10 +90,10 @@
         // console.log('Config: --------------------------');
         // console.log(cssConfig);
         return gulp.src(cssConfig.src)
-        //.pipe(sourcemaps ? sourcemaps.init() : noop())
+        // .pipe(sourcemaps ? sourcemaps.init() : noop())
         .pipe(sass(cssConfig.sassOpts).on('error', sass.logError))
         .pipe(postcss(cssConfig.postCSS))
-        //.pipe(sourcemaps ? sourcemaps.write() : noop())
+        // .pipe(sourcemaps ? sourcemaps.write() : noop())
         .pipe(size({ showFiles: true }))
         .pipe(gulp.dest(cssConfig.build))
         .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
@@ -155,10 +155,10 @@
         
         // CSS changes
         gulp.watch(cssConfig.watch, css);
-        // html
-        gulp.watch(dir.src + 'components/**/*', html);
         //  js
         gulp.watch(dir.src + 'js/**/*', js);
+        // html
+        gulp.watch(dir.src + 'components/**/*', html);
         // gulp.watch(dir.build);
         console.log('::::::: START: GULP / WATCHER RUNNING  :::::::');
         done();

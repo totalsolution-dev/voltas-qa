@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row justify-content-center d-flex">
             <div class="col-12 col-md-10">
-               
+              
                  {!-- 
                 vds-org-jumbotron__primary
                 vds-org-jumbotron__muted 
@@ -20,7 +20,7 @@
                 {if jumbotron-style == "vds-org-jumbotron__featured"}
                 <div class="jumbotron highlighted {if jumbotron-compacted == 1}jumbotron-compacted{/if}">
                 {if:elseif jumbotron-style == "vds-org-jumbotron__muted"}
-                <div class="jumbotron muted {if jumbotron-compacted == 1}jumbotron-compacted{/if}">
+                <div class="jumbotron muted {if jumbotron-compacted == 1}jumbotron-compacted{/if }">
                 {if:elseif jumbotron-style == "vds-docs"}
                 <div class="jumbotron vds-docs">
                 {if:else}
@@ -30,10 +30,10 @@
                     <h6 class="card-overtitle">{jumbotron-overtitle}</h6>
                     {/if}
                     {if jumbotron-title != ""}
-                    <h1 class="{if jumbotron-style == "vds-org-jumbotron__featured"}display{/if}">{jumbotron-title}</h1>
+                    <h1 class="{if align_content_left}text-left{/if} {if jumbotron-style == "vds-org-jumbotron__featured"}display{/if}">{jumbotron-title}</h1>
                     {/if}
                     {if jumbotron-text != ""}
-                    <p class="intro-body">{jumbotron-text}</p>
+                    <p class="intro-body {if align_content_left}text-left{/if}">{jumbotron-text}</p>
                     {/if}
                     
                     {if jumbotron-btn-url != ""}
@@ -44,7 +44,7 @@
                         <a href="{jumbotron-btn-url}"><i class="fa fa-external-link"></i></a>
                         {/if}
                         {if jumbotron-button-style == "button-text"}
-                        <a href="{jumbotron-btn-url}" class="btn btn-outline">{card-button-text}</a>
+                        <a href="{jumbotron-btn-url}" class="btn btn-outline-dark mt-4 px-6">{jumbotron_button_text}</a>
                         {/if}
                     {/if}
                 </div>

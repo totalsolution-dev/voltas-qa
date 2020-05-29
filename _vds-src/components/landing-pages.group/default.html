@@ -70,16 +70,25 @@
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / GRID / ROW
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
-			{!-- {row} Container with Row - content centered 			 --}
 			{vds-grd-container-row-centered}
 			
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / GRID / COLUMN CAROUSEL
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
-			{!-- {row} Container with Row - content centered 			 --}
 			{grid-column-carousel}
 				{vds-grd-column-carousel}
-			{/grid-column-carousel}
+			{/grid-column-carousel} 
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / ACCORDION
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-accordion} 
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / MOL / ACCORDION ITEM
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-mol-accordion-item}
+
 			
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / ORG / HEADER CAROUSEL
@@ -112,6 +121,13 @@
 			{/org-card-h-xl-testimonial_collapse}
 			
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / CARD / TESTIMONIAL COLLAPSE
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-card-h-md-leadership_collapse}
+				{vds-org-card-h-md-leadership_collapse}
+			{/org-card-h-md-leadership_collapse}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / ORG / CARD
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{vds-org-card}
@@ -124,6 +140,9 @@
 				{!-- card-h-md-image_text_overlay --}
 				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay"}
 					{vds-org-card-h-md-image_text_overlay}	
+				{!-- card-h-md-image_patch & inverted version--}
+				{if:elseif 	card_type == "vds-org-card-h-md-image_patch" OR card_type == "vds-org-card-h-md-image_patch-inverted"}
+					{vds-org-card-h-md-image_patch}
 				{!-- card-h-md-image_text_overlay --}
 				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay_queries"}
 					{vds-org-card-h-md-image_text_overlay_queries}	
@@ -142,7 +161,6 @@
 				{!-- card-h-xl-gallery_patch_large --}
 				{if:elseif 	card_type == "vds-org-card-h-xl-gallery_patch_large" OR card_type == "vds-org-card-h-xl-gallery_patch_large-inverted"}
 					{vds-org-card-h-xl-gallery_patch_large}
-				{/if}
 				{!-- card-h-xl-testimonial_collapse --}
 				{if:elseif 	card_type == "vds-org-card-h-xl-testimonial_collapse"}
 					{vds-org-card-h-xl-testimonial_collapse}
@@ -155,13 +173,6 @@
 			{!-- VDS / ORG / Jumbotron
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{vds-org-jumbotron}
-			
-			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
-			{!-- VDS / ORG / ACCORDION
-			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
-			{org-accordion}
-				{vds-org-accordion}
-			{org-accordion}
 			
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / MOL / Facts Group — Card
@@ -202,15 +213,20 @@
 	{if embed:landing_page_template == "stock-information"}
 		{vds-mod-stock_information}
 	{/if}
+	{!-- Embed Schedule & Anouncement in case this template was embedded 
+		 from schedule-anouncement template --}
+	{if embed:landing_page_template == "schedule-anouncement"}
+		{vds-mod-schedule_anouncement}
+	{/if}
 	{!-- Embed In The News in case this template was embedded 
 		 from in-the-news template --}
 	{if embed:landing_page_template == "in-the-news"}
 		{vds-mod-in_the_news}
 	{/if}
-	{!-- Embed Schedule & Anouncement in case this template was embedded 
-		 from schedule-anouncement template --}
-	{if embed:landing_page_template == "schedule-anouncement"}
-		{vds-mod-schedule_anouncement}
+	{!-- Embed Press Releases in case this template was embedded 
+		 from press-releases template --}
+	{if embed:landing_page_template == "press-releases"}
+		{vds-mod-press_releases} 
 	{/if}
 	{!-- Embed Leadership in case this template was embedded 
 		 from leadership template --}
@@ -223,12 +239,17 @@
 		{vds-mod-awards_recognition}
 	{/if}
 	{!-- Embed business-queries in case this template was embedded 
-		 from awards-recognition template --}
+		 from business-querie template --}
 	{if embed:landing_page_template == "business-queries"}
 		{vds-mod-business_queries}
 	{/if}
+	{!-- Embed corporate-governance in case this template was embedded 
+		 from corporate-governance template --}
+	{if embed:landing_page_template == "corporate-governance"}
+		{vds-mod-corporate_governance}
+	{/if}
 {/if}
-	
+
 
 <!-- All structure's page variables -->
 <div style="display: none;">
