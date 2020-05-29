@@ -262,6 +262,20 @@ LEADERSHIP COLLAPSE
 var clog = function(message) {
     console.log("=========| "+message+" |=========");
 }
+// monitor the window size to change clear expanded cards
+$( window ).resize(function() {
+    if($(window).width() < 768)
+            {
+            // change functionality for smaller screens
+                clog("small screen");
+                $('.leadership-collapse-card').remove(); 
+            } else {
+                // change functionality for larger screens
+                clog("large screen")
+                $(".card-collapse-body").addClass("hidden")
+                $(".card-collapse-intro").removeClass("hidden")
+            }
+});
 
 $(".vds-row-leadership").each(function(){
     $this_leadership_row = $(this);
@@ -272,20 +286,37 @@ $(".vds-row-leadership").each(function(){
     // on click, fetch the collapse content from the card and place in nearest next container
     $this_leadership_row.find(".leadership-card").each(function(){
         $this_leadership_card = $(this);
-    
+        
+        // bind click event
         $this_leadership_card.find(".card-collapse-button").on("click", function(event){
+            // fetch intro and body in var
             $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
             $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
-            // find nearest collapse container to place the content
-            var colllapse_content = $(this).closest(".col-12").nextAll('.collapse-container').first()
-            // close content to place in container
-            var cloned_body = $this_collapse_body.clone();
-            // add content to container
-            colllapse_content.html(cloned_body);
-            // bind close button function to remove content on close
-            colllapse_content.find(".card-collapse-button").on("click", function(event){
-                $(this).closest('.card-collapse-body').remove();
-            });
+            // expand card inside or in collapse container depending on screen width
+            if($(window).width() < 768)
+            {
+            // change functionality for smaller screens
+                clog("small screen");
+                // toggle the content in the card
+                $this_collapse_intro.toggleClass("hidden");
+                $this_collapse_body.toggleClass("hidden");
+            } else {
+                // change functionality for larger screens
+                clog("large screen")
+                // find nearest collapse container to place the content
+                var colllapse_content = $(this).closest(".col-12").nextAll('.collapse-container').first()
+                // close content to place in container
+                var cloned_body = $this_collapse_body.clone();
+                // create a card to wrap the content in and append content
+                var card = $('<div class="card voltas-card leadership-collapse-card bg-slate-primary"></div>').html(cloned_body);
+                // add content to container
+                colllapse_content.html(card);
+                // bind close button function to remove content on close
+                colllapse_content.find(".card-collapse-button").on("click", function(event){
+                    $(this).closest('.leadership-collapse-card').remove();
+                });
+            }
+            
         });
     });
 });
@@ -311,8 +342,51 @@ $(document).ready(function(){
 });
 
 
-
-
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+LOGO CAROUSEL
+— Uses slick js carousel plugin
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+$(document).ready(function(){
+    $('.your-class').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        prevArrow: '<i class="fa fa-arrow-left logo-prev" aria-hidden="true"></i>',
+        nextArrow: '<i class="fa fa-arrow-right logo-next" aria-hidden="true"></i>',
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+  });
 
 
 /**

@@ -5,7 +5,7 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 --}
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
-    <div class="card voltas-card leadership-card bg-{card-plate-color}">
+    <div class="card voltas-card leadership-card bg-{card-plate-color} w-100">
         {if leadership-image != ""}
         <img src="{leadership-image}" class="card-img-top" alt="...">
         {/if}  
@@ -16,8 +16,8 @@
             <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
         </div>
         <div class="card-body card-collapse-body hidden">
-            <p class="card-text">{leadership-collapse-text}</p>
             <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">{leadership-collapse-text}</p>
         </div>
     </div>
 </div>

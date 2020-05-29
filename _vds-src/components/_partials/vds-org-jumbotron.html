@@ -30,10 +30,10 @@
                     <h6 class="card-overtitle">{jumbotron-overtitle}</h6>
                     {/if}
                     {if jumbotron-title != ""}
-                    <h1 class="{if align_content_left}text-left{/if} {if jumbotron-style == "vds-org-jumbotron__featured"}display{/if}">{jumbotron-title}</h1>
+                    <h1 class="{if align_content_left == 1}text-left{if:else}{/if} {if jumbotron-style == "vds-org-jumbotron__featured"}display{/if}">{jumbotron-title}</h1>
                     {/if}
                     {if jumbotron-text != ""}
-                    <p class="intro-body {if align_content_left}text-left{/if}">{jumbotron-text}</p>
+                    <p class="intro-body {if align_content_left == 1}text-left{if:else}{/if}">{jumbotron-text}</p>
                     {/if}
                     
                     {if jumbotron-btn-url != ""}

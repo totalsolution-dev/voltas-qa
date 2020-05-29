@@ -117,6 +117,9 @@ $enable-responsive-font-sizes:  false;
   @import "_vds-mod-corporate_governance.scss";
    
   @import "_vds-icons.scss";
+  
+  // external plugins
+  @import "_slick.scss";
 
   body {
     margin: 0;
