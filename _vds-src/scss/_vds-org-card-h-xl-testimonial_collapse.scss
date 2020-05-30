@@ -20,6 +20,9 @@
         }
         .card-collapse-button {
             color: #fff !important;
+            cursor: pointer;
+            &:hover{
+            }
         }
         .testimonial-name {
             font-family: FS Elliot Pro;
