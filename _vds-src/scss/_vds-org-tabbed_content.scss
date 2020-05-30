@@ -10,6 +10,11 @@
     color: var(--colors-slate-light_2);
     border: solid #ffffff 0.0625rem;
 }
+@include media-breakpoint-between(xs, md) {
+    .nav-pills.nav-voltas-tabbed-content .nav-link{
+        padding: 1rem 2rem;
+    }
+  }
 .nav-pills.nav-voltas-tabbed-content .nav-link.active{
     background-color: var(--colors-aqua-light_1);
     color: #ffffff;

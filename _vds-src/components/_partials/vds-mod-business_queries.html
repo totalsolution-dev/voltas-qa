@@ -57,10 +57,10 @@
         <div class="col-12">
             <ul class="nav nav-pills nav-voltas-tabbed-content nav-justified mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="consumer-queries-tab" data-toggle="pill" href="#consumer-queries" role="tab" aria-controls="consumer-queries" aria-selected="true">Customer Queries  <i class="fa fa-minus"></i></a>
+                    <a class="nav-link active" id="consumer-queries-tab" data-toggle="pill" href="#consumer-queries" role="tab" aria-controls="consumer-queries" aria-selected="true">Customer Queries  {!--<i class="fa fa-minus"></i>--}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="business-queries-tab" data-toggle="pill" href="#business-queries" role="tab" aria-controls="business-queries" aria-selected="false">Business Queries <i class="fa fa-plus"></i></a>
+                    <a class="nav-link" id="business-queries-tab" data-toggle="pill" href="#business-queries" role="tab" aria-controls="business-queries" aria-selected="false">Business Queries {!--<i class="fa fa-plus"></i>--}</a>
                 </li>
             </ul>
         </div>
@@ -72,12 +72,12 @@
                 {!-- Consumer Queries --}
                 <div class="tab-pane fade show active" id="consumer-queries" role="tabpanel" aria-labelledby="consumer-queries-tab">
                 
-                    <div class="row justify-content-center no-gutters col-10 mx-auto">
+                    <div class="row justify-content-center no-gutters col-12 col-md-10 mx-auto">
                         <div id="consumer-queries-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
                             <div class="card">
                                 <div class="card-header" role="tab" id="home-cooling-header">
                                     <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#home-cooling-content" aria-expanded="true" aria-controls="home-cooling-content">
-                                        <h5 class="mb-0 intro-body">
+                                        <h5 class="mb-0 intro-body pr-2">
                                             Home Cooling & Refrigeration Product Support
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </h5>
@@ -92,7 +92,7 @@
                             <div class="card">
                                 <div class="card-header" role="tab" id="vrf-chillers-header">
                                     <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#vrf-chillers-content" aria-expanded="true" aria-controls="vrf-chillers-content">
-                                        <h5 class="mb-0 intro-body">
+                                        <h5 class="mb-0 intro-body pr-2">
                                             VRF / Chillers / HVAC Support
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </h5>
@@ -107,7 +107,7 @@
                             <div class="card">
                                 <div class="card-header" role="tab" id="home-appliances-header">
                                     <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#home-appliances-content" aria-expanded="true" aria-controls="home-appliances-content">
-                                        <h5 class="mb-0 intro-body">
+                                        <h5 class="mb-0 intro-body pr-2">
                                             Home Appliances
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </h5>
@@ -122,7 +122,7 @@
                             <div class="card">
                                 <div class="card-header" role="tab" id="domestic-projects-header">
                                     <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#domestic-projects-content" aria-expanded="true" aria-controls="domestic-projects-content">
-                                        <h5 class="mb-0 intro-body">
+                                        <h5 class="mb-0 intro-body pr-2">
                                             Domestic Projects
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </h5>
@@ -137,7 +137,7 @@
                             <div class="card">
                                 <div class="card-header" role="tab" id="international-projects-header">
                                     <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#international-projects-content" aria-expanded="true" aria-controls="international-projects-content">
-                                        <h5 class="mb-0 intro-body">
+                                        <h5 class="mb-0 intro-body pr-2">
                                             International Projects
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </h5>
@@ -157,7 +157,7 @@
 
                 {!-- Business Queries --}
                 <div class="tab-pane fade" id="business-queries" role="tabpanel" aria-labelledby="business-queries-tab">
-                    <div class="row justify-content-center no-gutters col-10 mx-auto">
+                    <div class="row justify-content-center no-gutters col-12 col-md-10 mx-auto">
                     <div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
                     {exp:channel:categories channel="{page_listing_channel}" category_group="9" sort="desc" style="linear" disable="category_fields"}
                         
@@ -187,6 +187,9 @@
                                     <div class="col-12 filter-labels mb-4 mt-4">
                                         <ul class="nav nav-pills nav-voltas-tabbed-content small mb-3" id="pills-tab" role="tablist">
                                             <li class="nav-item">
+                                                <a class="nav-link active" data-filter="all" id="pills-home-small-tab" data-toggle="pill" href="" role="tab" aria-controls="pills-home-small" aria-selected="true">All</a>
+                                            </li>
+                                            <li class="nav-item">
                                                 <a class="nav-link" data-filter="corporate-office" id="pills-home-small-tab" data-toggle="pill" href="" role="tab" aria-controls="pills-home-small" aria-selected="false">Corporate Office</a>
                                             </li>
                                             <li class="nav-item">
@@ -204,11 +207,11 @@
                                         <a class="btn btn-voltas-button-stack" href="" data-filter="subsidiaries-jv">subsidiaries jv</a>
                                     </div> --}
                                 </div>
-                                <div class="row no-gutters filter-items">
+                                <div class="row filter-items">
                                     {exp:channel:entries channel="{page_listing_channel}" category="{category_id}" disable="{ch_disable}" dynamic="no"}
                                         {!-- Announcements go here --}						
-                                        <div class="col-12 col-md-3 {branch_type}">
-                                            <div class="card voltas-card voltas-card-contact-result bg-white">
+                                        <div class="col-12 col-md-3 {branch_type} all">
+                                            <div class="card voltas-card voltas-card-contact-result bg-slate-light_4">
                                                 <div class="card-body">
                                                     <h4 class="card-title">{title}</h4>
                                                     <p class="card-text">{business_address}</p>
