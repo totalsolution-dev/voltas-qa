@@ -32,7 +32,7 @@
 
 
 
-
+    const { task } = require('gulp');
 
     /**************** images task ****************/
     const imgConfig = {
@@ -99,7 +99,8 @@
         .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
     
     }
-    exports.css = gulp.series(images, css);
+    exports.css = gulp.series(css);
+    task(css);
 
     // JS processing
     function js() {
@@ -113,8 +114,9 @@
         .pipe(gulp.dest(out));
     }
     // exports.js = gulp.series();
+    task(js);
     
-     // HTML processing
+    // HTML processing
      function html() {
         console.log('::::::: START: GULP / HTML  :::::::');
         const out = 'EE_system/user/templates/voltas/';
@@ -128,7 +130,7 @@
         .pipe(gulp.dest(out))
     }
     // exports.html = gulp.series(css, html, js);
-
+    task(html);
 
 
     /**************** server task (private) ****************/
@@ -163,7 +165,7 @@
         console.log('::::::: START: GULP / WATCHER RUNNING  :::::::');
         done();
     }
-    
+    task(watch);
     /**************** default task ****************/
     // exports.default = gulp.series(exports.css, watch, server);                 
     exports.default = gulp.series(html, css, js, watch);                 

@@ -49,6 +49,29 @@ $(".vds-search").find("h2 span").each(function () {
     $(this).text(space_added);
 });
 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+GRID / CARD CAROUSEL
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+// add the carousel-item class to all cards inside card carousel
+$(".vds-card-carousel .carousel-inner").each(function(){
+    $(this).children().addClass("carousel-item");
+});
+
+// swap controls if cart is inverted
+$(".vds-card-carousel .carousel-inner").find(".order-last").each(function(){
+    // find buttons and create clones to then swap them out
+    var $prev_button = $(this).find(".vds-carousel-control-prev").first();
+    var $prev_button_c = $prev_button.clone();
+    var $next_button = $(this).next().find(".vds-carousel-control-next").first();
+    var $next_button_c = $next_button.clone();
+    // swap both buttons by replacing them with opposite clone
+    $prev_button.replaceWith($next_button_c);
+    $next_button.replaceWith($prev_button_c);
+});
+
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
