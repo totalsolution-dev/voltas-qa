@@ -19,7 +19,7 @@
 	{layout:set name='ch' value='{page_channel}'}
 	
 	{!-- fetch the page head information and pass to the layout through variables --}
-	{exp:channel:entries channel="{page_channel}" disable="{ch_disable}" dynamic="yes" cache="no" refresh="10"}
+	{exp:channel:entries channel="{page_channel}" disable="{ch_disable}" dynamic="yes" cache="yes" refresh="10"}
 		
 		{!-- Pass the page entry's <head> related data 
 			 into layout variables for use in the wrapper lay-out. --}
@@ -30,7 +30,6 @@
 			 those are fetched and rendered in the component grid --}
 		
 		{!-- Define the listing channel to be used later in the component grid to fetch the listing --}
-		<!-- TODO: make sure no funny things happen when no listing is attached to the page but a listing block is added to the grid. -->
 		{preload_replace:page_listing_channel='{structure:child_listing:short_name}'}
 
 		{!-- ### ACTUAL BODY CONTENT HTML SHOULD BE RENDERED BELOW HERE FOR CLARITY --}
@@ -178,9 +177,6 @@
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{!-- VDS / MOL / Facts Group — Card
 			{!-- Should be child of row > facts group
-			{!-- 
-			TODO See if we can use a generic card for this
-			--}
 			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
 			{fact-card}
 				{vds-mol-facts_group__fact}
@@ -253,7 +249,7 @@
 
 
 <!-- All structure's page variables -->
-<div style="display: none;">
+{!-- <div style="display: none;">
 	<pre>
 	(!--- The channel ID of a channel attached as a listing --->
 	structure:child_listing:channel_id: {structure:child_listing:channel_id}
@@ -326,6 +322,6 @@
 	(!--- The full URL of the current page's top level parent --->
 	structure:top:url: {structure:top:url}
 	</pre>
-</div>
+</div> --}
 
 <!-- END: landing-pages/default template -->	

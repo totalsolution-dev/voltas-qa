@@ -51,8 +51,13 @@
             </div>
         </div>
     </div>
-
-	
+    <div class="row justify-content-center d-flex">
+        <div class="col-12 col-md-10">
+            <div class="jumbotron muted ">
+                <p class="intro-body ">How can we help you?</p>
+            </div>
+        </div>
+    </div>
 	<div class="row">
         <div class="col-12">
             <ul class="nav nav-pills nav-voltas-tabbed-content nav-justified mb-3" id="pills-tab" role="tablist">
@@ -85,7 +90,12 @@
                                 </div>
                                 <div id="home-cooling-content" class="collapse in" role="tabpanel" aria-labelledby="home-cooling-header">
                                     <div class="card-body">
-                                        <p class="numbers-regular">Toll Free: 91006 60100</p>
+                                        <p class="numbers-regular"><b>E -</b> accare@voltas.com<br>
+                                        <b>E -</b> vcare@voltas.com<br>
+                                        <b>T -</b> 1860-599-4555<br>
+                                        <b>T -</b> 96506 94555<br>
+                                        <i class="fa fa-whatsapp"></i><b> -</b> 96506 94555
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +110,7 @@
                                 </div>
                                 <div id="vrf-chillers-content" class="collapse in" role="tabpanel" aria-labelledby="vrf-chillers-header">
                                     <div class="card-body">
-                                        <p class="numbers-regular">Toll Free: 91006 60100</p>
+                                        <p class="numbers-regular"><b>T - </b>Toll Free: 91006 60100</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,26 +125,30 @@
                                 </div>
                                 <div id="home-appliances-content" class="collapse in" role="tabpanel" aria-labelledby="home-appliances-header">
                                     <div class="card-body">
-                                        <p class="numbers-regular">External link will come here...</p>
+                                        <p class="numbers-regular"><b>E - </b> wecare@voltasbeko.com<br>
+                                        <b>T - </b>98189 94444<br>
+                                        <b>T - </b>1860-599-4444<br>
+                                        <b>SMS</b> &lt;VB&gt; to 56677<br>
+                                       	</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" role="tab" id="domestic-projects-header">
-                                    <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#domestic-projects-content" aria-expanded="true" aria-controls="domestic-projects-content">
+                                <div class="card-header" role="tab" id="project-solutions-header">
+                                    <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#project-solutions-content" aria-expanded="true" aria-controls="project-solutions-content">
                                         <h5 class="mb-0 intro-body pr-2">
-                                            Domestic Projects
+                                            Project Solutions
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </h5>
                                     </a>	
                                 </div>
-                                <div id="domestic-projects-content" class="collapse in" role="tabpanel" aria-labelledby="domestic-projects-header">
+                                <div id="project-solutions-content" class="collapse in" role="tabpanel" aria-labelledby="project-solutions-header">
                                     <div class="card-body">
-                                        <p class="numbers-regular">External link will come here...</p>
+                                        <p class="numbers-regular"><b>T - </b>91006 60100</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <!-- <div class="card">
                                 <div class="card-header" role="tab" id="international-projects-header">
                                     <a data-toggle="collapse" data-parent="#consumer-queries-accordion" href="#international-projects-content" aria-expanded="true" aria-controls="international-projects-content">
                                         <h5 class="mb-0 intro-body pr-2">
@@ -148,7 +162,7 @@
                                         <p class="numbers-regular">Toll Free: 91006 60100</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 
@@ -159,7 +173,7 @@
                 <div class="tab-pane fade" id="business-queries" role="tabpanel" aria-labelledby="business-queries-tab">
                     <div class="row justify-content-center no-gutters col-12 col-md-10 mx-auto">
                     <div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
-                    {exp:channel:categories channel="{page_listing_channel}" category_group="9" sort="desc" style="linear" disable="category_fields"}
+                    {exp:channel:categories channel="{page_listing_channel}" category_group="9" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
                         
                         <div class="card">
                             {!-- ACCORDION ROW HEADER --}
@@ -208,7 +222,7 @@
                                     </div> --}
                                 </div>
                                 <div class="row filter-items">
-                                    {exp:channel:entries channel="{page_listing_channel}" category="{category_id}" disable="{ch_disable}" dynamic="no"}
+                                    {exp:channel:entries channel="{page_listing_channel}" category="{category_id}" orderby="title" sort="asc" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
                                         {!-- Announcements go here --}						
                                         <div class="col-12 col-md-3 {branch_type} all">
                                             <div class="card voltas-card voltas-card-contact-result bg-slate-light_4">
