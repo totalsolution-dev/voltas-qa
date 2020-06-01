@@ -71,6 +71,17 @@ CARD STYLES
             background-color: var(--colors-aqua-light_2);
         }
     }
+    .vds-carousel-control-prev,
+    .vds-carousel-control-next {
+        display: none;
+    }
+}
+
+.vds-card-carousel {
+    .vds-carousel-control-prev,
+    .vds-carousel-control-next {
+        display: flex !important;
+    }
 }
 
 /* Image fix for full height image */
