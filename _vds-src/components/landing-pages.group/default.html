@@ -19,7 +19,7 @@
 	{layout:set name='ch' value='{page_channel}'}
 	
 	{!-- fetch the page head information and pass to the layout through variables --}
-	{exp:channel:entries channel="{page_channel}" disable="{ch_disable}" dynamic="yes" cache="no" refresh="10"}
+	{exp:channel:entries channel="{page_channel}" disable="{ch_disable}" dynamic="yes" cache="yes" refresh="10"}
 		
 		{!-- Pass the page entry's <head> related data 
 			 into layout variables for use in the wrapper lay-out. --}
