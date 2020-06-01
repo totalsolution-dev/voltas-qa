@@ -13,6 +13,7 @@
 @include media-breakpoint-between(xs, md) {
     .nav-pills.nav-voltas-tabbed-content .nav-link{
         padding: 1rem 2rem;
+        
     }
   }
 .nav-pills.nav-voltas-tabbed-content .nav-link.active{
@@ -37,10 +38,17 @@
         font-size: 0.75rem;
         padding: 0.5rem 0.5rem;
     }
+    .nav-voltas-tabbed-content .nav-item {
+        width: 100%;
+    }
 }
 
 .nav-pills.nav-voltas-tabbed-content.small .nav-link.active{
     background-color: var(--colors-aqua-light_1);
     color: #ffffff;
     border: solid 0.0625rem var(--colors-aqua-light_1);
+}
+
+.filter-items .all {
+    display: flex;
 }
