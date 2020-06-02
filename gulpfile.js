@@ -12,7 +12,7 @@
       // directory locations
       dir = {
         src         : '_vds-src/',
-        build       : 'public_html/themes/user/site/default/asset/'
+        build       : 'public_html/assets/'
       },
 
       // modules
@@ -105,7 +105,7 @@
     // JS processing
     function js() {
         console.log('::::::: START: GULP / JS  :::::::');
-        const out = 'public_html/themes/user/site/default/asset/js/';
+        const out = dir.build + 'js/';
         console.log('output folder: '+out);
 
         return gulp.src(dir.src + 'js/**/*')
