@@ -3,3 +3,4 @@ public_html/
 node_modules/
 EE_system/
 /.vscode/
+.DS_Store
