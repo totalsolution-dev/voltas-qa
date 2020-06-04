@@ -10,6 +10,9 @@
     }
     .card-title {
         color: var(--colors-aqua-primary);
+        a {
+            color: inherit !important;
+        }
     }
     .card-text {
         color: var(--colors-slate-light_2) !important;
