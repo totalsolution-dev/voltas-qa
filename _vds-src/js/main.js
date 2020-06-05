@@ -348,6 +348,73 @@ $(".vds-row-leadership").each(function(){
     });
 });
 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+CARD COLLAPSE
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+// monitor the window size to change clear expanded cards
+$( window ).resize(function() {
+    if($(window).width() < 768)
+            {
+            // change functionality for smaller screens
+                clog("small screen");
+                $('.card-collapse-card').remove(); 
+            } else {
+                // change functionality for larger screens
+                clog("large screen")
+                $(".card-collapse-body").addClass("hidden")
+                $(".card-collapse-intro").removeClass("hidden")
+            }
+});
+
+$(".vds-row-card_collapse").each(function(){
+    $this_leadership_row = $(this);
+    clog($this_leadership_row);
+    console.log($this_leadership_row);
+    
+    // appened containers after every 4th card and the last for the collapse text
+    $this_leadership_row.find(".col-12:nth-child(2n), .col-12:last-child").after('<div class="col-12 collapse-container"></div>');
+
+    // on click, fetch the collapse content from the card and place in nearest next container
+    $this_leadership_row.find(".voltas-collapse-card").each(function(){
+        $this_leadership_card = $(this);
+        
+        // bind click event
+        $this_leadership_card.find(".card-collapse-button").on("click", function(event){
+            // fetch intro and body in var
+            $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
+            $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
+            // expand card inside or in collapse container depending on screen width
+            if($(window).width() < 768)
+            {
+            // change functionality for smaller screens
+                clog("small screen");
+                // toggle the content in the card
+                $this_collapse_intro.toggleClass("hidden");
+                $this_collapse_body.toggleClass("hidden");
+            } else {
+                // change functionality for larger screens
+                clog("large screen")
+                // find nearest collapse container to place the content
+                var colllapse_content = $(this).closest(".col-12").nextAll('.collapse-container').first()
+                // close content to place in container
+                var cloned_body = $this_collapse_body.clone();
+                // create a card to wrap the content in and append content
+                var card = $('<div class="card voltas-card card-collapse-card bg-slate-primary"></div>').html(cloned_body);
+                // add content to container
+                colllapse_content.html(card);
+                // bind close button function to remove content on close
+                colllapse_content.find(".card-collapse-button").on("click", function(event){
+                    $(this).closest('.card-collapse-card').remove();
+                });
+            }
+            
+        });
+    });
+});
+
     
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
