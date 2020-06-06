@@ -7,34 +7,25 @@
 {if carousel-fluid == 0}
 <div class="container col-12 col-md-12 px-0"> 
 {/if}
-<!-- Don't wrap carousel in container to avoid left and right margin -->
 <div id="vds-card-carousel-{blocks:id}" class="carousel vds-card-carousel carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
         
     
  {close:grid-column-carousel}
     </div>
-    {!-- <a class="carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> --}
 </div>
 {if carousel-fluid == 0}
 </div>
 {/if} 
 
-<script>
+{!-- <script>
 // TODO make this into a proper modular call generic for all cards.
-{!-- var ExOnload = function(){
+var ExOnload = function(){
     $(".vds-card-carousel .carousel-inner>.vds-card-wrapper").wrap( "<div class='carousel-item'></div>");
     $(".vds-card-carousel .d-none").removeClass("d-none");
     $(".vds-card-carousel .carousel-item").first().addClass("active");
-} --}
-</script>
+}
+</script> --}
 {/close:grid-column-carousel}
 {!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: --}
 {!-- 		END: VDS / ORGANISMS / HEADER CAROUSEL		  --}
