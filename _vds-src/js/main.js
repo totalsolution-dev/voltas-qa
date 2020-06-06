@@ -481,3 +481,50 @@ $(document).ready(function(){
         ]
       });
   });
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+FORM FOCUS HANDLING
+— To enable material design like labels
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/ 
+// on input focus label add class  
+$(".form-group input, .form-group select").on("focus", function (){
+    $(this).siblings("label").addClass("focus");
+});
+$(".form-group input, .form-group select").on("blur", function (){
+    if($(this).val() == ""){
+        $(this).siblings("label").removeClass("focus");
+    }
+});
+$(".form-group textarea").on("focus", function (){
+    // $(this).siblings("label").hide();
+});
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+ENQUIRY MODAL
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+$(".card-enquiry.preview .nav-item").first().on("click", function (){
+    // fetch the parent card and card body
+    var $this =  $(this).closest(".card-enquiry.preview");
+    var $card_body = $this.find(".card-body");
+    
+    // swapp classes and slide down effect for card body
+    $this.removeClass("preview");
+    $card_body.hide().removeClass("d-none").slideDown();
+
+    // bind a click event to the close button
+    $this.find(".close-icon").first().on("click", function (){
+        // swap class
+        $this.addClass("preview");
+        // slide up effect whike closing.
+        $card_body.slideUp();
+    });
+});
+
+if($(".errors.help-block").length != 0){
+    $(".card-enquiry.preview .nav-item").first().click();
+}
