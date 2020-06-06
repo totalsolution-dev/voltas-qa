@@ -1,0 +1,73 @@
+.card.card-investor_toolkit {
+    width: 20rem;
+    
+    position: fixed;
+    top: 30vh;
+    left: 0;
+    z-index: 1;
+    transition: all 0.25s;
+    &.preview {
+        width: 10rem;
+        &:hover {
+            width: 12rem;
+        }
+        .card-header {
+            padding-right: 1rem;
+            .toolkit-close {
+                display: none;
+            }
+        }
+        .card-body {
+            // height: 0rem;
+            // display: none;
+        }
+    }
+    .card-header {
+        background-color: var(--colors-voltas-dark_1);
+        font-weight: bold;
+        // font-family: FS Elliot Pro;
+        // font-style: normal;
+        // font-size: 16px;
+        // line-height: 20px;
+        // padding-top: 1.25rem;
+        // padding-bottom: 1.25rem;
+        padding: 1.25rem 4.5rem;
+        text-align: left;
+        .overline {
+            margin-bottom: 0rem;
+        }
+        .toolkit-close,
+        .label-icon {
+            position: absolute;
+            top: 1.5rem;
+            // float: right;
+        }
+        .label-icon {
+            left: 1.75rem;
+            font-size: 2rem;
+        }
+        .toolkit-close {
+            right: 1.75rem;
+        }
+    }
+    .card-body {
+        background-color: var(--colors-voltas-primary);
+        // transition: all 0.25s;
+        padding: 0.75rem 1.25rem;
+        ul {
+            padding: 0rem;
+            li {
+                list-style-type: none;
+                border-top: dotted 0.0625rem #ffffff;
+                padding: 0.75rem 0.5rem;
+                &:first-child {
+                    border-top: none;
+                }
+                i {
+                    float: right;
+                    margin-top: 0.25rem;
+                }
+            }
+        }
+    }
+}

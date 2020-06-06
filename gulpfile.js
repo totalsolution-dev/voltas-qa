@@ -90,10 +90,10 @@
         // console.log('Config: --------------------------');
         // console.log(cssConfig);
         return gulp.src(cssConfig.src)
-        // .pipe(sourcemaps ? sourcemaps.init() : noop())
+        .pipe(sourcemaps ? sourcemaps.init() : noop())
         .pipe(sass(cssConfig.sassOpts).on('error', sass.logError))
         .pipe(postcss(cssConfig.postCSS))
-        // .pipe(sourcemaps ? sourcemaps.write() : noop())
+        .pipe(sourcemaps ? sourcemaps.write() : noop())
         .pipe(size({ showFiles: true }))
         .pipe(gulp.dest(cssConfig.build))
         .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());

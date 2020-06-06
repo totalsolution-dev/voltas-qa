@@ -1,6 +1,6 @@
 // VDS COMPONENT JAVASCRIPTS
-var clog = function(message) {
-    console.log("=========| "+message+" |=========");
+var clog = function (message) {
+    console.log("=========| " + message + " |=========");
 }
 
 /*
@@ -10,14 +10,14 @@ NAVIGATION / Search
 */
 
 // Store jQuery objects in variables
-    // nav bar
-    var $navbar_nav = $(".navbar-nav");
-    // nav search desktop
-    var $nav_search = $(".vds-nav-search");
-    var $nav_search_form = $(".vds-nav-search #search-form");
-    // nav search mobile
-    var $nav_search_m_submit = $(".vds-nav-search-m #m-submit");
-    var $nav_search_m_form = $(".vds-nav-search-m #search-m-form");
+// nav bar
+var $navbar_nav = $(".navbar-nav");
+// nav search desktop
+var $nav_search = $(".vds-nav-search");
+var $nav_search_form = $(".vds-nav-search #search-form");
+// nav search mobile
+var $nav_search_m_submit = $(".vds-nav-search-m #m-submit");
+var $nav_search_m_form = $(".vds-nav-search-m #search-m-form");
 
 // bind form submit to click on mobile submit icon
 $nav_search_m_submit.on("click", function (event) {
@@ -56,12 +56,12 @@ GRID / CARD CAROUSEL
 */
 
 // add the carousel-item class to all cards inside card carousel
-$(".vds-card-carousel .carousel-inner").each(function(){
+$(".vds-card-carousel .carousel-inner").each(function () {
     $(this).children().addClass("carousel-item");
 });
 
 // swap controls if cart is inverted
-$(".vds-card-carousel .carousel-inner").find(".order-last").each(function(){
+$(".vds-card-carousel .carousel-inner").find(".order-last").each(function () {
     // find buttons and create clones to then swap them out
     var $prev_button = $(this).find(".vds-carousel-control-prev").first();
     var $prev_button_c = $prev_button.clone();
@@ -154,7 +154,7 @@ var jqxhr = $.getJSON("https://voltas.totalsolution.net.in/appapi/api/ticker", f
     // var jqxhr = $.getJSON( "ticker.json", function() {
     // console.log("Stock data loaded succesfully.");
 })
-    .done(function (data) { 
+    .done(function (data) {
 
         // Update BSE values ===================================
 
@@ -239,27 +239,27 @@ $("#card-filter-input").on({
 TABBED FILTER
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
-if($(".filter-group").length){
-    $(".filter-group").each(function(){
+if ($(".filter-group").length) {
+    $(".filter-group").each(function () {
         //console.log($(this).find(".filter-labels a"));
-        var $filter_items =  $(this).find(".filter-items");
+        var $filter_items = $(this).find(".filter-items");
         // console.log($filter_items);
         // console.log( $(this).find(".filter-labels a"));
-        $(this).find(".filter-labels a").each(function(){
+        $(this).find(".filter-labels a").each(function () {
             // count the number of cards for each filter
-            var card_count = $filter_items.children("."+$(this).data("filter")).length;
+            var card_count = $filter_items.children("." + $(this).data("filter")).length;
             // append the count (12) to the tab lable
-            $(this).append(" ("+card_count+")");
+            $(this).append(" (" + card_count + ")");
             // hide the tab if there are cards == 0
-            if (card_count == 0){
+            if (card_count == 0) {
                 $(this).closest(".nav-item").hide();
             }
         });
-        $(this).find(".filter-labels").on( "click", "a", function(event) {
+        $(this).find(".filter-labels").on("click", "a", function (event) {
             event.preventDefault();
             // console.log($(this).data("filter"));
             $filter_items.children().show();
-            $filter_items.children().not("."+$(this).data("filter")).hide();
+            $filter_items.children().not("." + $(this).data("filter")).hide();
         });
     });
 };
@@ -270,10 +270,10 @@ TESTIMONIAL COLLAPSE
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
-$(".card-collapse").each(function(){
+$(".card-collapse").each(function () {
     $this_collapse = $(this);
-    
-    $this_collapse.find(".card-collapse-button").on("click", function(event){
+
+    $this_collapse.find(".card-collapse-button").on("click", function (event) {
         $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
         $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
         // console.log($this_collapse_intro);
@@ -290,39 +290,37 @@ LEADERSHIP COLLAPSE
 */
 
 // monitor the window size to change clear expanded cards
-$( window ).resize(function() {
-    if($(window).width() < 768)
-            {
-            // change functionality for smaller screens
-                clog("small screen");
-                $('.leadership-collapse-card').remove(); 
-            } else {
-                // change functionality for larger screens
-                clog("large screen")
-                $(".card-collapse-body").addClass("hidden")
-                $(".card-collapse-intro").removeClass("hidden")
-            }
+$(window).resize(function () {
+    if ($(window).width() < 768) {
+        // change functionality for smaller screens
+        clog("small screen");
+        $('.leadership-collapse-card').remove();
+    } else {
+        // change functionality for larger screens
+        clog("large screen")
+        $(".card-collapse-body").addClass("hidden")
+        $(".card-collapse-intro").removeClass("hidden")
+    }
 });
 
-$(".vds-row-leadership").each(function(){
+$(".vds-row-leadership").each(function () {
     $this_leadership_row = $(this);
 
     // appened containers after every 4th card and the last for the collapse text
     $this_leadership_row.find(".col-12:nth-child(4n), .col-12:last-child").after('<div class="col-12 collapse-container"></div>');
 
     // on click, fetch the collapse content from the card and place in nearest next container
-    $this_leadership_row.find(".leadership-card").each(function(){
+    $this_leadership_row.find(".leadership-card").each(function () {
         $this_leadership_card = $(this);
-        
+
         // bind click event
-        $this_leadership_card.find(".card-collapse-button").on("click", function(event){
+        $this_leadership_card.find(".card-collapse-button").on("click", function (event) {
             // fetch intro and body in var
             $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
             $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
             // expand card inside or in collapse container depending on screen width
-            if($(window).width() < 768)
-            {
-            // change functionality for smaller screens
+            if ($(window).width() < 768) {
+                // change functionality for smaller screens
                 clog("small screen");
                 // toggle the content in the card
                 $this_collapse_intro.toggleClass("hidden");
@@ -339,11 +337,11 @@ $(".vds-row-leadership").each(function(){
                 // add content to container
                 colllapse_content.html(card);
                 // bind close button function to remove content on close
-                colllapse_content.find(".card-collapse-button").on("click", function(event){
+                colllapse_content.find(".card-collapse-button").on("click", function (event) {
                     $(this).closest('.leadership-collapse-card').remove();
                 });
             }
-            
+
         });
     });
 });
@@ -355,41 +353,39 @@ CARD COLLAPSE
 */
 
 // monitor the window size to change clear expanded cards
-$( window ).resize(function() {
-    if($(window).width() < 768)
-            {
-            // change functionality for smaller screens
-                clog("small screen");
-                $('.card-collapse-card').remove(); 
-            } else {
-                // change functionality for larger screens
-                clog("large screen")
-                $(".card-collapse-body").addClass("hidden")
-                $(".card-collapse-intro").removeClass("hidden")
-            }
+$(window).resize(function () {
+    if ($(window).width() < 768) {
+        // change functionality for smaller screens
+        clog("small screen");
+        $('.card-collapse-card').remove();
+    } else {
+        // change functionality for larger screens
+        clog("large screen")
+        $(".card-collapse-body").addClass("hidden")
+        $(".card-collapse-intro").removeClass("hidden")
+    }
 });
 
-$(".vds-row-card_collapse").each(function(){
+$(".vds-row-card_collapse").each(function () {
     $this_leadership_row = $(this);
     clog($this_leadership_row);
     console.log($this_leadership_row);
-    
+
     // appened containers after every 4th card and the last for the collapse text
     $this_leadership_row.find(".col-12:nth-child(2n), .col-12:last-child").after('<div class="col-12 collapse-container"></div>');
 
     // on click, fetch the collapse content from the card and place in nearest next container
-    $this_leadership_row.find(".voltas-collapse-card").each(function(){
+    $this_leadership_row.find(".voltas-collapse-card").each(function () {
         $this_leadership_card = $(this);
-        
+
         // bind click event
-        $this_leadership_card.find(".card-collapse-button").on("click", function(event){
+        $this_leadership_card.find(".card-collapse-button").on("click", function (event) {
             // fetch intro and body in var
             $this_collapse_intro = $(this).parent().parent().find(".card-collapse-intro");
             $this_collapse_body = $(this).parent().parent().find(".card-collapse-body");
             // expand card inside or in collapse container depending on screen width
-            if($(window).width() < 768)
-            {
-            // change functionality for smaller screens
+            if ($(window).width() < 768) {
+                // change functionality for smaller screens
                 clog("small screen");
                 // toggle the content in the card
                 $this_collapse_intro.toggleClass("hidden");
@@ -406,31 +402,31 @@ $(".vds-row-card_collapse").each(function(){
                 // add content to container
                 colllapse_content.html(card);
                 // bind close button function to remove content on close
-                colllapse_content.find(".card-collapse-button").on("click", function(event){
+                colllapse_content.find(".card-collapse-button").on("click", function (event) {
                     $(this).closest('.card-collapse-card').remove();
                 });
             }
-            
+
         });
     });
 });
 
-    
+
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 ACCORDION CUSTOM ICONS
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
-$(document).ready(function(){
+$(document).ready(function () {
     // Add minus icon for collapse element which is open by default
-    $(".collapse.show").each(function(){
+    $(".collapse.show").each(function () {
         $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
     });
-    
+
     // Toggle plus minus icon on show hide of collapse element
-    $(".collapse").on('show.bs.collapse', function(){
+    $(".collapse").on('show.bs.collapse', function () {
         $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-    }).on('hide.bs.collapse', function(){
+    }).on('hide.bs.collapse', function () {
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
 });
@@ -442,7 +438,7 @@ LOGO CAROUSEL
 — Uses slick js carousel plugin
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
-$(document).ready(function(){
+$(document).ready(function () {
     $('.your-class').slick({
         dots: false,
         infinite: true,
@@ -452,52 +448,52 @@ $(document).ready(function(){
         prevArrow: '<i class="fa fa-arrow-left logo-prev" aria-hidden="true"></i>',
         nextArrow: '<i class="fa fa-arrow-right logo-next" aria-hidden="true"></i>',
         responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: false
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
         ]
-      });
-  });
+    });
+});
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 FORM FOCUS HANDLING
 — To enable material design like labels
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
-*/ 
+*/
 // on input focus label add class  
-$(".form-group input, .form-group select").on("focus", function (){
+$(".form-group input, .form-group select").on("focus", function () {
     $(this).siblings("label").addClass("focus");
 });
-$(".form-group input, .form-group select").on("blur", function (){
-    if($(this).val() == ""){
+$(".form-group input, .form-group select").on("blur", function () {
+    if ($(this).val() == "") {
         $(this).siblings("label").removeClass("focus");
     }
 });
-$(".form-group textarea").on("focus", function (){
+$(".form-group textarea").on("focus", function () {
     // $(this).siblings("label").hide();
 });
 
@@ -507,17 +503,17 @@ ENQUIRY MODAL
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
-$(".card-enquiry.preview .nav-item").first().on("click", function (){
+$(".card-enquiry.preview .nav-item").first().on("click", function () {
     // fetch the parent card and card body
-    var $this =  $(this).closest(".card-enquiry.preview");
+    var $this = $(this).closest(".card-enquiry.preview");
     var $card_body = $this.find(".card-body");
-    
+
     // swapp classes and slide down effect for card body
     $this.removeClass("preview");
     $card_body.hide().removeClass("d-none").slideDown();
 
     // bind a click event to the close button
-    $this.find(".close-icon").first().on("click", function (){
+    $this.find(".close-icon").first().on("click", function () {
         // swap class
         $this.addClass("preview");
         // slide up effect whike closing.
@@ -525,6 +521,21 @@ $(".card-enquiry.preview .nav-item").first().on("click", function (){
     });
 });
 
-if($(".errors.help-block").length != 0){
+if ($(".errors.help-block").length != 0) {
     $(".card-enquiry.preview .nav-item").first().click();
 }
+
+$(".card-investor_toolkit .card-body").hide();
+
+$(".card-investor_toolkit .card-header").click(function () {
+    var $toolkit = $(this).closest(".card-investor_toolkit");
+    var $card_body = $(this).siblings(".card-body");
+    if($toolkit.hasClass("preview")){
+        $toolkit.toggleClass("preview");
+        $card_body.delay(300).slideToggle(300);
+    } else {
+        $card_body.slideToggle(300).promise().done(function(){
+            $toolkit.toggleClass("preview");
+      });;
+    }
+});

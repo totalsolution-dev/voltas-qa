@@ -37,6 +37,7 @@
         @include vds-button-primitive();
         @include btn-outline(var(--colors-voltas-primary),var(--colors-voltas-primary),var(--colors-voltas-primary),#ffffff);
     }
+    // Error messages on the form
     ul.errors.help-block {
         font-family: Roboto;
         font-style: normal;
@@ -44,6 +45,16 @@
         font-size: 0.625rem;
         color: red;
     }
+}
+// Error message on the form
+.alert.alert-danger {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem;
+    color: red;
+
 }
 form label {
     position: absolute;

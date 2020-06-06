@@ -6,7 +6,7 @@
 --}
 {org_enquiry_modal}
         {disable}
-<div class="card voltas-card card-enquiry preview">
+<div class="card voltas-card card-enquiry preview d-none d-md-block">
     <div class="card-header overline">
         <ul class="nav nav-enquiry_modal nav-pills" id="pills-tab" role="tablist">
             <li class="nav-item">
@@ -22,19 +22,16 @@
     <div class="card-body d-none">
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-enquiry" role="tabpanel" aria-labelledby="pills-enquiry-tab">
+                {!-- embed the form from EE --}
                 {exp:freeform_next:render form="enquiry_form"}
             </div>
             <div class="tab-pane fade" id="pills-brochure" role="tabpanel" aria-labelledby="pills-brochure-tab">
+                {!-- embed the form from EE --}
                 {exp:freeform_next:render form="brochure"}
             </div>
         </div>
     </div>
 </div>
-
-
-
-
-
     {close:org_enquiry_modal}
     {/close:org_enquiry_modal}
     {/org_enquiry_modal}
