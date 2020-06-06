@@ -4,3 +4,5 @@ node_modules/
 EE_system/
 /.vscode/
 .DS_Store
+docs/test.htm
+docs/tets.js
