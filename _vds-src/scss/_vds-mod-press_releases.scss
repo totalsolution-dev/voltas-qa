@@ -7,6 +7,7 @@
     .card-body {
         padding-bottom: 0rem !important;
         padding-top: 0rem !important;
+        padding-right: 4rem !important;
     }
     .card-title {
         color: var(--colors-aqua-primary);
@@ -48,3 +49,6 @@
 #in-the-news-accordion .collapse .col-12:last-child .voltas-card-press_release {
     border-bottom: none !important;
 }
+.collapse .card.voltas-card.voltas-card-press_release:last-child {
+    border-bottom: none !important;
+} 
