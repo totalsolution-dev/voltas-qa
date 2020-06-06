@@ -85,6 +85,7 @@ $enable-responsive-font-sizes:  false;
 // TODO typography and colors should override the native bootstrap variables first before making new styles
   @import "_vds-typography.scss";       
   @import "_vds-colors.scss";
+  @import "_vds-mol-button.scss"; //includes mixins
 
   @import "_vds-grd-column-carousel.scss";       
   @import "_vds-mol-facts_group__fact.scss";       
@@ -114,6 +115,9 @@ $enable-responsive-font-sizes:  false;
   @import "_vds-org-card-h-md-leadership_collapse.scss";
   @import "_vds-mod-press_releases.scss";
   @import "_vds-mod-corporate_governance.scss";
+  @import "_vds-org-investor_toolkit.scss";
+  @import "_vds-org-enquiry_modal.scss";
+  @import "_vds-org-form.scss";
    
   @import "_vds-icons.scss";
   

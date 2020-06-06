@@ -1,0 +1,69 @@
+.form-group {
+    padding: 0 1rem;
+    border-bottom: 1.43rem;
+    input,
+    select {
+        padding: 0;
+        font-size: .75rem;
+        border-top: none;
+        border-right: none;
+        border-bottom: solid var(--colors-voltas-light_1) 0.0625rem;
+        border-left: none;
+        width: 100%;
+        // -webkit-transition: all 0.28s ease;
+        // transition: all 0.28s ease;
+        background: transparent;
+        height: 1.5rem;
+        padding-left: .625rem;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            background: transparent;
+        }
+    }
+    textarea {
+        border: solid var(--colors-voltas-light_1) 0.0625rem;
+        height: 60px;
+        background: transparent;
+        margin-top: 2rem;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            background: transparent;
+        }
+    }
+    button {
+        transition: color .15s;
+        @include vds-button-primitive();
+        @include btn-outline(var(--colors-voltas-primary),var(--colors-voltas-primary),var(--colors-voltas-primary),#ffffff);
+    }
+    ul.errors.help-block {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.625rem;
+        color: red;
+    }
+}
+form label {
+    position: absolute;
+    pointer-events: none;
+    padding-left: 0.625rem;
+    padding-top: 0.187rem;
+    padding-bottom: 0.187rem;
+    z-index: 1;
+    color: var(--colors-slate-light_1);
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+    @include caption;
+    text-transform: uppercase;
+    top: 0rem;
+    &.focus {
+        top: -1rem;
+        font-size: 0.5rem;
+        color: var(--colors-slate-light_2);
+    }
+    select {
+        color: var(--colors-voltas-primary);
+    }
+}

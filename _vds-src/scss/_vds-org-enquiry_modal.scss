@@ -1,0 +1,54 @@
+.card.card-enquiry{
+    position: fixed;
+    top: 30vh;
+    width: 38rem;
+    right: 0;
+    z-index: 1;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+    &.preview {
+        right: -34rem;
+        &:hover {
+            right: -25rem;
+        }
+    }
+    .card-header {
+        background-color: var(--colors-voltas-primary);
+        padding: 0.625rem 0;
+    }
+    .card-body {
+        background-color: var(--colors-slate-light_4);
+        color: var(--colors-slate-light_1);
+        padding: 4.81rem 3.2rem 2rem 3.2rem;
+    }
+    .nav.nav-enquiry_modal.nav-pills .nav-item{
+        padding: 0rem 5rem;
+        width: 19rem;
+        text-align: center;
+        border-right: solid #ffffff 0.0625rem;
+        &:nth-child(2) {
+            border-right: none;
+            }
+        .nav-link {
+            color: var(--colors-voltas-light_2) !important;
+            text-transform: uppercase;
+            &.active {
+                background-color: var(--colors-voltas-primary);
+                font-weight: bold !important;
+                color: #ffffff !important;
+            }
+        }
+    }
+        .label-icon, .close-icon {
+            position: absolute;
+        }
+        .label-icon{
+            left: 1.125rem;
+            margin-top: 0.56rem;
+        }
+        .close-icon {
+            right: 1.125rem;
+            margin-top: 0.56rem;
+        }
+}
+    
