@@ -48,7 +48,7 @@ CARD STYLES
     /* secondary card color */
     /* FIXME change to color swatch */
     a {
-        color: #fff !important;
+        color: #fff;
         i {
             transition : padding .5s;
         }
@@ -58,19 +58,19 @@ CARD STYLES
             }
         }
     }
-    
-    a.btn {
-        border: solid .125rem;
-        border-radius: .25rem;
-        font-size: .75rem;
-        font-variant: small-caps;
-        color: #fff;
-        border-color: var(--colors-aqua-light_2);
-        padding: .5rem 3rem;
-        &:hover {
-            background-color: var(--colors-aqua-light_2);
-        }
-    }
+     
+    // a.btn {
+    //     border: solid .125rem;
+    //     border-radius: .25rem;
+    //     font-size: .75rem;
+    //     font-variant: small-caps;
+    //     color: #fff;
+    //     border-color: var(--colors-aqua-light_2);
+    //     padding: .5rem 3rem;
+    //     &:hover {
+    //         background-color: var(--colors-aqua-light_2);
+    //     }
+    // }
     .vds-carousel-control-prev,
     .vds-carousel-control-next {
         display: none;

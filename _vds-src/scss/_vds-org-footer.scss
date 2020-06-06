@@ -11,21 +11,22 @@ VDS / ORG / FOOTER
     color: #fff;
     margin-top: 6rem;
     font-family: 'FS Elliot Pro';
-    .btn-outline-light {
-        border: .125rem solid #65D2B8;
-        box-sizing: border-box;
-        border-radius: 4px;
-        text-transform: uppercase;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: .75rem;
-        font-variant: small-caps;
-        &:hover {
-        color: #212529;
-        border-color: #f8f9fa;
-        }
-    }
+    // moved to mol-button 
+    // .btn-outline-light {
+    //     border: .125rem solid #65D2B8;
+    //     box-sizing: border-box;
+    //     border-radius: 4px;
+    //     text-transform: uppercase;
+    //     font-family: Roboto;
+    //     font-style: normal;
+    //     font-weight: normal;
+    //     font-size: .75rem;
+    //     font-variant: small-caps;
+    //     &:hover {
+    //     color: #212529;
+    //     border-color: #f8f9fa;
+    //     }
+    // }
     .footer-section {
         margin-bottom: 2rem;
         h1 {
@@ -36,4 +37,4 @@ VDS / ORG / FOOTER
             margin-bottom: 1rem;
         }
     }
-}
+} 

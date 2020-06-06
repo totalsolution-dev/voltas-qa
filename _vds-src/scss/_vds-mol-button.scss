@@ -1,0 +1,50 @@
+@mixin vds-button-primitive {
+    font-family: Roboto;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    border: .125rem solid;
+}
+@mixin btn-outline($border_color, $color, $h_background_color, $h_color) {
+    @include vds-button-primitive();
+    border-color: $border_color;
+    color: $color;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: .5rem 3rem;
+    &:hover {
+    border-color: $h_background_color;
+    background-color: $h_background_color !important;
+    color: $h_color !important;
+    // color: #212529;
+    // border-color: #f8f9fa;
+    }
+
+}
+//footer button
+.btn-outline-light {
+    @include btn-outline(var(--colors-aqua-light_2), #ffffff, #ffffff, #212529);
+}
+.btn-outline {
+    @include btn-outline(var(--colors-aqua-light_2), #ffffff, #ffffff, #212529);
+    // @include btn-outline(var(--colors-aqua-light_2), #fff,var(--colors-aqua-light_2),#ffffff);
+}
+
+//card with overlay
+.card.voltas-card.voltas-card-patch .card-body.card-patch-icon a.btn{
+    padding-left: 1.68rem;
+    padding-right: 1.68rem;
+}
+
+//card primitive
+a.btn {
+    @include vds-button-primitive();
+}
+
+//jumbotron
+.btn-outline-dark {
+    @include vds-button-primitive();
+    @include btn-outline(var(--colors-voltas-dark_1),var(--colors-voltas-dark_1),var(--colors-voltas-dark_1),#212529);
+}
