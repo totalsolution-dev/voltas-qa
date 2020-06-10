@@ -5,13 +5,13 @@ VDS / ORG / FOOTER
 */
 /* Footer */
 .voltas-footer {
-    background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
-    border-top: .25rem solid #80B240;
+    background: linear-gradient(180deg, #4392f3 -6.2%, #009174 104.18%);
+    border-top: 0.25rem solid #80b240;
     padding: 2rem 0rem;
     color: #fff;
     margin-top: 6rem;
-    font-family: 'FS Elliot Pro';
-    // moved to mol-button 
+    font-family: "FS Elliot Pro";
+    // moved to mol-button
     // .btn-outline-light {
     //     border: .125rem solid #65D2B8;
     //     box-sizing: border-box;
@@ -27,6 +27,27 @@ VDS / ORG / FOOTER
     //     border-color: #f8f9fa;
     //     }
     // }
+    .quick-links {
+        .root-nav {
+            padding: 0;
+            li {
+                a {
+                    font-weight: bold;
+                    font-size: 1rem;
+                    line-height: 1.875px;
+                    letter-spacing: 0.04em;
+                    color: #ffffff;
+                }
+                ul {
+                    padding-left: 1rem;
+                    margin-top: 1rem;
+                    li a {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
     .footer-section {
         margin-bottom: 2rem;
         h1 {
@@ -37,4 +58,4 @@ VDS / ORG / FOOTER
             margin-bottom: 1rem;
         }
     }
-} 
+}

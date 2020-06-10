@@ -525,17 +525,36 @@ if ($(".errors.help-block").length != 0) {
     $(".card-enquiry.preview .nav-item").first().click();
 }
 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+INVESTOR TOOLKIT
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
 $(".card-investor_toolkit .card-body").hide();
 
 $(".card-investor_toolkit .card-header").click(function () {
     var $toolkit = $(this).closest(".card-investor_toolkit");
     var $card_body = $(this).siblings(".card-body");
-    if($toolkit.hasClass("preview")){
+    if ($toolkit.hasClass("preview")) {
         $toolkit.toggleClass("preview");
         $card_body.delay(300).slideToggle(300);
     } else {
-        $card_body.slideToggle(300).promise().done(function(){
+        $card_body.slideToggle(300).promise().done(function () {
             $toolkit.toggleClass("preview");
-      });;
+        });;
     }
+});
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+FOOTER NAVIGATION
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+$(".root-nav li a").siblings("ul").hide();
+
+$(".root-nav li a").click(function (event) { 
+    if($(this).siblings("ul").length){
+        event.preventDefault();
+    }
+    $(this).siblings("ul").first().slideToggle();
 });
