@@ -11,7 +11,9 @@
             {!-- -inverted adds class order-last to swap the content --}
             <div class="col-lg-7{if card_type == "vds-org-card-h-xl-gallery_patch-inverted"} order-last{/if}">
                 {if card-image != ""}
-                <img src="{card-image}" class="card-img object-fit_cover h-100" alt="{card_image_alt_text}">
+                <div class="card-img-mask w-100 h-100">
+                    <img src="{card-image}" class="card-img object-fit_cover h-100" alt="{card_image_alt_text}">
+                </div>    
                 {/if}
                 <a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev">
                     <div class="carousel-control-plate">
