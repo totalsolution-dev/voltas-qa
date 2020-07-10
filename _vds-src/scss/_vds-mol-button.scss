@@ -48,3 +48,18 @@ a.btn {
     @include vds-button-primitive();
     @include btn-outline(var(--colors-voltas-dark_1),var(--colors-voltas-dark_1),var(--colors-voltas-dark_1),#212529);
 }
+.voltas-dropdown-btn {
+    color: #bcbcbc;
+    border-bottom: solid #848484 0.0625rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 1.75rem;
+    min-width: 15.9375rem;
+    text-align: left;
+    i {
+        color: var(--colors-aqua-light_1);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

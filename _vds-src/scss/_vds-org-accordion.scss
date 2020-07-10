@@ -1,5 +1,5 @@
 .vds-org-accordion {
-    width: 100%!important;
+    width: 100% !important;
     .card {
         font-variant: unset;
         border: none;
@@ -8,7 +8,7 @@
         }
         .card-header {
             background-color: #fff;
-            border-top:1px solid #C4C4C4;
+            border-top: 1px solid #c4c4c4;
             border-bottom: none;
             padding: 2rem 1rem;
             h5 {
@@ -20,7 +20,6 @@
                     top: 2.25rem;
                     right: 1rem;
                 }
-                
             }
             a {
                 font-variant: unset;
@@ -34,8 +33,27 @@
             padding-top: 0rem;
         }
         .card-body {
-        font-variant: unset;
-
+            font-variant: unset;
+        }
+    }
+    .dropdown-menu {
+        background-color: #f7f7f7;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        min-width: 15.9375rem;
+        border: none;
+        max-height: 45vh;
+        overflow: scroll;
+        .dropdown-item {
+            color: #bcbcbc;
+            margin-top: 1.4375rem;
+            border-bottom: solid 0.0625rem #848484;
+            padding-left: 0.75rem;
+        }
+    }
+    .tab-pane {
+        &.fade:not(.show) {
+            display: none;
         }
     }
 }
