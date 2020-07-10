@@ -2,16 +2,20 @@
     <nav class="financial-snapshot-accordion-content">
     <div class="card-body" id="" role="">
         {!-- Loop through the categories inside category_group 5 (Financial Years) --}
-        <div class="dropdown">
-            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Select Year
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown" id="myDropdown">
+            {!-- <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+            </button> --}
+            <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-controls="nav-QR{category_id}" aria-haspopup="true" aria-expanded="false">
+                Select Year
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 {exp:channel:categories category_group="5" style="linear"}
                 {!-- Render one tab for each category
                     Active class dynamically added for first category
                 --}
-                <a class="dropdown-item nav-item nav-link" id="nav-QR{category_id}-tab" data-toggle="tab" href="#nav-QR{category_id}" role="tab" aria-controls="nav-QR{category_id}" aria-selected="false">{category_name}</a>
+
+                <a class="dropdown-item" data-toggle="tab" id="nav-QR{category_id}-tab" href="#nav-QR{category_id}" role="button" aria-controls="nav-QR{category_id}" aria-expanded="false">{category_name}</a>
                 {/exp:channel:categories}
             </div>
         </div>

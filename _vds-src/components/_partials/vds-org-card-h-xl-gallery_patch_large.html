@@ -10,7 +10,9 @@
             {!-- -inverted adds class order-last to swap the content --}
             <div class="col-lg-5{if card_type == "vds-org-card-h-xl-gallery_patch_large-inverted"} order-last{/if}">
                 {if card-image != ""}
-                <img src="{card-image}" class="card-img w-100 h-100 object-fit_cover" alt="{card_image_alt_text}">
+                <div class="card-img-mask w-100 h-100">
+                    <img src="{card-image}" class="card-img w-100 h-100 object-fit_cover" alt="{card_image_alt_text}">
+                </div>
                 {/if}
             </div>
             <div class="col-lg-7">

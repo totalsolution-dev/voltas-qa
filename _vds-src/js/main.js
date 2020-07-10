@@ -558,3 +558,21 @@ $(".root-nav li a").click(function (event) {
     }
     $(this).siblings("ul").first().slideToggle();
 });
+
+
+// Financial Snapshot Dropdown
+$(document).ready(function () {
+    $('.dropdown').on('shown.bs.dropdown', function (e) {
+        console.log($(this));
+        console.log("ola");
+        $('.dropdown-menu a.active').removeClass('active');
+        $(this).addClass('active');
+    })
+}); 
+$('#myDropdown .dropdown-menu a').on('click', function () {
+// do something…
+    console.log($(this));
+    console.log("ola");
+    $('.dropdown-menu a.active').removeClass('active');
+    $(this).addClass('active');
+})

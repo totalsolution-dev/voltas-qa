@@ -29,10 +29,40 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/slick.min.js"></script>
 <script src="/assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+
 {!-- TEMPORARY PLACE FOR TESTING SCRIPTS --}
 <script>
     // TODO move all these scripts to their own files per organism
-    
+    //TweenLite can tween any numeric property of any object
+    $(".facts-group .card-title>span").each(function(){
+        
+        var $this_span      = $(this),
+            counter         = {count:0},
+            value_end       = parseInt($this_span.html(), 10),
+            value_display   = $this_span;
+        
+        console.log($this_span);            
+        console.log(value_end);            
+        // console.log(value_display);            
+        
+        // gasp.to(counter,{count:value_end, duration: 2, roundProps:"count", onUpdate:updateHandler, ease:Linear.easeNone});
+        $(counter).animate({count: "+="+value_end}, {
+            duration: 2000,
+            step: function() { 
+                $this_span.innerHtml(Math.round(counter.count));
+            },
+            complete: function(){
+                $this_span.innerHtml(Math.round(counter.count));
+            }
+        });
+        function updateHandler() {
+            value_display.innerHTML = value_end; 
+        }
+
+    });
+
+
     // On Document Ready
     $(function() {
         // console.log(ExOnload());
