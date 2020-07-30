@@ -26,9 +26,10 @@
                     where category is also Quarterly Analyses (#13)   --}
                 {exp:channel:entries channel='financial_snapshot' category="13&{category_id}" disable='{ch_disable}' parse="inward" dynamic="no" orderby="title" sort="asc"}
                 <div class="col-12 col-md-3">
-                    <div class="card voltas-card voltas-fs_card">
+                    <div class="card voltas-card voltas-fs_card bg-{card-plate-color}">
                         <div class="card-body">
-                            <h5 class="card-title card-text">{title}<a href="{attachment_for_download}" class=""><i class="fa fa-download float-right" aria-hidden="true"></i></a></h5>
+                            <h5 class="card-title">{title}</h5>
+                            <a href="{attachment_for_download}" class=""><i class="fa fa-download" aria-hidden="true"></i></a>
                             <p class="card-text">{description}</p>
                             
                         </div>

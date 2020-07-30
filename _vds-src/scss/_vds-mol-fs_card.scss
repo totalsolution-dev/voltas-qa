@@ -1,9 +1,17 @@
 .voltas-fs_card {
-    background-color: var(--colors-aqua-light_1)!important;
     .card-body{
         padding: 0.875rem 2rem !important;
+        i{
+            position: absolute;
+            top: 50%;
+            right: 2rem;
+            margin-top: -0.5rem;
+        }
     }
     .card-title {
+        padding-inline-end: 1rem;
+        @extend .card-text;
+        font-weight: bold !important;
         margin-bottom: 0rem !important;
     }
 }
