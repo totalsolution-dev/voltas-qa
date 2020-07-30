@@ -14,7 +14,7 @@
                 {!-- Press Releases --}
                     <div class="row justify-content-center no-gutters col-10 mx-auto">
                     <div id="in-the-news-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
-                    {exp:channel:categories channel="{page_listing_channel}" category_group="8" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
+                    {exp:channel:categories channel="{structure:child_listing:short_name}" category_group="8" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
                         
                         <div class="card">
                             {!-- ACCORDION ROW HEADER --}
@@ -57,7 +57,7 @@
                                     
                                 </div>
                                 <div class="row no-gutters filter-items">
-                                    {exp:channel:entries channel="{page_listing_channel}" category="{category_id}" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
+                                    {exp:channel:entries channel="{structure:child_listing:short_name}" category="{category_id}" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
                                         {!-- Announcements go here --}						
                                         <div class="col-12 all {press_release_type}">
                                             <div class="card voltas-card voltas-card-press_release">

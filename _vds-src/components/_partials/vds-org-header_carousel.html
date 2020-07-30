@@ -9,19 +9,37 @@
 <div class="container"> 
 {/if}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
-<div id="vds-carousel-{exp:low_random:number from="10000" to="99999"}" class="carousel voltas-carousel slide">
+<!-- test 2 -->
+{exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
+
+{!-- get a variable (prints "bar") --}
+
+<div id="vds-carousel-{exp:stash:get name='foo'}" class="carousel voltas-carousel {if auto_slide}slide{/if}">
     <div class="carousel-inner">
         {!-- Slides childeren here --}
  {close:carousel}
     </div>
-    {!-- <a class="carousel-control-prev" href="#vds-carousel-{count}" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#vds-carousel-{count}" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> --}
+    <!-- test -->
+    {if hide_nav_controls != 1}
+        <a class="carousel-control-prev vds-carousel-control-prev" href="#vds-carousel-{exp:stash:get name='foo'}" role="button" data-slide="prev">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span> -->
+            <div class="carousel-control-plate">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                <span class="sr-only">Prev</span>
+            </div>
+        </a>
+        <a class="carousel-control-next vds-carousel-control-next" href="#vds-carousel-{exp:stash:get name='foo'}" role="button" data-slide="next">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span> -->
+            <div class="carousel-control-plate">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+            </div>
+        </a> 
+    {/if}
 </div>
 {if carousel-fluid == 0}
 </div>

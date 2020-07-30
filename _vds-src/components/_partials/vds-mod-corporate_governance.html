@@ -29,7 +29,7 @@
                 {!-- Company tab --}
                 <div class="tab-pane fade show active" id="company" role="tabpanel" aria-labelledby="company-tab">
                     <div class="row no-gutters filter-items">
-                        {exp:channel:entries channel="{page_listing_channel}" category="59" disable="{ch_disable}"
+                        {exp:channel:entries channel="{structure:child_listing:short_name}" category="59" disable="{ch_disable}"
                         dynamic="no" cache="yes" refresh="10"}
                         <div class="col-12 all {press_release_type}">
                             <div class="card voltas-card voltas-card-press_release w-100">
@@ -48,7 +48,7 @@
                 {!-- Sustainability tab --}
                 <div class="tab-pane fade" id="sustainability" role="tabpanel" aria-labelledby="sustainability-tab">
                     <div class="row no-gutters filter-items">
-                        {exp:channel:entries channel="{page_listing_channel}" category="60" disable="{ch_disable}"
+                        {exp:channel:entries channel="{structure:child_listing:short_name}" category="60" disable="{ch_disable}"
                         dynamic="no" cache="yes" refresh="10"}
                         <div class="col-12 all {press_release_type}">
                             <div class="card voltas-card voltas-card-press_release w-100">
@@ -67,7 +67,7 @@
                 {!-- investor tab --}
                 <div class="tab-pane fade" id="investor" role="tabpanel" aria-labelledby="investor-tab">
                     <div class="row no-gutters filter-items">
-                        {exp:channel:entries channel="{page_listing_channel}" category="61" disable="{ch_disable}"
+                        {exp:channel:entries channel="{structure:child_listing:short_name}" category="61" disable="{ch_disable}"
                         dynamic="no" cache="yes" refresh="10"}
                         <div class="col-12 all {press_release_type}">
                             <div class="card voltas-card voltas-card-press_release w-100">
@@ -86,7 +86,7 @@
                 {!-- csv-reports tab --}
                 <div class="tab-pane fade" id="csv-reports" role="tabpanel" aria-labelledby="csv-reports-tab">
                     <div class="row no-gutters filter-items">
-                        {exp:channel:entries channel="{page_listing_channel}" category="62" disable="{ch_disable}"
+                        {exp:channel:entries channel="{structure:child_listing:short_name}" category="62" disable="{ch_disable}"
                         dynamic="no" cache="yes" refresh="10"}
                         <div class="col-12 all {press_release_type}">
                             <div class="card voltas-card voltas-card-press_release w-100">

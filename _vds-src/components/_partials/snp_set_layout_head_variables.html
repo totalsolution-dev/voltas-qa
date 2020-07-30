@@ -6,10 +6,15 @@
 --}
 
 {!-- meta output --}
-{layout:set name='title'}{if seo_title}{seo_title}{if:else}{title}{/if}{/layout:set}
-{layout:set name='seo_desc' value='{seo_desc}'}
-{layout:set name='robots' value='{robots}'}
+{layout:set name='seo_tags'}
+    <title>{if seo_title}{seo_title}{if:else}{title}{/if}</title>
+    {meta_tags}
+        <meta {meta_tags:attribute_type}="{meta_tags:property_value}" content="{meta_tags:content_value}"">
+    {/meta_tags}
+{/layout:set}
+{!-- {layout:set name='seo_desc' value='{seo_desc}'} --}
+{!-- {layout:set name='robots' value='{robots}'} --}
 {!-- OpenGraph meta output --}
-{layout:set name='og_title' value='{if seo_title}{seo_title}{if:else}{title}{/if}'}
-{layout:set name='og_url'}{path='{p_url}'}{/layout:set}
-{layout:set name='og_description' value='{seo_desc}'}
+{!-- {layout:set name='og_title' value='{if seo_title}{seo_title}{if:else}{title}{/if}'} --}
+{!-- {layout:set name='og_url'}{path='{p_url}'}{/layout:set} --}
+{!-- {layout:set name='og_description' value='{seo_desc}'} --}

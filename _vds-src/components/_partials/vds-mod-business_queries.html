@@ -207,7 +207,7 @@
                 <div class="tab-pane fade" id="business-queries" role="tabpanel" aria-labelledby="business-queries-tab">
                     <div class="row justify-content-center no-gutters col-12 col-md-10 mx-auto">
                     <div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
-                    {exp:channel:categories channel="{page_listing_channel}" category_group="9" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
+                    {exp:channel:categories channel="{structure:child_listing:short_name}" category_group="9" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
                         
                         <div class="card">
                             {!-- ACCORDION ROW HEADER --}
@@ -256,7 +256,7 @@
                                     </div> --}
                                 </div>
                                 <div class="row filter-items">
-                                    {exp:channel:entries channel="{page_listing_channel}" category="{category_id}" orderby="title" sort="asc" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
+                                    {exp:channel:entries channel="{structure:child_listing:short_name}" category="{category_id}" orderby="title" sort="asc" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
                                         {!-- Announcements go here --}						
                                         <div class="col-12 col-md-3 {branch_type} all">
                                             <div class="card voltas-card voltas-card-contact-result bg-slate-light_4">

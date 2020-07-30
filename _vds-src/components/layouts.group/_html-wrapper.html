@@ -3,9 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>{layout:title}</title>
     {!-- <!-- meta data --> --}
-{layout:page_meta_tags}
+    {layout:seo_tags}
     {!-- <!-- Styles --> --}
     <link rel="stylesheet" href="/assets/css/vds-main.css"> 
     <link rel="preload" href="/assets/font/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -50,10 +49,10 @@
         $(counter).animate({count: "+="+value_end}, {
             duration: 2000,
             step: function() { 
-                $this_span.innerHtml(Math.round(counter.count));
+                $this_span.text(Math.round(counter.count));
             },
             complete: function(){
-                $this_span.innerHtml(Math.round(counter.count));
+                $this_span.text(Math.round(counter.count));
             }
         });
         function updateHandler() {

@@ -16,7 +16,7 @@
 </div>
 <div class="container">
 	<div id="in-the-news-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
-	{exp:channel:categories channel="{page_listing_channel}" category_group="8" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
+	{exp:channel:categories channel="{structure:child_listing:short_name}" category_group="8" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
 		
 		<div class="card">
 			<div class="card-header" role="tab" id="section{count}HeaderId">
@@ -39,7 +39,7 @@
 				aria-labelledby="section{count}HeaderId">
 					<div class="row">
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
-				{exp:channel:entries channel='{page_listing_channel}' category="{category_id}" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
+				{exp:channel:entries channel='{structure:child_listing:short_name}' category="{category_id}" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 				{!-- News Items go here --}
 						<div class="col-12 col-md-4 d-flex">
 							<div class="card voltas-card voltas-card-news bg-slate-light_4 w-100">

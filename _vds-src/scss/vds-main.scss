@@ -165,3 +165,10 @@ R&D
       }
   }
 }
+.history_frame {
+    width: 100%;
+    min-height: 54rem;
+    @include media-breakpoint-down(sm){
+        min-height: 103rem;
+    }
+ }

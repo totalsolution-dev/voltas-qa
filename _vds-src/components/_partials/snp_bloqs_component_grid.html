@@ -187,37 +187,7 @@
 		{/fact_highlight}
 
 
-		{!-- ++++++++++++++++++++++++++++++++++++ --}
-		{!-- COMPONENT: Attached Listing Overview --}
-		{!-- Needs to be at the root			  --}
-		{!-- ++++++++++++++++++++++++++++++++++++ --}	
-		{attached_listing_overview}
-			{!-- Fetch listing navigations from block and display tabs accordingly --}
-			<!-- TODO: Add option to CMS to specify the tab navigation for categories (current/archived) and potentially other future categories. -->
-			
-			{!-- display the correct component based on the listing style from CMS --}
-			
-			{!-- listing style: news --}
-			{if '{listing_style}{/listing_style}' == "news"}
-				<!-- FIXME: Ideally all components should be a template partial, but need template embed in this case due to nested channel entries loop.
-						TODO:Figure out if there is a performance issue with an embed inside a partial. -->
-				{embed="grid_components/listing-news" channel="{page_listing_channel}"}
-			
-			{!-- listing style: announcement --} 
-			{if:elseif '{listing_style}{/listing_style}' == "announcement"}
-				<!-- FIXME: Ideally all components should be a template partial, but need template embed in this case due to nested channel entries loop.
-						TODO:Figure out if there is a performance issue with an embed inside a partial. -->
-				{embed="grid_components/listing-announcement" channel="{page_listing_channel}"}
-			
-			{!-- listing style: ERROR --} 
-			{if:else}
-				ERROR: No listing style selected in CMS
-				<!-- TODO: ERROR LOG -->
-			{/if}
-			
-			{close:attached_listing_overview}
-			{/close:attached_listing_overview}
-		{/attached_listing_overview}
+		
 
 
 		{!-- ++++++++++++++++++++++++++++++++++++ --}
@@ -229,37 +199,6 @@
 		{close:form}
 		{/close:form}
 		{/form}
-		
-		
-		{!-- ++++++++++++++++++++++++++++++++++++ --}
-		{!-- COMPONENT: Financial Snapshot		  --}
-		{!-- Needs to be in root				  --}
-		{!-- ++++++++++++++++++++++++++++++++++++ --}
-		{financial_snapshot}
-		<div data-block-name="financial_snapshot">
-		{embed="grid_components/financial-snapshot" channel="{page_listing_channel}"}
-		  {close:financial_snapshot}
-		</div>
-		{/close:financial_snapshot}
-		{/financial_snapshot}
-	
-		{!-- What happens when I request a page / Load a page --}
-		{!-- Enter a URL --}
-		{!-- Server decodes the URL and fetches the URL title (about-us/leadership/) > Entry ID (channel:entry) --}
-		{!-- Fetches the entry and checks which template to be loaded: landing-pages/default (group/template) --}
-		{!-- Server opens template and starts parsing (go through line by line and execute code) --}
-		{!-- components grid field, its going to render all components --}
-
-
-		{people_listing}
-		<div data-block-name="people_listing" class="container">
-			{embed="grid_components/listing-people" channel="{page_listing_channel}"}
-			{enabled}
-		{close:people_listing}
-		</div>
-		{/close:people_listing}
-		{/people_listing}
-	
 
 	{!-- END OF Components loop  --}
 	{/page_components_grid}
