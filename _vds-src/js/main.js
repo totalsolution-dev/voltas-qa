@@ -559,20 +559,25 @@ $(".root-nav li a").click(function (event) {
     $(this).siblings("ul").first().slideToggle();
 });
 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+FINANCIAL SNAPSHOT DROPDOWN
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+// Find the dropdown items and bind click function
+$(".dropdown-item").on("click", function () {
+    // Find the relationship of the dropdown menu from the parent element and store in variable
+    var dropdown_menu =$(this).closest(".dropdown-menu");
+    var dropdown_scope = dropdown_menu.attr("aria-controls");
+    // Fetch the button text and replace it with the text of the selected dropdown item
+    var dropdown_btn_text = dropdown_menu.siblings("button").first().find(".dropdown-label").html($(this).text());
+    // Fetch the tab id from the href
+    var tab_id = $(this).attr("href");
+    // Remove the active class from the dropdown items 
+    $(this).closest(".dropdown-menu").find('.dropdown-item').removeClass("active");
+    // Hide the previously opened tab panes within the scope of the dropdown
+    $("#"+dropdown_scope+" .tab-pane").removeClass("show");
+    // Show the selected tab pane 
+    $("#"+tab_id).addClass("show");
+});
 
-// Financial Snapshot Dropdown
-$(document).ready(function () {
-    $('.dropdown').on('shown.bs.dropdown', function (e) {
-        console.log($(this));
-        console.log("ola");
-        $('.dropdown-menu a.active').removeClass('active');
-        $(this).addClass('active');
-    })
-}); 
-$('#myDropdown .dropdown-menu a').on('click', function () {
-// do something…
-    console.log($(this));
-    console.log("ola");
-    $('.dropdown-menu a.active').removeClass('active');
-    $(this).addClass('active');
-})

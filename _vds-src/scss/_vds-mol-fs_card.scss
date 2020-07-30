@@ -1,0 +1,27 @@
+.voltas-fs_card {
+    .card-body{
+        padding: 0.875rem 2rem !important;
+        i{
+            position: absolute;
+            top: 50%;
+            right: 2rem;
+            margin-top: -0.5rem;
+        }
+    }
+    .card-title {
+        padding-inline-end: 1rem;
+        @extend .card-text;
+        font-weight: bold !important;
+        margin-bottom: 0rem !important;
+    }
+}
+.voltas-fs_card-row {
+    @include media-breakpoint-up (md){
+        :first-child {
+            padding-left: 0rem;
+        }
+        :last-child {
+            padding-right: 0rem;
+        }
+    }
+}
