@@ -33,14 +33,14 @@
 					</div> --}
 					<div class="card voltas-card voltas-card-press_release">
 						<div class="card-body">
-							<h4 class="card-title"><a href="{download_attachment}" title="download the transcription">{title}</a></h4>
+							<h4 class="card-title"><a href="{download_attachment}" title="download the transcription" target="_blank">{title}</a></h4>
 							<p class="card-text">{announcement_excerpt}</p>
 							<h6 class="card-overtitle">{entry_date format="%F %Y"}, Mumbai</h6>
 							{if audio_attachment}
 								<a href="{audio_attachment}" class="press-download" title="download the audio recording"><i class="fa fa-speaker" aria-hidden="true"></i><span class=""> download audio</span></a>
 							{/if}
 							{if download_attachment}
-								<a href="{download_attachment}" class="press-download" title="download the document attachment"><i class="fa fa-download" aria-hidden="true"></i><span class=""> download pdf</span></a>
+								<a href="{download_attachment}" class="press-download" title="download the document attachment" target="_blank"><i class="fa fa-download" aria-hidden="true"></i><span class=""> download pdf</span></a>
 							{/if}
 							{if transcription_attachment}
 								<a href="{transcription_attachment}" class="press-download" title="download the transcription"><i class="fa fa-document" aria-hidden="true"></i><span class=""> download transcription</span></a>

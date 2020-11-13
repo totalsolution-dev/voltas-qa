@@ -8,12 +8,12 @@
                         aria-controls="company" aria-selected="true">Company</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="sustainability-tab" data-toggle="pill" href="#sustainability" role="tab"
-                        aria-controls="sustainability" aria-selected="false">Sustainability</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" id="investor-tab" data-toggle="pill" href="#investor" role="tab"
                         aria-controls="investor" aria-selected="false">Investor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sustainability-tab" data-toggle="pill" href="#sustainability" role="tab"
+                        aria-controls="sustainability" aria-selected="false">Sustainability</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="csv-reports-tab" data-toggle="pill" href="#csv-reports" role="tab"
@@ -34,9 +34,9 @@
                         <div class="col-12 all {press_release_type}">
                             <div class="card voltas-card voltas-card-press_release w-100">
                                 <div class="card-body">
-                                    <h4 class="card-title">{title}</h4>
+                                    <h4 class="card-title"><a href="{corporate_governance_download}" target="_blank">{title}</a></h4>
                                     <p class="card-text">{corporate_governance_excerpt}</p>
-                                    <a href="{corporate_governance_download}" class="press-download"><i
+                                    <a href="{corporate_governance_download}" class="press-download" target="_blank"><i
                                             class="fa fa-download" aria-hidden="true"></i><span class=""> download
                                             pdf</span></a>
                                 </div>

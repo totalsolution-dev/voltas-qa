@@ -1,7 +1,8 @@
-.card.voltas-card.voltas-card-news .card-body{
+.card.voltas-card.voltas-card-news .card-body {
     padding: 1.5rem;
 }
-.card.voltas-card.voltas-card-news .card-title{
+
+.card.voltas-card.voltas-card-news .card-title {
     margin-bottom: 0.5rem;
     font-family: FS Elliot Pro;
     font-style: normal;
@@ -12,16 +13,19 @@
     text-transform: uppercase;
     color: var(--colors-voltas-primary);
 }
-.card.voltas-card.voltas-card-news .card-text{
+
+.card.voltas-card.voltas-card-news .card-text {
     color: var(--colors-slate-light_1);
 }
-.card.voltas-card.voltas-card-news .card-overtitle{
+
+.card.voltas-card.voltas-card-news .card-overtitle {
     color: var(--colors-slate-light_1);
     text-transform: capitalize;
     letter-spacing: 0.06em;
     margin-bottom: 0rem;
 }
-.card.voltas-card.voltas-card-news .card-image-wrapper{
+
+.card.voltas-card.voltas-card-news .card-image-wrapper {
     width: 100%;
     padding-top: 100%;
     position: relative;
@@ -29,7 +33,15 @@
     border-color: var(--colors-slate-light_2);
     background-color: #ffffff;
 }
-.card.voltas-card.voltas-card-news .card-image-wrapper img{
+
+.card.voltas-card.voltas-card-news a {
+    color: var(--colors-voltas-primary);
+    &:hover i {
+        padding-left: 0;
+    }
+}
+
+.card.voltas-card.voltas-card-news .card-image-wrapper img {
     top: 0rem;
     right: 0;
     bottom: 0;
@@ -50,36 +62,31 @@
         color: var(--colors-voltas-light_1);
         margin-bottom: 4rem;
     }
-    
     .vds-news-search-input::placeholder {
-        color  : #fff;
+        color: #fff;
         opacity: .7;
     }
-    
     .vds-news-search-input {
-        width      : 100%;
-        height  : 3rem;
-        padding      : 1rem;
-        background : transparent;
-        border     : 1px solid var(--colors-slate-light_3);
+        width: 100%;
+        height: 3rem;
+        padding: 1rem;
+        background: transparent;
+        border: 1px solid var(--colors-slate-light_3);
         font-family: FS Elliot Pro;
-        font-style : normal;
+        font-style: normal;
         font-weight: 400;
-        font-size  : 1.5rem;
+        font-size: 1.5rem;
         line-height: 1.25rem;
-        color      : var(--colors-aqua-primary);
-        text-indent  : 0rem;
-    
+        color: var(--colors-aqua-primary);
+        text-indent: 0rem;
         &:focus {
             outline: none;
         }
     }
-    
     i {
-        color   : var(--colors-aqua-primary);
-        margin-top     : 1rem;
-        margin-left  : -2rem;
-    
+        color: var(--colors-aqua-primary);
+        margin-top: 1rem;
+        margin-left: -2rem;
         &:hover {
             cursor: pointer;
         }
@@ -87,6 +94,7 @@
 }
 
 // Featherlight lightbox plugin code:
+
 /**
  * Featherlight - ultra slim jQuery lightbox
  * Version 1.7.13 - http://noelboss.github.io/featherlight/
@@ -94,23 +102,24 @@
  * Copyright 2018, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
+
 html.with-featherlight {
     overflow: hidden
 }
 
 .featherlight {
-    display    : none;
-    position   : fixed;
-    top        : 0;
-    right      : 0;
-    bottom     : 0;
-    left       : 0;
-    z-index    : 2147483647;
-    text-align : center;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483647;
+    text-align: center;
     white-space: nowrap;
-    cursor     : pointer;
-    background : #333;
-    background : rgba(0, 0, 0, 0)
+    cursor: pointer;
+    background: #333;
+    background: rgba(0, 0, 0, 0)
 }
 
 .featherlight:last-of-type {
@@ -118,26 +127,26 @@ html.with-featherlight {
 }
 
 .featherlight:before {
-    content       : '';
-    display       : inline-block;
-    height        : 100%;
+    content: '';
+    display: inline-block;
+    height: 100%;
     vertical-align: middle
 }
 
 .featherlight .featherlight-content {
-    position      : relative;
-    text-align    : left;
+    position: relative;
+    text-align: left;
     vertical-align: middle;
-    display       : inline-block;
-    overflow      : auto;
-    padding       : 25px 25px 0;
-    border-bottom : 25px solid transparent;
-    margin-left   : 5%;
-    margin-right  : 5%;
-    max-height    : 95%;
-    background    : #fff;
-    cursor        : auto;
-    white-space   : normal
+    display: inline-block;
+    overflow: auto;
+    padding: 25px 25px 0;
+    border-bottom: 25px solid transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 95%;
+    background: #fff;
+    cursor: auto;
+    white-space: normal
 }
 
 .featherlight .featherlight-inner {
@@ -151,24 +160,24 @@ html.with-featherlight {
 }
 
 .featherlight .featherlight-close-icon {
-    position   : absolute;
-    z-index    : 9999;
-    top        : 0;
-    right      : 0;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
     line-height: 25px;
-    width      : 25px;
-    cursor     : pointer;
-    text-align : center;
+    width: 25px;
+    cursor: pointer;
+    text-align: center;
     font-family: Arial, sans-serif;
-    background : #fff;
-    background : rgba(255, 255, 255, .3);
-    color      : var(--colors-aqua-primary);
-    border     : 0;
-    padding    : 0
+    background: #fff;
+    background: rgba(255, 255, 255, .3);
+    color: var(--colors-aqua-primary);
+    border: 0;
+    padding: 0
 }
 
 .featherlight .featherlight-close-icon::-moz-focus-inner {
-    border : 0;
+    border: 0;
     padding: 0
 }
 
@@ -177,8 +186,8 @@ html.with-featherlight {
 }
 
 .featherlight-iframe .featherlight-content {
-    border-bottom             : 0;
-    padding                   : 0;
+    border-bottom: 0;
+    padding: 0;
     -webkit-overflow-scrolling: touch
 }
 
@@ -188,16 +197,16 @@ html.with-featherlight {
 
 .featherlight * {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing   : border-box;
-    box-sizing        : border-box
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
 }
 
 @media only screen and (max-width:1024px) {
     .featherlight .featherlight-content {
-        margin-left  : 0;
-        margin-right : 0;
-        max-height   : 98%;
-        padding      : 10px 10px 0;
+        margin-left: 0;
+        margin-right: 0;
+        max-height: 98%;
+        padding: 10px 10px 0;
         border-bottom: 10px solid transparent
     }
 }

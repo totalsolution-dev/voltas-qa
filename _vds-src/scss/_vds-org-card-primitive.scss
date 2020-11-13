@@ -4,9 +4,11 @@ CARD STYLES
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
+
 /* Extends .card and sets all the base properties of
    the default vds card 
 */
+
 .card.voltas-card {
     background-color: #4392F3;
     color: #fff!important;
@@ -24,7 +26,7 @@ CARD STYLES
         font-family: 'FS Elliot Pro';
         font-style: normal;
         font-weight: normal;
-        font-size: .625rem;
+        font-size: .875rem;
         line-height: 1.25rem;
         /* identical to box height, or 167% */
         letter-spacing: 0.0625rem;
@@ -44,21 +46,19 @@ CARD STYLES
     .card-body {
         padding: 2rem;
     }
-       
     /* secondary card color */
     /* FIXME change to color swatch */
     a {
         color: #fff;
         i {
-            transition : padding .5s;
+            transition: padding .5s;
         }
-        &:hover{
-            i{
+        &:hover {
+            i {
                 padding-left: 1rem;
             }
         }
     }
-     
     // a.btn {
     //     border: solid .125rem;
     //     border-radius: .25rem;
@@ -80,13 +80,15 @@ CARD STYLES
         // width: 100%;
         // height: 100%;
     }
-    .card-img, .card-img-top {
+    .card-img,
+    .card-img-top {
         transition: all .5s;
     }
-    &:hover{
-        .card-img, .card-img-top {
+    &:hover {
+        .card-img,
+        .card-img-top {
             transform: scale(1.10);
-        }       
+        }
     }
 }
 
@@ -97,10 +99,16 @@ CARD STYLES
     }
 }
 
+
 /* Image fix for full height image */
+
+
 /* Make image fit based on card hide with hidden overflow */
+
+
 /* Usage: class="card-img w-100 h-100 object-fit_cover" */
+
 // FIXME move to general utilities
-.card-img.object-fit_cover { 
+.card-img.object-fit_cover {
     object-fit: cover;
 }

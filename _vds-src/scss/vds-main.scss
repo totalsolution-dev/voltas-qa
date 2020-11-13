@@ -1,133 +1,109 @@
 // VOLTAS DESIGN SYSTEM (VDS) V1.0.0
 // BOOTSTRAP VARIABLE OVERRIDES
-
 // $grid-breakpoints: (
 // // sm: 500px,
 // // xxl: 1440px
 // ); 
-
 // $container-max-widths: (
 // // sm: 480px,
 // // xxl: 1400px
 // );
-
 // Modify the default spacers
 $spacer: 1rem;
-$spacers:
-(
-1: ($spacer * .5),
-2: $spacer,
-3: ($spacer * 1.5),
-4: ($spacer * 2),
-5: ($spacer * 3),
-6: ($spacer * 5)
-);
-
+$spacers: ( 1: ($spacer * .5), 2: $spacer, 3: ($spacer * 1.5), 4: ($spacer * 2), 5: ($spacer * 3), 6: ($spacer * 5));
 // $primary: var(--colors-voltas-primary); 
-
 // globally disbale rounded corners
-$enable-rounded:                false;
-
+$enable-rounded: false;
 // make font-sizes responsive
-$enable-responsive-font-sizes:  false;
-
-
+$enable-responsive-font-sizes: false;
 //
 // BOOTSTRAP COMPONENTS 
 // 
-
-  // Required
-  @import "../../node_modules/bootstrap/scss/functions";
-  @import "../../node_modules/bootstrap/scss/variables";
-  @import "../../node_modules/bootstrap/scss/mixins";
-
-  // Optional
-  @import "../../node_modules/bootstrap/scss/reboot";
-  @import "../../node_modules/bootstrap/scss/type";
-  @import "../../node_modules/bootstrap/scss/images";
-      // @import "../../node_modules/bootstrap/scss/code";
-  @import "../../node_modules/bootstrap/scss/grid";    
-  @import "../../node_modules/bootstrap/scss/root";
-  @import "../../node_modules/bootstrap/scss/images";
-  @import "../../node_modules/bootstrap/scss/tables";
-  @import "../../node_modules/bootstrap/scss/forms";
-  @import "../../node_modules/bootstrap/scss/buttons";
-  @import "../../node_modules/bootstrap/scss/transitions";
-  @import "../../node_modules/bootstrap/scss/dropdown";
-  @import "../../node_modules/bootstrap/scss/button-group";
-      // @import "../../node_modules/bootstrap/scss/input-group";
-      // @import "../../node_modules/bootstrap/scss/custom-forms";
-  @import "../../node_modules/bootstrap/scss/nav";
-  @import "../../node_modules/bootstrap/scss/navbar";
-  @import "../../node_modules/bootstrap/scss/card";
-  @import "../../node_modules/bootstrap/scss/breadcrumb";
-  @import "../../node_modules/bootstrap/scss/pagination";
-  //  @import "../../node_modules/bootstrap/scss/badge";
-  @import "../../node_modules/bootstrap/scss/jumbotron";
-      // @import "../../node_modules/bootstrap/scss/alert";
-      // @import "../../node_modules/bootstrap/scss/progress";
-  @import "../../node_modules/bootstrap/scss/media";
-  // @imp ort "../../node_modules/bootstrap/scss/list-group";
-  @import "../../node_modules/bootstrap/scss/close";
-      // @import "../../node_modules/bootstrap/scss/toasts";
-      // @import "../../node_modules/bootstrap/scss/modal";
-      // @import "../../node_modules/bootstrap/scss/tooltip";
-      // @import "../../node_modules/bootstrap/scss/popover";
-  @import "../../node_modules/bootstrap/scss/carousel";
-      // @import "../../node_modules/bootstrap/scss/spinners";
-  @import "../../node_modules/bootstrap/scss/utilities";
-  @import "../../node_modules/bootstrap/scss/print";
-
-
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+// Optional
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+// @import "../../node_modules/bootstrap/scss/code";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/dropdown";
+@import "../../node_modules/bootstrap/scss/button-group";
+// @import "../../node_modules/bootstrap/scss/input-group";
+// @import "../../node_modules/bootstrap/scss/custom-forms";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../node_modules/bootstrap/scss/pagination";
+//  @import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/jumbotron";
+// @import "../../node_modules/bootstrap/scss/alert";
+// @import "../../node_modules/bootstrap/scss/progress";
+@import "../../node_modules/bootstrap/scss/media";
+// @imp ort "../../node_modules/bootstrap/scss/list-group";
+@import "../../node_modules/bootstrap/scss/close";
+// @import "../../node_modules/bootstrap/scss/toasts";
+// @import "../../node_modules/bootstrap/scss/modal";
+// @import "../../node_modules/bootstrap/scss/tooltip";
+// @import "../../node_modules/bootstrap/scss/popover";
+@import "../../node_modules/bootstrap/scss/carousel";
+// @import "../../node_modules/bootstrap/scss/spinners";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/print";
 //
 // VOLTAS DESIGN SYSTEM (VDS) COMPONENTS
 // 
 // TODO typography and colors should override the native bootstrap variables first before making new styles
-  @import "_vds-typography.scss";       
-  @import "_vds-colors.scss";
-  @import "_vds-mol-button.scss"; //includes mixins
-
-  @import "_vds-grd-column-carousel.scss";       
-  @import "_vds-mol-facts_group__fact.scss";       
-  @import "_vds-org-card-primitive.scss";
-  @import "_vds-org-card-h-md-image_patch.scss";
-  @import "_vds-org-card-h-md-image_text_overlay.scss"; 
-  @import "_vds-org-card-h-xl-cta_img.scss"; 
-  @import "_vds-org-card-h-xl-gallery_patch.scss"; 
-  @import "_vds-org-card-h-xl-market.scss"; 
-  @import "_vds-org-card-v-lg-video_carousel_patch.scss"; 
-  @import "_vds-org-card-v-sm-image_patch.scss"; 
-  @import "_vds-org-facts_group.scss"; 
-  @import "_vds-org-footer.scss"; 
-  @import "_vds-org-header_carousel.scss"; 
-  @import "_vds-org-logo_carousel.scss"; 
-  @import "_vds-org-jumbotron.scss"; 
-  @import "_vds-org-navigation.scss"; 
-  @import "_vds-org-bse_nse_ticker.scss";
-  @import "_vds-mol-awards_card.scss";
-  @import "_vds-mod-search.scss";
-  @import "_vds-mod-in_the_news.scss";
-  @import "_vds-mod-business_queries.scss";
-  @import "_vds-org-contact_card.scss";
-  @import "_vds-org-tabbed_content.scss";
-  @import "_vds-org-accordion.scss";
-  @import "_vds-org-card-h-xl-testimonial_collapse.scss";
-  @import "_vds-org-card-h-md-leadership_collapse.scss";
-  @import "_vds-mod-press_releases.scss";
-  @import "_vds-mod-corporate_governance.scss";
-  @import "_vds-org-investor_toolkit.scss";
-  @import "_vds-org-enquiry_modal.scss";
-  @import "_vds-org-form.scss";
-  @import "_vds-mol-fs_card.scss";
-   
-  @import "_vds-icons.scss";
-  
-  // external plugins
-  @import "_slick.scss";
-
-  body {
+@import "_vds-typography.scss";
+@import "_vds-colors.scss";
+@import "_vds-mol-button.scss"; //includes mixins
+@import "_vds-grd-column-carousel.scss";
+@import "_vds-mol-facts_group__fact.scss";
+@import "_vds-org-card-primitive.scss";
+@import "_vds-org-card-h-md-image_patch.scss";
+@import "_vds-org-card-h-md-image_text_overlay.scss";
+@import "_vds-org-card-h-xl-cta_img.scss";
+@import "_vds-org-card-h-xl-gallery_patch.scss";
+@import "_vds-org-card-h-xl-market.scss";
+@import "_vds-org-card-v-lg-video_carousel_patch.scss";
+@import "_vds-org-card-v-sm-image_patch.scss";
+@import "_vds-org-facts_group.scss";
+@import "_vds-org-footer.scss";
+@import "_vds-org-header_carousel.scss";
+@import "_vds-org-logo_carousel.scss";
+@import "_vds-org-jumbotron.scss";
+@import "_vds-org-navigation.scss";
+@import "_vds-org-bse_nse_ticker.scss";
+@import "_vds-mol-awards_card.scss";
+@import "_vds-mod-search.scss";
+@import "_vds-mod-in_the_news.scss";
+@import "_vds-mod-business_queries.scss";
+@import "_vds-org-contact_card.scss";
+@import "_vds-org-tabbed_content.scss";
+@import "_vds-org-accordion.scss";
+@import "_vds-org-card-h-xl-testimonial_collapse.scss";
+@import "_vds-org-card-h-md-leadership_collapse.scss";
+@import "_vds-mod-press_releases.scss";
+@import "_vds-mod-corporate_governance.scss";
+@import "_vds-org-investor_toolkit.scss";
+@import "_vds-org-enquiry_modal.scss";
+@import "_vds-org-form.scss";
+@import "_vds-mol-fs_card.scss";
+@import "_vds-icons.scss";
+// external plugins
+@import "_slick.scss";
+body {
     margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -136,12 +112,16 @@ $enable-responsive-font-sizes:  false;
     background-color: #fff;
 }
 
+
 /* 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 R&D 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
+
+
 /* Full sceeen mast head / hero header full height overflow hidden */
+
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -149,27 +129,29 @@ R&D
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
-
-
-.vds-card-carousel{
-  .carousel-control-next {
-      
-      &:hover i {
-          padding-left: 0rem !important;
-      }
-  }
-  .carousel-control-prev {
-      
-      &:hover i {
-          padding-left: 0rem !important;
-      }
-  }
 }
+
+.vds-card-carousel {
+    .carousel-control-next {
+        &:hover i {
+            padding-left: 0rem !important;
+        }
+    }
+    .carousel-control-prev {
+        &:hover i {
+            padding-left: 0rem !important;
+        }
+    }
+}
+
 .history_frame {
     width: 100%;
     min-height: 54rem;
-    @include media-breakpoint-down(sm){
+    @include media-breakpoint-down(sm) {
         min-height: 103rem;
     }
- }
+}
+
+.embed-responsive-item {
+    width: 101% !important;
+}
