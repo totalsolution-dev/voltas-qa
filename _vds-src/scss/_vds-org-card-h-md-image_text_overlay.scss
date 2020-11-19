@@ -1,4 +1,5 @@
 /* Text on Image Card */
+
 // FIXME try addding a card-body to add padding and remove this class
 // .voltas-card .card-img-overlay {
 //     padding: 2rem;
@@ -9,7 +10,6 @@
 //     left: 0;
 //     padding: 1.25rem; */
 // }
-
 .card.voltas-card.voltas-card-patch .card-body {
     margin-bottom: 2rem;
 }
@@ -31,8 +31,8 @@
 
 .card.voltas-card.voltas-card-patch .card-body.card-patch-icon i {
     font-size: 6rem;
-    margin-left: -1rem;
-    margin-top: -1rem;
+    // margin-left: -1rem;
+    // margin-top: -1rem;
 }
 
 .card.voltas-card.voltas-card-patch .card-body.card-patch-icon .card-text {
@@ -61,7 +61,6 @@
         background-position: center;
         transition: all .5s;
     }
-
     .card.voltas-card.voltas-card-patch:hover .card-bg-image,
     .card.voltas-card.voltas-card-patch:focus .card-bg-image {
         transform: scale(1.10);
