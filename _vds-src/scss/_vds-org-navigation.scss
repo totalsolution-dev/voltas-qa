@@ -12,6 +12,9 @@ NAVIGATION
         padding: 1.5rem 3rem;
         font-family: 'FS Elliot Pro';
         letter-spacing: 0.04rem;
+        @include media-breakpoint-down(sm) {
+            background-color: var(--colors-voltas-primary)!important;
+        }
     }
     
     .voltas-navbar .navbar-brand img {
@@ -25,7 +28,7 @@ NAVIGATION
         font-weight: normal;
         font-size: 1rem;
         line-height: 1.25rem;
-        color: var(--colors-voltas-primary);
+        color: var(--colors-slate-light_2);
     }
     
     .navbar-expand-md .navbar-nav .nav-link {
@@ -43,7 +46,10 @@ NAVIGATION
     .voltas-navbar .navbar-nav .nav-link.active,
     .voltas-navbar .navbar-nav .nav-link.show,
     .voltas-navbar .navbar-nav .show>.nav-link {
-        color: var(--colors-voltas-primary);
+        color: var(--colors-slate-light_2);
+        @include media-breakpoint-down(sm) {
+            color: var(--colors-voltas-primary);
+        }
     }
     /* mobile nav hamburger icon */
     
@@ -62,6 +68,20 @@ NAVIGATION
         }
     }
     
+    .voltas-navbar-logo-secondary {
+        padding-left: 2rem;
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
+    
+    .voltas-navbar-logo-secondary_m {
+        padding-left: 2rem;
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+    }
+    
     .dropdown-inline-menu {
         padding-left: 1rem;
         //background-color: var(--colors-voltas-dark_1);
@@ -75,9 +95,9 @@ NAVIGATION
 } */
     
     .voltas-navbar .dropdown-menu {
-        background-color: var(--colors-chalk-primary) !important;
-        margin-top: 2rem;
-        color: var(--colors-voltas-primary);
+        background-color: var(--colors-voltas-primary) !important;
+        margin-top: 1.6rem;
+        color: var(--colors-chalk-primary);
         border: none;
     }
     
@@ -93,12 +113,15 @@ NAVIGATION
     .voltas-navbar .dropdown-item {
         font-weight: normal;
         padding: 1rem 2rem;
-        color: var(--colors-voltas-primary);
+        color: var(--colors-chalk-primary);
         &:hover,
         &.active,
         &:active {
             color: #65D2B8;
-            background: transparent;
+            background: var(--colors-voltas-primary);
+            @include media-breakpoint-down(sm) {
+                background-color: transparent;
+            }
         }
     }
     
@@ -128,6 +151,7 @@ NAVIGATION
         }
         .voltas-navbar .navbar-nav .nav-link {
             font-size: 1.5rem;
+            color: var(--colors-voltas-primary);
         }
         .voltas-navbar .navbar-nav li {
             margin-bottom: 1rem;
@@ -135,10 +159,12 @@ NAVIGATION
         .voltas-navbar .dropdown-menu,
         .voltas-navbar .navbar-nav .nav-link {
             font-size: 1.5rem;
+            background-color: transparent!important;
         }
         .voltas-navbar .dropdown-item {
-            padding: 1rem 0rem 0.15rem 4rem;
+            padding: 1rem 0rem 0.15rem 2rem;
             white-space: pre-line;
+            color: var(--colors-slate-light_2);
         }
         .voltas-navbar {
             background-color: var(--colors-chalk-primary) !important;
@@ -181,7 +207,7 @@ NAVIGATION
             // vertical-align: middle;
             margin-top: 6.25rem;
             .form-search-input::placeholder {
-                color: var(--colors-voltas-primary);
+                color: var(--colors-slate-light_2);
                 opacity: .7;
             }
             .form-search-input {
@@ -192,18 +218,18 @@ NAVIGATION
                 font-weight: 400;
                 font-size: 1.25rem;
                 line-height: 1.75rem;
-                color: var(--colors-voltas-primary);
+                color: var(--colors-slate-light_2);
                 transition: width .5s;
                 text-indent: 0rem;
                 padding: .25rem;
-                border-bottom: solid .125rem var(--colors-voltas-primary);
-                width: 90%;
+                border-bottom: solid .125rem var(--colors-slate-light_2);
+                width: 100%;
                 &:focus {
                     outline: none;
                 }
             }
             i {
-                color: var(--colors-voltas-primary);
+                color: var(--colors-slate-light_2);
                 position: absolute;
                 margin-left: -1.5rem;
                 margin-top: 0.5rem;
@@ -222,7 +248,7 @@ NAVIGATION
             position: relative;
             vertical-align: middle;
             .form-search-input::placeholder {
-                color: var(--colors-voltas-primary);
+                color: var(--colors-slate-light_2);
                 opacity: .7;
             }
             .form-search-input {
@@ -234,12 +260,12 @@ NAVIGATION
                 font-weight: 400;
                 font-size: 1rem;
                 line-height: 1.25rem;
-                color: var(--colors-voltas-primary);
+                color: var(--colors-slate-light_2);
                 transition: width .5s;
                 &.visible {
                     text-indent: 0rem;
                     padding: .25rem;
-                    border-bottom: solid .125rem var(--colors-voltas-primary);
+                    border-bottom: solid .125rem var(--colors-slate-light_2);
                     width: 40vw;
                     &:focus {
                         outline: none;
@@ -247,7 +273,7 @@ NAVIGATION
                 }
             }
             i {
-                color: var(--colors-voltas-primary);
+                color: var(--colors-slate-light_2);
                 position: absolute;
                 top: 0.25rem;
                 right: 0rem;
