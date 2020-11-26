@@ -18,6 +18,9 @@
     {if card-button-style == "button-icon-external"}
     <a href="{card-btn-url}"><i class="fa fa-external-link"></i></a>
     {/if}
+    {if card-button-style == "button-icon-download"}
+    <a href="{card-btn-url}" target=_blank><i class="fa fa-download"></i></a>
+    {/if}
     {if card-button-style == "button-text"}
     <a href="{card-btn-url}" class="btn btn-outline mt-2 mb-2">{card-button-text}</a>
     {/if}
