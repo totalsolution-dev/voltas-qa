@@ -24,9 +24,11 @@
     bottom: 0;
     left: 0;
     height: auto;
-    background: var(--gradient-horizontal-inverted);
+    background: var(--colors-chalk-primary);
     width: 100%;
     margin-bottom: 0rem;
+    color: var(--colors-slate-light_1);
+    box-shadow: 0px 2px 4px #C4C4C4;
 }
 
 .card.voltas-card.voltas-card-patch .card-body.card-patch-icon i {

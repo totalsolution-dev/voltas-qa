@@ -17,8 +17,10 @@
                 --}
 
                 {!-- JUMBOTRON: __featured --}
-                {if jumbotron-style == "vds-org-jumbotron__featured"}
-                <div class="jumbotron highlighted {if jumbotron-compacted == 1}jumbotron-compacted{/if}">
+                {if jumbotron-style == "vds-org-jumbotron__featured"} 
+                <div class="jumbotron highlighted {highlighted_color}{if jumbotron-compacted == 1}jumbotron-compacted{/if}">
+                {if:elseif jumbotron-style == "vds-org-jumbotron__logo"}
+                <div class="jumbotron logo {highlighted_color} {if jumbotron-compacted == 1}jumbotron-compacted{/if }">
                 {if:elseif jumbotron-style == "vds-org-jumbotron__muted"}
                 <div class="jumbotron muted {if jumbotron-compacted == 1}jumbotron-compacted{/if }">
                 {if:elseif jumbotron-style == "vds-docs"}
@@ -34,6 +36,9 @@
                     {/if}
                     {if jumbotron-text != ""}
                     <p class="intro-body {if align_content_left == 1}text-left{if:else}{/if}">{jumbotron-text}</p>
+                    {/if}
+                    {if jumbotron-logo != ""}
+                    <a href="{jumbotron-logo-link}"><img class="card-image" src="{jumbotron-logo}" alt="..."><a>
                     {/if}
                     
                     {if jumbotron-btn-url != ""}

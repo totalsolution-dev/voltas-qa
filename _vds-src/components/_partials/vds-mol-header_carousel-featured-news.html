@@ -1,0 +1,18 @@
+{exp:channel:entries channel='in_the_news' limit="10" category="" disable='' dynamic="no"}
+{!-- News Items go here --}
+        <div class="col-12 col-md-4 d-flex">
+            <div class="card voltas-card voltas-card-news bg-slate-light_4 w-100">
+                <div class="card-image-wrapper">
+                    <a class="model-lightbox" href="{news_image}" data-featherlight="image">
+                        <img src="{news_image}" class="card-img-top" alt="..." >
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">{title}</h6>
+                    <h6 class="card-text">{news_text}</h6>
+                    <h6 class="card-overtitle">{news_source}, {entry_date format="%F %Y"}</h6>
+                </div>
+            </div>
+        </div>
+{!-- END News Items go here --}
+{/exp:channel:entries}

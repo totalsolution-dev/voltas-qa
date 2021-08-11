@@ -4,8 +4,12 @@ JUMBOTRON STYLES
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
+
 /* GENERIC for all Jumbotrons */
+
+
 /* align jumbotron content center */
+
 .jumbotron {
     text-align: center;
     background-color: #FFFFFF;
@@ -15,7 +19,7 @@ JUMBOTRON STYLES
     h1 {
         margin-bottom: 2rem;
         color: #4392F3;
-    } 
+    }
     h6 {
         margin-bottom: 2rem;
     }
@@ -53,8 +57,8 @@ JUMBOTRON STYLES
         margin-top: 1rem;
     }
     /* JUMBOTRON Muted */
-    /* No border, all grey text */  
-    &.muted{ 
+    /* No border, all grey text */
+    &.muted {
         h1 {
             color: #606060;
         }
@@ -62,13 +66,29 @@ JUMBOTRON STYLES
     /* JUMBOTRON Highlighted */
     /* border top and bottom for jumbotron */
     &.highlighted {
-        border-top: solid .25rem #80B240;
-        border-bottom: solid .25rem #80B240;
+        &.green-border {
+            border-top: solid .25rem #80B240;
+            border-bottom: solid .25rem #80B240;
+        }
+        &.aqua-border {
+            border-top: solid .25rem var(--colors-aqua-primary);
+            border-bottom: solid .25rem var(--colors-aqua-primary);
+        }
         h1 {
             background: linear-gradient(90.35deg, #4392F3 0.08%, #009174 96.12%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
+        }
+    }
+    &.logo {
+        border-top: solid .25rem #80B240;
+        padding-top: 4rem;
+        &.green-border {
+            border-top: solid .25rem #80B240;
+        }
+        &.aqua-border {
+            border-top: solid .25rem var(--colors-aqua-primary);
         }
     }
     &.vds-docs {
@@ -85,13 +105,15 @@ JUMBOTRON STYLES
         }
         .card-overtitle {
             font-size: 0.75rem;
-            color:#000;
+            color: #000;
         }
     }
 }
 
+
 /* Give extra padding for large screens */
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
     .jumbotron {
         padding: 2rem 5rem;
     }

@@ -15,63 +15,108 @@ HEADER CAROUSEL STYLES
 }
 
 .carousel-caption.voltas-carousel-caption {
-    background   : rgba(255, 255, 255, 0.75);
-    padding      : 2rem;
-    bottom       : unset;
-    top          : 30%;
+    &.background-grey {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    &.background-aqua {
+        background-color: var(--colors-aqua-primary);
+    }
+    &.left {
+        padding: 2rem;
+        bottom: unset;
+        top: 30%;
+    }
+    &.right {
+        top: 43%;
+        right: 6% !important;
+        left: unset;
+    }
     /* margin-top:50%; */
-    border-top   : 4px solid #80B240;
-    text-align   : left;
-
+    &.border-aqua {
+        border-top: 4px solid var(--colors-aqua-primary);
+    }
+    &.border-blue {
+        border-top: 4px solid var(--colors-voltas-dark_3);
+    }
+    text-align: left;
+    &-news {
+        top: unset;
+        bottom: 10%;
+    }
     .h1.display {
         color: #323232;
     }
-
     p.lead {
         /* font-family: Roboto; */
-        font-style : normal;
+        font-style: normal;
         font-weight: normal;
-        font-size  : 16px;
+        font-size: 16px;
         line-height: 20px;
-        color      : #606060;
+        color: #606060;
     }
-
     .btn-outline-primary {
         border-radius: .25rem;
-        border-width : .125rem;
-        font-variant : small-caps;
-        border-color : var(--colors-voltas-primary);
-        color        : var(--colors-voltas-primary);
-
+        border-width: .125rem;
+        font-variant: small-caps;
+        border-color: var(--colors-voltas-primary);
+        color: var(--colors-voltas-primary);
         &:hover {
             background-color: var(--colors-voltas-primary);
-            color           : #fff;
+            color: #fff;
         }
     }
 }
 
 .carousel-item.slide-quote {
+    img {
+        @include media-breakpoint-down(md) {
+            width: unset!important;
+        }
+        @include media-breakpoint-down(sm) {
+            height: 45vh;
+        }
+    }
+    .container {
+        background-color: var(--colors-slate-light_1);
+    }
     .voltas-carousel-caption {
-        position     : absolute;
-        top          : 6rem;
-        right        : 0;
-        left         : unset;
-        bottom       : unset;
-        padding      : 2rem;
+        &.left {
+            right: unset!important;
+            left: 6% !important;
+        }
+        &.right {
+            right: 0;
+            left: unset;
+        }
+        position: absolute;
+        top: 6rem;
+        bottom: unset;
+        padding: 2rem;
         padding-right: 11%;
-        border-top   : none;
-        text-align   : left;
-        background   : unset;
-
+        border-top: none;
+        text-align: left;
+        background: unset;
+        @include media-breakpoint-down(sm) {
+            position: unset!important;
+        }
         .h1 {
             color: #fff;
         }
     }
-
+    .carousel-caption {
+        @include media-breakpoint-down (sm) {
+            position: unset !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            .h1 {
+                font-size: 20px;
+                line-height: 1.75rem;
+            }
+        }
+    }
     .quoted-by {
-        font-size  : .875rem;
+        font-size: .875rem;
         font-weight: bold;
-
         small {
             font-size: .75rem;
         }
@@ -85,8 +130,17 @@ HEADER CAROUSEL STYLES
         font-style: normal;
         font-weight: bold;
         margin-left: 1rem;
+        color: var(--colors-aqua-primary);
     }
     .vds-carousel-imgcap {
+        font-size: .875rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        margin-left: 1rem;
+        color: var(--colors-aqua-primary);
+    }
+    .vds-carousel-newsdate {
         font-size: .875rem;
         font-family: Roboto;
         font-style: normal;
@@ -95,26 +149,31 @@ HEADER CAROUSEL STYLES
     }
     .vds-carousel-controls {
         position: absolute;
-        bottom  : -2rem;
-        left    : 0;
+        bottom: -2rem;
+        left: 0;
         height: 2rem;
         a {
             color: #fff;
             transition: color .3s;
-            &:hover{
+            &:hover {
                 color: var(--colors-aqua-primary);
                 text-decoration: none;
             }
         }
-
         .vds-carousel-control-prev,
         .vds-carousel-control-next {
-            background: #fff;
+            background: var(--colors-aqua-primary);
             width: 2rem;
             height: 2rem;
             display: inline-block;
-            color: var(--colors-aqua-light_1);
+            color: var(--colors-chalk-primary);
             text-align: center;
+            box-sizing: border-box;
+            border: solid 0.125rem var(--colors-aqua-primary);
+            &:hover {
+                color: var(--colors-aqua-primary);
+                background-color: var(--colors-chalk-primary);
+            }
             i {
                 margin-top: .5rem;
             }
@@ -122,34 +181,20 @@ HEADER CAROUSEL STYLES
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @include media-breakpoint-down(md) {
     .carousel-item {
         img {
-            height    : 70vh;
+            height: 70vh;
             object-fit: cover;
         }
-
         .carousel-caption {
             left: 2rem;
             .lead {
                 display: none;
             }
-
             &.voltas-carousel-caption {
                 bottom: unset;
-                top   : 2rem;
+                top: 2rem;
             }
         }
     }

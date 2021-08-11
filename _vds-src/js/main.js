@@ -79,7 +79,7 @@ HEADER CAROUSEL
 */
 
 //  Initiate each carousel object in the page
-$(".carousel").each(function() {
+$(".vds-carousel").each(function() {
     // current carousel object
     var $this_carousel = $(this);
     // current slide / set intitial slide value to one
@@ -99,10 +99,14 @@ $(".carousel").each(function() {
     $this_carousel.find(".carousel-item").first().addClass("active");
 
     // initiate carousel / cycle automatically
-    $this_carousel.carousel("cycle");
-    $this_carousel.carousel({
-        pause: "hover"
-    });
+    if ($this_carousel.hasClass("slide")) {
+        // $this_carousel.carousel("cycle");
+    } else {
+        $this_carousel.carousel('pause');
+    }
+    // $this_carousel.carousel({
+    //     pause: "hover"
+    // });
     // bind click function to the prev/next buttons
     $this_carousel.find(".vds-carousel-control-prev").click(function(event) {
         event.preventDefault();
@@ -525,7 +529,7 @@ $(".form-group input, .form-group select").on("blur", function() {
 });
 $(".form-group textarea").on("focus", function() {
     // $(this).siblings("label").hide();
-}); 
+});
 
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::

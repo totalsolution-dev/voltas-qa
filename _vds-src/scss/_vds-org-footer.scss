@@ -3,10 +3,13 @@
 VDS / ORG / FOOTER
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
+
+
 /* Footer */
+
 .voltas-footer {
-    background: linear-gradient(180deg, #4392f3 -6.2%, #009174 104.18%);
-    border-top: 0.25rem solid #80b240;
+    background: var(--colors-voltas-primary);
+    border-top: 0.25rem solid var(--colors-aqua-primary);
     padding: 2rem 0rem;
     color: #fff;
     margin-top: 6rem;

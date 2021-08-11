@@ -149,6 +149,12 @@
 				{!-- card-h-md-image_text_overlay --}
 				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay"}
 					{vds-org-card-h-md-image_text_overlay}	
+				{!-- card-h-xs-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-xs-image_text_overlay"}
+					{vds-org-card-h-xs-image_text_overlay}	
+				{!-- card-h-lg-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-lg-image_text_overlay"}
+					{vds-org-card-h-lg-image_text_overlay}	
 				{!-- card-h-md-image_patch & inverted version--}
 				{if:elseif 	card_type == "vds-org-card-h-md-image_patch" OR card_type == "vds-org-card-h-md-image_patch-inverted"}
 					{vds-org-card-h-md-image_patch}
@@ -194,6 +200,7 @@
 		{/page_components_grid}
 		{!-- END OF Components loop  --}
 	{/exp:channel:entries}
+	
 	{layout:contents}
 	
 	{!-- Removed stats and legacy code for performance optimization

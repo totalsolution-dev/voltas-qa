@@ -1,6 +1,10 @@
-.testimonial-card{  
-
+.testimonial-card {
     .carousel-control-next {
+        &.outside {
+            left: unset;
+            right: 0;
+            top: 50%;
+        }
         left: -2rem;
         right: unset;
         // &:hover i {
@@ -8,21 +12,25 @@
         // }
     }
     .carousel-control-prev {
+        &.outside {
+            right: revert;
+            top: 50%;
+        }
         right: 2rem;
         left: unset;
         // &:hover i {
         //     padding-left: 0rem !important;
         // }
     }
-    .card-collapse-body, .card-collapse-intro{
+    .card-collapse-body,
+    .card-collapse-intro {
         &.hidden {
             display: none;
         }
         .card-collapse-button {
             color: #fff !important;
             cursor: pointer;
-            &:hover{
-            }
+            &:hover {}
         }
         .testimonial-name {
             font-family: FS Elliot Pro;
@@ -41,7 +49,6 @@
             line-height: 1.25rem;
             letter-spacing: 0.0625rem;
             text-transform: uppercase;
-            
         }
     }
     .card-collapse-intro {
@@ -56,25 +63,26 @@
             top: 1rem;
             right: 1rem;
         }
-        
     }
-} 
+}
+
 @media only screen and (max-width: 460px) {
     .testimonial-card {
-        .carousel-control-prev, .carousel-control-next {
-          padding:0;
-          width: unset;
-          opacity: 1;
-          bottom: unset;
-          top: unset;
-        } 
+        .carousel-control-prev,
+        .carousel-control-next {
+            padding: 0;
+            width: unset;
+            opacity: 1;
+            bottom: unset;
+            top: unset;
+        }
         .carousel-control-prev {
-            right:unset;
+            right: unset;
             left: 0;
             bottom: 0;
         }
         .carousel-control-next {
-            left:2rem;
+            left: 2rem;
             right: unset;
             top: -2rem;
         }

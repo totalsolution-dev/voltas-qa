@@ -7,6 +7,7 @@
     text-transform: uppercase;
     border: .125rem solid;
 }
+
 @mixin btn-outline($border_color, $color, $h_background_color, $h_color) {
     @include vds-button-primitive();
     border-color: $border_color;
@@ -15,25 +16,46 @@
     border-radius: 4px;
     padding: .5rem 3rem;
     &:hover {
-    border-color: $h_background_color;
-    background-color: $h_background_color !important;
-    color: $h_color !important;
-    // color: #212529;
-    // border-color: #f8f9fa;
+        border-color: $h_background_color;
+        background-color: $h_background_color !important;
+        color: $h_color !important;
+        // color: #212529;
+        // border-color: #f8f9fa; 
     }
-
 }
+
 //footer button
 .btn-outline-light {
     @include btn-outline(var(--colors-aqua-light_2), #ffffff, #ffffff, #212529);
+    &.yellow-border {
+        border: solid 0.125rem #E4B60A;
+        &:hover {
+            background-color: #E4B60A !important;
+        }
+    }
 }
+
 .btn-outline {
     @include btn-outline(var(--colors-aqua-light_2), #ffffff, #ffffff, #212529);
     // @include btn-outline(var(--colors-aqua-light_2), #fff,var(--colors-aqua-light_2),#ffffff);
+    &.yellow-border {
+        border: solid 0.125rem var(--colors-yellow-primary);
+        color: var(--colors-slate-primary) !important;
+        &:hover {
+            background-color: var(--colors-yellow-primary)!important;
+        }
+    }
+    // &.grey-border {
+    //     border: solid 0.125rem var(--colors-slate-light_1);
+    //     color: var(--colors-slate-light_1) !important;
+    //     &:hover {
+    //         background-color: var(--colors-slate-light_1)!important;
+    //     }
+    // }
 }
 
 //card with overlay
-.card.voltas-card.voltas-card-patch .card-body.card-patch-icon a.btn{
+.card.voltas-card.voltas-card-patch .card-body.card-patch-icon a.btn {
     padding-left: 1.68rem;
     padding-right: 1.68rem;
 }
@@ -46,8 +68,9 @@ a.btn {
 //jumbotron
 .btn-outline-dark {
     @include vds-button-primitive();
-    @include btn-outline(var(--colors-voltas-dark_1),var(--colors-voltas-dark_1),var(--colors-voltas-dark_1),#212529);
+    @include btn-outline(var(--colors-voltas-dark_1), var(--colors-voltas-dark_1), var(--colors-voltas-dark_1), #212529);
 }
+
 .voltas-dropdown-btn {
     color: #bcbcbc;
     border-bottom: solid #848484 0.0625rem;

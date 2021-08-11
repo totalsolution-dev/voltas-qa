@@ -32,7 +32,7 @@
 				{exp:channel:entries channel='{structure:child_listing:short_name}' category="{category_id}" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					{!-- {absolute_results} / {absolute_count} --}
 					{if absolute_count==1}
-						<div class="card">
+						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section{count}HeaderId">
 								<a 
@@ -51,13 +51,16 @@
 							<div id="section{count}ContentId" class="collapse {if count == 1}show{/if} item-{count}" role="tabpanel" aria-labelledby="section{count}HeaderId">
 								<div class="row">
 					{/if}
-
-					{!-- Announcements go here --}
-					{vds-mol-awards_card}	
-
-					{if absolute_reverse_count==1}
+									{if highlight_award==1}
+									{vds-mol-awards_card-highlight}
+									{/if}
+									{!-- Announcements go here --}
+									{if highlight_award==0}
+									{vds-mol-awards_card}	
+									{/if}
+									{if absolute_reverse_count==1}
+								</div>
 							</div>
-						</div>
 					</div>
 					{/if}
 				{/exp:channel:entries}

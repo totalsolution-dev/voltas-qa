@@ -7,7 +7,8 @@
 {if carousel-fluid == 0}
 <div class="container col-12 col-md-12 px-0"> 
 {/if}
-<div id="vds-card-carousel-{blocks:id}" class="carousel vds-card-carousel carousel-fade" data-ride="carousel">
+<div id="vds-card-carousel-{blocks:id}" class="vds-card-carousel vds-carousel carousel-fade slide {if auto_slide>0} carousel{/if}" {if auto_slide==0}data-interval="false"{/if} {if auto_slide>0}data-ride="carousel"{/if}>
+    <!-- {auto_slide} -->
     <div class="carousel-inner">
         
     

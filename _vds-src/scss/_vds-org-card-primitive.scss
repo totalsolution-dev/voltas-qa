@@ -10,6 +10,9 @@ CARD STYLES
 */
 
 .card.voltas-card {
+    &.box-shadow {
+        box-shadow: 0px 2px 4px #C4C4C4;
+    }
     background-color: #4392F3;
     color: #fff!important;
     border-radius: 0 !important;
@@ -83,6 +86,7 @@ CARD STYLES
     .card-img,
     .card-img-top {
         transition: all .5s;
+        transform: scale(1.01);
     }
     &:hover {
         .card-img,

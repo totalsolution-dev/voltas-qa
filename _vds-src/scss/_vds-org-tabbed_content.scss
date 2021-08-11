@@ -1,5 +1,10 @@
 /* For the big tabbed content */
-.nav-pills.nav-voltas-tabbed-content .nav-link{
+
+.nav-pills.nav-voltas-tabbed-content .nav-link {
+    &.contact {
+        background-color: var(--colors-teal-light_3);
+        color: var(--colors-slate-light_2);
+    }
     padding: 1rem 5.94rem;
     font-size: 1.375rem;
     font-family: fs elliot pro;
@@ -10,22 +15,31 @@
     color: var(--colors-slate-light_2);
     border: solid #ffffff 0.0625rem;
 }
+
 @include media-breakpoint-between(xs, md) {
-    .nav-pills.nav-voltas-tabbed-content .nav-link{
+    .nav-pills.nav-voltas-tabbed-content .nav-link {
         padding: 1rem 2rem;
-        
     }
-  }
-.nav-pills.nav-voltas-tabbed-content .nav-link.active{
+}
+
+.nav-pills.nav-voltas-tabbed-content .nav-link.active {
+    &.contact {
+        background-color: var(--colors-aqua-light_1);
+        color: var(--colors-chalk-primary);
+    }
     background-color: var(--colors-aqua-light_1);
     color: #ffffff;
 }
-.nav-pills.nav-voltas-tabbed-content .nav-link i{
+
+.nav-pills.nav-voltas-tabbed-content .nav-link i {
     float: right;
     padding-top: 0.5rem;
 }
+
+
 /* For small variation of the tabbed content */
-.nav-pills.nav-voltas-tabbed-content.small .nav-link{
+
+.nav-pills.nav-voltas-tabbed-content.small .nav-link {
     background-color: #ffffff;
     color: var(--colors-aqua-primary);
     font-size: 1rem;
@@ -33,8 +47,9 @@
     padding: 0.6875rem 2rem;
     border: solid 0.0625rem var(--colors-slate-light_3);
 }
+
 @media (max-width: 767px) {
-    .nav-pills.nav-voltas-tabbed-content.small .nav-link{
+    .nav-pills.nav-voltas-tabbed-content.small .nav-link {
         font-size: 0.75rem;
         padding: 0.5rem 0.5rem;
     }
@@ -43,7 +58,7 @@
     }
 }
 
-.nav-pills.nav-voltas-tabbed-content.small .nav-link.active{
+.nav-pills.nav-voltas-tabbed-content.small .nav-link.active {
     background-color: var(--colors-aqua-light_1);
     color: #ffffff;
     border: solid 0.0625rem var(--colors-aqua-light_1);

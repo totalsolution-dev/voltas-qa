@@ -8,10 +8,16 @@
     /* Colours/Voltas/Light 2 */
     --colors-voltas-light_3: #CAE0FF;
     /* Colours/Voltas/Light 3 */
+    --colors-voltas-light_4: #3A8DD0;
+    /* Colours/Voltas/Light 3 */
+    --colors-voltas-light_5: #6BA6E2;
+    /* Colours/Voltas/Light 3 */
     --colors-voltas-dark_1: #004992;
     /* Colours/Voltas/Dark 1 */
     --colors-voltas-dark_2: #003872;
     /* Colours/Voltas/Dark 2 */
+    --colors-voltas-dark_3: #5819FE;
+    /* Colours/Voltas/Dark 3 */
     /* Colors / Green  */
     --colors-green-primary: #80B240;
     /* Colours/Green/Primary */
@@ -36,6 +42,8 @@
     /* Colours / Aqua / Light 4 */
     --colors-aqua-dark_1: #006C51;
     /* Colours / Aqua / Dark 1 */
+    --colors-aqua-dark_2: #015847;
+    /* Colours / Aqua / Dark 2 */
     /* Colors / Slate  */
     --colors-slate-primary: #323232;
     /* Colours / Slate / Primary */
@@ -47,9 +55,71 @@
     /* Colours / Slate / Light 3 */
     --colors-slate-light_4: #EBEBEB;
     /* Colours / Slate / Light 4 */
+    /* Colors / Teal  */
+    --colors-teal-primary: #009174;
+    /* Colours / Teal / Primary */
+    --colors-teal-dark_1: #005746;
+    /* Colours / Teal / Dark 1 */
+    --colors-teal-dark_2: #00745D;
+    /* Colours / Teal / Dark 2 */
+    --colors-teal-dark_3: #168E64;
+    /* Colours / Teal / Dark 3 */
+    --colors-teal-dark_4: #55ADA3;
+    /* Colours / Teal / Dark 4 */
+    --colors-teal-light_1: #33A790;
+    /* Colours / Teal / Light 1 */
+    --colors-teal-light_2: #80C8BA;
+    /* Colours / Teal / Light 2 */
+    --colors-teal-light_3: #CCE9E3;
+    /* Colours / Teal / Light 3 */
     /* Colors / Chalk */
     --colors-chalk-primary: #ffffff;
     /* Colours / Chalk / Primary */
+    /* Colors / Yellow */
+    --colors-yellow-primary: #FFCF1B;
+    /* Colours / Yellow / Primary */
+    --colors-yellow-dark_1: #D7AD10;
+    /* Colours / Yellow / Dark 1 */
+    --colors-yellow-dark_2: #FFD432;
+    /* Colours / Yellow / Dark 2 */
+    --colors-yellow-dark_3: #E4B60A;
+    /* Colours / Yellow / Dark 2 */
+    --colors-yellow-light_1: #FFDD5F;
+    /* Colours / Yellow / Light 1 */
+    --colors-yellow-light_2: #FFECA4;
+    /* Colours / Yellow / Light 2 */
+    --colors-yellow-light_3: #FFF5D1;
+    /* Colours / Yellow / Light 3 */
+    /* Colors / Purple */
+    --colors-purple-primary: #4C1CD4;
+    /* Colours / Purple / Primary */
+    --colors-purple-dark_1: #2E117F;
+    /* Colours / Purple / Dark 1 */
+    --colors-purple-dark_2: #4419BF;
+    /* Colours / Purple / Dark 2 */
+    --colors-purple-dark_3: #976FFE;
+    /* Colours / Purple / Dark 3 */
+    --colors-purple-light_1: #7049DD;
+    /* Colours / Purple / Light 1 */
+    --colors-purple-light_2: #9477E5;
+    /* Colours / Purple / Light 2 */
+    --colors-purple-light_3: #DBD2F6;
+    /* Colours / Purple / Light 3 */
+    --colors-purple-light_4: #C0A9FF;
+    /* Colours / Purple / Light 4 */
+    /* Colors / Pink */
+    --colors-pink-primary: #FFE3FF;
+    /* Colours / Pink / Primary */
+    --colors-pink-dark_1: #FFE6FF;
+    /* Colours / Pink / Dark 1 */
+    --colors-pink-dark_2: #FFEBFF;
+    /* Colours / Pink / Dark 2 */
+    --colors-pink-light_1: #FFF1FF;
+    /* Colours / Pink / Light 1 */
+    --colors-pink-light_2: #FFF7FF;
+    /* Colours / Pink / Light 2 */
+    --colors-pink-light_3: #FFFCFF;
+    /* Colours / Pink / Light 3 */
     /* Colors / Gradients  */
     --gradient-horizontal-primary: linear-gradient(90.05deg, #4392F3 0.08%, #009174 96.12%);
     /* Gradient / Horizontal / Primary */
@@ -58,6 +128,36 @@
     --gradient-vertical-primary: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
     /* Gradient / Vertical / Primary */
     --gradient-vertical-inverted: linear-gradient(180deg, #009174 -6.2%, #4392F3 104.18%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-blue: linear-gradient(90deg, #4392F3 -6.2%, #4C1CD4 104.18%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-horizontal-pink_yellow: linear-gradient(90.13deg, #9E829E 0.09%, #FFDD5F 99.87%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-horizontal-green: linear-gradient(-270deg, #3F680A 26.04%, #6EA236 100%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-blue_inverted: linear-gradient(90.39deg, #3C28B3 42.13%, #5C88F3 106.28%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-horizontal-blue_pink: linear-gradient(89.78deg, #4A6DE7 42.04%, #E17B81 99.84%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-pink_yellow: linear-gradient(89.99deg, #E27A81 38.48%, #F7AF43 63.34%, #FFDD5F 99.73%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-horizontal-blue_green: linear-gradient(89.43deg, #4896E5 2.75%, #7CC52E 99.3%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-blue_yellow: linear-gradient(90.13deg, #154AFF 0.09%, #EDBE31 99.87%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-horizontal-green_yellow: linear-gradient(180deg, #FFECA4 -6.2%, #CCE9E3 104.18%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-yellow_blue: linear-gradient(89.91deg, #FFF5D1 0.09%, #33A790 44.3%, #3A89D8 99.94%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-blue_1: linear-gradient(90.13deg, #5C87F2 60.9%, #3920AD 99.87%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-yellow_green: linear-gradient(-269.97deg, #FFDD5F 0.47%, #33A790 59.13%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-green_blue: linear-gradient(180deg, #34A29E -6.2%, #3A8BD3 100.73%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-vertical-teal_green: linear-gradient(270deg, #005746 27.48%, #3E9769 97.4%);
+    /* Gradient / Vertical / Inverted */
+    --gradient-horizontal-blue_teal: linear-gradient(0deg, #09847F 2.75%, #4626CC 99.3%);
     /* Gradient / Vertical / Inverted */
 }
 
@@ -85,6 +185,14 @@ BACKGROUND COLOR STYLE SWATCHES
 
 .bg-voltas-light_3 {
     background-color: var(--colors-voltas-light_3) !important;
+}
+
+.bg-voltas-light_4 {
+    background-color: var(--colors-voltas-light_4) !important;
+}
+
+.bg-voltas-light_5 {
+    background-color: var(--colors-voltas-light_5) !important;
 }
 
 .bg-voltas-dark_1 {
@@ -120,6 +228,10 @@ BACKGROUND COLOR STYLE SWATCHES
 
 .bg-aqua-dark_1 {
     background-color: var(--colors-aqua-dark_1) !important;
+}
+
+.bg-aqua-dark_2 {
+    background-color: var(--colors-aqua-dark_2) !important;
 }
 
 
@@ -168,6 +280,170 @@ BACKGROUND COLOR STYLE SWATCHES
     background-color: var(--colors-slate-light_4) !important;
 }
 
+.slate-primary {
+    color: var(--colors-slate-primary) !important;
+}
+
+.chalk-primary {
+    color: var(--colors-chalk-primary) !important;
+}
+
+.bg-chalk-primary {
+    background-color: var(--colors-chalk-primary) !important;
+}
+
+
+/* Colors / Teal  */
+
+.bg-teal-primary {
+    background-color: var(--colors-teal-primary) !important;
+}
+
+.bg-teal-light_1 {
+    background-color: var(--colors-teal-light_1) !important;
+}
+
+.bg-teal-light_2 {
+    background-color: var(--colors-teal-light_2) !important;
+}
+
+.bg-teal-light_3 {
+    background-color: var(--colors-teal-light_3) !important;
+}
+
+.bg-teal-dark_1 {
+    background-color: var(--colors-teal-dark_1) !important;
+}
+
+.bg-teal-dark_2 {
+    background-color: var(--colors-teal-dark_2) !important;
+}
+
+.bg-teal-dark_3 {
+    background-color: var(--colors-teal-dark_3) !important;
+}
+
+.bg-teal-dark_4 {
+    background-color: var(--colors-teal-dark_4) !important;
+}
+
+
+/* Colors / Yellow  */
+
+.bg-yellow-primary {
+    background-color: var(--colors-yellow-primary) !important;
+}
+
+.bg-yellow-light_1 {
+    background-color: var(--colors-yellow-light_1) !important;
+}
+
+.bg-yellow-light_2 {
+    background-color: var(--colors-yellow-light_2) !important;
+}
+
+.bg-yellow-light_3 {
+    background-color: var(--colors-yellow-light_3) !important;
+}
+
+.bg-yellow-dark_1 {
+    background-color: var(--colors-yellow-dark_1) !important;
+}
+
+.bg-yellow-dark_2 {
+    background-color: var(--colors-yellow-dark_2) !important;
+}
+
+.yellow-primary {
+    color: var(--colors-yellow-primary) !important;
+}
+
+.yellow-light_1 {
+    color: var(--colors-yellow-light_1) !important;
+}
+
+.yellow-light_2 {
+    color: var(--colors-yellow-light_2) !important;
+}
+
+.yellow-light_3 {
+    color: var(--colors-yellow-light_3) !important;
+}
+
+.yellow-dark_1 {
+    color: var(--colors-yellow-dark_1) !important;
+}
+
+.yellow-dark_2 {
+    color: var(--colors-yellow-dark_2) !important;
+}
+
+.yellow-dark_3 {
+    color: var(--colors-yellow-dark_3) !important;
+}
+
+
+/* Colors / Pink  */
+
+.bg-pink-primary {
+    background-color: var(--colors-pink-primary) !important;
+}
+
+.bg-pink-light_1 {
+    background-color: var(--colors-pink-light_1) !important;
+}
+
+.bg-pink-light_2 {
+    background-color: var(--colors-pink-light_2) !important;
+}
+
+.bg-pink-light_3 {
+    background-color: var(--colors-pink-light_3) !important;
+}
+
+.bg-pink-dark_1 {
+    background-color: var(--colors-pink-dark_1) !important;
+}
+
+.bg-pink-dark_2 {
+    background-color: var(--colors-pink-dark_2) !important;
+}
+
+
+/* Colors / Purple  */
+
+.bg-purple-primary {
+    background-color: var(--colors-purple-primary) !important;
+}
+
+.bg-purple-light_1 {
+    background-color: var(--colors-purple-light_1) !important;
+}
+
+.bg-purple-light_2 {
+    background-color: var(--colors-purple-light_2) !important;
+}
+
+.bg-purple-light_3 {
+    background-color: var(--colors-purple-light_3) !important;
+}
+
+.bg-purple-light_4 {
+    background-color: var(--colors-purple-light_4) !important;
+}
+
+.bg-purple-dark_1 {
+    background-color: var(--colors-purple-dark_1) !important;
+}
+
+.bg-purple-dark_2 {
+    background-color: var(--colors-purple-dark_2) !important;
+}
+
+.bg-purple-dark_3 {
+    background-color: var(--colors-purple-dark_3) !important;
+}
+
 
 /* Colors / Gradients  */
 
@@ -185,4 +461,422 @@ BACKGROUND COLOR STYLE SWATCHES
 
 .bg-gradient-vertical-inverted {
     background: var(--gradient-vertical-inverted) !important;
+}
+
+.bg-gradient-vertical-blue {
+    background: var(--gradient-vertical-blue) !important;
+}
+
+.bg-gradient-horizontal-pink_yellow {
+    background: var(--gradient-horizontal-pink_yellow) !important;
+}
+
+.bg-gradient-horizontal-green {
+    background: var(--gradient-horizontal-green) !important;
+}
+
+.bg-gradient-vertical-blue_inverted {
+    background: var(--gradient-vertical-blue_inverted) !important;
+}
+
+.bg-gradient-horizontal-blue_pink {
+    background: var(--gradient-horizontal-blue_pink) !important;
+}
+
+.bg-gradient-vertical-pink_yellow {
+    background: var(--gradient-vertical-pink_yellow) !important;
+}
+
+.bg-gradient-horizontal-blue_green {
+    background: var(--gradient-horizontal-blue_green) !important;
+}
+
+.bg-gradient-vertical-blue_yellow {
+    background: var(--gradient-vertical-blue_yellow) !important;
+}
+
+.bg-gradient-horizontal-green_yellow {
+    background: var(--gradient-horizontal-green_yellow) !important;
+}
+
+.bg-gradient-vertical-yellow_blue {
+    background: var(--gradient-vertical-yellow_blue) !important;
+}
+
+.bg-gradient-vertical-blue_1 {
+    background: var(--gradient-vertical-blue_1) !important;
+}
+
+.bg-gradient-vertical-yellow_green {
+    background: var(--gradient-vertical-yellow_green) !important;
+}
+
+.bg-gradient-vertical-green_blue {
+    background: var(--gradient-vertical-green_blue) !important;
+}
+
+.bg-gradient-vertical-teal_green {
+    background: var(--gradient-vertical-teal_green) !important;
+}
+
+.bg-gradient-horizontal-blue_teal {
+    background: var(--gradient-horizontal-blue_teal) !important;
+}
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Text COLOR STYLE SWATCHES 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+
+/* Colors / Voltas  */
+
+.voltas-primary {
+    color: var(--colors-voltas-primary) !important;
+}
+
+.voltas-light_1 {
+    color: var(--colors-voltas-light_1) !important;
+}
+
+.voltas-light_2 {
+    color: var(--colors-voltas-light_2) !important;
+}
+
+.voltas-light_3 {
+    color: var(--colors-voltas-light_3) !important;
+}
+
+.voltas-light_4 {
+    color: var(--colors-voltas-light_4) !important;
+}
+
+.voltas-light_5 {
+    color: var(--colors-voltas-light_5) !important;
+}
+
+.voltas-dark_1 {
+    color: var(--colors-voltas-dark_1) !important;
+}
+
+.voltas-dark_2 {
+    color: var(--colors-voltas-dark_2) !important;
+}
+
+
+/* Colors / Green  */
+
+.aqua-primary {
+    color: var(--colors-aqua-primary) !important;
+}
+
+.aqua-light_1 {
+    color: var(--colors-aqua-light_1) !important;
+}
+
+.aqua-light_2 {
+    color: var(--colors-aqua-light_2) !important;
+}
+
+.aqua-light_3 {
+    color: var(--colors-aqua-light_3) !important;
+}
+
+.aqua-light_4 {
+    color: var(--colors-aqua-light_4) !important;
+}
+
+.aqua-dark_1 {
+    color: var(--colors-aqua-dark_1) !important;
+}
+
+.aqua-dark_2 {
+    color: var(--colors-aqua-dark_2) !important;
+}
+
+
+/* Colors / Aqua  */
+
+.green-primary {
+    color: var(--colors-green-primary) !important;
+}
+
+.green-light_1 {
+    color: var(--colors-green-light_1) !important;
+}
+
+.green-light_2 {
+    color: var(--colors-green-light_2) !important;
+}
+
+.green-dark_1 {
+    color: var(--colors-green-dark_1) !important;
+}
+
+.green-dark_2 {
+    color: var(--colors-green-dark_2) !important;
+}
+
+
+/* Colors / Slate  */
+
+.slate-primary {
+    color: var(--colors-slate-primary) !important;
+}
+
+.slate-light_1 {
+    color: var(--colors-slate-light_1) !important;
+}
+
+.slate-light_2 {
+    color: var(--colors-slate-light_2) !important;
+}
+
+.slate-light_3 {
+    color: var(--colors-slate-light_3) !important;
+}
+
+.slate-light_4 {
+    color: var(--colors-slate-light_4) !important;
+}
+
+.slate-primary {
+    color: var(--colors-slate-primary) !important;
+}
+
+.chalk-primary {
+    color: var(--colors-chalk-primary) !important;
+}
+
+.chalk-primary {
+    color: var(--colors-chalk-primary) !important;
+}
+
+
+/* Colors / Teal  */
+
+.teal-primary {
+    color: var(--colors-teal-primary) !important;
+}
+
+.teal-light_1 {
+    color: var(--colors-teal-light_1) !important;
+}
+
+.teal-light_2 {
+    color: var(--colors-teal-light_2) !important;
+}
+
+.teal-light_3 {
+    color: var(--colors-teal-light_3) !important;
+}
+
+.teal-dark_1 {
+    color: var(--colors-teal-dark_1) !important;
+}
+
+.teal-dark_2 {
+    color: var(--colors-teal-dark_2) !important;
+}
+
+.teal-dark_3 {
+    color: var(--colors-teal-dark_3) !important;
+}
+
+
+/* Colors / Yellow  */
+
+.yellow-primary {
+    color: var(--colors-yellow-primary) !important;
+}
+
+.yellow-light_1 {
+    color: var(--colors-yellow-light_1) !important;
+}
+
+.yellow-light_2 {
+    color: var(--colors-yellow-light_2) !important;
+}
+
+.yellow-light_3 {
+    color: var(--colors-yellow-light_3) !important;
+}
+
+.yellow-dark_1 {
+    color: var(--colors-yellow-dark_1) !important;
+}
+
+.yellow-dark_2 {
+    color: var(--colors-yellow-dark_2) !important;
+}
+
+.yellow-primary {
+    color: var(--colors-yellow-primary) !important;
+}
+
+.yellow-light_1 {
+    color: var(--colors-yellow-light_1) !important;
+}
+
+.yellow-light_2 {
+    color: var(--colors-yellow-light_2) !important;
+}
+
+.yellow-light_3 {
+    color: var(--colors-yellow-light_3) !important;
+}
+
+.yellow-dark_1 {
+    color: var(--colors-yellow-dark_1) !important;
+}
+
+.yellow-dark_2 {
+    color: var(--colors-yellow-dark_2) !important;
+}
+
+.yellow-dark_3 {
+    color: var(--colors-yellow-dark_3) !important;
+}
+
+
+/* Colors / Pink  */
+
+.pink-primary {
+    color: var(--colors-pink-primary) !important;
+}
+
+.pink-light_1 {
+    color: var(--colors-pink-light_1) !important;
+}
+
+.pink-light_2 {
+    color: var(--colors-pink-light_2) !important;
+}
+
+.pink-light_3 {
+    color: var(--colors-pink-light_3) !important;
+}
+
+.pink-dark_1 {
+    color: var(--colors-pink-dark_1) !important;
+}
+
+.pink-dark_2 {
+    color: var(--colors-pink-dark_2) !important;
+}
+
+
+/* Colors / Purple  */
+
+.purple-primary {
+    color: var(--colors-purple-primary) !important;
+}
+
+.purple-light_1 {
+    color: var(--colors-purple-light_1) !important;
+}
+
+.purple-light_2 {
+    color: var(--colors-purple-light_2) !important;
+}
+
+.purple-light_3 {
+    color: var(--colors-purple-light_3) !important;
+}
+
+.purple-light_4 {
+    color: var(--colors-purple-light_4) !important;
+}
+
+.purple-dark_1 {
+    color: var(--colors-purple-dark_1) !important;
+}
+
+.purple-dark_2 {
+    color: var(--colors-purple-dark_2) !important;
+}
+
+.purple-dark_3 {
+    color: var(--colors-purple-dark_3) !important;
+}
+
+
+/* Colors / Gradients  */
+
+.gradient-horizontal-primary {
+    color: var(--gradient-horizontal-primary) !important;
+}
+
+.gradient-horizontal-inverted {
+    color: var(--gradient-horizontal-inverted) !important;
+}
+
+.gradient-vertical-primary {
+    color: var(--gradient-vertical-primary) !important;
+}
+
+.gradient-vertical-inverted {
+    color: var(--gradient-vertical-inverted) !important;
+}
+
+.gradient-vertical-blue {
+    color: var(--gradient-vertical-blue) !important;
+}
+
+.gradient-horizontal-pink_yellow {
+    color: var(--gradient-horizontal-pink_yellow) !important;
+}
+
+.gradient-horizontal-green {
+    color: var(--gradient-horizontal-green) !important;
+}
+
+.gradient-vertical-blue_inverted {
+    color: var(--gradient-vertical-blue_inverted) !important;
+}
+
+.gradient-horizontal-blue_pink {
+    color: var(--gradient-horizontal-blue_pink) !important;
+}
+
+.gradient-vertical-pink_yellow {
+    color: var(--gradient-vertical-pink_yellow) !important;
+}
+
+.gradient-horizontal-blue_green {
+    color: var(--gradient-horizontal-blue_green) !important;
+}
+
+.gradient-vertical-blue_yellow {
+    color: var(--gradient-vertical-blue_yellow) !important;
+}
+
+.gradient-horizontal-green_yellow {
+    color: var(--gradient-horizontal-green_yellow) !important;
+}
+
+.gradient-vertical-yellow_blue {
+    color: var(--gradient-vertical-yellow_blue) !important;
+}
+
+.gradient-vertical-blue_1 {
+    color: var(--gradient-vertical-blue_1) !important;
+}
+
+.gradient-vertical-yellow_green {
+    color: var(--gradient-vertical-yellow_green) !important;
+}
+
+.gradient-vertical-green_blue {
+    color: var(--gradient-vertical-green_blue) !important;
+}
+
+.gradient-vertical-teal_green {
+    color: var(--gradient-vertical-teal_green) !important;
+}
+
+.gradient-horizontal-blue_teal {
+    color: var(--gradient-horizontal-blue_teal) !important;
 }

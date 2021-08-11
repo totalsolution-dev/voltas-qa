@@ -3,6 +3,7 @@
 TYPOGRAPHY @FONTS 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
+
 @font-face {
     font-family: 'FS Elliot Pro';
     src: url(../font/FSElliotPro.eot);
@@ -10,6 +11,7 @@ TYPOGRAPHY @FONTS
     font-weight: 100;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'FS Elliot Pro Light';
     src: url(../font/FSElliotProLight.eot);
@@ -17,13 +19,15 @@ TYPOGRAPHY @FONTS
     /* font-weight: 800; */
     font-style: normal;
 }
+
 @font-face {
     font-family: 'FS Elliot Pro Bold';
     src: url(../font/FSElliotProBold.eot);
     src: local('â˜º'), url(../font/FSElliotProBold.woff) format('woff'), url(../font/FSElliotProBold.ttf) format('truetype'), url(../font/FSELLIPB.svg) format('svg');
     /* font-weight: 800; */
-    font-style: normal; 
+    font-style: normal;
 }
+
 @font-face {
     font-family: 'FS Elliot Pro Heavy';
     src: url(../font/FSElliotProHeavy.eot);
@@ -31,6 +35,7 @@ TYPOGRAPHY @FONTS
     /* font-weight: 800; */
     font-style: normal;
 }
+
 @font-face {
     font-family: 'FS Elliot Pro Normal';
     src: url(../font/FSELLIPB.eot);
@@ -39,32 +44,44 @@ TYPOGRAPHY @FONTS
     font-style: normal;
 }
 
+
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 TYPOGRAPHY MAIN STYLES 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
+
 /* Typography / Heading 1 */
-h1, .h1 {
+
+h1,
+.h1 {
     font-family: 'FS Elliot Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 1.75rem;
-    line-height: 2.125rem; /* or 121% */
+    line-height: 2.125rem;
+    /* or 121% */
 }
 
+
 /* Typography / Heading 1 Display */
-h1.display, .h1.display {
+
+h1.display,
+.h1.display {
     font-family: 'FS Elliot Pro Heavy';
     font-style: normal;
     // font-weight: 800;
     font-size: 1.75rem;
-    line-height: 2.125rem; /* or 121% */
+    line-height: 2.125rem;
+    /* or 121% */
 }
 
+
 /* Typography / Heading 2 */
-h2, .h2 {
+
+h2,
+.h2 {
     font-family: 'FS Elliot Pro Bold';
     font-style: normal;
     font-weight: bold;
@@ -75,27 +92,44 @@ h2, .h2 {
     /* color: #323232; */
 }
 
+h2.display,
+.h2.display {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+    /* or 121% */
+}
+
+
 /* Typography / Intro Body */
+
 .intro-body {
     font-family: 'FS Elliot Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 1.375rem;
-    line-height: 1.75rem; /* or 127% */
+    line-height: 1.75rem;
+    /* or 127% */
     letter-spacing: 0.02em;
 }
 
+
 /* Typography / Card Body */
+
 .card-text {
     font-family: 'FS Elliot Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.25rem;
-    letter-spacing: 0.006em;   
+    letter-spacing: 0.006em;
 }
 
+
 /* Typography / Overline Default */
+
 .overline {
     font-family: 'FS Elliot Pro';
     font-style: normal;
@@ -107,8 +141,10 @@ h2, .h2 {
     text-transform: uppercase;
 }
 
+
 /* Typography / Caption */
-@mixin caption{
+
+@mixin caption {
     font-family: 'FS Elliot Pro';
     font-style: normal;
     font-weight: normal;
@@ -119,11 +155,14 @@ h2, .h2 {
     /* Colours / Slate / Primary */
     color: #323232;
 }
+
 .caption {
     @include caption;
 }
 
+
 /* Typography / Navigation */
+
 .voltas-nav-text {
     font-family: 'FS Elliot Pro';
     font-style: normal;
@@ -135,19 +174,25 @@ h2, .h2 {
     text-align: right;
     letter-spacing: 0.04em;
 }
+
 @mixin font-market-numbers-large {
-	font-size:3.125rem;
-	font-family:"Roboto";
-	font-weight:bold;
+    font-size: 3.125rem;
+    font-family: "Roboto";
+    font-weight: bold;
     line-height: 2.65rem;
 }
+
 @mixin font-market-title-large {
-	font-size: 3.125rem;;
-	font-family:"Roboto";
+    font-size: 3.125rem;
+    ;
+    font-family: "Roboto";
     font-weight: 200;
     line-height: 2.65rem;
 }
+
+
 /* Typography / Numbers Regular */
+
 .numbers-regular {
     font-family: Roboto;
     font-style: normal;
@@ -157,43 +202,82 @@ h2, .h2 {
     letter-spacing: 0.01em;
 }
 
+
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 REM BASE SETTINGS Bootstrap 4 breakpoints
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
+
 /* html {font-size:90%;} */
+
+
 /* For Tiny devices, tested on JioPhone 2 */
-@media (max-width: 319px) {  
-    html {font-size:50%;} /*1rem = 16px*/
+
+@media (max-width: 319px) {
+    html {
+        font-size: 50%;
+    }
+    /*1rem = 16px*/
 }
 
+
 /* Very Small devices like iPhone 5 */
-@media (min-width: 320px) {  
-    html {font-size:100%;} /*1rem = 16px*/
+
+@media (min-width: 320px) {
+    html {
+        font-size: 100%;
+    }
+    /*1rem = 16px*/
 }
+
+
 /* Very Small devices like iPhone 5 */
-@media (min-width: 370px) {  
-    html {font-size:100%;} /*1rem = 16px*/
+
+@media (min-width: 370px) {
+    html {
+        font-size: 100%;
+    }
+    /*1rem = 16px*/
 }
+
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
-    html {font-size:100%;} /*1rem = 16px*/
+
+@media (min-width: 544px) {
+    html {
+        font-size: 100%;
+    }
+    /*1rem = 16px*/
 }
+
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-    html {font-size:80%;} /*1rem = 16px*/
+
+@media (min-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    /*1rem = 16px*/
 }
+
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    html {font-size:100%;} /*1rem = 16px*/
+
+@media (min-width: 992px) {
+    html {
+        font-size: 100%;
+    }
+    /*1rem = 16px*/
 }
 
+
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    html {font-size:100%;} /*1rem = 16px*/    
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 100%;
+    }
+    /*1rem = 16px*/
 }
