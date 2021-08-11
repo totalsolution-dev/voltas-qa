@@ -76,7 +76,7 @@ switch($_SERVER['HTTP_HOST']) {
 			'port'     => ''
 			);
     break;
-    case 'devvoltas.voltasworld.com':
+    case 'devvoltas.voltasworld.com' || '172.16.9.237':
         $dbConnection = array (
             'hostname' => 'localhost',
 			'database' => 'voltas_web',
