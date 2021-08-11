@@ -1,0 +1,62 @@
+.simple-slider .swiper-slide {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+
+.jumbotron.overlay {
+  width: 40%;
+  margin: 00px 0 0 10%;
+  /*height: 220px;*/
+  padding: 32px;
+  border-top: 4px solid #80b740;
+  border-radius: 0;
+  position: absolute;
+  bottom: 20%;
+}
+
+.logo {
+  width: 150px !important;
+}
+
+@media (min-width: 300px) {
+  .display-3.text-center.highlights {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 992px) {
+  .display-3.text-center.highlights {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 768px) {
+  .highlights h1 {
+    font-size: 4em;
+  }
+}
+
+.highlights h1 {
+  font-size: 2em;
+}
+

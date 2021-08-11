@@ -1,0 +1,665 @@
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+TYPOGRAPHY @FONTS 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+@font-face {
+    font-family: 'FS Elliot Pro';
+    src: url(../font/FSElliotPro.eot);
+    src: local('â˜º'), url(../font/FSElliotPro.woff) format('woff'), url(../font/FSElliotPro.ttf) format('truetype'), url(../font/FSElliotPro.svg) format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FS Elliot Pro Light';
+    src: url(../font/FSElliotProLight.eot);
+    src: local('â˜º'), url(../font/FSElliotProLight.woff) format('woff'), url(../font/FSElliotProLight.ttf) format('truetype'), url(../font/FSElliotProLight.svg) format('svg');
+    /* font-weight: 800; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FS Elliot Pro Bold';
+    src: url(../font/FSElliotProBold.eot);
+    src: local('â˜º'), url(../font/FSElliotProBold.woff) format('woff'), url(../font/FSElliotProBold.ttf) format('truetype'), url(../font/FSELLIPB.svg) format('svg');
+    /* font-weight: 800; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FS Elliot Pro Heavy';
+    src: url(../font/FSElliotProHeavy.eot);
+    src: local('â˜º'), url(../font/FSElliotProHeavy.woff) format('woff'), url(../font/FSElliotProHeavy.ttf) format('truetype'), url(../font/FSElliotProHeavy.svg) format('svg');
+    /* font-weight: 800; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FS Elliot Pro Normal';
+    src: url(../font/FSELLIPB.eot);
+    src: local('â˜º'), url(../font/FSELLIPB.woff) format('woff'), url(../font/FSELLIPB.ttf) format('truetype'), url(../font/FSELLIPB.svg) format('svg');
+    /* font-weight: 800; */
+    font-style: normal;
+}
+:root {
+    /* Colors / Voltas  */
+    --colors-voltas-primary: #096BCE; /* Colours/Voltas/Primary */
+    --colors-voltas-light_1: #4392F3; /* Colours/Voltas/Light 1 */
+    --colors-voltas-light_2: #86B9FF; /* Colours/Voltas/Light 2 */
+    --colors-voltas-light_3: #CAE0FF; /* Colours/Voltas/Light 3 */
+    --colors-voltas-dark_1: #004992; /* Colours/Voltas/Dark 1 */
+    --colors-voltas-dark_2: #003872; /* Colours/Voltas/Dark 2 */
+    
+    /* Colors / Green  */
+    --colors-green-primary: #80B240; /* Colours/Green/Primary */
+    --colors-green-light_1: #B4E27A; /* Colours/Green/Light 1 */
+    --colors-green-light_2: #E6FBCB; /* Colours / Green / Light 2 */
+    --colors-green-dark_1: #568C11; /* Colours / Green / Dark 1 */
+    --colors-green-dark_2: #3F6E03; /* Colours / Green / Dark 2 */
+    
+    /* Colors / Aqua  */
+    --colors-aqua-primary: #009174; /* Colours / Aqua / Primary */
+    --colors-aqua-light_1: #32B598; /* Colours / Aqua / Light 1 */
+    --colors-aqua-light_2: #65D2B8; /* Colours / Aqua / Light 2 */
+    --colors-aqua-light_3: #97E8D4; /* Colours / Aqua / Light 3 */
+    --colors-aqua-light_4: #CAF7EB; /* Colours / Aqua / Light 4 */
+    --colors-aqua-dark_1: #006C51; /* Colours / Aqua / Dark 1 */
+    
+    /* Colors / Slate  */
+    --colors-slate-primary: #323232; /* Colours / Slate / Primary */
+    --colors-slate-light_1: #606060; /* Colours / Slate / Light 1 */
+    --colors-slate-light_2: #8E8E8E; /* Colours / Slate / Light 2 */
+    --colors-slate-light_3: #BCBCBC; /* Colours / Slate / Light 3 */
+    --colors-slate-light_4: #EBEBEB; /* Colours / Slate / Light 4 */
+        
+    /* Colors / Gradients  */
+    --gradient-horizontal-primary: linear-gradient(90.05deg, #4392F3 0.08%, #009174 96.12%); /* Gradient / Horizontal / Primary */
+    --gradient-horizontal-inverted: linear-gradient(90.05deg, #009174 0.08%, #4392F3 90.3%); /* Gradient / Horizontal / Inverted */    
+    --gradient-vertical-primary: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%); /* Gradient / Vertical / Primary */
+    --gradient-vertical-inverted: linear-gradient(180deg, #009174 -6.2%, #4392F3 104.18%); /* Gradient / Vertical / Inverted */   
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+BACKGROUND COLOR STYLE SWATCHES 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/* Colors / Voltas  */
+.bg-voltas-primary {background-color: var(--colors-voltas-primary) !important;}
+.bg-voltas-light_1 {background-color: var(--colors-voltas-light_1) !important;}
+.bg-voltas-light_2 {background-color: var(--colors-voltas-light_2) !important;}
+.bg-voltas-light_3 {background-color: var(--colors-voltas-light_3) !important;}
+.bg-voltas-dark_1 {background-color: var(--colors-voltas-dark_1) !important;}
+.bg-voltas-dark_2 {background-color: var(--colors-voltas-dark_2) !important;}
+
+/* Colors / Green  */
+.bg-aqua-primary { background-color: var(--colors-aqua-primary) !important;}
+.bg-aqua-light_1 {background-color: var(--colors-aqua-light_1) !important;}
+.bg-aqua-light_2 {background-color: var(--colors-aqua-light_2) !important;}
+.bg-aqua-light_3 {background-color: var(--colors-aqua-light_3) !important;}
+.bg-aqua-light_4 {background-color: var(--colors-aqua-light_4) !important;}
+.bg-aqua-dark_1 {background-color: var(--colors-aqua-dark_1) !important;}
+
+/* Colors / Aqua  */
+.bg-green-primary {background-color: var(--colors-green-primary) !important;}
+.bg-green-light_1 {background-color: var(--colors-green-light_1) !important;}
+.bg-green-light_2 {background-color: var(--colors-green-light_2) !important;}
+.bg-green-dark_1 {background-color: var(--colors-green-dark_1) !important;}
+.bg-green-dark_2 {background-color: var(--colors-green-dark_2) !important;}
+
+/* Colors / Slate  */
+.bg-slate-primary {background-color: var(--colors-slate-primary) !important;}
+.bg-slate-light_1 {background-color: var(--colors-slate-light_1) !important;}
+.bg-slate-light_2 {background-color: var(--colors-slate-light_2) !important;}
+.bg-slate-light_3 {background-color: var(--colors-slate-light_3) !important;}
+.bg-slate-light_4 {background-color: var(--colors-slate-light_4) !important;}
+
+/* Colors / Gradients  */
+.bg-gradient-horizontal-primary {background: var(--gradient-horizontal-primary) !important;}
+.bg-gradient-horizontal-inverted {background: var(--gradient-horizontal-inverted) !important;}
+.bg-gradient-vertical-primary {background: var(--gradient-vertical-primary) !important;}
+.bg-gradient-vertical-primary {background: var(--gradient-vertical-inverted) !important;}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+TYPOGRAPHY MAIN STYLES 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* Typography / Heading 1 */
+h1, .h1 {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 2.125rem; /* or 121% */
+}
+
+/* Typography / Heading 1 Display */
+h1.display, .h1.display {
+    font-family: 'FS Elliot Pro Heavy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 2.125rem; /* or 121% */
+}
+
+/* Typography / Heading 2 */
+h2, .h2 {
+    font-family: 'FS Elliot Pro Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    /* or 109% */
+    /* Colours / Slate / Primary */
+    /* color: #323232; */
+}
+
+/* Typography / Intro Body */
+.intro-body {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375rem;
+    line-height: 1.75rem; /* or 127% */
+    letter-spacing: 0.02em;
+}
+
+/* Typography / Card Body */
+.card-text {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.006em;   
+}
+
+/* Typography / Overline Default */
+.overline {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 167% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Typography / Caption */
+.caption {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.06em;
+    /* Colours / Slate / Primary */
+    color: #323232;
+}
+
+/* Typography / Navigation */
+.voltas-nav-text {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.04em;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+REM BASE SETTINGS Bootstrap 4 breakpoints
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* html {font-size:90%;} */
+/* For Tiny devices, tested on JioPhone 2 */
+@media (max-width: 319px) {  
+    html {font-size:50%;} /*1rem = 16px*/
+}
+
+/* Very Small devices like iPhone 5 */
+@media (min-width: 320px) {  
+    html {font-size:80%;} /*1rem = 16px*/
+}
+/* Very Small devices like iPhone 5 */
+@media (min-width: 370px) {  
+    html {font-size:100%;} /*1rem = 16px*/
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    html {font-size:100%;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    html {font-size:80%;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    html {font-size:100%;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    html {font-size:100%;} /*1rem = 16px*/    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+NAVIGATION
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* custom class .voltas-navbar for all
+   extensions to nav.navbar
+*/
+.voltas-navbar {
+    background-color: #096BCE!important;
+    padding: 1.75rem 3rem;
+}
+.voltas-navbar .navbar-brand img{
+    width: 7.5rem;
+}
+/* menu link li>a.nav-link */
+.voltas-navbar .navbar-nav .nav-link {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #fff;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 2rem;
+}
+/* active color styles */
+.voltas-navbar .navbar-nav .active>.nav-link, 
+.voltas-navbar .navbar-nav .nav-link.active, 
+.voltas-navbar .navbar-nav .nav-link.show, 
+.voltas-navbar .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+/* mobile nav hamburger icon */
+.voltas-navbar .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.voltas-navbar.navbar-toggler {
+    color: hsla(0,0%,100%,.5);
+    border-color: hsla(0,0%,100%,.1);
+}
+/* set padding between menu items for larger screens */
+/* @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left: 2rem;
+    }
+} */
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+CAROUSEL STYLES
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+.carousel-caption.voltas-carousel-caption {
+    background: rgba(255,255,255,0.75);
+    padding: 2rem;
+    bottom: 20%;
+    /* margin-top:50%; */
+    border-top: 4px solid #80B240;
+}
+.carousel-caption.voltas-carousel-caption .h1.display {
+    color: #323232;
+}
+.carousel-caption.voltas-carousel-caption p.lead {
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060;
+}
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+CARD STYLES
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* Extends .card and sets all the base properties of
+   the default vds card 
+*/
+.card.voltas-card {
+    background-color: #4392F3;
+    color: #fff!important;
+    border-radius: 0 !important;
+    border: 0;
+    margin-bottom: 2rem;
+    /* Elevation shadow effect */
+    transition: box-shadow 0.2s;
+    
+    /* Original .card properties from bootstrap.css
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    */
+}
+/* Hover Elevation Animation */
+.voltas-card:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+}
+
+/* secondary card color */
+/* FIXME change to color swatch */
+.voltas-card.secundary {
+    background: #009174 !important;
+}
+
+
+/* Horizontal card IMG | BODY */
+/* .voltas-card.voltas-card-hor .card-body { */
+    /* padding-left: 0rem; */
+/* } */
+
+
+/* Facts group (3 facts) */
+.card-group.facts-group .card {
+    border-radius: 0 !important;
+    border: 0;
+}
+.card-group.facts-group .card-body {
+    text-align: center;
+    color: #606060
+}
+.card-group.facts-group .card-title {
+    color: #32B598;
+}
+.card-group.facts-group .overline {
+    color: #096BCE;
+}
+.card-group.facts-group .card-body i{
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Market Card */
+/* experiment to stack cards with no marhin */
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: -2rem;
+}
+
+.voltas-card.voltas-card-market {
+    background-color: var(--colors-voltas-primary)!important;
+}
+.voltas-card.voltas-card-market .card-body {
+    padding-bottom: 0rem;
+}
+
+/* Market Card — stock values table */
+.voltas-card.voltas-card-market .table {
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    color: #fff;
+}
+    /* Define table left/right padding equal to bootstrap grid */
+        .voltas-card.voltas-card-market .table td:first-child,
+    .voltas-card.voltas-card-market .table th:first-child {
+        padding-left: 2rem;
+    }
+    .voltas-card.voltas-card-market .table td:last-child,
+    .voltas-card.voltas-card-market .table th:last-child {
+        padding-right: 2rem;
+    }
+    /* set vertical padding for the rows */
+    .voltas-card.voltas-card-market .table td,
+    .voltas-card.voltas-card-market .table th {
+        padding-top: .4375rem;
+        padding-bottom: .4375rem;
+    }
+
+    /* Table Header — re4move padding*/
+    .table td, .table th {
+        padding: 0rem;
+    }
+    .voltas-card.voltas-card-market .table thead th {
+        font-weight: 200;
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+        color: #fff;
+    }
+
+    /* Alternate row colors except the first row which is same as the card */
+    .voltas-card.voltas-card-market .table-striped tbody tr {
+        background-color: var(--colors-voltas-light_2);
+    }
+    .voltas-card.voltas-card-market .table-striped tbody tr:first-child {
+        background-color: var(--colors-voltas-primary);
+    }
+    .voltas-card.voltas-card-market .table-striped tbody tr:nth-of-type(odd) {
+        background-color: var(--colors-voltas-light_1);
+    }
+
+    /* Highlighted cell text for current value */
+    .voltas-card.voltas-card-market .table tbody td.highlighted {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+        color: #B4E27A;
+        padding-bottom: 1rem;
+        padding-top: 0.5rem;
+    }
+    /* Normall cell content */
+    .voltas-card.voltas-card-market .table tbody td {
+        font-size: 1rem;
+        line-height: 1.325rem;
+        /* color: #fff; */
+        font-weight: 300;
+    }
+    /* <small> cell content */
+    .voltas-card.voltas-card-market .table tbody td small {
+        font-size: .625rem;
+        line-height: 1rem;
+        font-weight: 800;
+    }
+
+
+
+
+
+/* Text on Image Card */
+.voltas-card .card-img-overlay {
+    padding: 2rem;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem; */
+}
+
+/* remove rounded corners from card */
+.voltas-card .card-img,
+.voltas-card .card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    /* original styles
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    */
+}
+
+/* Image fix for full height image */
+/* Make image fit based on card hide with hidden overflow */
+/* Usage: class="card-img w-100 h-100 object-fit_cover" */
+.card-img.object-fit_cover { 
+    object-fit: cover;
+}
+
+/*  CAROUSEL
+    vds-org-card-v-lg-video_carousel_patch
+*/
+.voltas-card.voltas-card-video .card-body{
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+.voltas-card.voltas-card-video .card-title{
+    margin-bottom: 0rem;
+}
+
+/* CARD TYPOGRAPHY */
+/* Adding style for card-overtitle based on card-subtitle */
+.card-overtitle {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: .625rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+.voltas-card .card-title {
+    margin-bottom: 1rem;
+}
+
+.voltas-card .card-body {
+    padding: 2rem;
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+JUMBOTRON STYLES
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+/* GENERIC for all Jumbotrons */
+/* align jumbotron content center */
+.jumbotron {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 0rem;
+    border: none;
+}
+.jumbotron {
+    padding: 2rem 2rem;
+}
+/* Give extra padding for large screens */
+@media (min-width: 992px){
+    .jumbotron {
+        padding: 2rem 5rem;
+    }
+}
+.jumbotron .card-overtitle {
+    font-size: 0.75rem;
+}
+.jumbotron h1 {
+    margin-bottom: 2rem;
+    color: #4392F3;
+}
+.jumbotron h6 {
+    margin-bottom: 2rem;
+}
+.jumbotron p {
+    color: #606060;
+    margin-bottom: 0rem;
+}
+
+/* JUMBOTRON Muted */
+/* No border, all grey text */
+.jumbotron.muted h6, .jumbotron.muted h1 {
+    color: #606060;
+}
+
+/* JUMBOTRON Highlighted */
+/* border top and bottom for jumbotron */
+.jumbotron.highlighted {
+    border-top: solid .25rem #80B240;
+    border-bottom: solid .25rem #80B240;
+}
+.jumbotron.highlighted h1 {
+    background: linear-gradient(90.35deg, #4392F3 0.08%, #009174 96.12%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+VDS / ORG / FOOTER
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/* Footer */
+.voltas-footer {
+    background: linear-gradient(180deg, #4392F3 -6.2%, #009174 104.18%);
+    border-top: .25rem solid #80B240;
+    padding: 2rem 0rem;
+    color: #fff;
+    margin-top: 6rem;
+}
+.voltas-footer .btn-outline-light {
+    border: .125rem solid #65D2B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .75rem;
+    font-variant: small-caps;
+}
+.voltas-footer .btn-outline-light:hover {
+    color: #212529;
+    border-color: #f8f9fa;
+}
+.voltas-footer .footer-section {
+    margin-bottom: 2rem;
+}
+
+
+/* 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+R&D 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/* Full sceeen mast head / hero header full height overflow hidden */
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
