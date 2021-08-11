@@ -1,5 +1,5 @@
-a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/_html-wrapper'}
-{!-- ra:000000005ba03c570000000053ef2b80 --}
+a:3:{s:4:"time";i:1628676622;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/_html-wrapper'}
+{!-- ra:0000000069c2a15d00000000281770b5 --}
 
 
 
@@ -20,7 +20,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 	
 		
 		
-		{!-- ra:000000005ba03c4d0000000053ef2b80 --}
+		{!-- ra:0000000036139dd100000000596b0a1d --}
 
 
 {layout:set name='seo_tags'}
@@ -55,7 +55,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 
 
 
-{!-- ra:000000005ba03a420000000053ef2b80 --} 
+{!-- ra:0000000036139bdc00000000596b0a1d --} 
 
 		
 		
@@ -81,7 +81,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 
 
 
-<div id="vds-carousel-61274" class="carousel vds-carousel voltas-carousel slide">
+<div id="vds-carousel-14389" class="carousel vds-carousel voltas-carousel slide">
     <div class="carousel-inner">
         
  {!-- bloqs:start:83 vars="[]" --}<div class="carousel-item  active">
@@ -304,7 +304,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 </div>
 
 
-{!-- ra:000000005ba03c010000000053ef2b80 --}
+{!-- ra:0000000036139d9d00000000596b0a1d --}
 			
 
 {!-- bloqs:end:73 --}{!-- bloqs:start:74 vars="[]" --}
@@ -321,7 +321,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 </div>
 
 
-{!-- ra:000000005ba03c010000000053ef2b80 --}
+{!-- ra:0000000036139d9d00000000596b0a1d --}
 			
 
 {!-- bloqs:end:74 --}{!-- bloqs:start:75 vars="[]" --}
@@ -338,7 +338,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 </div>
 
 
-{!-- ra:000000005ba03c010000000053ef2b80 --}
+{!-- ra:0000000036139d9d00000000596b0a1d --}
 			
 
 {!-- bloqs:end:75 --}
@@ -410,14 +410,14 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 	{!-- bloqs:start:68 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c300000000053ef2b80 --}
+					{!-- ra:0000000036139daa00000000596b0a1d --}
 <div class="col-12 col-md-7 col-lg-6 d-flex ">
     
     <div class="card voltas-card voltas-card-patch cta box-shadow">
         <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('http://voltasdev01.twostaging.com/images/_ansel_image_collector/Home_Simplifying_Lives_Revised.jpg')"></div>
         
         <div class="card-body col-11 col-sm-10 col-md-7">
-            {!-- ra:000000005ba03c000000000053ef2b80 --}
+            {!-- ra:0000000036139d9a00000000596b0a1d --}
 
 <h6 class="card-overtitle slate-primary">Customer First</h6>
 
@@ -457,7 +457,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 </div> 
 
 
-{!-- ra:000000005ba03c370000000053ef2b80 --}	
+{!-- ra:0000000036139dab00000000596b0a1d --}	
 				
 				
 				
@@ -465,7 +465,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 				{!-- bloqs:end:68 --}{!-- bloqs:start:64 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c3a0000000053ef2b80 --}
+					{!-- ra:0000000036139da400000000596b0a1d --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-gradient-vertical-blue">
         
@@ -474,7 +474,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
         </div>
           
         <div class="card-body">
-            {!-- ra:000000005ba03c000000000053ef2b80 --}
+            {!-- ra:0000000036139d9a00000000596b0a1d --}
 
 <h6 class="card-overtitle chalk-primary">Solutions</h6>
 
@@ -499,7 +499,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div>
 
-{!-- ra:000000005ba03c390000000053ef2b80 --}	
+{!-- ra:0000000036139da500000000596b0a1d --}	
 				
 				
 				
@@ -537,7 +537,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 	{!-- bloqs:start:66 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c3a0000000053ef2b80 --}
+					{!-- ra:0000000036139da400000000596b0a1d --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-slate-light_1">
         
@@ -546,7 +546,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
         </div>
           
         <div class="card-body">
-            {!-- ra:000000005ba03c000000000053ef2b80 --}
+            {!-- ra:0000000036139d9a00000000596b0a1d --}
 
 <h6 class="card-overtitle yellow-primary">History</h6>
 
@@ -570,7 +570,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div>
 
-{!-- ra:000000005ba03c390000000053ef2b80 --}	
+{!-- ra:0000000036139da500000000596b0a1d --}	
 				
 				
 				
@@ -590,7 +590,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:000000005ba03c000000000053ef2b80 --}
+                {!-- ra:0000000036139d9a00000000596b0a1d --}
 
 <h6 class="card-overtitle chalk-primary">Commitment</h6>
 
@@ -617,7 +617,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
         </div>
     </div>
     
-    {!-- ra:000000005ba03c3e0000000053ef2b80 --}	
+    {!-- ra:0000000036139da000000000596b0a1d --}	
 				
 				
 				
@@ -685,12 +685,12 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 	{!-- bloqs:start:279 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c380000000053ef2b80 --}
+					{!-- ra:0000000036139da200000000596b0a1d --}
 <div class="col-12 col-md-4 col-lg-3 d-flex pr-md-0 ">
     <div class="card voltas-card bg-teal-primary">
           
         <div class="card-body">
-            {!-- ra:000000005ba03c000000000053ef2b80 --}
+            {!-- ra:0000000036139d9a00000000596b0a1d --}
 
 <h6 class="card-overtitle chalk-primary">careers</h6>
 
@@ -714,7 +714,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div>
 
-{!-- ra:000000005ba03c3f0000000053ef2b80 --}	
+{!-- ra:0000000036139da300000000596b0a1d --}	
 				
 				
 				
@@ -722,7 +722,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 				{!-- bloqs:end:279 --}{!-- bloqs:start:280 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c360000000053ef2b80 --}
+					{!-- ra:0000000036139da800000000596b0a1d --}
 <div class="col-12 col-md-6 col-lg-5 d-flex pl-md-0">
     <div class="card voltas-card w-100">
         
@@ -732,7 +732,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
         </div>
         
         <div class="card-body d-flex flex-column col-9 col-lg-8 col-xl-7">
-            {!-- ra:000000005ba03c000000000053ef2b80 --}
+            {!-- ra:0000000036139d9a00000000596b0a1d --}
 
 <h6 class="card-overtitle chalk-primary">CAREERS</h6>
 
@@ -757,7 +757,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 </div>
 
 
-{!-- ra:000000005ba03c350000000053ef2b80 --}	
+{!-- ra:0000000036139da900000000596b0a1d --}	
 				
 				
 				
@@ -814,7 +814,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div>
 
-{!-- ra:000000005ba03c0a0000000053ef2b80 --}	
+{!-- ra:0000000036139d9400000000596b0a1d --}	
 				
 				
 				
@@ -850,7 +850,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 	
 	
 	{!-- bloqs:start:657 vars="[]" --}
-				{!-- ra:000000005ba03c2a0000000053ef2b80 --}
+				{!-- ra:0000000036139db400000000596b0a1d --}
 
 <div class="container col-12 col-md-12 px-0"> 
 
@@ -861,11 +861,11 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     
  
 
-{!-- ra:000000005ba03c290000000053ef2b80 --}
+{!-- ra:0000000036139db500000000596b0a1d --}
 			{!-- bloqs:start:985 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c340000000053ef2b80 --}
+					{!-- ra:0000000036139d9600000000596b0a1d --}
 <div class="col-12 col-md-12 ">
     <div class="card voltas-card voltas-card-video bg-teal-primary">
         <div class="embed-responsive embed-responsive-21by9">
@@ -899,7 +899,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div> 
 
-{!-- ra:000000005ba03c0b0000000053ef2b80 --}	
+{!-- ra:0000000036139d9700000000596b0a1d --}	
 				
 				
 				
@@ -907,7 +907,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 				{!-- bloqs:end:985 --}{!-- bloqs:start:79 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c340000000053ef2b80 --}
+					{!-- ra:0000000036139d9600000000596b0a1d --}
 <div class="col-12 col-md-12 ">
     <div class="card voltas-card voltas-card-video bg-teal-primary">
         <div class="embed-responsive embed-responsive-21by9">
@@ -941,7 +941,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div> 
 
-{!-- ra:000000005ba03c0b0000000053ef2b80 --}	
+{!-- ra:0000000036139d9700000000596b0a1d --}	
 				
 				
 				
@@ -949,7 +949,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 				{!-- bloqs:end:79 --}{!-- bloqs:start:658 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c340000000053ef2b80 --}
+					{!-- ra:0000000036139d9600000000596b0a1d --}
 <div class="col-12 col-md-12 ">
     <div class="card voltas-card voltas-card-video bg-teal-primary">
         <div class="embed-responsive embed-responsive-21by9">
@@ -983,7 +983,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div> 
 
-{!-- ra:000000005ba03c0b0000000053ef2b80 --}	
+{!-- ra:0000000036139d9700000000596b0a1d --}	
 				
 				
 				
@@ -991,7 +991,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 				{!-- bloqs:end:658 --}{!-- bloqs:start:898 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c340000000053ef2b80 --}
+					{!-- ra:0000000036139d9600000000596b0a1d --}
 <div class="col-12 col-md-12 ">
     <div class="card voltas-card voltas-card-video bg-teal-primary">
         <div class="embed-responsive embed-responsive-21by9">
@@ -1025,7 +1025,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div> 
 
-{!-- ra:000000005ba03c0b0000000053ef2b80 --}	
+{!-- ra:0000000036139d9700000000596b0a1d --}	
 				
 				
 				
@@ -1033,7 +1033,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
 				{!-- bloqs:end:898 --}{!-- bloqs:start:899 vars="[]" --}
 				
 				
-					{!-- ra:000000005ba03c340000000053ef2b80 --}
+					{!-- ra:0000000036139d9600000000596b0a1d --}
 <div class="col-12 col-md-12 ">
     <div class="card voltas-card voltas-card-video bg-teal-primary">
         <div class="embed-responsive embed-responsive-21by9">
@@ -1067,7 +1067,7 @@ a:3:{s:4:"time";i:1628656124;s:3:"ttl";i:0;s:4:"data";s:31569:"{layout='layouts/
     </div>
 </div> 
 
-{!-- ra:000000005ba03c0b0000000053ef2b80 --}	
+{!-- ra:0000000036139d9700000000596b0a1d --}	
 				
 				
 				
