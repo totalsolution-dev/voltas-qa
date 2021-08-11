@@ -1,0 +1,25 @@
+{!--  
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / MOLECULES / FACTS GROUP FACT
+:: Usage: {vds-mol-facts_group__fact}
+:: Parent: should be a "card-group facts-group"
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="card">
+    <div class="card-body">
+        {!-- FontAwesome font icon --}
+        {!-- <i class="fa fa-globe" aria-hidden="true"></i> --}
+        <span class="{icon}"></span>
+        {!-- Fact Title --}
+        <h1 class="card-title display">{fact_title}</h1>
+        {!-- Fact Text --}
+        <p class="card-text">{fact_body}</p>
+        <div class="step-connector-line-left"></div>
+        <div class="step-connector-line-right"></div>
+    </div>
+</div>
+{close:fact-card}
+{!-- no children allowed --}
+{/close:fact-card}
+{!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 	END: VDS / MOLECULES / FACTS GROUP FACT 	      --}

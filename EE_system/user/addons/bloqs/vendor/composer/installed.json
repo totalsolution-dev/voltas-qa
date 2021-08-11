@@ -1,0 +1,135 @@
+[
+    {
+        "name": "litzinger/basee",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/litzinger/basee.git",
+            "reference": "4294b3745896fc9d1956ebd7661925b0b07de3f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/litzinger/basee/zipball/4294b3745896fc9d1956ebd7661925b0b07de3f1",
+            "reference": "4294b3745896fc9d1956ebd7661925b0b07de3f1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2019-10-12T16:38:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Basee\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brian Litzinger",
+                "email": "litzinger@gmail.com"
+            }
+        ],
+        "description": "Addon base for ExpressionEngine"
+    },
+    {
+        "name": "litzinger/file-field",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/litzinger/file-field.git",
+            "reference": "664e7e446d98ecfe27e5670c5a7c8fb04764a578"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/litzinger/file-field/zipball/664e7e446d98ecfe27e5670c5a7c8fb04764a578",
+            "reference": "664e7e446d98ecfe27e5670c5a7c8fb04764a578",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/options-resolver": "3.1.*"
+        },
+        "time": "2016-11-27T22:17:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Litzinger\\FileField\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brian Litzinger",
+                "email": "litzinger@gmail.com"
+            }
+        ],
+        "description": "File Field library for ExpressionEngine 3"
+    },
+    {
+        "name": "symfony/options-resolver",
+        "version": "v3.1.10",
+        "version_normalized": "3.1.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/options-resolver.git",
+            "reference": "76f01eb4b6f94a6fd2933cf01b514d669dbbccf8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/options-resolver/zipball/76f01eb4b6f94a6fd2933cf01b514d669dbbccf8",
+            "reference": "76f01eb4b6f94a6fd2933cf01b514d669dbbccf8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2017-01-02T20:31:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\OptionsResolver\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony OptionsResolver Component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "config",
+            "configuration",
+            "options"
+        ]
+    }
+]

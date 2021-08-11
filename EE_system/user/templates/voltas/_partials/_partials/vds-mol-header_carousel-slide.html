@@ -1,0 +1,45 @@
+{mol-header_carousel-slide}
+<div class="carousel-item {if slide-appearance == 'slide_quote'} slide-quote{/if}{if '{blocks:index:of:type}' ==0} active{/if}">
+	<img class="w-100 d-block" src="{slide-image}" alt="{slide_header_text}">
+    <div class="container">
+        {!-- default slide --}
+        {if slide-appearance == 'slide_cta'}
+        <div class="carousel-caption voltas-carousel-caption d-md-block col-8 col-md-5">
+            <h4 class="h1 {if slide-appearance != 'slide_quote'}display{/if}">{slide-title}</h4>
+            <p class="lead">{slide-text}</p>
+            {if slide-button-link != ""}
+                <a href="{slide-button-link}" class="btn btn-outline-primary mt-2 mb-2">{slide-button-text}</a>
+            {/if}
+            <div class="vds-carousel-controls">
+                <a class="vds-carousel-control-prev" href="" role="button" >
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </a>
+                <a class="vds-carousel-control-play" href="" role="button" >
+                    <i class="fa fa-pause-circle" aria-hidden="true"></i>
+                </a>
+
+                <span class="vds-carousel-slidenumber"></span>
+                <a class="vds-carousel-control-next" href="" role="button">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        {/if}
+        {!-- quote slide --}
+        {if slide-appearance == 'slide_quote'}
+        <div class="carousel-caption voltas-carousel-caption d-md-block col-7 col-md-7">
+            <h4 class="h1">{slide-title}</h4>
+            <p class="slide-text">{slide-text}</p>
+            <p class="quoted-by">{slide-quoted-by-name}<br><small>{slide-quoted-by-designation}</small></p>
+        </div>
+        {/if}
+        {!-- plain slide --}
+        {if slide-appearance == 'slide_plain'}
+        <!-- no caption -->
+        {/if}
+    </div>
+</div>
+{close:mol-header_carousel-slide}
+{!-- This component can have no children --}
+{/close:mol-header_carousel-slide}
+{/mol-header_carousel-slide}

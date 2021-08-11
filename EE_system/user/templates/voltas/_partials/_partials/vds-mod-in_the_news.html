@@ -1,0 +1,65 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / MODULE / IN THE NEWS
+:: Usage: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+
+<div class="container">
+	<input type="text" name="card-filter-input" id="card-filter-input">
+</div>
+<div class="container">
+	<div id="in-the-news-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+	{exp:channel:categories channel="{page_listing_channel}" category_group="8" sort="desc" style="linear" disable="category_fields"}
+		
+		<div class="card">
+			<div class="card-header" role="tab" id="section{count}HeaderId">
+				<a 
+					data-toggle="collapse" 
+					aria-expanded="true" 
+					data-parent="#in-the-news-accordion" 
+					href="#section{count}ContentId" 
+					aria-controls="accordion-1 .item-{count}">
+					<h5 class="mb-0 intro-body">
+						{category_name}
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</h5>
+				</a>	
+			</div>
+			<div 
+				id="section{count}ContentId" 
+				class="collapse {if count == 1}show{/if} item-{count}"
+				role="tabpanel" 
+				aria-labelledby="section{count}HeaderId">
+					<div class="row">
+				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
+				{exp:channel:entries channel='{page_listing_channel}' category="{category_id}" disable='{ch_disable}' dynamic="no"}
+				{!-- News Items go here --}
+						<div class="col-12 col-md-4 d-flex">
+							<div class="card voltas-card voltas-card-news bg-slate-light_4 w-100">
+								<div class="card-image-wrapper">
+									<a class="model-lightbox" href="{news_image}" data-featherlight="image">
+										<img src="{news_image}" class="card-img-top" alt="..." >
+									</a>
+								</div>
+								<div class="card-body">
+									<h6 class="card-title">{title}</h6>
+									<h6 class="card-text">{news_text}</h6>
+									<h6 class="card-overtitle">{news_source}, {entry_date format="%F %Y"}</h6>
+								</div>
+							</div>
+						</div>
+				{!-- END News Items go here --}
+				{/exp:channel:entries}
+					</div>
+				</div>
+			</div>
+		{!-- no results output --}
+		{if no_results}
+			<div class="alert warn no-results">
+				<p>{gv_entries_none}</p>
+			</div>
+		{/if}
+	{/exp:channel:categories}
+	</div>
+</div>

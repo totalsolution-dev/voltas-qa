@@ -1,0 +1,33 @@
+	<!--- START
+    Navigation Component --->
+    <nav class="navbar navbar-dark navbar-expand-md bg-primary navigation-clean">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img class="logo"
+                    src="{theme_user_folder_url}site/default/asset/img/logo_white.png"></a><button data-toggle="collapse"
+                class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+			{exp:structure:nav_basic show_depth="2"}
+				{if root:count == 1}
+				<ul class="nav navbar-nav ml-auto">
+				{/if}
+				
+					<li class="nav-item dropdown">
+						<a class="dropdown-toggle nav-link {if root:active}active{/if}" data-toggle="dropdown" aria-expanded="false" href="{root:page_url}">{root:title}</a>
+
+						{if root:has_children}
+						<div class="dropdown-menu" role="menu">
+							{root:children}
+							<a class="dropdown-item {if child:active}active{/if}" role="presentation" href="{child:page_url}">{child:title}</a>
+							{/root:children}
+						</div>
+						{/if}
+					</li>
+				{if root:count == root:total_results}
+				</ul>
+				{/if}
+			{/exp:structure:nav_basic}
+            </div>
+        </div>
+    </nav>
+    <!--- END 
+    Navigation Component --->

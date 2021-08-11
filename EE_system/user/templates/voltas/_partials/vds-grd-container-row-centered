@@ -1,0 +1,20 @@
+{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Row				          --}
+		{!-- Styles: Default, Cards		          --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{row}
+			{!-- 
+				Row to wrap any number of columns. 
+				Colums will be justified in the center 
+			--}
+			<div class="container">
+				<div class="row justify-content-center d-flex">
+				{if style == "cards"}
+				{/if}
+				{if style == "highlight"}
+				{/if}
+			{close:row}		
+				</div>
+			</div>
+			{/close:row}
+		{/row} 

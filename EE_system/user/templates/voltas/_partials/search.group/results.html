@@ -1,0 +1,32 @@
+{layout='layouts/_html-wrapper'}
+	<div class="container mt-6 vds-search">
+        {!-- Search results header --}
+        <div class="row">
+            <div class="col-12">
+                <h1>Search results for &quot;{exp:search:keywords}&quot;</h1>
+            </div>
+        </div>
+
+        {!-- Search results --}
+		<div class="row">
+        {exp:search:search_results}
+        {!-- {exp:channel:entries dynamic="no" entry_id="{entry_id}"} --}
+        <a href="{page_url}" class="w-100">
+            <div class="col-12 vds-search-result-row">
+                <h2><span>{structure:page_uri_for:{entry_id}}</span><i class="fa fa-arrow-right" aria-hidden="true"></i></h1>
+                <p class="caption">{page_url}</p>
+            </div>
+        </a>
+        {!-- {/exp:channel:entries} --}
+        {if count == total_results}
+		</div>
+        {/if}
+        {paginate}
+            <p>Page {current_page} of {total_pages} pages {pagination_links}</p>
+        {/paginate}
+        {/exp:search:search_results}
+	</div>
+
+
+
+<!-- END: search/results template -->	

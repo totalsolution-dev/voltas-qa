@@ -1,0 +1,77 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / MODULE / AWARDS & RECOGNITION
+:: Usage: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="container">
+	<div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+	{exp:channel:categories channel="{structure:child_listing:short_name}" category_group="8" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
+		
+		{!-- <div class="card">
+			<div class="card-header" role="tab" id="section{count}HeaderId">
+				<a 
+					data-toggle="collapse" 
+					aria-expanded="true" 
+					data-parent="#accordionId" 
+					href="#section{count}ContentId" 
+					aria-controls="accordion-1 .item-{count}">
+					<h5 class="mb-0 intro-body">
+						{category_name}
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</h5>
+				</a>	
+			</div>
+			<div 
+				id="section{count}ContentId" 
+				class="collapse {if count == 1}show{/if} item-{count}"
+				role="tabpanel" 
+				aria-labelledby="section{count}HeaderId">
+				<div class="row"> --}
+				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
+				{exp:channel:entries channel='{structure:child_listing:short_name}' category="{category_id}" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
+					{!-- {absolute_results} / {absolute_count} --}
+					{if absolute_count==1}
+						<div class="card"> 
+							<!-- {absolute_count} -->
+							<div class="card-header" role="tab" id="section{count}HeaderId">
+								<a 
+									data-toggle="collapse" 
+									aria-expanded="true" 
+									data-parent="#accordionId" 
+									href="#section{count}ContentId" 
+									aria-controls="accordion-1 .item-{count}">
+									<h5 class="mb-0 intro-body">
+										{category_name}
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</h5>
+								</a>	
+							</div>
+							
+							<div id="section{count}ContentId" class="collapse {if count == 1}show{/if} item-{count}" role="tabpanel" aria-labelledby="section{count}HeaderId">
+								<div class="row">
+					{/if}
+									{if highlight_award==1}
+									{vds-mol-awards_card-highlight}
+									{/if}
+									{!-- Announcements go here --}
+									{if highlight_award==0}
+									{vds-mol-awards_card}	
+									{/if}
+									{if absolute_reverse_count==1}
+								</div>
+							</div>
+					</div>
+					{/if}
+				{/exp:channel:entries}
+		
+		{!-- no results output --}
+		{!-- {if no_results}
+			<div class="alert warn no-results">
+				<p>{gv_entries_none}</p>
+			</div>
+		{/if} --}
+
+	{/exp:channel:categories}
+	</div>
+</div>

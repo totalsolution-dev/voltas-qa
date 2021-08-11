@@ -1,0 +1,33 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / CARD - VERTICAL - MEDIUM - IMAGE WITH TEXT OVERLAY
+:: Usage: {vds-org-card-h-md-image_text_overlay_queries}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="col-12 col-md-7 col-lg-6 d-flex {custom_css_class}">
+    {!-- <div class="card voltas-card"> --}
+    <div class="card voltas-card voltas-card-patch cta {if box_shadow==true}box-shadow{/if}">
+        <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('{card-image}')"></div>
+        {!-- Card body --}
+        <div class="card-body col-11 col-sm-10 col-md-7">
+            {vds-mol-card-body-inner}
+        </div>
+        {!-- END Card body --}
+        {!-- Contact us banner --}
+        <div class="card-body card-patch-icon">
+            <div class="row no-gutters">
+                <div class="col-4">
+                    {!-- <i class="fa fa-globe" aria-hidden="true"></i> --}
+                    <i class="fa icon-Support-1"></i>
+                </div>
+                <div class="col-8 card-patch-text">
+                    <h6 class="card-text display">Do you have queries, or need support for any of our products or services?</h6>
+                    <a href="{card-btn-url}" class="btn btn-outline yellow-border">CONTACT US</a>      
+                </div>
+            </div>
+        </div>
+        {!-- END Contact us banner --}
+    </div>
+</div> 
+{!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / CARD - VERTICAL - MEDIUM - IMAGE WITH TEXT OVERLAY      --}

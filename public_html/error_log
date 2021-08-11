@@ -1,0 +1,93 @@
+[21-Feb-2020 11:08:31 UTC] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Service/ChannelSet/Export.php:49
+Stack trace:
+#0 /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Service/ChannelSet/Factory.php(42): EllisLab\ExpressionEngine\Service\ChannelSet\Export->zip(Array)
+#1 /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Controller/Channels/Sets.php(119): EllisLab\ExpressionEngine\Service\ChannelSet\Factory->export(Array)
+#2 [internal function]: EllisLab\ExpressionEngine\Controller\Channels\Sets->export('2')
+#3 /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Core/Core.php(241): call_user_func_array(Array, Array)
+#4 /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Core/Core.php(110): EllisLab\ExpressionEngine\Core\Core->runController(Array)
+#5 /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Boot/boot.php(151): EllisLab\ExpressionEngine\Core\Core->run(Object(EllisLab\ExpressionEn in /home/xmsuudlba8jq/public_html/system/ee/EllisLab/ExpressionEngine/Service/ChannelSet/Export.php on line 49
+[22-Feb-2020 10:08:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function delete() on null in /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Controller/Settings/MenuManager.php:503
+Stack trace:
+#0 [internal function]: EllisLab\ExpressionEngine\Controller\Settings\MenuManager->removeItem()
+#1 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Core/Core.php(241): call_user_func_array(Array, Array)
+#2 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Core/Core.php(110): EllisLab\ExpressionEngine\Core\Core->runController(Array)
+#3 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Boot/boot.php(151): EllisLab\ExpressionEngine\Core\Core->run(Object(EllisLab\ExpressionEngine\Core\Request))
+#4 /home/xmsuudlba8jq/public_html/admin.php(153): require_once('/home/xmsuudlba...')
+#5 {main}
+  thrown in /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Controller/Settings/MenuManager.php on line 503
+[22-Feb-2020 11:59:31 UTC] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Controller/Design/AbstractDesign.php:395
+Stack trace:
+#0 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Controller/Design/Design.php(36): EllisLab\ExpressionEngine\Controller\Design\AbstractDesign->exportTemplates()
+#1 [internal function]: EllisLab\ExpressionEngine\Controller\Design\Design->export()
+#2 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Core/Core.php(241): call_user_func_array(Array, Array)
+#3 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Core/Core.php(110): EllisLab\ExpressionEngine\Core\Core->runController(Array)
+#4 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Boot/boot.php(151): EllisLab\ExpressionEngine\Core\Core->run(Object(EllisLab\ExpressionEngine\Core\Request))
+#5 /home/xmsuudlba8jq/public_html/admin.php(153): require_once('/home/xmsuudlba...')
+#6 {main}
+  thrown in /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Controller/Design/AbstractDesign.php on line 395
+[24-Feb-2020 15:39:26 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to EEBlocks\Controller\PublishController::renderBlock() must be an instance of EEBlocks\Model\Block, array given, called in /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php on line 199 and defined in /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php:135
+Stack trace:
+#0 /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php(199): EEBlocks\Controller\PublishController->renderBlock('17', Array)
+#1 /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php(328): EEBlocks\Controller\PublishController->renderBlock('17', Object(EEBlocks\Model\Block))
+#2 /home/xmsuudlba8jq/EE_system/user/addons/bloqs/ft.bloqs.php(190): EEBlocks\Controller\PublishController->displayValidatedField('17', Array, Array, false)
+#3 /home/xmsuudlba8jq/EE_system/ee/legacy/fieldtypes/EE_Fieldtype.php(326): Bloqs_ft->display_fi in /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php on line 135
+[24-Feb-2020 16:02:41 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to EEBlocks\Controller\PublishController::renderBlock() must be an instance of EEBlocks\Model\Block, array given, called in /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php on line 199 and defined in /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php:135
+Stack trace:
+#0 /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php(199): EEBlocks\Controller\PublishController->renderBlock('17', Array)
+#1 /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php(328): EEBlocks\Controller\PublishController->renderBlock('17', Object(EEBlocks\Model\Block))
+#2 /home/xmsuudlba8jq/EE_system/user/addons/bloqs/ft.bloqs.php(190): EEBlocks\Controller\PublishController->displayValidatedField('17', Array, Array, false)
+#3 /home/xmsuudlba8jq/EE_system/ee/legacy/fieldtypes/EE_Fieldtype.php(326): Bloqs_ft->display_fi in /home/xmsuudlba8jq/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php on line 135
+[14-Apr-2020 08:08:13 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/app.setup.php:303
+Stack trace:
+#0 [internal function]: EllisLab\ExpressionEngine\Core\Application->{closure}(Object(EllisLab\ExpressionEngine\Core\Provider))
+#1 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Core/Provider.php(330): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: EllisLab\ExpressionEngine\Core\Provider->EllisLab\ExpressionEngine\Core\{closure}(Object(EllisLab\ExpressionEngine\Service\Dependency\InjectionContainer))
+#3 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Service/Dependency/InjectionContainer.php(182): call_user_func_array(Object(Closure), Array)
+#4 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Boot/boot.php(132): EllisLab\ExpressionEngine\Service\Dependency\InjectionContainer->make('Updater/Unpacke...')
+#5 /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/Service/Updater/Runner.php(68): ee('Updater/Unpacke...')
+#6 [in in /home/xmsuudlba8jq/EE_system/ee/EllisLab/ExpressionEngine/app.setup.php on line 303
+[20-Apr-2020 13:27:40 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[20-Apr-2020 13:27:55 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[20-Apr-2020 13:28:11 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[20-Apr-2020 20:31:59 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[20-Apr-2020 20:32:04 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[20-Apr-2020 20:32:29 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[20-Apr-2020 20:32:58 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/xmsuudlba8jq/EE_system/ee/legacy/libraries/Template.php on line 358
+[24-Apr-2020 21:55:33 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to EllisLab\ExpressionEngine\Service\File\Upload::getRenameOrReplaceform() must be an instance of EllisLab\ExpressionEngine\Model\File\File, null given, called in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/Addons/filepicker/mcp.filepicker.php on line 524 and defined in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Service/File/Upload.php:182
+Stack trace:
+#0 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/Addons/filepicker/mcp.filepicker.php(524): EllisLab\ExpressionEngine\Service\File\Upload->getRenameOrReplaceform(NULL, 'Rectangle-4car_...')
+#1 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/Addons/filepicker/mcp.filepicker.php(516): Filepicker_mcp->overwriteOrRename(NULL, 'Rectangle-4car_...')
+#2 [internal function]: Filepicker_mcp->ajaxOverwriteOrRename()
+#3 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEn in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Service/File/Upload.php on line 182
+[24-Apr-2020 21:55:34 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to EllisLab\ExpressionEngine\Service\File\Upload::getRenameOrReplaceform() must be an instance of EllisLab\ExpressionEngine\Model\File\File, null given, called in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/Addons/filepicker/mcp.filepicker.php on line 524 and defined in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Service/File/Upload.php:182
+Stack trace:
+#0 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/Addons/filepicker/mcp.filepicker.php(524): EllisLab\ExpressionEngine\Service\File\Upload->getRenameOrReplaceform(NULL, 'Rectangle-4car_...')
+#1 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/Addons/filepicker/mcp.filepicker.php(516): Filepicker_mcp->overwriteOrRename(NULL, 'Rectangle-4car_...')
+#2 [internal function]: Filepicker_mcp->ajaxOverwriteOrRename()
+#3 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEn in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Service/File/Upload.php on line 182
+[24-May-2020 22:05:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/TagController.php:352
+Stack trace:
+#0 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/TagController.php(184): EEBlocks\Controller\TagController->_renderBlockSections(Array, '{!-- bloqs:star...', Object(EEBlocks\Controller\TagOutputBlockContext), Array)
+#1 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/ft.bloqs.php(471): EEBlocks\Controller\TagController->replace('\n\t\t\t\n\t\t\t\n\t\t\t{or...', Array, Array)
+#2 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/legacy/libraries/api/Api_channel_fields.php(410): Bloqs_ft->replace_tag('|Policies and R...', Array, '\n\t\t\t\n\t\t\t\n\t\t\t{or...')
+#3 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/legacy/libraries/channel_entries_parser/components/Custom_field_pair.php(1 in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/TagController.php on line 352
+[24-May-2020 22:05:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/TagController.php:352
+Stack trace:
+#0 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/TagController.php(184): EEBlocks\Controller\TagController->_renderBlockSections(Array, '{!-- bloqs:star...', Object(EEBlocks\Controller\TagOutputBlockContext), Array)
+#1 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/ft.bloqs.php(471): EEBlocks\Controller\TagController->replace('\n\t\t\t\n\t\t\t\n\t\t\t{or...', Array, Array)
+#2 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/legacy/libraries/api/Api_channel_fields.php(410): Bloqs_ft->replace_tag('|Policies and R...', Array, '\n\t\t\t\n\t\t\t\n\t\t\t{or...')
+#3 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/legacy/libraries/channel_entries_parser/components/Custom_field_pair.php(1 in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/TagController.php on line 352
+[29-May-2020 13:04:12 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to EEBlocks\Controller\PublishController::renderBlock() must be an instance of EEBlocks\Model\Block, array given, called in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php on line 199 and defined in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php:135
+Stack trace:
+#0 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php(199): EEBlocks\Controller\PublishController->renderBlock('78', Array)
+#1 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php(328): EEBlocks\Controller\PublishController->renderBlock('78', Object(EEBlocks\Model\Block))
+#2 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/ft.bloqs.php(190): EEBlocks\Controller in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/user/addons/bloqs/libraries/EEBlocks/Controller/PublishController.php on line 135
+[02-Jun-2020 08:17:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function delete() on null in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Controller/Settings/MenuManager.php:503
+Stack trace:
+#0 [internal function]: EllisLab\ExpressionEngine\Controller\Settings\MenuManager->removeItem()
+#1 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Core/Core.php(241): call_user_func_array(Array, Array)
+#2 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Core/Core.php(110): EllisLab\ExpressionEngine\Core\Core->runController(Array)
+#3 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Boot/boot.php(151): EllisLab\ExpressionEngine\Core\Core->run(Object(EllisLab\ExpressionEngine\Core\Request))
+#4 /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/public_html/admin.php(153): require_once('/home/xmsuudlba...')
+#5 {main}
+  thrown in /home/xmsuudlba8jq/subdomains/voltas.twostaging.com/EE_system/ee/EllisLab/ExpressionEngine/Controller/Settings/MenuManager.php on line 503

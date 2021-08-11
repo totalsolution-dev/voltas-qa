@@ -1,0 +1,206 @@
+{!-- This template partial is to be used inside to display 
+	 all the possible grid components from the bloqs module.
+	 To be used directly inside pages channel entry loop.
+
+    Usage: {snp_bloqs_component_grid}
+
+	# COMPONENTS OVERVIEW
+		1. Row
+		2. Cards
+		3. Carousel Wrapper
+		4. Carousel Image
+		5. Jumbotron
+		6. Awards Accordion
+		7. Fact highlight
+		8. Attached Listing Overview
+		9. Freeform Form
+
+--}
+
+<!-- Page components grid START
+	 TODO: Remove this comment before production -->
+{page_components_grid}
+		
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Row				          --}
+		{!-- Styles: Default, Cards		          --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{row}
+			{if style == "cards"}
+			<div class="container">
+        		<div class="card-deck mb-4">
+			{/if}
+			{if style == "highlight"}
+			<div class="container mt-5">
+				<div class="row highlights">
+			{/if}
+			{close:row}
+				</div>
+			</div>
+			{/close:row}
+		{/row} 
+		
+		
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Cards			          --}
+		{!-- {over_title} 
+			 {body}
+			 {button_link}
+			 {button_text} 						  --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		
+		{cards}
+			{if card_type == "card_small"}
+			<div class="card"><img class="card-img-top w-100 d-block" src="{theme_user_folder_url}site/default/asset/img/bg_simplifying_lives.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">{over_title}</h4>
+                    <p class="card-text">{body}</p><a class="btn btn-primary large-text-section" role="button" href="{button_link}">{button_text}</a></button>
+				</div>
+            </div>		
+			{/if}
+			{if card_type == "card_large"}
+			<div class="card"><img class="card-img-top w-100 d-block" src="{theme_user_folder_url}site/default/asset/img/Screen%20Shot%202020-02-13%20at%2011.48.46%20AM.png">
+                <div class="card-body">
+                    <h4 class="card-title">{over_title}</h4>
+                    <p class="card-text">{body}</p><a class="btn btn-primary large-text-section" role="button" href="{button_link}">{button_text}</button></a>
+				</div>
+            </div>
+			{/if}
+			{close:cards}
+				{!-- This component can have no children --}
+			{/close:cards}
+		{/cards} 
+
+
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Carousel Wrapper          --}
+		{!-- 	{auto_slide}
+				{stop_on_hover}
+				{hide_nav_controls}
+				{random_order} 					  --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{carousel}
+			<div data-block-name="carousel">
+				
+				<div class="carousel slide" data-ride="carousel" id="carousel-2" data-interval="5000" data-keyboard="true" data-pause="hover" data-ride="true" data-wrap="true" >
+					<div class="carousel-inner" role="listbox">
+					{!-- ++++++++++++++++++++++++++++++++++++ --}
+					{!-- Nestable: Carousel Image	          --}
+					{!-- ++++++++++++++++++++++++++++++++++++ --}
+				{close:carousel}
+					</div>
+					
+					<div><a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+					
+					<!-- FIXME: Indictors -->
+					{!-- <ol class="carousel-indicators">
+						<li data-target="#carousel-1" data-slide-to="0"></li>
+						<li data-target="#carousel-1" data-slide-to="1"></li>
+						<li data-target="#carousel-1" data-slide-to="2"></li>
+						<li data-target="#carousel-1" data-slide-to="3"></li>
+						<li data-target="#carousel-1" data-slide-to="4"></li>
+						<li data-target="#carousel-1" data-slide-to="5" class="active"></li>
+					</ol> --}
+				</div>
+			</div>
+			<!--- END Carousel Component --->
+			{/close:carousel}
+		{/carousel}
+
+		
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Carousel Image	          --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{carousel_slide_img}
+				<div class="carousel-item {if '{blocks:index:of:type}' ==0}active{/if}"><img class="w-100 d-block" src="{carousel_image}{img:url}{/carousel_image}" alt="Slide Image">
+					<div class="carousel-caption d-md-block px-4 text-lg-left text-dark">
+						<h4><strong>{slide_header_text}</strong><br></h4>
+						<p class="lead">{slide_body_text}</p>
+						
+					</div>
+				</div>
+			{close:carousel_slide_img}
+			{!-- This component can have no children --}
+			{/close:carousel_slide_img}
+		{/carousel_slide_img}
+
+
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Jumbotron		          --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{jumbotron}
+			<div class="highlight-clean">
+				<div class="container about py-4">
+					<div class="intro">
+						<h6 class="text-uppercase text-center"><strong>{over_title}</strong><br></h6>
+						<p class="text-center">{body}</p>
+					</div>
+					{if button_text}
+					<div class="buttons"><a class="btn btn-primary large-text-section" role="button" href="{button_link}">{button_text}</a></div>
+					{/if}
+				</div>
+			</div>
+			{close:jumbotron}
+				{!-- This component can have no children --}
+			{/close:jumbotron}
+		{/jumbotron}
+		
+
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Awards Accordion          --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{awards_accordion}
+			<div class="container">
+				<div role="tablist" id="accordion-1">
+					<div data-block-name="awards_accordion">
+			{highlighted_awards}							
+						<div class="card">
+							<div role="tab" class="card-header">
+								<h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-{highlighted_awards:count}" href="#accordion-1 .item-{highlighted_awards:count}">{highlighted_awards:title}</a></h5>
+							</div>
+							<div role="tabpanel" data-parent="#accordion-1" class="collapse {if highlighted_awards:count == 1}show{/if} item-{highlighted_awards:count}">
+								<div class="card-body">
+									<p class="card-text">{highlighted_awards:body}</p>
+								</div>
+							</div>
+						</div>					
+			{/highlighted_awards}
+			{close:awards_accordion}
+					</div>
+				</div>
+			</div>
+			{/close:awards_accordion}
+		{/awards_accordion}
+
+
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Fact Highlight 	          --}
+		{!-- Needs to be child of row.highlight	  --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{fact_highlight}
+			<div class="col-sm-12 col-md-4">
+				<h1 class="display-3 text-center"><img src="{theme_user_folder_url}site/default/asset/img/icon_imagineers.png" style="padding: 0 20px 0 0;height: 62px;width: auto;margin: -17px 0 0 0;">{fact_title}</h1>
+				<h6 class="text-center"><strong>{fact_body}</strong></h6>
+			{close:fact_highlight}
+			</div>
+			{/close:fact_highlight}
+		{/fact_highlight}
+
+
+		
+
+
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{!-- COMPONENT: Freeform Form 			  --}
+		{!-- Needs to be in a row				  --}
+		{!-- ++++++++++++++++++++++++++++++++++++ --}
+		{form}
+			{select_form}
+		{close:form}
+		{/close:form}
+		{/form}
+
+	{!-- END OF Components loop  --}
+	{/page_components_grid}
+	<!-- Page components grid END
+	 TODO: Remove this comment before production -->

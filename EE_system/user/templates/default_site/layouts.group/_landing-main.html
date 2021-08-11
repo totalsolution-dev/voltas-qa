@@ -1,0 +1,15 @@
+{layout='layouts/_html-wrapper'}
+
+{!-- embed for breadcrumb, needed to pass arguments (embeds aren't evil) --}
+{layout:set name='breadcrumbs'}
+	{embed='common/_breadcrumb'
+		p_url='{layout:p_url}'
+		p_title='{layout:p_title}'
+		{if layout:entry_ch}entry_ch='{layout:entry_ch}'{/if}
+	}
+{/layout:set}
+
+{exp:channel:entries channel="pages" dynamic="yes" sort="asc"}
+	{!-- This template partial contains all the bloqs components used for rendering the page --}
+    {snp_bloqs_component_grid}
+{/exp:channel:entries}

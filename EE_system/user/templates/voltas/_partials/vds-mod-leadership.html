@@ -1,0 +1,23 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / MODULE / LEADERSHIP
+:: Usage: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+{exp:channel:entries channel="{structure:child_listing:short_name}" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
+    {title}
+    {people_photo}
+    {designation}
+
+    {people_body}
+    <div class="col-12 col-md-5 col-lg-4 d-flex">
+    <div class="card voltas-card bg-{card-plate-color}">
+        {if card-image != ""}
+        <img src="{card-image}" class="card-img-top" alt="...">
+        {/if}  
+        <div class="card-body">
+            {vds-mol-card-body-inner}
+        </div>
+    </div>
+</div>
+{/exp:channel:entries}

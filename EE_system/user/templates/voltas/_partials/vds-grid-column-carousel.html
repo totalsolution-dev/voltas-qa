@@ -1,0 +1,33 @@
+{!--  
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / GRID / COLUMN CAROUSEL
+:: Usage: {vds-grid-column-carousel}
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+{carousel}
+{if carousel-fluid == 0}
+<div class="container"> 
+{/if}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<div id="vds-card-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        
+    
+ {close:carousel}
+    </div>
+    <a class="carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+{if carousel-fluid == 0}
+</div>
+{/if}
+{/close:carousel}
+{/carousel}
+{!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / HEADER CAROUSEL		  --}

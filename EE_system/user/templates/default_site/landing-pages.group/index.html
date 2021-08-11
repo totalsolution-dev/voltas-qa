@@ -1,0 +1,15 @@
+{layout='layouts/_html-wrapper'}
+
+{!-- page vars (prefix p_) --}
+{preload_replace:p_url='blog'}
+{preload_replace:p_url_entry='entry'}
+{!-- channel vars (prefix ch_) --}
+{preload_replace:ch='news'}
+{preload_replace:ch_disable='category_fields|member_data'}
+
+{layout:set name='scripts'}{/layout:set}
+
+{exp:channel:entries channel="pages" dynamic="yes" sort="asc"}
+	{!-- This template partial contains all the bloqs components used for rendering the page --}
+    {snp_bloqs_component_grid}
+{/exp:channel:entries}

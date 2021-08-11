@@ -1,0 +1,24 @@
+{!-- {vds-mol-card-body-inner} --}
+{if card-overtitle != ""}
+<h6 class="card-overtitle">{card-overtitle}</h6>
+{/if}
+{if card-title != ""}
+<h1 class="card-title display">{card-title}</h1>
+{/if}
+{if card-subtitle != ""}
+<h2 class="card-subtitle">{card-subtitle}</h2>
+{/if}
+{if card-text != ""}
+<p class="card-text">{card-text}</p>
+{/if}
+{if card-btn-url != ""}
+    {if card-button-style == "button-icon-internal"}
+    <a href="{card-btn-url}"><i class="fa fa-arrow-right"></i></a>
+    {/if}
+    {if card-button-style == "button-icon-external"}
+    <a href="{card-btn-url}"><i class="fa fa-external-link"></i></a>
+    {/if}
+    {if card-button-style == "button-text"}
+    <a href="{card-btn-url}" class="btn btn-outline mt-2 mb-2">{card-button-text}</a>
+    {/if}
+{/if}

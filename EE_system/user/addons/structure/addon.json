@@ -1,0 +1,16 @@
+{
+    "name": "Structure",
+    "shortname": "structure",
+    "version": "4.6.1",
+    "foundation_version": "4.4.4",
+    "description": "Create pages, generate navigation, manage content through a simple interface and build robust sites faster than ever.",
+    "license": "EEHarbor",
+    "namespace": "EEHarbor\\Structure",
+    "require": {
+        "php": ">5.3",
+        "expressionengine/core": "^2.11"
+    },
+    "resources": {
+        "themes": true
+    }
+}

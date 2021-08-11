@@ -1,0 +1,20 @@
+{mol_accordion_row}
+	{!-- ACCORDION ROW --}
+	<div class="card">
+		{!-- HEADER --}
+		<div class="card-header" role="tab" id="vds-{blocks:id}-header">
+			<a data-toggle="collapse" data-parent="#{accordion_parent_name}-accordion" href="#vds-{blocks:id}-content" aria-expanded="true" aria-controls="vds-{blocks:id}-content">
+				<h5 class="mb-0 intro-body">
+					{accordion_row_header}
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</h5>
+			</a>	
+		</div>
+		{!-- CONTENT --}
+		<div id="vds-{blocks:id}-content" class="collapse in" role="tabpanel" aria-labelledby="vds-{blocks:id}-header">
+			{!-- Accordion content goes here --}
+	{close:mol_accordion_row}
+		</div>
+	</div>
+	{/close:mol_accordion_row}
+{/mol_accordion_row}

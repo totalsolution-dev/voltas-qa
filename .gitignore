@@ -1,8 +1,6 @@
 # Ignore build folder
-public_html/
+# public_html/
 node_modules/
-EE_system/
-/.vscode/
+# EE_system/
+*.vscode
 .DS_Store
-docs/test.htm
-docs/tets.js

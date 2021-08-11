@@ -1,0 +1,210 @@
+{layout='layouts/_html-wrapper'}
+
+{!-- We use preload replace variables for in-template replacements for things
+     like tag parameters that we might repeat here. That way if we change things
+     down the road, we can just change it here instead of looking all over the
+     template for them. --}
+
+{!-- page vars (prefix p_) --}
+{preload_replace:p_url='{structure:page:url}'}
+{preload_replace:p_url_entry='entry'}
+{!-- channel vars (prefix ch_) --}
+{preload_replace:ch_disable='category_fields|member_data'}
+
+{!-- make sure page is a structure managed page --}
+{if {structure:is:page} == 1} 
+	{!-- Since it's a page, define the channel as pages --}
+	{preload_replace:page_channel='pages'}
+	{!-- layout vars, channel/page related --}
+	{layout:set name='ch' value='{page_channel}'}
+	
+	{!-- fetch the page head information and pass to the layout through variables --}
+	{exp:channel:entries channel="{page_channel}" disable="{ch_disable}" dynamic="yes" cache="yes" refresh="10"}
+		
+		{!-- Pass the page entry's <head> related data 
+			 into layout variables for use in the wrapper lay-out. --}
+		{snp_set_layout_head_variables} 
+
+		{!-- Check if there is page content to be displayed.
+			 Not to be confused with the channel listing entries, 
+			 those are fetched and rendered in the component grid --}
+		
+		{!-- Define the listing channel to be used later in the component grid to fetch the listing --}
+		{preload_replace:page_listing_channel='{structure:child_listing:short_name}'}
+
+		{!-- ### ACTUAL BODY CONTENT HTML SHOULD BE RENDERED BELOW HERE FOR CLARITY --}
+			{!-- Everything below is the "meat" of the template. We'll use tags to output content,
+			which will populate the layout:contents of the layouts/_html-wrapper layout --}
+
+		{!-- Fetch all blocks from the component grid of this page --}
+		{!-- If the page has a listing attached, make sure to define the listing channel --}
+		
+		{!-- {snp_bloqs_component_grid} --}
+		{!-- Inserted directly due to nested partial issue --}
+
+	{!-- RENDERING BLOQS COMPONENTS FROM HERE 
+
+		# COMPONENTS OVERVIEW
+			1. Row
+			2. Cards
+			3. Carousel Wrapper
+			4. Carousel Image
+			5. Jumbotron
+			6. Awards Accordion
+			7. Fact highlight
+			8. Attached Listing Overview
+			9. Freeform Form
+
+		--}
+ 		
+		 {!-- START OF Components loop  --}
+		{page_components_grid}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / BSE/NSE Ticker fluid
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-bse_nse_ticker}
+				{vds-org-bse_nse_ticker}
+			{/org-bse_nse_ticker}
+
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / GRID / ROW
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-grd-container-row-centered}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / GRID / COLUMN CAROUSEL
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{grid-column-carousel}
+				{vds-grd-column-carousel}
+			{/grid-column-carousel} 
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / ACCORDION
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-accordion} 
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / MOL / ACCORDION ITEM
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-mol-accordion-item}
+
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / INVESTOR TOOLKIT
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-investor_toolkit}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / ENQUIRY MODAL
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-enquiry_modal}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / HEADER CAROUSEL
+			{!-- 	{auto_slide}
+					{stop_on_hover}
+					{hide_nav_controls}
+					{random_order} 					  					 --}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-header_carousel}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / LOGO CAROUSEL
+			{!-- 	{auto_slide}
+					{stop_on_hover}
+					{hide_nav_controls}
+					{random_order}
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-logo_carousel}
+			{vds-mol-logo_carousel-image}
+					
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS/ MOL / Carousel Slide
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-mol-header_carousel-slide}
+
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / CARD / TESTIMONIAL COLLAPSE
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-card-h-xl-testimonial_collapse}
+				{vds-org-card-h-xl-testimonial_collapse}
+			{/org-card-h-xl-testimonial_collapse}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / CARD / TESTIMONIAL COLLAPSE
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{org-card-h-md-leadership_collapse}
+				{vds-org-card-h-md-leadership_collapse}
+			{/org-card-h-md-leadership_collapse}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / CARD
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-card}
+				{!-- card-v-sm-image_patch --}
+				{if 		card_type == "vds-org-card-v-sm-image_patch"}
+					{vds-org-card-v-sm-image_patch}	
+				{!-- card-v-sm-patch --}
+				{if:elseif	card_type == "vds-org-card-v-sm-patch"}
+					{vds-org-card-v-sm-patch}	
+				{!-- card-h-md-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay"}
+					{vds-org-card-h-md-image_text_overlay}	
+				{!-- card-h-xs-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-xs-image_text_overlay"}
+					{vds-org-card-h-xs-image_text_overlay}	
+				{!-- card-h-lg-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-lg-image_text_overlay"}
+					{vds-org-card-h-lg-image_text_overlay}	
+				{!-- card-h-md-image_patch & inverted version--}
+				{if:elseif 	card_type == "vds-org-card-h-md-image_patch" OR card_type == "vds-org-card-h-md-image_patch-inverted"}
+					{vds-org-card-h-md-image_patch}
+				{!-- card-h-md-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-md-image_text_overlay_queries"}
+					{vds-org-card-h-md-image_text_overlay_queries}	
+				{!-- card-h-sm-image_text_overlay --}
+				{if:elseif 	card_type == "vds-org-card-h-sm-image_text_overlay"}
+					{vds-org-card-h-sm-image_text_overlay}	
+				{!-- card-v-lg-video_carousel_patch --}
+				{if:elseif 	card_type == "vds-org-card-v-lg-video_carousel_patch"}
+					{vds-org-card-v-lg-video_carousel_patch}	
+				{!-- card-h-xl-market --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-market"}
+					{vds-org-card-h-xl-market}	
+				{!-- card-h-xl-gallery_patch --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-gallery_patch" OR card_type == "vds-org-card-h-xl-gallery_patch-inverted"}
+					{vds-org-card-h-xl-gallery_patch}	
+				{!-- card-h-xl-gallery_patch_large --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-gallery_patch_large" OR card_type == "vds-org-card-h-xl-gallery_patch_large-inverted"}
+					{vds-org-card-h-xl-gallery_patch_large}
+				{!-- card-h-xl-testimonial_collapse --}
+				{if:elseif 	card_type == "vds-org-card-h-xl-testimonial_collapse"}
+					{vds-org-card-h-xl-testimonial_collapse}
+				{/if}
+				{close:vds-org-card}
+				{/close:vds-org-card}
+			{/vds-org-card}	
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / ORG / Jumbotron
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{vds-org-jumbotron}
+			
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{!-- VDS / MOL / Facts Group — Card
+			{!-- Should be child of row > facts group
+			{!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}
+			{fact-card}
+				{vds-mol-facts_group__fact}
+			{/fact-card}
+			
+		{/page_components_grid}
+		{!-- END OF Components loop  --}
+	{/exp:channel:entries}
+	
+	{layout:contents}
+	
+	{!-- Removed stats and legacy code for performance optimization
+		 Earlier templates were embedded, now they are using layouts --}
+
+<!-- END: landing-pages/default template -->
+{/if}

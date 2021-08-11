@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<fieldtypes xmlns="tag:eeblocks.com,2014:addon/fieldtypes">
+    <whitelist>
+        <!-- Built-in field types -->
+        <fieldtype name="checkboxes" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="date" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="email_address" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="file"/>
+        <fieldtype name="multi_select"/>
+        <fieldtype name="radio" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="relationship" adapter="\EEBlocks\Adapter\RelationshipContentTypeAdapter"/>
+        <fieldtype name="rte" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="select" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="text" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="textarea" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="toggle" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+        <fieldtype name="url" adapter="\EEBlocks\Adapter\BuiltinContentTypeAdapter"/>
+
+        <!-- External field types -->
+        <fieldtype name="expresso" version="ge:3.2"/>
+        <fieldtype name="wygwam" version="ge:3.3"/>
+    <fieldtype name="assets" version="ge:3.0.0-b.2"/>
+    </whitelist>
+</fieldtypes>

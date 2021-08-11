@@ -1,0 +1,55 @@
+{!--  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / MODULE / AWARDS & RECOGNITION
+:: Usage: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+<div class="container">
+	{exp:channel:categories channel="{page_listing_channel}" category_group="8" sort="desc" style="linear" disable="category_fields"}
+	<div id="accordionId" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+		
+		<div class="card">
+			<div class="card-header" role="tab" id="section{count}HeaderId">
+				<a 
+					data-toggle="collapse" 
+					aria-expanded="true" 
+					data-parent="#accordionId" 
+					href="#section{count}ContentId" 
+					aria-controls="accordion-1 .item-{count}">
+					<h5 class="mb-0 intro-body">
+						{category_name}
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</h5>
+				</a>	
+			</div>
+			<div 
+				id="section{count}ContentId" 
+				class="collapse {if count == 1}show{/if} item-{count}"
+				role="tabpanel" 
+				aria-labelledby="section{count}HeaderId">
+				<div class="row">
+				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
+				{exp:channel:entries channel='{page_listing_channel}' category="{category_id}" disable='{ch_disable}' dynamic="no"}
+					{!-- Announcements go here --}
+					<div class="col-12 col-md-4">
+						<div class="card voltas-card">
+							<div class="card-body">
+								<img src="{award_image}" alt="">
+								<p class="card-text">{award-body}{award-body:label}: {award-body:text}<br>{/award-body}</p>
+							</div>
+						</div>
+					</div>	
+					{!-- Announcements go here --}
+				{/exp:channel:entries}
+				</div>
+			</div>
+		</div>
+		{!-- no results output --}
+		{if no_results}
+			<div class="alert warn no-results">
+				<p>{gv_entries_none}</p>
+			</div>
+		{/if}
+	</div>
+	{/exp:channel:categories}
+</div>

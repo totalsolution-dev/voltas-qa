@@ -1,0 +1,32 @@
+{!--  
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / GRID / COLUMN CAROUSEL
+:: Usage: {vds-grd-column-carousel}
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+{if carousel-fluid == 0}
+<div class="container col-12 col-md-12 px-0"> 
+{/if}
+<div id="vds-card-carousel-{blocks:id}" class="vds-card-carousel vds-carousel carousel-fade slide {if auto_slide>0} carousel{/if}" {if auto_slide==0}data-interval="false"{/if} {if auto_slide>0}data-ride="carousel"{/if}>
+    <!-- {auto_slide} -->
+    <div class="carousel-inner">
+        
+    
+ {close:grid-column-carousel}
+    </div>
+</div>
+{if carousel-fluid == 0}
+</div>
+{/if} 
+
+{!-- <script>
+// TODO make this into a proper modular call generic for all cards.
+var ExOnload = function(){
+    $(".vds-card-carousel .carousel-inner>.vds-card-wrapper").wrap( "<div class='carousel-item'></div>");
+    $(".vds-card-carousel .d-none").removeClass("d-none");
+    $(".vds-card-carousel .carousel-item").first().addClass("active");
+}
+</script> --}
+{/close:grid-column-carousel}
+{!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / HEADER CAROUSEL		  --}

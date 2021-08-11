@@ -1,0 +1,32 @@
+{!--  
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: VDS / ORGANISMS / HEADER CAROUSEL
+:: Usage: {vds-org-header_carousel}
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+--}
+{carousel}
+{if carousel-fluid == 0}
+<div class="container"> 
+{/if}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<div id="vds-carousel-{count}" class="carousel voltas-carousel slide">
+    <div class="carousel-inner">
+        {!-- Slides childeren here --}
+ {close:carousel}
+    </div>
+    {!-- <a class="carousel-control-prev" href="#vds-carousel-{count}" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#vds-carousel-{count}" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a> --}
+</div>
+{if carousel-fluid == 0}
+</div>
+{/if}
+{/close:carousel}
+{/carousel}
+{!-- :::::::::::::::::::::::::::::::::::::::::::::::::::: --}
+{!-- 		END: VDS / ORGANISMS / HEADER CAROUSEL		  --}
