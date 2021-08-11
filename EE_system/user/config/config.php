@@ -76,12 +76,12 @@ switch($_SERVER['HTTP_HOST']) {
 			'port'     => ''
 			);
     break;
-    case 'dev01.voltas.com':
+    case 'devvoltas.voltasworld.com':
         $dbConnection = array (
             'hostname' => 'localhost',
-			'database' => 'twostaging_EE',
-			'username' => 'EE_admin',
-			'password' => 'X8kZNmaqLr9UZLt',
+			'database' => 'voltas_web',
+			'username' => 'voltas_web_user',
+			'password' => 'Password@123',
 			'dbprefix' => 'exp_',
 			'char_set' => 'utf8mb4',
 			'dbcollat' => 'utf8mb4_unicode_ci',

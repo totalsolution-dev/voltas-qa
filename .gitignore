@@ -4,3 +4,4 @@ node_modules/
 # EE_system/
 *.vscode
 .DS_Store
+EE_system/user/cache/
