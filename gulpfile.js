@@ -7,7 +7,7 @@
     const
 
     // development or production
-        devBuild = ((process.env.NODE_ENV || 'development').trim().toLowerCase() === 'development'),
+        devBuild = false,
 
         // directory locations
         dir = {

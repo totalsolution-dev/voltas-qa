@@ -153,17 +153,17 @@ MARKET TICKER / API INTEGRATION
 // Get the date and put into required format
 function format_date(date) {
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    month = date.getDate();
-    month = months[month - 1]; //javascript date goes from 0 to 11
-    if (month < 10) month = "0" + month; //adding the prefix
+    month = date.getMonth();
+    month = months[month]; //javascript date goes from 0 to 11
+    // if (month < 10) month = "0" + month; //adding the prefix
 
     year = date.getFullYear();
-    day = date.getMonth();
+    day = date.getDate();
     hour = date.getHours();
     minutes = date.getMinutes();
     seconds = date.getSeconds();
 
-    return month + " " + day;
+    return month + " " + day + " " + year;
 
 }
 
