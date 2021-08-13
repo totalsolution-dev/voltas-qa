@@ -204,8 +204,8 @@ $config['database'] = array (
 $config['share_analytics'] = 'n';
 
 // $config['cache_driver'] = 'file';
-$config['memcached'] = array(
-	  'host' => '127.0.0.1',
-	  'port' => 11211,
-);
+// $config['memcached'] = array(
+// 	  'host' => '127.0.0.1',
+// 	  'port' => 11211,
+// );
 // EOF
