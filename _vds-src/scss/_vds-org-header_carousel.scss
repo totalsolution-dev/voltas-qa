@@ -70,10 +70,12 @@ HEADER CAROUSEL STYLES
 .carousel-item.slide-quote {
     img {
         @include media-breakpoint-down(md) {
-            width: unset!important;
+            // width: unset!important;
         }
         @include media-breakpoint-down(sm) {
             height: 45vh;
+            object-position: 100% 0;
+            // width: auto!important;
         }
     }
     .container {
