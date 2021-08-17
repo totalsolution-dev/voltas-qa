@@ -10,10 +10,25 @@
     .carousel-control-prev {
         right: 0;
         left: unset;
+        @include media-breakpoint-down(sm) {
+            right: unset!important;
+        }
     }
     .carousel-control-next {
         left: 0;
         right: unset;
+        &.xl-patch-desktop {
+            @include media-breakpoint-down(sm) {
+                display: none !important;
+            }
+        }
+        &.xl-patch-mobile {
+            right: 0 !important;
+            left: unset !important;
+            @include media-breakpoint-up(md) {
+                display: none !important;
+            }
+        }
     }
     .carousel-control-plate {
         padding: .5rem;
@@ -50,12 +65,13 @@
         .carousel-control-prev {
             right: unset;
             left: 0;
-            bottom: 0;
+            bottom: unset;
+            top: 50%;
         }
         .carousel-control-next {
             left: 2rem;
             right: unset;
-            top: -2rem;
+            top: 50%;
         }
     }
 }

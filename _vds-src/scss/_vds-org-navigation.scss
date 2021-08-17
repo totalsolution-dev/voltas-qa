@@ -107,12 +107,16 @@ NAVIGATION
         border: none;
     }
     
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
         .voltas-navbar .dropdown-menu {
-            margin-top: 0rem;
+            margin-top: 0rem !important;
+            padding: 0rem !important;
         }
         .voltas-navbar .dropdown-item {
             font-size: 80%;
+        }
+        li.nav-item.dropdown {
+            margin-top: 1.6rem !important;
         }
     }
     
@@ -147,7 +151,7 @@ NAVIGATION
     //       display: block;
     //     }
     //   }
-    @media (max-width: 767px) {
+    @media (max-width: 1200px) {
         .navbar-expand-md .navbar-nav .nav-link {
             padding-right: 0rem;
             padding-left: 0rem;
