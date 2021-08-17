@@ -188,6 +188,9 @@ HEADER CAROUSEL STYLES
         img {
             height: 70vh;
             object-fit: cover;
+            @include media-breakpoint-up(md) {
+                object-position: 50% 0 !important;
+            }
         }
         .carousel-caption {
             left: 2rem;

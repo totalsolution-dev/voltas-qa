@@ -4,6 +4,16 @@
             left: unset;
             right: 0;
             top: 50%;
+            &.desktop {
+                @include media-breakpoint-down(md) {
+                    display: none !important;
+                }
+            }
+            &.mobile {
+                @include media-breakpoint-up(lg) {
+                    display: none!important;
+                }
+            }
         }
         left: -2rem;
         right: unset;
@@ -79,7 +89,7 @@
         .carousel-control-prev {
             right: unset;
             left: 0;
-            bottom: 0;
+            // bottom: 0;
         }
         .carousel-control-next {
             left: 2rem;

@@ -8,7 +8,7 @@
     <div class="card voltas-card testimonial-card bg-{card-plate-color}">
         <div class="row no-gutters">
         {!-- <div class="row"> --}
-            <div class="col-lg-5 pr-md-4">
+            <div class="col-lg-5 pr-lg-4">
                 {if testimonial-image != ""}
                 <div class="card-img-mask w-100 h-100"> 
                     <img src="{testimonial-image}" class="card-img w-100 h-100 object-fit_cover" alt="{card_image_alt_text}">
@@ -21,9 +21,16 @@
                         <span class="sr-only">Previous</span>
                     </div>
                 </a>
+                <a class="carousel-control-next vds-carousel-control-next mobile {if arrow-position == "outside"}outside{/if}" href="" role="button" data-slide="next">
+                    <div class="carousel-control-plate bg-{next-arrow-plate-color}">
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                        <i class="fa fa-chevron-right {next-arrow-color}" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-7 card-collapse">
-                <a class="carousel-control-next vds-carousel-control-next {if arrow-position == "outside"}outside{/if}" href="" role="button" data-slide="next">
+                <a class="carousel-control-next vds-carousel-control-next desktop {if arrow-position == "outside"}outside{/if}" href="" role="button" data-slide="next">
                     <div class="carousel-control-plate bg-{next-arrow-plate-color}">
                         <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
                         <i class="fa fa-chevron-right {next-arrow-color}" aria-hidden="true"></i>
