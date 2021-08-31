@@ -197,6 +197,16 @@
 				{vds-mol-facts_group__fact}
 			{/fact-card}
 			
+			{module}
+				{if module_name == "vds-mod-financial_snapshot"}
+					{vds-mod-financial_snapshot}
+				{/if}
+				
+				{close:module}
+				{/close:module}
+
+			{/module}
+			
 		{/page_components_grid}
 		{!-- END OF Components loop  --}
 	{/exp:channel:entries}
