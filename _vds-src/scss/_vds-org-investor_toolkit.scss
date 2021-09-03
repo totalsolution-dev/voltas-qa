@@ -1,10 +1,9 @@
 .card.card-investor_toolkit {
     width: 20rem;
-    
     position: fixed;
     top: 30vh;
     left: 0;
-    z-index: 1;
+    z-index: 1000;
     transition: all 0.25s;
     &.preview {
         width: 10rem;
