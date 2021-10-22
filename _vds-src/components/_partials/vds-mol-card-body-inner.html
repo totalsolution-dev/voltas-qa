@@ -15,6 +15,9 @@
     {if card-button-style == "button-icon-internal"}
     <a href="{card-btn-url}"><i class="fa fa-arrow-right {button_color}"></i></a>
     {/if}
+    {if card-button-style == "button-icon-new-window" }
+    <a href="{card-btn-url}" target="_blank"><i class="fa fa-arrow-right {button_color}" ></i></a>
+    {/if}
     {if card-button-style == "button-icon-external"}
     <a href="{card-btn-url}"><i class="fa fa-external-link {button_color}"></i></a>
     {/if}
@@ -23,6 +26,9 @@
     {/if}
     {if card-button-style == "button-text"}
     <a href="{card-btn-url}" class="btn btn-outline {button_color} mt-2 mb-2">{card-button-text}</a> 
+    {/if}
+    {if card-button-style == "button-text-new-window"}
+    <a href="{card-btn-url}" class="btn btn-outline {button_color} mt-2 mb-2" target="_blank">{card-button-text}</a> 
     {/if}
 {/if}
 {if card_collapse_content != ""}

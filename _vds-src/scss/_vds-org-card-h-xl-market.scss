@@ -9,6 +9,9 @@
 
 .voltas-card.voltas-card-market {
     background-color: var(--colors-voltas-dark_3)!important;
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 .voltas-card.voltas-card-market .card-body {
