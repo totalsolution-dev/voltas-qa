@@ -16,6 +16,9 @@
                     <div id="in-the-news-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
                     {exp:channel:categories channel="{structure:child_listing:short_name}" category_group="8" sort="desc" style="linear" disable="category_fields" cache="yes" refresh="10"}
                         
+                                    {exp:channel:entries channel="{structure:child_listing:short_name}" category="{category_id}" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
+                                       {!-- Category header only displayed if the category has entries --}
+									{if absolute_count==1}
                         <div class="card">
                             {!-- ACCORDION ROW HEADER --}
                             <div class="card-header" role="tab" id="section{count}HeaderId">
@@ -57,7 +60,7 @@
                                     
                                 </div>
                                 <div class="row no-gutters filter-items">
-                                    {exp:channel:entries channel="{structure:child_listing:short_name}" category="{category_id}" disable="{ch_disable}" dynamic="no" cache="yes" refresh="10"}
+                                    {/if}
                                         {!-- Announcements go here --}						
                                         <div class="col-12 all {press_release_type}">
                                             <div class="card voltas-card voltas-card-press_release">
@@ -70,10 +73,13 @@
                                             </div>
                                         </div>
                                         {!-- Announcements go here --}
-                                    {/exp:channel:entries}
+                                        {if absolute_reverse_count==1}
+                                    
                                 </div>
                             </div>
                         </div>
+                        {/if}
+                        {/exp:channel:entries}
                         {!-- no results output --}
                         {if no_results}
                             <div class="alert warn no-results">

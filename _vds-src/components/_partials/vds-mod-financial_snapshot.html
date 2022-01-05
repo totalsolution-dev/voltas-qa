@@ -175,6 +175,25 @@
 						</div>
 					</div>
 				</div>
+				{!-- ANNUAL RETURNS  --}
+				<div class="card">
+					<div class="card-header" role="tab" id="annual-returns-header">
+						<a data-toggle="collapse" data-parent="#financial-snapshot-accordion" href="#annual-returns-content" aria-expanded="true" aria-controls="annual-returns-content">
+						<h5 class="mb-0 intro-body">
+							Annual returns
+							<i class="fa fa-plus" aria-hidden="true"></i>
+						</h5>
+					</a>	
+					</div>
+					<div id="annual-returns-content" class="collapse in" role="tabpanel" aria-labelledby="annual-returns-header">
+						<div class="card-body">
+							<div class="row">
+								{!-- Fetch Annual returns based on Category ID = 68 --}
+								{embed="financial-snapshot/_annual-returns"}
+							</div>
+						</div>
+					</div>
+				</div>
 				{!-- SUBSIDIARY REPORTS  --}
 				<div class="card">
 					<div class="card-header" role="tab" id="subsidiary-reports-header">

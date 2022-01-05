@@ -1,0 +1,19 @@
+{!-- Fetch Annual reports based on Category ID = 10 --}
+{exp:channel:entries channel='financial_snapshot' category="68" disable='{ch_disable}' parse="inward" dynamic="no" orderby="title" sort="desc"}
+<div class="col-12 col-md-3">
+    <div class="card voltas-card voltas-fs_card bg-{card-plate-color}">
+        <div class="card-body">
+            <h5 class="card-title">{title}</h5>
+            <a href="{attachment_for_download}" class="" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
+            <p class="card-text">{description}</p>
+            
+        </div>
+    </div>
+    {!-- no results output --}
+    {if no_results}
+    <div class="alert warn no-results">
+        <p>{gv_entries_none}</p>
+    </div>
+    {/if}
+</div>
+{/exp:channel:entries}
