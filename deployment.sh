@@ -87,4 +87,4 @@ git reset --hard origin/$env
 echo ""
 echo "MySQL Password: "
 read sqlPas
-mysql -u voltas_web_user -p $sqlPas -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
+mysql -u voltas_web_user -p $sqlPas -Dvoltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
