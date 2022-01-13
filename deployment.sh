@@ -70,7 +70,7 @@ git restore .
 
 echo ""
 echo "Git Password: "
-prompt $gitPas
+prompt gitPas
 git remote set-url origin https://phantasmagoriadigital:$gitPas@github.com/phantasmagoriadigital/voltas.com.git
 
 # Fetch the updated branch from Origin
@@ -84,4 +84,7 @@ echo "Merging local branch with fetched branch..."
 git reset --hard origin/$env
 
 #Update DB
-mysql -u voltas_web_user -puserpass -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
+echo ""
+echo "MySQL Password: "
+prompt sqlPas
+mysql -u voltas_web_user -p $sqlPas -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
