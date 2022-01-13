@@ -84,8 +84,11 @@ echo "Merging local branch with fetched branch..."
 git reset --hard origin/$env
 
 #Update DB
-echo "Updating DB"
-mysql -u voltas_web_user -p voltas_web << EOF
-USE voltas_web;
-SOURCE /var/www/voltas.com/db-migration/latest.sql;
-EOF
+echo "Update DB with /var/www/voltas.com/db-migration/latest.sql"
+echo "type: mysql -u voltas_web_user -p"
+echo "type: USE voltas_web"
+echo "type: SOURCE /var/www/voltas.com/db-migration/latest.sql"
+# mysql -u voltas_web_user -p voltas_web << EOF
+# USE voltas_web;
+# SOURCE /var/www/voltas.com/db-migration/latest.sql;
+# EOF
