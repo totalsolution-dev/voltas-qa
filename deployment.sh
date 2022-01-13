@@ -82,3 +82,6 @@ git fetch origin $env
 echo ""
 echo "Merging local branch with fetched branch..."
 git reset --hard origin/$env
+
+#Update DB
+mysql -u voltas_web_user -puserpass -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
