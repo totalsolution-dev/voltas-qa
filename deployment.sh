@@ -24,7 +24,8 @@ do
         "DEV")
             echo "You shouldn't be running this script here!"
             # optionally call a function or run some code here
-            exit
+            # exit
+            break
             ;;
         "QA")
             # echo "$env is a Vietnamese soup that is commonly mispronounced like go, instead of duh."
@@ -66,6 +67,11 @@ git clean -f -d -i
 echo ""
 echo "Discarding all changes..."
 git restore .
+
+echo ""
+echo "Git Password: "
+prompt $gitPas
+git remote set-url origin https://phantasmagoriadigital:$gitPas@github.com/phantasmagoriadigital/voltas.com.git
 
 # Fetch the updated branch from Origin
 echo ""
