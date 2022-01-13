@@ -85,4 +85,7 @@ git reset --hard origin/$env
 
 #Update DB
 echo "Updating DB"
-mysql -u voltas_web_user -p -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
+mysql -u voltas_web_user -p -D voltas_web -e << EOF
+USE voltas_web;
+SOURCE /var/www/voltas.com/db-migration/latest.sql;
+EOF
