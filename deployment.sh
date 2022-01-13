@@ -84,7 +84,5 @@ echo "Merging local branch with fetched branch..."
 git reset --hard origin/$env
 
 #Update DB
-echo ""
-echo "MySQL Password: "
-read sqlPas
-mysql -u voltas_web_user -p$sqlPas -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
+echo "Updating DB"
+mysql -u voltas_web_user -p -D voltas_web -e "SOURCE /var/www/voltas.com/db-migration/latest.sql";
