@@ -26,6 +26,9 @@ JUMBOTRON STYLES
     p {
         color: #606060;
         margin-bottom: 0rem;
+        strong {
+            font-family: FS Elliot Pro Bold;
+        }
     }
     a {
         color: var(--colors-slate-light_2);
