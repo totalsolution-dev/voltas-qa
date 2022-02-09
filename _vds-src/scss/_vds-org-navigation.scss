@@ -29,6 +29,14 @@ NAVIGATION
         font-size: 1rem;
         line-height: 1.25rem;
         color: var(--colors-slate-light_2);
+        &.button {
+            border: #65D2B8 solid 2px;
+            border-radius: 4px;
+            &:hover {
+                background-color: #65D2B8;
+                color: #ffffff;
+            }
+        }
     }
     
     .navbar-expand-md .navbar-nav .nav-link {
