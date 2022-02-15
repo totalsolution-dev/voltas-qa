@@ -28,7 +28,7 @@
                     {/if}
                     <li class="nav-item dropdown {if root:title=="Buy Online"}button{/if}">
 
-                        <a class="{if root:has_children}dropdown-toggle{/if} nav-link {if root:active}active{/if} {if root:title=="Buy Online"}button{/if}" {if root:has_children}data-toggle="dropdown" {/if} href="{root:page_url}" {if root:title=="Buy Now"}target="_blank"{/if}>{root:title}<span class="nav-indicator"></span></a>                        {if root:has_children}
+                        <a class="{if root:has_children}dropdown-toggle{/if} nav-link {if root:active}active{/if} {if root:title=="Buy Online"}button{/if}" {if root:has_children}data-toggle="dropdown" {/if} href="{root:page_url}" {if root:title=="Buy Online"}target="_blank"{/if}>{root:title}<span class="nav-indicator"></span></a>                        {if root:has_children}
                         <div class="dropdown-menu" role="menu">
                             {root:children}
                             <a class="dropdown-item {if child:active}active{/if}" {if child:has_children}data-toggle="dropdown" {/if} role="presentation" href="{child:page_url}">{child:title}</a> {!-- --} {if child:has_children}

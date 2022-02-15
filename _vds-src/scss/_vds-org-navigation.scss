@@ -126,14 +126,28 @@ NAVIGATION
         }
         li.nav-item.dropdown {
             margin-top: 1.6rem !important;
-            // &.button {
-            //     top: -2px;
-            // }
+            &.button {
+                margin-left: 0px;
+                border-radius: 4px;
+            background-color: #086BD2;
+                color: #ffffff;
+                padding: 10px;
+                
+            &:hover {
+                background-color: #086BD2;
+                color: #ffffff;
+            }
+            }
         }
     }
     li.nav-item.dropdown {
         &.button {
             margin-left: 10px;
+            @include media-breakpoint-down(lg) {
+                margin-left: 0px;
+                max-width: fit-content;
+                margin-left: -10px;
+            }
         }
     }
     
