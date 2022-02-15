@@ -30,10 +30,11 @@ NAVIGATION
         line-height: 1.25rem;
         color: var(--colors-slate-light_2);
         &.button { 
-            border: #65D2B8 solid 2px;
             border-radius: 4px;
+            background-color: #086BD2;
+                color: #ffffff;
             &:hover {
-                background-color: #65D2B8;
+                background-color: #086BD2;
                 color: #ffffff;
             }
         }
@@ -125,14 +126,14 @@ NAVIGATION
         }
         li.nav-item.dropdown {
             margin-top: 1.6rem !important;
-            &.button {
-                top: -2px;
-            }
+            // &.button {
+            //     top: -2px;
+            // }
         }
     }
     li.nav-item.dropdown {
         &.button {
-            top: -2px;
+            margin-left: 10px;
         }
     }
     
