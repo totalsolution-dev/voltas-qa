@@ -16,6 +16,12 @@ NAVIGATION
             background-color: var(--colors-voltas-primary)!important;
         }
     }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
     
     .voltas-navbar .navbar-brand img {
         width: 7.5rem;

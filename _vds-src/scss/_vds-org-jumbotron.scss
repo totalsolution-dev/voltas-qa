@@ -19,6 +19,12 @@ JUMBOTRON STYLES
     h1 {
         margin-bottom: 2rem;
         color: #4392F3;
+        a {
+            color: inherit!important;
+            &:hover {
+                text-decoration: underline !important;
+            } 
+        }
     }
     h6 {
         margin-bottom: 2rem;
@@ -29,10 +35,19 @@ JUMBOTRON STYLES
         strong {
             font-family: FS Elliot Pro Bold;
         }
+        a {
+            color: inherit!important;
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
     }
     a {
         color: var(--colors-slate-light_2);
+        
+        
     }
+
     // moved to mol-button
     // .btn-outline-dark {
     //     border: .125rem solid var(--colors-voltas-dark_1);
