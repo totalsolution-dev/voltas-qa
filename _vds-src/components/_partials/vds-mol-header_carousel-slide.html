@@ -1,4 +1,7 @@
 {mol-header_carousel-slide}
+{if slide_url != ""}
+<a href="{slide_url}">
+{/if}
 <div class="carousel-item {if slide-appearance == 'slide_quote'} slide-quote{/if}{if '{blocks:index:of:type}' ==0} active{/if}">
 	<img class="w-100 d-block" src="{slide-image}" alt="{slide_image_alt_text}" style="object-position: {focus-x} {focus-y}">
     <div class="container"> 
@@ -54,6 +57,7 @@
         {/if}
     </div>
 </div>
+</a>
 {close:mol-header_carousel-slide}
 {!-- This component can have no children --}
 {/close:mol-header_carousel-slide}

@@ -54,6 +54,11 @@ HEADER CAROUSEL STYLES
         line-height: 20px;
         color: #606060;
     }
+    a {
+        &:hover {
+            text-decoration: none !important;
+        }
+    }
     .btn-outline-primary {
         border-radius: .25rem;
         border-width: .125rem;
