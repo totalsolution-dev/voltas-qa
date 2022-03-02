@@ -54,8 +54,17 @@ TYPOGRAPHY MAIN STYLES
 
 /* Typography / Heading 1 */
 
-h1,
+// h1,
 .h1 {
+    font-family: 'FS Elliot Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    /* or 121% */
+}
+h3,
+.h3 {
     font-family: 'FS Elliot Pro';
     font-style: normal;
     font-weight: normal;
@@ -67,8 +76,17 @@ h1,
 
 /* Typography / Heading 1 Display */
 
-h1.display,
+// h1.display,
 .h1.display {
+    font-family: 'FS Elliot Pro Heavy';
+    font-style: normal;
+    // font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    /* or 121% */
+}
+h3.display,
+.h3.display {
     font-family: 'FS Elliot Pro Heavy';
     font-style: normal;
     // font-weight: 800;

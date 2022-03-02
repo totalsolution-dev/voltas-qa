@@ -28,11 +28,13 @@
                 {if:else}
                 <div class="jumbotron {if jumbotron-compacted == 1}jumbotron-compacted{/if}">
                 {/if}
-                    {if jumbotron-overtitle != "" }
+                    {if jumbotron-overtitle != "" AND h1_tag == "1"}
+                    <h1 class="card-overtitle">{jumbotron-overtitle}</h1>
+                    {if:elseif jumbotron-overtitle != "" AND h1_tag == "0"}
                     <h6 class="card-overtitle">{jumbotron-overtitle}</h6>
                     {/if}
                     {if jumbotron-title != ""}
-                    <h1 class="{if align_content_left == 1}text-left{if:else}{/if} {if jumbotron-style == "vds-org-jumbotron__featured"}display{/if}">{jumbotron-title}</h1>
+                    <h3 class="{if align_content_left == 1}text-left{if:else}{/if} {if jumbotron-style == "vds-org-jumbotron__featured"}display{/if}">{jumbotron-title}</h2>
                     {/if}
                     {if jumbotron-text != ""}
                     <p class="intro-body {if align_content_left == 1}text-left{if:else}{/if}">{jumbotron-text}</p>
