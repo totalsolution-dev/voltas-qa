@@ -1,0 +1,113 @@
+a:3:{s:4:"time";i:1652178901;s:3:"ttl";i:0;s:4:"data";s:6611:"  {!-- ra:00000000561f209c000000000fc5876b --}  {layout:set name='seo_tags'}<title>KYC forms - Physical Shareholder</title>   {/layout:set}      {!-- ra:00000000561f26e8000000000fc5876b --}            {!-- bloqs:start:1085 vars="[]" --}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<!-- test 2 -->
+{exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
+
+
+
+<div id="vds-carousel-{exp:stash:get name='foo'}" class="carousel vds-carousel voltas-carousel slide">
+    <div class="carousel-inner">
+        
+ {!-- bloqs:start:1086 vars="[]" --} <div class="carousel-item  active"> <img class="w-100 d-block" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Rectangle_4AbUs_Lead_carousel1.jpg" alt="" style="object-position:  "><div class="container">  <div class="carousel-caption voltas-carousel-caption left background-grey border-aqua d-md-block col-8 col-md-5"><h4 class="h1 display" style="color:var(--colors-slate-primary)" >Building a sound foundation today for a progressive tomorrow</h4><p class="lead" style="color:var(--colors-slate-primary)">We believe in achieving financial excellence and discipline, by leveraging on capabilities and opportunities.
+</p> <div class="vds-carousel-controls"><a class="vds-carousel-control-prev" href="" role="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><a class="vds-carousel-control-next" href="" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a><span class="vds-carousel-slidenumber chalk-primary"></span> <span class="vds-carousel-imgcap chalk-primary"></span></div></div>      </div></div></a>    {!-- bloqs:end:1086 --}
+    </div>
+    <!-- test --> 
+    
+</div>
+
+{!-- bloqs:end:1085 --}{!-- bloqs:start:1087 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron highlighted green-border">   <h3 class=" display">SEBI vide circular SEBI/HO/MIRSD/MIRSD_RTAMB/P/CIR/ 2021/655 dated 3rd November, 2021 read with clarification SEBI/HO/MIRSD/ MIRSD_RTAMB/P/CIR/ 2021/687 dated 14th December, 2021 </h2>  <p class="intro-body ">has introduced common and simplified norms for processing investor’s service request by Registrar and Transfer Agent(s) (RTAs) and norms for furnishing PAN, KYC details and Nomination. Synopsis of the circular are as under:</br>
+</br>
+<strong>All holders of physical securities of the Company are mandatorily required to furnish</strong> the following documents / details to the Company’s RTA i.e. TSR Darashaw Consultants Private Limited (TSR), at the address given below:</p>   </div></div></div>  </div>  {!-- bloqs:end:1087 --}{!-- bloqs:start:1089 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex vds-row-card_collapse">
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:1090 vars="[]" --}   {!-- ra:00000000561f263d000000000fc5876b --}
+<div class="col-12 col-md-6 vds-card-wrapper ">
+    <div class="card voltas-card bg-aqua-primary ">
+        <div class="row no-gutters">
+            
+            <div class="col-md-6 pr-md-2 ">
+                
+                <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/KYC_Documents_Required.jpg" class="card-img object-fit_cover h-100" alt="">
+                
+                
+            </div>
+            <div class="col-md-6">
+                
+                <div class="card-body pl-2 card-collapse-intro">
+                    {!-- ra:00000000561f262e000000000fc5876b --}  <h3 class="card-title display chalk-primary">Documents Required</h3>   <p class="card-text chalk-primary">a. PAN</br>
+b. Nomination</br>
+c. Contact Details</br>
+d. Bank Account Details</br>
+e. Specimen Signature</br></p>   
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+{!-- ra:00000000561f2622000000000fc5876b --}     {!-- bloqs:end:1090 --}{!-- bloqs:start:1091 vars="[]" --}   {!-- ra:00000000561f263d000000000fc5876b --}
+<div class="col-12 col-md-6 vds-card-wrapper ">
+    <div class="card voltas-card bg-slate-primary ">
+        <div class="row no-gutters">
+            
+            <div class="col-md-6 pr-md-2 ">
+                
+                <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/KYC_Contact_Details.jpg" class="card-img object-fit_cover h-100" alt="">
+                
+                
+            </div>
+            <div class="col-md-6">
+                
+                <div class="card-body pl-2 card-collapse-intro">
+                    {!-- ra:00000000561f262e000000000fc5876b --}  <h3 class="card-title display chalk-primary">Contact</h3>   <p class="card-text chalk-primary">TSR Darashaw Consultants Private Limited</br>
+</br>
+Unit: Voltas Limited, C-101, 1st Floor, 247 Park, Lal Bahadur Shastri Marg, Vikhroli West, Mumbai. PIN 400 083</br>
+T: +91 22 6656 8484</br>
+M: csg-unit@tcplindia.co.in</p>   
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+{!-- ra:00000000561f2622000000000fc5876b --}     {!-- bloqs:end:1091 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:1089 --}{!-- bloqs:start:1088 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron highlighted green-border">   <h3 class=" display">Investors shall submit Form ISR-1 to TSR for updating PAN and other KYC details.</h2>  <p class="intro-body ">In case of mismatch in the signature of the holder in the records of TSR, the investor shall furnish original cancelled cheque and banker’s attestation for the signature as per <strong>Form ISR-2.</strong> </br></br>
+
+
+Investors shall fill <strong>Form SH-13</strong> for declaration of nomination and if required, <strong>Form SH-14</strong> for variation in nomination. However, in case investor wants to opt-out of nomination, <strong>Form ISR-3</strong> be submitted to TSR.</br> </br>
+
+
+<strong>Effective 1st January, 2022, the Company’s RTA - TSR shall not process any service requests or complaints received from the holder(s) / claimant(s), till PAN, KYC and Nomination documents/details are received.</strong> </br></br>
+
+
+Investors are <strong>requested to read the aforesaid circulars and ensure that above details are updated with TSR before 1st April, 2023.</strong> Thereafter, folios for which the above details are not available <strong>shall be frozen by TSR.</strong></p>   </div></div></div>  </div>  {!-- bloqs:end:1088 --}  ";}
