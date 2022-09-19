@@ -1,0 +1,17 @@
+a:3:{s:4:"time";i:1663550338;s:3:"ttl";i:0;s:4:"data";s:3178:"  {!-- ra:000000005c2b3be90000000038a4af22 --}  {layout:set name='seo_tags'}<title>India’s Most iconic brand - Voltas</title> <meta name="keywords" content="National Energy Conservation Award 2021, Tata business excellence award 2021, Voltas, air conditioner appliance of the year, contractor of the year, engineer of the year, gold standard of marketing award, 2020 effie award, India’s Most iconic brand, best ac brand in India 2020, performance voltas.com, awards and recognition in India"> <meta property="og:title" content="India’s Most iconic brand - Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/about/awards-recognition/"> <meta property="og:description" content="Voltas has been recognized as one of India’s most successful brands by The ET Iconic Brands of India 2019-2020. Voltas won MEP Contractor of the Year 2021. Volts wins Gold Standard of Marketing Award at the 2020 Effie Award."> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="December, 07, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Voltas has been recognized as one of India’s most successful brands by The ET Iconic Brands of India 2019-2020. Voltas won MEP Contractor of the Year 2021. Volts wins Gold Standard of Marketing Award at the 2020 Effie Award.">  <link rel="canonical" href="https://voltas.in/about/awards-recognition/"/>  {/layout:set}      {!-- ra:000000005c2b3a650000000038a4af22 --}            {!-- bloqs:start:223 vars="[]" --}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<!-- test 2 -->
+{exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
+
+
+
+<div id="vds-carousel-{exp:stash:get name='foo'}" class="carousel vds-carousel voltas-carousel slide">
+    <div class="carousel-inner">
+        
+ {!-- bloqs:start:224 vars="[]" --} <div class="carousel-item  active"> <img class="w-100 d-block" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Awards_Carousel.jpg" alt="" style="object-position:  "><div class="container">  <div class="carousel-caption voltas-carousel-caption left background-grey border-aqua d-md-block col-8 col-md-5"><h4 class="h1 display" style="color:var(--colors-slate-primary)" >Humble in our achievements, fierce in our desire to do more</h4><p class="lead" style="color:var(--colors-slate-primary)">At Voltas, we appreciate the acknowledgement of our customers and peers even as we strive to do more.</p> <div class="vds-carousel-controls"><a class="vds-carousel-control-prev" href="" role="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><a class="vds-carousel-control-next" href="" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a><span class="vds-carousel-slidenumber aqua-primary"></span> <span class="vds-carousel-imgcap aqua-primary"></span></div></div>      </div></div></a>    {!-- bloqs:end:224 --}
+    </div>
+    <!-- test --> 
+    
+</div>
+
+{!-- bloqs:end:223 --}  ";}

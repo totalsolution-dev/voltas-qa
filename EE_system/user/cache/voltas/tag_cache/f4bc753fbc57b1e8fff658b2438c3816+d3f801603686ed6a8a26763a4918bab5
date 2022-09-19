@@ -1,0 +1,107 @@
+a:3:{s:4:"time";i:1663550338;s:3:"ttl";i:0;s:4:"data";s:4160:"
+					
+					
+						<div class="card"> 
+							<!-- 1 -->
+							<div class="card-header" role="tab" id="section8HeaderId">
+								<a 
+									data-toggle="collapse" 
+									aria-expanded="true" 
+									data-parent="#accordionId" 
+									href="#section8ContentId" 
+									aria-controls="accordion-1 .item-8">
+									<h5 class="mb-0 intro-body">
+										2016
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</h5>
+								</a>	
+							</div>
+							
+							<div id="section8ContentId" class="collapse  item-8" role="tabpanel" aria-labelledby="section8HeaderId">
+								<div class="row">
+					
+									
+									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2016_Awards_TATA-Innovista.jpg" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">Tata innovista Award</h3> <h6 class="card-label card-highlight-label">Business: <span>Team Voltas</span></h6> <h6 class="card-label card-highlight-label">Recognition: <span>Tata innovista award</span></h6> <h6 class="card-label card-highlight-label">Awarded By: <span>Tata Innovista</span></h6> </div></div></div></div></div>
+									
+									
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2016_Awards_Prime-Time-Award-bestowed-by-exchange4media.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Business:<span> Cooling & refrigeration</span></h6>
+            
+            <h6 class="card-label">Recognition:<span> Prime Time Award for Best Media Strategy - Integrated Tv Campaign 2016</span></h6>
+            
+            <h6 class="card-label">Awarded By:<span> Exchange4media (e4m)</span></h6>
+            
+            <h6 class="card-label">Awarded For:<span> The All weather ac campaign</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000005c2b2bea0000000038a4af22 --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2016_Awards_Top-Corporate-Brands-of-FY-2016-by-Economic-Times.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Business:<span> Team Voltas</span></h6>
+            
+            <h6 class="card-label">Recognition:<span> One Of The Top Corporate Brands In India for Fy 2016</span></h6>
+            
+            <h6 class="card-label">Awarded By:<span> Economic Times</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000005c2b2bea0000000038a4af22 --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2016_Awards_Winner-of-Sales-Award-2016.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Business:<span> Textile Machinery Division</span></h6>
+            
+            <h6 class="card-label">Recognition:<span> Winner of Sales Award 2016</span></h6>
+            
+            <h6 class="card-label">Awarded By:<span> M/s Reggiani, Italy</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000005c2b2bea0000000038a4af22 --}	
+									
+									
+								</div>
+							</div>
+					</div>
+					
+				";}

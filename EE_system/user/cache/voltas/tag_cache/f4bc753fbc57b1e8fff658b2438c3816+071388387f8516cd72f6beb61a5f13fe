@@ -1,0 +1,81 @@
+a:3:{s:4:"time";i:1663550338;s:3:"ttl";i:0;s:4:"data";s:3383:"
+					
+					
+						<div class="card"> 
+							<!-- 1 -->
+							<div class="card-header" role="tab" id="section2HeaderId">
+								<a 
+									data-toggle="collapse" 
+									aria-expanded="true" 
+									data-parent="#accordionId" 
+									href="#section2ContentId" 
+									aria-controls="accordion-1 .item-2">
+									<h5 class="mb-0 intro-body">
+										2022
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</h5>
+								</a>	
+							</div>
+							
+							<div id="section2ContentId" class="collapse  item-2" role="tabpanel" aria-labelledby="section2HeaderId">
+								<div class="row">
+					
+									
+									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="https://devvoltas.voltasworld.com/images/awards/MPA_2022_National_Winners_Badges-Culture-Project.jpg" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">Voltas Oman bags three awards at the MEED Project Awards 2022</h3> <h6 class="card-label card-highlight-label">Culture Project of the Year: <span>Voltas Oman SPC Oman Across Ages Museum</span></h6> <h6 class="card-label card-highlight-label">Leisure Project of the Year: <span>Lalbuksh Voltas Engineering Services & Trading LLC Manah Public Park</span></h6> <h6 class="card-label card-highlight-label">Small Project of the Year: <span>Voltas Oman SPC Oman Across Ages Museum</span></h6> </div></div></div></div></div>
+									
+									
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/Awards---100-CEOs---2022.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Recognition:<span> Top 100 CEOs in India</span></h6>
+            
+            <h6 class="card-label">Awarded to:<span> Mr. Pradeep Bakshi, Managing Director and CEO</span></h6>
+            
+            <h6 class="card-label">Awarded By:<span> StartupLanes</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000005c2b2bea0000000038a4af22 --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/BigProjectME_Awards_2022.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">BUSINESS:<span> INTERNATIONAL PROJECTS</span></h6>
+            
+            <h6 class="card-label">RECOGNITION:<span> MEP CONTACTOR OF THE YEAR</span></h6>
+            
+            <h6 class="card-label">AWARDED FOR:<span> FOR DISPLAYING EXEMPLARY STANDARDS OF MEP CONTRACTING WORK ON THE OMAN ACROSS AGES MUSEUM PROJECT</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000005c2b2bea0000000038a4af22 --}	
+									
+									
+								</div>
+							</div>
+					</div>
+					
+				";}
