@@ -52,7 +52,7 @@ $config['email_debug']          = 'n'; # y/n
 
 switch($_SERVER['HTTP_HOST']) {
 
-    case 'www.voltas.com':
+    case 'www.voltas.in':
         $dbConnection = array (
 			'hostname' => 'localhost',
 			'database' => 'voltas_web',
@@ -64,7 +64,7 @@ switch($_SERVER['HTTP_HOST']) {
 			'port'     => ''
 			);
     break;
-    case 'voltas.com':
+    case 'voltas.in':
         $dbConnection = array (
             'hostname' => 'localhost',
 			'database' => 'voltas_web',
