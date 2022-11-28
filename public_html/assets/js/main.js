@@ -743,3 +743,17 @@ $('.dropdown-item').on('click', function() {
     // Show the selected tab pane
     $('#' + tab_id).addClass('show');
 });
+
+
+function showlink(obj){
+	console.log('s');
+	console.log($(this));
+	$(obj).next().addClass('showsubmenu');
+	return false;
+//	console.log("link clicked");
+	
+}
+
+$('.dropdown-menu').on('click', function (e) {
+   e.stopPropagation();
+});
