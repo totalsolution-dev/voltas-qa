@@ -11,7 +11,7 @@
         {!-- Render one tab for each category
                 Active class dynamically added for first category
             --}
-        <a class="dropdown-item intro-body {if {count}==1}active{/if}" id="nav-QA{category_id}-tab" data-toggle="tab" href="nav-QA{category_id}" role="tab" aria-controls="nav-QA{category_id}" aria-selected="true">{category_name}</a>
+        <a class="dropdown-item intro-body {if {count}==1}active{/if}" id="nav-QA{category_id}-tab" data-toggle="tab" href="#nav-QA{category_id}" role="tab" aria-controls="nav-QA{category_id}" aria-selected="true">{category_name}</a>
         {/exp:channel:categories}
     </div>
 
