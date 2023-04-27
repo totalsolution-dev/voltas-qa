@@ -741,7 +741,7 @@ $('.dropdown-item').on('click', function() {
     // Hide the previously opened tab panes within the scope of the dropdown
     $('#' + dropdown_scope + ' .tab-pane').removeClass('show');
     // Show the selected tab pane
-    $(tab_id).addClass('show');
+    $(tab_id).addClass('show'); //# is added in the a link href
     //$('#' + tab_id).addClass('show');
 	$(dropdown_menu).removeClass('show');
 });
