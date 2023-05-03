@@ -1,10 +1,8 @@
 <div class="col col-12">
-<!--
     <button class="btn voltas-btn voltas-dropdown-btn intro-body" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="dropdown-label">Select Year</span>
         <i class="fa fa-angle-down float-right" aria-hidden="true"></i>
     </button>
--->
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" aria-controls="nav-tabContent_QR">
         {!-- Loop through the categories inside category_group 5 (Financial Years) --}
                 {exp:channel:categories category_group="5" style="linear"}
@@ -15,7 +13,7 @@
                 {/exp:channel:categories}
     </div>
     {!-- TAB CONTENT --}
-    <div id="nav-tabContent_QR" style="display: none;">
+    <div id="nav-tabContent_QR">
         {!-- Loop through the categories inside category_group #5 (Financial Years) --}
         {exp:channel:categories category_group="5" style="linear"}
         {!-- Show & Active class dynamically added for first category to open the first content panel --}
@@ -45,36 +43,7 @@
         {/exp:channel:categories}
     </div>
 	
-	<div id="nav-tabContent_QR01">
-        {!-- Loop through the categories inside category_group #5 (Financial Years) --}
-        {exp:channel:categories category_group="5" style="linear"}
-        {!-- Show & Active class dynamically added for first category to open the first content panel --}
-        <div class="tab-pane01 fade01 {if {count}==1}show active{/if}" id="nav-QR{category_id}" role="tabpanel" aria-labelledby="nav-QR{category_id}-tab">            	
-            <div class="row col-12 pt-5 voltas-fs_card-row">	
-				<div class="col-12"><p>Year : {category_name}</p></div>
-                {!-- Loop through the entries inside each Financial Year (category_id) 
-                    where category is also Quarterly Reports (#12)   --}
-                {exp:channel:entries channel='financial_snapshot' category="12&{category_id}" disable='{ch_disable}' parse="inward" dynamic="no" orderby="title" sort="asc"}	
-                <div class="col-12 col-md-3">	
-                    <div class="card voltas-card voltas-fs_card bg-{card-plate-color}">
-                        <div class="card-body">
-                            <h5 class="card-title">{title}</h5>
-                            <a href="{attachment_for_download}" class="" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
-                            <p class="card-text">{description}</p>
-                        </div> 
-                    </div>
-                    {!-- no results output --}
-                    {if no_results}
-                    <div class="alert warn no-results">
-                        <p>{gv_entries_none}</p>
-                    </div>
-                    {/if}
-                </div>
-                {/exp:channel:entries}
-            </div>
-        </div>
-        {/exp:channel:categories}
-    </div>
+	
 </div>
 {!-- END: Tabbed navigation to display reports by annual year --}
 
