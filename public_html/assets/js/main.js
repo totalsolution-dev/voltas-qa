@@ -721,7 +721,7 @@ FINANCIAL SNAPSHOT DROPDOWN
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 // Find the dropdown items and bind click function
-$('.dropdown-item').on('click', function(e) {
+$('.dropdown-item:not([role="presentation"])').on('click', function(e) {
 	e.preventDefault();
     // Find the relationship of the dropdown menu from the parent element and store in variable
     var dropdown_menu = $(this).closest('.dropdown-menu');
