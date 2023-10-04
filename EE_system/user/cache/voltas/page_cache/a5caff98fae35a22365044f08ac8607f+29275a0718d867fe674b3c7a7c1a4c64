@@ -1,11 +1,11 @@
-a:3:{s:4:"time";i:1696416689;s:3:"ttl";i:0;s:4:"data";s:8337:"{!-- ra:0000000037ec163a000000003de831c5 --}{layout='layouts/_html-wrapper'}            {layout:set name='ch' value='pages'}    {!-- ra:0000000037ec1634000000003de831c5 --}  {layout:set name='seo_tags'}<title>KYC forms - Physical Shareholder</title>   {/layout:set}      {!-- ra:0000000037ec0528000000003de831c5 --}            {!-- bloqs:start:1085 vars="[]" --}
+a:3:{s:4:"time";i:1696424503;s:3:"ttl";i:0;s:4:"data";s:8337:"{!-- ra:0000000033f42313000000003fe46f7c --}{layout='layouts/_html-wrapper'}            {layout:set name='ch' value='pages'}    {!-- ra:0000000033f42311000000003fe46f7c --}  {layout:set name='seo_tags'}<title>KYC forms - Physical Shareholder</title>   {/layout:set}      {!-- ra:0000000033f43002000000003fe46f7c --}            {!-- bloqs:start:1085 vars="[]" --}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
 <!-- test 2 -->
 
 
 
 
-<div id="vds-carousel-27779" class="carousel vds-carousel voltas-carousel slide">
+<div id="vds-carousel-44793" class="carousel vds-carousel voltas-carousel slide">
     <div class="carousel-inner">
         
  {!-- bloqs:start:1086 vars="[]" --} <div class="carousel-item  active"> <img class="w-100 d-block" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Rectangle_4AbUs_Lead_carousel1.jpg" alt="" style="object-position:  "><div class="container">  <div class="carousel-caption voltas-carousel-caption left background-grey border-aqua d-md-block col-8 col-md-5"><h4 class="h1 display" style="color:var(--colors-slate-primary)" >Building a sound foundation today for a progressive tomorrow</h4><p class="lead" style="color:var(--colors-slate-primary)">We believe in achieving financial excellence and discipline, by leveraging on capabilities and opportunities.
@@ -55,7 +55,7 @@ All holders of physical securities of the Company are mandatorily required to fu
 	
 	
 	
-	{!-- bloqs:start:1090 vars="[]" --}   {!-- ra:0000000037ec160f000000003de831c5 --}
+	{!-- bloqs:start:1090 vars="[]" --}   {!-- ra:0000000033f424cb000000003fe46f7c --}
 <div class="col-12 col-md-6 vds-card-wrapper ">
     <div class="card voltas-card bg-aqua-primary ">
         <div class="row no-gutters">
@@ -69,7 +69,7 @@ All holders of physical securities of the Company are mandatorily required to fu
             <div class="col-md-6">
                 
                 <div class="card-body pl-1 pr-1 card-collapse-intro">
-                    {!-- ra:0000000037ec161d000000003de831c5 --}  <h3 class="card-title display chalk-primary">Documents Required</h3>   <p class="card-text chalk-primary">a. PAN</br>
+                    {!-- ra:0000000033f42348000000003fe46f7c --}  <h3 class="card-title display chalk-primary">Documents Required</h3>   <p class="card-text chalk-primary">a. PAN</br>
 b. Nomination</br>
 c. Contact Details</br>
 d. Bank Account Details</br>
@@ -82,7 +82,7 @@ e. Specimen Signature</br></p>
     </div>
 </div>
 
-{!-- ra:0000000037ec160e000000003de831c5 --}     {!-- bloqs:end:1090 --}{!-- bloqs:start:1091 vars="[]" --}   {!-- ra:0000000037ec160f000000003de831c5 --}
+{!-- ra:0000000033f424ca000000003fe46f7c --}     {!-- bloqs:end:1090 --}{!-- bloqs:start:1091 vars="[]" --}   {!-- ra:0000000033f424cb000000003fe46f7c --}
 <div class="col-12 col-md-6 vds-card-wrapper ">
     <div class="card voltas-card bg-slate-primary ">
         <div class="row no-gutters">
@@ -96,7 +96,7 @@ e. Specimen Signature</br></p>
             <div class="col-md-6">
                 
                 <div class="card-body pl-1 pr-1 card-collapse-intro">
-                    {!-- ra:0000000037ec161d000000003de831c5 --}  <h3 class="card-title display chalk-primary">Contact</h3>   <p class="card-text chalk-primary">TSR Consultants Private Limited</br>
+                    {!-- ra:0000000033f42348000000003fe46f7c --}  <h3 class="card-title display chalk-primary">Contact</h3>   <p class="card-text chalk-primary">TSR Consultants Private Limited</br>
 </br>
 Unit: Voltas Limited, <br/>C-101, 1<sup>st</sup> Floor, &nbsp;247 Park, <br/>Lal Bahadur Shastri Marg, <br/>Vikhroli West, Mumbai 400 083</br>
 Tel: +91 22 6656 8484</br>
@@ -110,7 +110,7 @@ Web: https://www.tcplindia.co.in</p>
     </div>
 </div>
 
-{!-- ra:0000000037ec160e000000003de831c5 --}     {!-- bloqs:end:1091 --}
+{!-- ra:0000000033f424ca000000003fe46f7c --}     {!-- bloqs:end:1091 --}
 		
 		
 		
