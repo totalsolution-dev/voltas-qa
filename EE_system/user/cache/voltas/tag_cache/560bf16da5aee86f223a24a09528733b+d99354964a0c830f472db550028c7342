@@ -1,0 +1,343 @@
+a:3:{s:4:"time";i:1701751556;s:3:"ttl";i:0;s:4:"data";s:24641:"  {!-- ra:000000006222de20000000005bc78920 --}  {layout:set name='seo_tags'}<title>Air Conditioners | Air Coolers | Water Coolers – Voltas</title> <meta name="keywords" content="Voltas commercial refrigerator price, Commercial refrigerator freezer combo, Combo freezer refrigerator, Voltas uvc ac, Energy efficient air conditioner of the year, Voltas 185v adq maha super uvc price, PureAir Inverter AC, 1.5 Ton, 5 Star- 185V ADQ, Air Purifier VAP26TWV, Freezer Hard Top 320 Double Door P Convertible PCM GRY, Air purifier price in India, Air purifier with UV germicidal light, Energy efficient air conditioners, Voltas extended warranty, Voltas ac price 1 ton, best energy efficient air conditioner in India, most energy efficient ac in India 2021, how much do energy efficient air conditioners save, best air cooler in India, myVoltas invertor ac, Maha Adjustable Inverter AC, AC exchange offers, best 1 ton inverter ac in India 2021, Inverter AC, 5 star AC, Window AC"> <meta property="og:title" content="Air Conditioners | Air Coolers | Water Coolers – Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/businesses/cooling-refrigeration/"> <meta property="og:description" content="Voltas is India's premier & largest air conditioning company providing split & windows ACs, commercial refrigeration. Voltas has a wide range of water coolers & water dispensers"> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="December, 07, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Voltas is India's premier & largest air conditioning company providing split & windows ACs, commercial refrigeration. Voltas has a wide range of water coolers & water dispensers">  <link rel="canonical" href="https://voltas.in/businesses/cooling-refrigeration/"/>  {/layout:set}      {!-- ra:000000006222dd9e000000005bc78920 --}            {!-- bloqs:start:151 vars="[]" --}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<!-- test 2 -->
+{exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
+
+
+
+<div id="vds-carousel-{exp:stash:get name='foo'}" class="carousel vds-carousel voltas-carousel slide">
+    <div class="carousel-inner">
+        
+ {!-- bloqs:start:152 vars="[]" --}  <a href="https://www.voltas.com/"><div class="carousel-item  active"> <img class="w-100 d-block" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Home_Carousel_Cooling.jpg" alt="Voltas Maha Adjustable ACs" style="object-position:  "><div class="container">  <div class="carousel-caption voltas-carousel-caption left background-grey border-aqua d-md-block col-8 col-md-5"><h4 class="h1 display" style="color:var(--colors-slate-primary)" >Driven by consumer insights. You asked for it. We delivered.</h4><p class="lead" style="color:var(--colors-slate-primary)">Constantly adding value with our smart solutions makes us the first choice for cooling and market leaders in the category.</p> <div class="vds-carousel-controls"><a class="vds-carousel-control-prev" href="" role="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><a class="vds-carousel-control-next" href="" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a><span class="vds-carousel-slidenumber aqua-primary"></span> <span class="vds-carousel-imgcap aqua-primary"></span></div></div>      </div></div></a>    {!-- bloqs:end:152 --}
+    </div>
+    <!-- test --> 
+    
+</div>
+
+{!-- bloqs:end:151 --}{!-- bloqs:start:153 vars="[]" --}		
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+			<div class="col-12 col-md-12 col-lg-10 d-flex mt-0 mb-3">
+				<div class="card-group facts-group w-100">
+					
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:156 vars="[]" --} <div class="card"><div class="card-body"> <h3 class="card-title display"><i class="icon-Experience"></i> No.<span>1</span></h3> <p class="card-text">AC BRAND IN THE COUNTRY WITH THE HIGHEST MARKET SHARE</p><div class="step-connector-line-left"></div><div class="step-connector-line-right"></div></div></div>      {!-- bloqs:end:156 --}{!-- bloqs:start:155 vars="[]" --} <div class="card"><div class="card-body"> <h3 class="card-title display"><i class="icon-Globe"></i> <span>25</span>K +</h3> <p class="card-text">CUSTOMER TOUCHPOINTS ACROSS THE NATION</p><div class="step-connector-line-left"></div><div class="step-connector-line-right"></div></div></div>      {!-- bloqs:end:155 --}{!-- bloqs:start:154 vars="[]" --} <div class="card"><div class="card-body"> <h3 class="card-title display"><i class="icon-Tons-of-HVAC"></i> <span>10</span>+</h3> <p class="card-text">MILLION HOUSEHOLDS COOLED BY OUR PRODUCTS</p><div class="step-connector-line-left"></div><div class="step-connector-line-right"></div></div></div>      {!-- bloqs:end:154 --}
+		
+		
+				</div>
+			</div>
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:153 --}{!-- bloqs:start:1056 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron logo aqua-border ">      <a href="https://www.voltas.com" target="_blank"><img class="card-image" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/voltas.svg" alt="..."> <a> </div></div></div>  </div>  {!-- bloqs:end:1056 --}{!-- bloqs:start:157 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron highlighted aqua-border">  <h1 class="card-overtitle">COOLING AND REFRIGERATION SOLUTIONS</h1>  <h3 class=" display">Voltas has been synonymous with cooling products in India for the last six decades. We are well known for the quality of our products, our range, extensive reach & sensible pricing.</h2>  <p class="intro-body ">As a market leader, we have the highest brand equity in cooling and comfort appliances. Our 24,000 consumer touchpoints across the country - the most for any AC brand - allow us to meet the constantly increasing customer demand for our products. We are delighted to have provided comfort and convenience to millions of households across India.</p>   </div></div></div>  </div>  {!-- bloqs:end:157 --}{!-- bloqs:start:162 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:163 vars="[]" --}   
+<div class="col-12 col-md-7 col-lg-6 d-flex ">
+    
+        <div class="card voltas-card voltas-card-patch w-100">
+            <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Maha_Inverter_ACs.jpg')"></div>
+
+            
+            
+            
+
+            
+            <div class="card-body col-11 col-sm-10 col-md-7">
+                {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle chalk-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Maha Adjustable Inverter ACs</h3>   <p class="card-text chalk-primary">Our all new Maha Adjustable Inverter AC offers Flexible Air Cooling based on the ambient heat and number of people in the room. We have an extensive range of adjustable inverter ACs.</p>    <a href="https://www.voltas.com/collections/maha-adjustable-inverter-ac" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    {!-- ra:000000006222def1000000005bc78920 --}     {!-- bloqs:end:163 --}{!-- bloqs:start:164 vars="[]" --}   {!-- ra:000000006222def5000000005bc78920 --}
+<div class="col-12 col-md-5 col-lg-4 d-flex ">
+    <div class="card voltas-card bg-gradient-vertical-blue">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Inverter_ACs.jpg" class="card-img-top" alt="">
+        </div>
+          
+        <div class="card-body">
+            {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle chalk-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Inverter Air Conditioners</h3>   <p class="card-text chalk-primary">Our range of inverter AC's include All Weather and Power Saving models that are perfect for your needs.</p>    <a href="https://www.voltas.com/collections/inverter-ac" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+        </div>
+    </div>
+</div>
+
+{!-- ra:000000006222def2000000005bc78920 --}     {!-- bloqs:end:164 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:162 --}{!-- bloqs:start:165 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:166 vars="[]" --}   {!-- ra:000000006222def5000000005bc78920 --}
+<div class="col-12 col-md-5 col-lg-4 d-flex ">
+    <div class="card voltas-card bg-slate-light_1">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Air_Conditioners.jpg" class="card-img-top" alt="">
+        </div>
+          
+        <div class="card-body">
+            {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle yellow-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Air Conditioners</h3>   <p class="card-text chalk-primary">Our eco-friendly air conditioners keep you cool and the environment safe at affordable prices.</p>    <a href="https://www.voltas.com/collections/air-conditioners" target="_blank"><i class="fa fa-arrow-right yellow-primary"></i></a>       
+        </div>
+    </div>
+</div>
+
+{!-- ra:000000006222def2000000005bc78920 --}     {!-- bloqs:end:166 --}{!-- bloqs:start:167 vars="[]" --}   
+<div class="col-12 col-md-7 col-lg-6 d-flex ">
+    
+        <div class="card voltas-card voltas-card-patch w-100">
+            <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Air_Coolers_Revised.jpg')"></div>
+
+            
+            
+            
+
+            
+            <div class="card-body col-11 col-sm-10 col-md-7">
+                {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle chalk-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Air Coolers</h3>   <p class="card-text chalk-primary">Uniform cooling is possible even in large spaces with our range of durable Air Coolers.</p>    <a href="https://www.voltas.com/collections/air-coolers" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    {!-- ra:000000006222def1000000005bc78920 --}     {!-- bloqs:end:167 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:165 --}{!-- bloqs:start:169 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:170 vars="[]" --}   
+<div class="col-12 col-md-7 col-lg-6 d-flex ">
+    
+        <div class="card voltas-card voltas-card-patch w-100">
+            <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Air_Purifier.jpg')"></div>
+
+            
+            
+            
+
+            
+            <div class="card-body col-11 col-sm-10 col-md-7">
+                {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle chalk-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Air Purifier</h3>   <p class="card-text chalk-primary">With high efficiency filters and quiet operation functions, our Air Purifiers ensure that you breathe easier at home.</p>    <a href="https://www.voltas.com/collections/air-purifiers" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    {!-- ra:000000006222def1000000005bc78920 --}     {!-- bloqs:end:170 --}{!-- bloqs:start:171 vars="[]" --}   {!-- ra:000000006222def5000000005bc78920 --}
+<div class="col-12 col-md-5 col-lg-4 d-flex ">
+    <div class="card voltas-card bg-gradient-horizontal-pink_yellow">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Commercial_Refrigerators.jpg" class="card-img-top" alt="">
+        </div>
+          
+        <div class="card-body">
+            {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle chalk-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Commercial Refrigeration</h3>   <p class="card-text chalk-primary">Get the efficient, customised cooling that your business needs, with our smart commercial refrigerators.</p>    <a href="https://www.voltas.com/collections/commercial-refrigeration" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+        </div>
+    </div>
+</div>
+
+{!-- ra:000000006222def2000000005bc78920 --}     {!-- bloqs:end:171 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:169 --}{!-- bloqs:start:895 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:896 vars="[]" --} {!-- ra:000000006222dee2000000005bc78920 --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-896" class="vds-card-carousel vds-carousel carousel-fade slide  carousel"  data-ride="carousel">
+    <!-- 1 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000006222dee3000000005bc78920 --} 
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:896 --}{!-- bloqs:start:897 vars="[]" --}   {!-- ra:000000006222dec5000000005bc78920 --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-yellow_blue"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Cooling_Card_Water_Dispensers.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-right" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-right" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000006222dedd000000005bc78920 --} <h6 class="card-overtitle chalk-primary">SMART PRODUCTS</h6>  <h3 class="card-title display chalk-primary">Water Dispensers & Coolers</h3>   <p class="card-text chalk-primary">Our range of water dispensers and coolers, ensure that you always stay hydrated the smart way. </p>    <a href="https://www.voltas.com/collections/water-dispensers" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       </div></div></div></div></div>  {!-- ra:000000006222dec2000000005bc78920 --}     {!-- bloqs:end:897 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:895 --}{!-- bloqs:start:168 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron jumbotron-compacted">  <h6 class="card-overtitle">DID YOU KNOW?</h6>  <h3 class=" ">1 out of every 4 room air conditioners and 1 out of every 3 commercial refrigerators sold in India is a Voltas product.</h2>    </div></div></div>  </div>  {!-- bloqs:end:168 --}{!-- bloqs:start:172 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:717 vars="[]" --} {!-- ra:000000006222dee2000000005bc78920 --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-717" class="vds-card-carousel vds-carousel carousel-fade slide " data-interval="false" >
+    <!-- 0 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000006222dee3000000005bc78920 --} {!-- bloqs:start:720 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2VdXz5mrQpk" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Maha Adjustable Stories</h3>  <h2 class="h1">2020</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:720 --}{!-- bloqs:start:324 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hTf-IChweX8" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Maha Adjustable Inverter AC</h3>  <h2 class="h1">2020</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:324 --}{!-- bloqs:start:718 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hH5WZLL-TsQ" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Adjustable AC</h3>  <h2 class="h1">2019</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:718 --}{!-- bloqs:start:719 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BiMghM2rNvE" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Adjustable AC</h3>  <h2 class="h1">2019</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:719 --}{!-- bloqs:start:770 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nputQJZerEo" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Murthy & Unwanted Atithi</h3>  <h2 class="h1">2018</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:770 --}{!-- bloqs:start:771 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9DN1h0nY6bQ" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Voltas All Star Inverter AC - Yoga</h3>  <h2 class="h1">2018</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:771 --}{!-- bloqs:start:772 vars="[]" --}   {!-- ra:000000006222dec7000000005bc78920 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-teal-primary"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6djkicQqVhQ" allowfullscreen></iframe></div><div class="card-body">  <h3 class="card-title display">Murthy & Neighbours</h3>  <h2 class="h1">2017</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000006222dec4000000005bc78920 --}     {!-- bloqs:end:772 --}
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:717 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:172 --}  ";}
