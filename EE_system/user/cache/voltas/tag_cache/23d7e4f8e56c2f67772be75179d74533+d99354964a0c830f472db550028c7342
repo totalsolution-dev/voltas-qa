@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:25177:"  {!-- ra:000000004849a30200000000606078f3 --}  {layout:set name='seo_tags'}<title>Voltas | Leadership</title> <meta name="keywords" content="Voltas, leadership, cfo, leadership qualities, leadership skills, leadership and management, independent director, board member, Noel N Tata, Pradeep Bakshi, Anil George, Vinayak Deshpande, Debendranath Sarangi, Bahram Navroz Vakil, Anjali Bansal, Hemant Bhargava, Arun Kumar Adhikari, Zubin Dubash, Narendren Nair, Dinesh Singh, Jayant Balan"> <meta property="og:title" content="Voltas | Leadership"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/about/leadership/"> <meta property="og:description" content="The Board of Directors & Corporate Management Group of Voltas"> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="The Board of Directors & Corporate Management Group of Voltas">  <link rel="canonical" href="https://voltas.in/about/leadership/"/>  {/layout:set}      {!-- ra:000000004849a09900000000606078f3 --}            {!-- bloqs:start:1061 vars="[]" --}
+a:3:{s:4:"time";i:1705344688;s:3:"ttl";i:0;s:4:"data";s:25177:"  {!-- ra:000000001c8a80ee0000000020d710e6 --}  {layout:set name='seo_tags'}<title>Voltas | Leadership</title> <meta name="keywords" content="Voltas, leadership, cfo, leadership qualities, leadership skills, leadership and management, independent director, board member, Noel N Tata, Pradeep Bakshi, Anil George, Vinayak Deshpande, Debendranath Sarangi, Bahram Navroz Vakil, Anjali Bansal, Hemant Bhargava, Arun Kumar Adhikari, Zubin Dubash, Narendren Nair, Dinesh Singh, Jayant Balan"> <meta property="og:title" content="Voltas | Leadership"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/about/leadership/"> <meta property="og:description" content="The Board of Directors & Corporate Management Group of Voltas"> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="The Board of Directors & Corporate Management Group of Voltas">  <link rel="canonical" href="https://voltas.in/about/leadership/"/>  {/layout:set}      {!-- ra:000000001c8a80110000000020d710e6 --}            {!-- bloqs:start:1061 vars="[]" --}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
 <!-- test 2 -->
 {exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
@@ -67,7 +67,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:25177:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:1066 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+	{!-- bloqs:start:1066 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-aqua-dark_2 w-100">
         
@@ -98,9 +98,9 @@ He is the son of Mr. Naval H. Tata and Mrs. Simone N. Tata.
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1066 --}{!-- bloqs:start:1067 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1066 --}{!-- bloqs:start:1067 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
         
@@ -127,9 +127,9 @@ An enthusiastic and confident leader, Mr. Pradeep Bakshi has been the Appliances
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1067 --}{!-- bloqs:start:1138 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1067 --}{!-- bloqs:start:1138 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-voltas-primary w-100">
         
@@ -157,9 +157,9 @@ During his tenure as the Managing Director of Tata Projects, the company achieve
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1138 --}{!-- bloqs:start:1139 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1138 --}{!-- bloqs:start:1139 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
         
@@ -187,9 +187,9 @@ He was the Chairman of Tamil Nadu Transport Development Finance Corporation Limi
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1139 --}{!-- bloqs:start:1070 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1139 --}{!-- bloqs:start:1070 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-voltas-primary w-100">
         
@@ -217,9 +217,9 @@ He has been on several government constituted committees including the Viswanath
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1070 --}{!-- bloqs:start:1071 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1070 --}{!-- bloqs:start:1071 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-aqua-dark_2 w-100">
         
@@ -245,9 +245,9 @@ Ms. Anjali Bansal is a Bachelor in Computer Engineering and a Master in Internat
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1071 --}{!-- bloqs:start:1073 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1071 --}{!-- bloqs:start:1073 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
         
@@ -275,9 +275,9 @@ Post retirement from HUL in 2014, he worked as a Senior Advisor with McKinsey su
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1073 --}{!-- bloqs:start:1074 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1073 --}{!-- bloqs:start:1074 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-voltas-primary w-100">
         
@@ -302,9 +302,9 @@ Mr. Zubin Dubash was Chief Operating Officer of Warburg Pincus India Limited and
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1074 --}{!-- bloqs:start:1075 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1074 --}{!-- bloqs:start:1075 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-aqua-dark_2 w-100">
         
@@ -327,9 +327,9 @@ Mr. Zubin Dubash was Chief Operating Officer of Warburg Pincus India Limited and
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
-{!-- bloqs:end:1075 --}{!-- bloqs:start:1168 vars="[]" --} {!-- ra:000000004849a3e900000000606078f3 --} 
+{!-- bloqs:end:1075 --}{!-- bloqs:start:1168 vars="[]" --} {!-- ra:000000001c8a80f90000000020d710e6 --} 
 <div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
     <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
         
@@ -362,7 +362,7 @@ He has also been a speaker at various acclaimed platforms imparting his immense 
 
 
 
-{!-- ra:000000004849a3ea00000000606078f3 --} 
+{!-- ra:000000001c8a80f80000000020d710e6 --} 
 
 {!-- bloqs:end:1168 --}
 		

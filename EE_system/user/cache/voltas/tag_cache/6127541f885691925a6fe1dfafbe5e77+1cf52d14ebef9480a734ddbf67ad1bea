@@ -1,10 +1,10 @@
-a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
+a:3:{s:4:"time";i:1705344688;s:3:"ttl";i:0;s:4:"data";s:38110:"
 		
 		
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="74" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section1HeaderId">
@@ -24,11 +24,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section1ContentId" class="collapse show item-1" role="tabpanel" aria-labelledby="section1HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -40,9 +40,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -58,7 +58,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="69" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section2HeaderId">
@@ -78,11 +78,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section2ContentId" class="collapse  item-2" role="tabpanel" aria-labelledby="section2HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -94,9 +94,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -112,7 +112,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="66" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section3HeaderId">
@@ -132,11 +132,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section3ContentId" class="collapse  item-3" role="tabpanel" aria-labelledby="section3HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -148,9 +148,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -166,7 +166,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="25" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section4HeaderId">
@@ -186,11 +186,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section4ContentId" class="collapse  item-4" role="tabpanel" aria-labelledby="section4HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -202,9 +202,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -220,7 +220,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="26" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section5HeaderId">
@@ -240,11 +240,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section5ContentId" class="collapse  item-5" role="tabpanel" aria-labelledby="section5HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -256,9 +256,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -274,7 +274,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="27" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section6HeaderId">
@@ -294,11 +294,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section6ContentId" class="collapse  item-6" role="tabpanel" aria-labelledby="section6HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -310,9 +310,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -328,7 +328,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="28" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section7HeaderId">
@@ -348,11 +348,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section7ContentId" class="collapse  item-7" role="tabpanel" aria-labelledby="section7HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -364,9 +364,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -382,7 +382,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="29" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section8HeaderId">
@@ -402,11 +402,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section8ContentId" class="collapse  item-8" role="tabpanel" aria-labelledby="section8HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -418,9 +418,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -436,7 +436,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="30" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section9HeaderId">
@@ -456,11 +456,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section9ContentId" class="collapse  item-9" role="tabpanel" aria-labelledby="section9HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -472,9 +472,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -490,7 +490,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="31" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section10HeaderId">
@@ -510,11 +510,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section10ContentId" class="collapse  item-10" role="tabpanel" aria-labelledby="section10HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -526,9 +526,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -544,7 +544,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="32" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section11HeaderId">
@@ -564,11 +564,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section11ContentId" class="collapse  item-11" role="tabpanel" aria-labelledby="section11HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -580,9 +580,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -598,7 +598,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="33" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section12HeaderId">
@@ -618,11 +618,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section12ContentId" class="collapse  item-12" role="tabpanel" aria-labelledby="section12HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -634,9 +634,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -652,7 +652,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="34" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section13HeaderId">
@@ -672,11 +672,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section13ContentId" class="collapse  item-13" role="tabpanel" aria-labelledby="section13HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -688,9 +688,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -706,7 +706,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="35" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section14HeaderId">
@@ -726,11 +726,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section14ContentId" class="collapse  item-14" role="tabpanel" aria-labelledby="section14HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -742,9 +742,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -760,7 +760,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="64" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section15HeaderId">
@@ -780,11 +780,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section15ContentId" class="collapse  item-15" role="tabpanel" aria-labelledby="section15HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -796,9 +796,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
@@ -814,7 +814,7 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 				{exp:stash:set name="not_archived" parse="inward"}not {exp:low_variables:parse var="var_archived_entries_cat_id"}{/exp:stash:set}
 				{exp:channel:entries channel='awards_recognitions' category="65" disable='{ch_disable}' dynamic="no" cache="yes" refresh="10"}
 					
-					{!-- ra:000000005380e25f000000002ab3d566 --}{if absolute_count == 1}
+					{!-- ra:000000006d748374000000000374f7d1 --}{if absolute_count == 1}
 						<div class="card"> 
 							<!-- {absolute_count} -->
 							<div class="card-header" role="tab" id="section16HeaderId">
@@ -834,11 +834,11 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
 							<div id="section16ContentId" class="collapse  item-16" role="tabpanel" aria-labelledby="section16HeaderId">
 								<div class="row">
 					{/if}
-									{!-- ra:000000005380e229000000002ab3d566 --}{if highlight_award == 1}
+									{!-- ra:000000006d748302000000000374f7d1 --}{if highlight_award == 1}
 									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="{award_image}" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">{title}</h3> {award-body}<h6 class="card-label card-highlight-label">{award-body:label}: <span>{award-body:text}</span></h6> {/award-body}</div></div></div></div></div>
 									{/if}
 									
-									{!-- ra:000000005380e217000000002ab3d566 --}{if highlight_award == 0}
+									{!-- ra:000000006d74833c000000000374f7d1 --}{if highlight_award == 0}
 									<div class="col-12 col-md-4 d-flex">
     <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
         <div class="card-image-wrapper">
@@ -850,9 +850,9 @@ a:3:{s:4:"time";i:1705171400;s:3:"ttl";i:0;s:4:"data";s:38110:"
             {/award-body} 
         </div>
     </div>
-</div>{!-- ra:000000005380e273000000002ab3d566 --}	
+</div>{!-- ra:000000006d748358000000000374f7d1 --}	
 									{/if}
-									{!-- ra:000000005380e5fd000000002ab3d566 --}{if absolute_reverse_count == 1}
+									{!-- ra:000000006d7484d6000000000374f7d1 --}{if absolute_reverse_count == 1}
 								</div>
 							</div>
 					</div>
