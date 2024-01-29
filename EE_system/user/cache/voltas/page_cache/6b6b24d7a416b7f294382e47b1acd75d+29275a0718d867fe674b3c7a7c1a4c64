@@ -1,0 +1,384 @@
+a:3:{s:4:"time";i:1706492369;s:3:"ttl";i:0;s:4:"data";s:36494:"{layout='layouts/_html-wrapper'}
+{!-- ra:000000001da004c600000000655c432e --}            {layout:set name='ch' value='pages'}    {!-- ra:000000001da0043c00000000655c432e --}  {layout:set name='seo_tags'}<title>RIEL</title>   {/layout:set}      {!-- ra:000000001da007a700000000655c432e --}            {!-- bloqs:start:816 vars="[]" --}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<!-- test 2 -->
+
+
+
+
+<div id="vds-carousel-60134" class="carousel vds-carousel voltas-carousel slide">
+    <div class="carousel-inner">
+        
+ {!-- bloqs:start:817 vars="[]" --} <div class="carousel-item  active"> <img class="w-100 d-block" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Electrification_Carousel.jpg" alt="Rewa Solar Power Project Asia’s largest solar energy project by Voltas" style="object-position:  "><div class="container">  <div class="carousel-caption voltas-carousel-caption left background-grey border-aqua d-md-block col-8 col-md-5"><h4 class="h1 display" style="color:var(--colors-slate-primary)" >Driving towards a brighter future where there is power for all</h4><p class="lead" style="color:var(--colors-slate-primary)">We connect every corner of the nation with smart electrical solutions to ensure that power is distributed efficiently.</p> <div class="vds-carousel-controls"><a class="vds-carousel-control-prev" href="" role="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><a class="vds-carousel-control-next" href="" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a><span class="vds-carousel-slidenumber chalk-primary"></span> <span class="vds-carousel-imgcap chalk-primary">REWA Solar Power Project</span></div></div>      </div></div></a>    {!-- bloqs:end:817 --}
+    </div>
+    <!-- test --> 
+    
+</div>
+
+{!-- bloqs:end:816 --}{!-- bloqs:start:819 vars="[]" --}		
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+			<div class="col-12 col-md-12 col-lg-10 d-flex mt-0 mb-3">
+				<div class="card-group facts-group w-100">
+					
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:820 vars="[]" --} <div class="card"><div class="card-body"> <h3 class="card-title display"><i class="icon-Recognition"></i> <span>7000</span>+</h3> <p class="card-text">VILLAGES ELECTRIFIED ACROSS THE NATION
+</p><div class="step-connector-line-left"></div><div class="step-connector-line-right"></div></div></div>      {!-- bloqs:end:820 --}{!-- bloqs:start:821 vars="[]" --} <div class="card"><div class="card-body"> <h3 class="card-title display"><i class="icon-Globe"></i> <span>140</span></h3> <p class="card-text">MVA OF ELECTRICITY DISTRIBUTED</p><div class="step-connector-line-left"></div><div class="step-connector-line-right"></div></div></div>      {!-- bloqs:end:821 --}{!-- bloqs:start:822 vars="[]" --} <div class="card"><div class="card-body"> <h3 class="card-title display"><i class="icon-Legacy"></i> <span>40</span></h3> <p class="card-text">YEARS OF EXPERIENCE IN BUILDING ELECTRICAL SOLUTIONS</p><div class="step-connector-line-left"></div><div class="step-connector-line-right"></div></div></div>      {!-- bloqs:end:822 --}
+		
+		
+				</div>
+			</div>
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:819 --}{!-- bloqs:start:823 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron highlighted aqua-border">  <h1 class="card-overtitle">INDUSTRIAL & COMMERCIAL ELECTRICAL SOLUTIONS</h1>  <h3 class=" display">Our drive to build a <a href="/sustainability/national-importance">better nation</a> sits at the core of our electrical solutions, inspiring our engineers to innovate solutions that improve energy distribution.</h2>  <p class="intro-body ">We have taken up a number of projects under the Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY) and the Integrated Power Development Scheme (IPDS) to bring power to even the most distant corners of our nation. Our approach to electrical services is a systematic one, that capitalises on cost benefits and energy efficiency upgrades. </p>   </div></div></div>  </div>  {!-- bloqs:end:823 --}{!-- bloqs:start:824 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron muted ">  <h6 class="card-overtitle">OUR OFFERINGS</h6>   <p class="intro-body ">The core competencies of our electrical solutions lie in contracting and manufacturing with a focus on engineering services. We develop timely and cost-effective strategies, whether for a single building or across an entire portfolio.</p>   </div></div></div>  </div>  {!-- bloqs:end:824 --}{!-- bloqs:start:825 vars="[]" --}
+    <div class="container">
+        <div id="ac_1-accordion" class="vds-org-accordion" role="tablist" aria-multiselectable="true">
+        
+        <!-- Accordion rows go here -->
+    
+{!-- bloqs:start:826 vars="[]" --}
+	
+	<div class="card">
+		
+		<div class="card-header" role="tab" id="vds-826-header">
+			<a data-toggle="collapse" data-parent="#ac_1-accordion" href="#vds-826-content" aria-expanded="true" aria-controls="vds-826-content">
+				<h5 class="mb-0 intro-body">
+					Substation - GIS & AIS
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</h5>
+			</a>	
+		</div>
+		
+		<div id="vds-826-content" class="collapse in" role="tabpanel" aria-labelledby="vds-826-header">
+			
+	
+{!-- bloqs:start:827 vars="[]" --} {!-- ra:000000001da004c200000000655c432e --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-827" class="vds-card-carousel vds-carousel carousel-fade slide  carousel"  data-ride="carousel">
+    <!-- 1 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000001da004c300000000655c432e --} {!-- bloqs:start:828 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-blue"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Substations_Building_Substations.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-gradient-vertical-blue"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Substation</h6>  <h3 class="card-title display chalk-primary">Building Substations</h3>   <p class="card-text chalk-primary">As part of our electrification program, we plan, design and execute power substations to distribute power across the nation.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:828 --}{!-- bloqs:start:829 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-teal-dark_4"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Substations_Jharkhand_Bijli_Vitran_Nigam_Ltd.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-teal-light_2"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Substation</h6>  <h3 class="card-title display chalk-primary">Jharkhand Bijli Vitran Nigam Ltd.</h3>   <p class="card-text chalk-primary">We planned, designed and executed a 33/11 kilo volt substation for the government of Jharkand in Asrha, Moharda. </p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:829 --}{!-- bloqs:start:830 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-teal-dark_4"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Substations_Mangaon%2C_Maharashtra.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-teal-light_2"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Substation</h6>  <h3 class="card-title display chalk-primary">Mangaon, Maharashtra</h3>   <p class="card-text chalk-primary">Built a 220KV specialised gas insulated substation of EHV within 5 months during a difficult monsoon season.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:830 --}
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:827 --}
+		</div>
+	</div>
+	{!-- bloqs:end:826 --}{!-- bloqs:start:831 vars="[]" --}
+	
+	<div class="card">
+		
+		<div class="card-header" role="tab" id="vds-831-header">
+			<a data-toggle="collapse" data-parent="#ac_1-accordion" href="#vds-831-content" aria-expanded="true" aria-controls="vds-831-content">
+				<h5 class="mb-0 intro-body">
+					Industrial Electrification
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</h5>
+			</a>	
+		</div>
+		
+		<div id="vds-831-content" class="collapse in" role="tabpanel" aria-labelledby="vds-831-header">
+			
+	
+{!-- bloqs:start:832 vars="[]" --} {!-- ra:000000001da004c200000000655c432e --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-832" class="vds-card-carousel vds-carousel carousel-fade slide  carousel"  data-ride="carousel">
+    <!-- 1 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000001da004c300000000655c432e --} {!-- bloqs:start:833 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-blue"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Industrial_Electrification_Powering_Indian_Industry.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-gradient-vertical-blue"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Industrial Electrification</h6>  <h3 class="card-title display chalk-primary">Powering Indian Industry</h3>   <p class="card-text chalk-primary">As one of the preferred turnkey solution providers in the world, we are experts in creating electrical systems for industrial applications.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:833 --}{!-- bloqs:start:834 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-teal-dark_4"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Industrial_Electrification_Maruti_Suzuki_India_Pvt._Ltd_.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-teal-light_2"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Industrial Electrification</h6>  <h3 class="card-title display chalk-primary">Maruti Suzuki India Pvt. Ltd.</h3>   <p class="card-text chalk-primary">Voltas was tasked with creating the complete electrical solution for the Maruti automobile industrial unit in Gurugram. We provided dedicated earthing for robots and automation panels as well as BMS, lightning arrestors and UPS activities.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:834 --}
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:832 --}
+		</div>
+	</div>
+	{!-- bloqs:end:831 --}{!-- bloqs:start:835 vars="[]" --}
+	
+	<div class="card">
+		
+		<div class="card-header" role="tab" id="vds-835-header">
+			<a data-toggle="collapse" data-parent="#ac_1-accordion" href="#vds-835-content" aria-expanded="true" aria-controls="vds-835-content">
+				<h5 class="mb-0 intro-body">
+					Rural Electrification
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</h5>
+			</a>	
+		</div>
+		
+		<div id="vds-835-content" class="collapse in" role="tabpanel" aria-labelledby="vds-835-header">
+			
+	
+{!-- bloqs:start:836 vars="[]" --} {!-- ra:000000001da004c200000000655c432e --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-836" class="vds-card-carousel vds-carousel carousel-fade slide  carousel"  data-ride="carousel">
+    <!-- 1 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000001da004c300000000655c432e --} {!-- bloqs:start:837 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-blue"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Rural_Electrification_Empowering_Rural_India.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-gradient-vertical-blue"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Rural Electrification</h6>  <h3 class="card-title display chalk-primary">Empowering Rural India</h3>   <p class="card-text chalk-primary">Voltas works closely with the union and state governments to provide electricity to every household, even in the most remote parts of the nation.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:837 --}{!-- bloqs:start:838 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-teal-dark_4"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Rural_Electrification_Barasat%2C_West_Bengal.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-teal-light_2"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Rural Electrification</h6>  <h3 class="card-title display chalk-primary">Barasat, West Bengal</h3>   <p class="card-text chalk-primary">As part of the government's rural electrification plan, we planned, designed and delivered power distribution to Barasat in West Bengal.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:838 --}
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:836 --}
+		</div>
+	</div>
+	{!-- bloqs:end:835 --}{!-- bloqs:start:840 vars="[]" --}
+	
+	<div class="card">
+		
+		<div class="card-header" role="tab" id="vds-840-header">
+			<a data-toggle="collapse" data-parent="#ac_1-accordion" href="#vds-840-content" aria-expanded="true" aria-controls="vds-840-content">
+				<h5 class="mb-0 intro-body">
+					Commercial Projects
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</h5>
+			</a>	
+		</div>
+		
+		<div id="vds-840-content" class="collapse in" role="tabpanel" aria-labelledby="vds-840-header">
+			
+	
+{!-- bloqs:start:841 vars="[]" --} {!-- ra:000000001da004c200000000655c432e --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-841" class="vds-card-carousel vds-carousel carousel-fade slide  carousel"  data-ride="carousel">
+    <!-- 1 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000001da004c300000000655c432e --} {!-- bloqs:start:842 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-blue"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Commercial_Projects_Commercial_Projects.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-gradient-vertical-blue"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Commercial Projects</h6>  <h3 class="card-title display chalk-primary">Commercial Projects</h3>   <p class="card-text chalk-primary">We are the preferred partner for numerous commercial projects around India when it comes to designing power layouts.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:842 --}{!-- bloqs:start:843 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-teal-dark_4"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Commercial_Projects_IOCL%2C_BKC.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-teal-light_2"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">Commercial Projects</h6>  <h3 class="card-title display chalk-primary">IOCL, BKC</h3>   <p class="card-text chalk-primary">We were contracted to plan, design and commission the electrification for IOCL which was part of the corporate park in BKC.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:843 --}
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:841 --}
+		</div>
+	</div>
+	{!-- bloqs:end:840 --}{!-- bloqs:start:851 vars="[]" --}
+	
+	<div class="card">
+		
+		<div class="card-header" role="tab" id="vds-851-header">
+			<a data-toggle="collapse" data-parent="#ac_1-accordion" href="#vds-851-content" aria-expanded="true" aria-controls="vds-851-content">
+				<h5 class="mb-0 intro-body">
+					Solar Projects
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</h5>
+			</a>	
+		</div>
+		
+		<div id="vds-851-content" class="collapse in" role="tabpanel" aria-labelledby="vds-851-header">
+			
+	
+{!-- bloqs:start:852 vars="[]" --} {!-- ra:000000001da004c200000000655c432e --}
+
+<div class="container col-12 col-md-12 px-0"> 
+
+<div id="vds-card-carousel-852" class="vds-card-carousel vds-carousel carousel-fade slide " data-interval="false" >
+    <!-- 0 -->
+    <div class="carousel-inner">
+        
+    
+ 
+
+{!-- ra:000000001da004c300000000655c432e --} {!-- bloqs:start:853 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-blue"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Solar_Projects_Developing_Sustainable_Energy.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-gradient-vertical-blue"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-voltas-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">SOLAR PROJECTS</h6>  <h3 class="card-title display chalk-primary">Developing Sustainable Energy</h3>   <p class="card-text chalk-primary">As part of our vision to provide sustainable and equitable energy distribution, Voltas is at the forefront of developing solar energy projects across the nation.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:853 --}{!-- bloqs:start:839 vars="[]" --}   {!-- ra:000000001da004e500000000655c432e --} <div class="col-12 "><div class="card voltas-card bg-teal-dark_4"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Project_Solutions_RIEL_Card_Solar_Projects_Rewa.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-teal-light_2"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-chalk-primary"><i class="fa fa-chevron-right" style="color:var(--colors-teal-light_2)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">SOLAR PROJECTS</h6>  <h3 class="card-title display chalk-primary">REWA</h3>   <p class="card-text chalk-primary">Voltas was one of the contributors in Asia’s largest solar park at Rewa in Madhya Pradesh, which generates 750 MW of power. We supplied the Module Mounting Structures along with the associated civil & installation services.</p>   </div></div></div></div></div>  {!-- ra:000000001da004e200000000655c432e --}     {!-- bloqs:end:839 --}
+    </div>
+</div>
+
+</div>
+ 
+
+
+{!-- bloqs:end:852 --}
+		</div>
+	</div>
+	{!-- bloqs:end:851 --}
+        </div>
+    <!-- close 1 -->
+    </div>
+    <!-- close 2 -->
+    {!-- bloqs:end:825 --}{!-- bloqs:start:844 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron muted ">   <h3 class=" ">Other Services</h2>    </div></div></div>  </div>  {!-- bloqs:end:844 --}{!-- bloqs:start:845 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:846 vars="[]" --}   
+<div class="col-12 col-md-7 col-lg-6 d-flex ">
+    
+        <div class="card voltas-card voltas-card-patch w-100">
+            <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Solutions_Card_MEP.jpg')"></div>
+
+            
+            
+            
+
+            
+            <div class="card-body col-11 col-sm-10 col-md-7">
+                {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">MEP</h3>   <p class="card-text chalk-primary">Providing high performance engineering design for a gamut of electromechanical solutions that are sustainable and efficient.</p>   <a href="/businesses/project-solutions/mep"><i class="fa fa-arrow-right chalk-primary"></i></a>        
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    {!-- ra:000000001da004d100000000655c432e --}     {!-- bloqs:end:846 --}{!-- bloqs:start:849 vars="[]" --}   {!-- ra:000000001da004d500000000655c432e --}
+<div class="col-12 col-md-5 col-lg-4 d-flex ">
+    <div class="card voltas-card bg-gradient-vertical-blue">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Solutions_Small_Card_Process_Refrigeration.jpg" class="card-img-top" alt="">
+        </div>
+          
+        <div class="card-body">
+            {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Process Refrigeration</h3>   <p class="card-text chalk-primary">Smart customised refrigeration solutions designed, installed and commissioned to enhance efficiency across multiple industries.</p>   <a href="/businesses/project-solutions/process-refrigeration"><i class="fa fa-arrow-right chalk-primary"></i></a>        
+        </div>
+    </div>
+</div>
+
+{!-- ra:000000001da004d200000000655c432e --}     {!-- bloqs:end:849 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:845 --}{!-- bloqs:start:848 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:847 vars="[]" --}   {!-- ra:000000001da004d500000000655c432e --}
+<div class="col-12 col-md-5 col-lg-4 d-flex ">
+    <div class="card voltas-card bg-slate-light_1">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Solutions_Card_water_management.jpg" class="card-img-top" alt="">
+        </div>
+          
+        <div class="card-body">
+            {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle yellow-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Water Management </h3>   <p class="card-text chalk-primary">Promoting a multidisciplinary approach to properly manage the water cycle and its value chain.</p>   <a href="/businesses/project-solutions/water-management"><i class="fa fa-arrow-right yellow-primary"></i></a>        
+        </div>
+    </div>
+</div>
+
+{!-- ra:000000001da004d200000000655c432e --}     {!-- bloqs:end:847 --}{!-- bloqs:start:850 vars="[]" --}   
+<div class="col-12 col-md-7 col-lg-6 d-flex ">
+    
+        <div class="card voltas-card voltas-card-patch w-100">
+            <div class="card-bg-image w-100 h-100 position-absolute" style="background-image: url('https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Solutions_Card_Customer_Care.jpg')"></div>
+
+            
+            
+            
+
+            
+            <div class="card-body col-11 col-sm-10 col-md-7">
+                {!-- ra:000000001da004fd00000000655c432e --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Customer Care</h3>   <p class="card-text chalk-primary">Delivering life-cycle solutions with a team of highly qualified engineers to provide constant care for every project completed. </p>   <a href="/businesses/project-solutions/customer-care"><i class="fa fa-arrow-right chalk-primary"></i></a>        
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    {!-- ra:000000001da004d100000000655c432e --}     {!-- bloqs:end:850 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:848 --}   {layout:contents}  ";}
