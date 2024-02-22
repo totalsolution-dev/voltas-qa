@@ -1,0 +1,104 @@
+a:3:{s:4:"time";i:1708589347;s:3:"ttl";i:0;s:4:"data";s:3457:"
+					
+					
+						<div class="card"> 
+							<!-- 1 -->
+							<div class="card-header" role="tab" id="section2HeaderId">
+								<a 
+									data-toggle="collapse" 
+									aria-expanded="true" 
+									data-parent="#accordionId" 
+									href="#section2ContentId" 
+									aria-controls="accordion-1 .item-2">
+									<h5 class="mb-0 intro-body">
+										2023
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</h5>
+								</a>	
+							</div>
+							
+							<div id="section2ContentId" class="collapse  item-2" role="tabpanel" aria-labelledby="section2HeaderId">
+								<div class="row">
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/awards126_14022024.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">BW Top 100 Marketers:<span> Awarded Mr. Deba Ghoshal, Head of Marketing, Voltas for excellence in marketing leadership</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000002a2494c7000000003eaa42cf --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/awards125_14022024.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Business Titan Awards by Radio City:<span> Awarded Voltas IOBG for excellence in Pure Air Adjustable AC </span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000002a2494c7000000003eaa42cf --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/awards124_14022024.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Precious Award Platinum Category:<span> Awarded TMD, Universal MEP Projects and Engineering Services Limited for excellent contribution towards the sale of Klueber Lubricants in 2022</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000002a2494c7000000003eaa42cf --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/awards123_14022024.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">OHSSAI Annual HSE Excellence & Sustainability Awards 2022:<span> Awarded Voltas IOBG 4-star Gold rating for its exemplary work in the field of Safety within the company </span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000002a2494c7000000003eaa42cf --}	
+									
+									
+								</div>
+							</div>
+					</div>
+					
+				";}

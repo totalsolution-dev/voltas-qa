@@ -1,0 +1,85 @@
+a:3:{s:4:"time";i:1708589347;s:3:"ttl";i:0;s:4:"data";s:3385:"
+					
+					
+						<div class="card"> 
+							<!-- 1 -->
+							<div class="card-header" role="tab" id="section13HeaderId">
+								<a 
+									data-toggle="collapse" 
+									aria-expanded="true" 
+									data-parent="#accordionId" 
+									href="#section13ContentId" 
+									aria-controls="accordion-1 .item-13">
+									<h5 class="mb-0 intro-body">
+										2012
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</h5>
+								</a>	
+							</div>
+							
+							<div id="section13ContentId" class="collapse  item-13" role="tabpanel" aria-labelledby="section13HeaderId">
+								<div class="row">
+					
+									
+									<div class="col-12 d-flex"><div class="card voltas-card voltas-card-awards bg-purple-dark_2 w-100"><div class="row"><div class="col-12 col-md-5 d-flex"><div class="card-image-wrapper"> <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2012_Awards_Readers-Digest.jpg" class="card-img-top" alt="..."></div></div><div class="col-12 col-md-7 d-flex"><div class="card-body"><h3 class="card-highlight-title">Gold Award in the Reader&#8217;s Digest Trusted Brand 2012 Survey India</h3> <h6 class="card-label card-highlight-label">Business: <span>Team Voltas</span></h6> <h6 class="card-label card-highlight-label">Recognition: <span>Gold Award in the Reader's Digest Trusted Brand 2012 Survey India</span></h6> <h6 class="card-label card-highlight-label">Awarded By: <span>Reader's Digest</span></h6> </div></div></div></div></div>
+									
+									
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2012_Awards_Effie.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Business:<span> Cooling & Refrigeration</span></h6>
+            
+            <h6 class="card-label">Recognition:<span> Gold Effie</span></h6>
+            
+            <h6 class="card-label">Awarded By:<span> Effie Awards 2012</span></h6>
+            
+            <h6 class="card-label">Awarded For:<span> All-Weather AC Campaign</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000002a2494c7000000003eaa42cf --}	
+									
+									
+				
+					
+					
+									
+									
+									
+									<div class="col-12 col-md-4 d-flex">
+    <div class="card voltas-card voltas-card-awards bg-teal-light_1 w-100">
+        <div class="card-image-wrapper">
+            <img src="https://devvoltas.voltasworld.com/images/awards/Voltas_2012_Awards_MEP-Middle-East-Award.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body"> 
+            
+            <h6 class="card-label">Business:<span> International Projects</span></h6>
+            
+            <h6 class="card-label">Recognition:<span> Overall GCC Project Of the Year</span></h6>
+            
+            <h6 class="card-label">Awarded By:<span> MEP Awards 2012</span></h6>
+            
+            <h6 class="card-label">Awarded For:<span> Yas Waterworld</span></h6>
+             
+        </div>
+    </div>
+</div>{!-- ra:000000002a2494c7000000003eaa42cf --}	
+									
+									
+								</div>
+							</div>
+					</div>
+					
+				";}
