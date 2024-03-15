@@ -51,6 +51,78 @@
     
 
 </script> {!-- END JavaScript Includes --}
+
+<div class="modal fade" id="myModalVideo" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="btn btn-default" data-dismiss="modal">X</button></div><div class="modal-body"><iframe width="100%" height="415" src="https://www.youtube.com/embed/EGh-FIxKa2w?si=68v0oUDYNx1aQaA9" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div></div></div>
+<style>
+	#myModalVideo.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+		}
+		
+#myModalVideo .modal-dialog {
+    position: absolute;
+	/* bottom: 10px; */
+	left:0px;
+	right:0px;
+    width: auto;
+    margin: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+	#myModalVideo .modal-content{border: 10px solid rgba(0,0,0,0.5) !important; background-color: rgba(0,0,0,0.8) !important;}
+	#myModalVideo .btn.btn-default{font-weight: 600; border-radius: 5px; padding: 10px 25px; border: 2px solid #ffffff; color: #ffffff;}
+	#myModalVideo .btn.btn-default:hover{ color: #ffffff;}
+		/* @media (min-width: 768px) */
+#myModalVideo .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+#myModalVideo .modal-content {
+    position: relative;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    outline: 0;
+}#myModalVideo .modal-header {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    /* border-bottom: 1px solid #e5e5e5; */
+}
+		#myModalVideo .modal-body {
+    position: relative;
+    padding: 15px;
+}
+		#myModalVideo .modal-footer {
+    padding: 15px;
+    text-align: right;
+    /* border-top: 1px solid #e5e5e5; */
+}
+	@media (min-width: 768px){
+#myModalVideo .modal-dialog {
+    width: 820px;
+    margin: 30px auto;
+}
+	}
+		
+	</style>
+<script type="text/javascript">
+$(window).on('load', function() {
+    $('#myModalVideo').modal();
+});
+</script>
 	
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SGK9KNDZY"></script>
