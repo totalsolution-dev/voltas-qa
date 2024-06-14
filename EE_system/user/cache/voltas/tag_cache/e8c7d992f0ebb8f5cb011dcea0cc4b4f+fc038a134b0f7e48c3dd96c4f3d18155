@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:000000005ccc8f280000000040c2e45f --}  {layout:set name='seo_tags'}<title>Tower ACs | Chillers | UVC – Voltas</title> <meta name="keywords" content="smart cooling, Inverter Freematch Multi-split, Magnetic Bearing Centrifugal chillers, Cassette ACs, Tower ACs for large rooms, commercial air conditioner India, best split ac for commercial use in India, commercial wall ac unit"> <meta property="og:title" content="Tower ACs | Chillers | UVC – Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/businesses/commercial-air-conditioners/"> <meta property="og:description" content="Best commercial air conditioners with extensive range of products surpass customer and environmental standards. "> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Best commercial air conditioners with extensive range of products surpass customer and environmental standards. ">  <link rel="canonical" href="https://voltas.in/businesses/commercial-air-conditioners/"/>  {/layout:set}      {!-- ra:000000005ccc8cbf0000000040c2e45f --}            {!-- bloqs:start:906 vars="[]" --}
+a:3:{s:4:"time";i:1718373865;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000036cc24fc0000000025d33f31 --}  {layout:set name='seo_tags'}<title>Tower ACs | Chillers | UVC – Voltas</title> <meta name="keywords" content="smart cooling, Inverter Freematch Multi-split, Magnetic Bearing Centrifugal chillers, Cassette ACs, Tower ACs for large rooms, commercial air conditioner India, best split ac for commercial use in India, commercial wall ac unit"> <meta property="og:title" content="Tower ACs | Chillers | UVC – Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/businesses/commercial-air-conditioners/"> <meta property="og:description" content="Best commercial air conditioners with extensive range of products surpass customer and environmental standards. "> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Best commercial air conditioners with extensive range of products surpass customer and environmental standards. ">  <link rel="canonical" href="https://voltas.in/businesses/commercial-air-conditioners/"/>  {/layout:set}      {!-- ra:0000000036cc276b0000000025d33f31 --}            {!-- bloqs:start:906 vars="[]" --}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
 <!-- test 2 -->
 {exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
@@ -85,7 +85,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">VRF</h3>   <p class="card-text chalk-primary">Our wide range of VRF<br>products come with the<br>industry's highest COP. With multiple indoor options<br>to choose from, we meet the<br>cooling needs of our<br>customers with ease.</p>    <a href="/images/_ansel_image_collector/VXV_Mini__VVX_Mini_Combine_2020.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+                {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">VRF</h3>   <p class="card-text chalk-primary">Our wide range of VRF<br>products come with the<br>industry's highest COP. With multiple indoor options<br>to choose from, we meet the<br>cooling needs of our<br>customers with ease.</p>    <a href="/images/_ansel_image_collector/VXV_Mini__VVX_Mini_Combine_2020.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
             </div>
             
             
@@ -93,7 +93,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
     </div>
     
-    {!-- ra:000000005ccc8f050000000040c2e45f --}     {!-- bloqs:end:915 --}{!-- bloqs:start:916 vars="[]" --}   {!-- ra:000000005ccc8f010000000040c2e45f --}
+    {!-- ra:0000000036cc24d10000000025d33f31 --}     {!-- bloqs:end:915 --}{!-- bloqs:start:916 vars="[]" --}   {!-- ra:0000000036cc24d50000000025d33f31 --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-gradient-vertical-blue">
         
@@ -102,12 +102,12 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
           
         <div class="card-body">
-            {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Inverter Freematch Multi-split</h3>   <p class="card-text chalk-primary">Our products connect multiple indoor unit with Single Outdoor Unit, preserving building aesthetics, making smarter  use of your space.</p>    <a href="/images/_ansel_image_collector/Light_Commmercial_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+            {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Inverter Freematch Multi-split</h3>   <p class="card-text chalk-primary">Our products connect multiple indoor unit with Single Outdoor Unit, preserving building aesthetics, making smarter  use of your space.</p>    <a href="/images/_ansel_image_collector/Light_Commmercial_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
         </div>
     </div>
 </div>
 
-{!-- ra:000000005ccc8f020000000040c2e45f --}     {!-- bloqs:end:916 --}
+{!-- ra:0000000036cc24d60000000025d33f31 --}     {!-- bloqs:end:916 --}
 		
 		
 		
@@ -137,7 +137,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:919 vars="[]" --}   {!-- ra:000000005ccc8f010000000040c2e45f --}
+	{!-- bloqs:start:919 vars="[]" --}   {!-- ra:0000000036cc24d50000000025d33f31 --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-slate-light_1">
         
@@ -146,12 +146,12 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
           
         <div class="card-body">
-            {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle yellow-primary">PRODUCTS IN </h6>  <h3 class="card-title display chalk-primary">Package & Ducted</h3>   <p class="card-text chalk-primary">Engineered for easy maintenance, our range of cooling systems come in both air and water cooling variants.</p>    <a href="/images/_ansel_image_collector/Package_and_Ducted_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right yellow-primary"></i></a>       
+            {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle yellow-primary">PRODUCTS IN </h6>  <h3 class="card-title display chalk-primary">Package & Ducted</h3>   <p class="card-text chalk-primary">Engineered for easy maintenance, our range of cooling systems come in both air and water cooling variants.</p>    <a href="/images/_ansel_image_collector/Package_and_Ducted_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right yellow-primary"></i></a>       
         </div>
     </div>
 </div>
 
-{!-- ra:000000005ccc8f020000000040c2e45f --}     {!-- bloqs:end:919 --}{!-- bloqs:start:918 vars="[]" --}   
+{!-- ra:0000000036cc24d60000000025d33f31 --}     {!-- bloqs:end:919 --}{!-- bloqs:start:918 vars="[]" --}   
 <div class="col-12 col-md-7 col-lg-6 d-flex ">
     
         <div class="card voltas-card voltas-card-patch w-100">
@@ -163,7 +163,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Chillers</h3>   <p class="card-text chalk-primary">Meeting the needs of commercial & industrial cooling with our wide variety of SCROLL, SCREW, Magnetic Bearing Centrifugal chillers.</p>    <a href="/images/_ansel_image_collector/VOLTAS_CHILLER_(1).pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+                {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Chillers</h3>   <p class="card-text chalk-primary">Meeting the needs of commercial & industrial cooling with our wide variety of SCROLL, SCREW, Magnetic Bearing Centrifugal chillers.</p>    <a href="/images/_ansel_image_collector/VOLTAS_CHILLER_(1).pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
             </div>
             
             
@@ -171,7 +171,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
     </div>
     
-    {!-- ra:000000005ccc8f050000000040c2e45f --}     {!-- bloqs:end:918 --}
+    {!-- ra:0000000036cc24d10000000025d33f31 --}     {!-- bloqs:end:918 --}
 		
 		
 		
@@ -213,7 +213,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">VAM</h3>   <p class="card-text chalk-primary">Our machines are tested in state-of-the-art facilities to ensure the highest quality throughout its lifecycle.</p>    <a href="/images/_ansel_image_collector/VAM_Cat_Combine_File.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+                {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">VAM</h3>   <p class="card-text chalk-primary">Our machines are tested in state-of-the-art facilities to ensure the highest quality throughout its lifecycle.</p>    <a href="/images/_ansel_image_collector/VAM_Cat_Combine_File.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
             </div>
             
             
@@ -221,7 +221,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
     </div>
     
-    {!-- ra:000000005ccc8f050000000040c2e45f --}     {!-- bloqs:end:922 --}{!-- bloqs:start:923 vars="[]" --}   {!-- ra:000000005ccc8f010000000040c2e45f --}
+    {!-- ra:0000000036cc24d10000000025d33f31 --}     {!-- bloqs:end:922 --}{!-- bloqs:start:923 vars="[]" --}   {!-- ra:0000000036cc24d50000000025d33f31 --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-gradient-horizontal-green">
         
@@ -230,12 +230,12 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
           
         <div class="card-body">
-            {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Cassette ACs</h3>   <p class="card-text chalk-primary">Our unique air flow grill design provides uniform cooling across a space with no hot spots.</p>    <a href="/images/_ansel_image_collector/Light_Commmercial_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+            {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Cassette ACs</h3>   <p class="card-text chalk-primary">Our unique air flow grill design provides uniform cooling across a space with no hot spots.</p>    <a href="/images/_ansel_image_collector/Light_Commmercial_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
         </div>
     </div>
 </div>
 
-{!-- ra:000000005ccc8f020000000040c2e45f --}     {!-- bloqs:end:923 --}
+{!-- ra:0000000036cc24d60000000025d33f31 --}     {!-- bloqs:end:923 --}
 		
 		
 		
@@ -265,7 +265,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:925 vars="[]" --}   {!-- ra:000000005ccc8f010000000040c2e45f --}
+	{!-- bloqs:start:925 vars="[]" --}   {!-- ra:0000000036cc24d50000000025d33f31 --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-slate-light_1">
         
@@ -274,12 +274,12 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
           
         <div class="card-body">
-            {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle yellow-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">UVC</h3>   <p class="card-text chalk-primary">Our UVC based products have been engineered to create a safer environment.</p>    <a href="/images/_ansel_image_collector/UV_Cart_System_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right yellow-primary"></i></a>       
+            {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle yellow-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">UVC</h3>   <p class="card-text chalk-primary">Our UVC based products have been engineered to create a safer environment.</p>    <a href="/images/_ansel_image_collector/UV_Cart_System_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right yellow-primary"></i></a>       
         </div>
     </div>
 </div>
 
-{!-- ra:000000005ccc8f020000000040c2e45f --}     {!-- bloqs:end:925 --}{!-- bloqs:start:926 vars="[]" --}   
+{!-- ra:0000000036cc24d60000000025d33f31 --}     {!-- bloqs:end:925 --}{!-- bloqs:start:926 vars="[]" --}   
 <div class="col-12 col-md-7 col-lg-6 d-flex ">
     
         <div class="card voltas-card voltas-card-patch w-100">
@@ -291,7 +291,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:000000005ccc8f690000000040c2e45f --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Tower ACs</h3>   <p class="card-text chalk-primary">Designed with a unique wide-angle air throw design, our Tower ACs provide powerful cooling for large rooms.</p>    <a href="/images/_ansel_image_collector/Light_Commmercial_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
+                {!-- ra:0000000036cc24bd0000000025d33f31 --} <h6 class="card-overtitle chalk-primary">PRODUCTS IN</h6>  <h3 class="card-title display chalk-primary">Tower ACs</h3>   <p class="card-text chalk-primary">Designed with a unique wide-angle air throw design, our Tower ACs provide powerful cooling for large rooms.</p>    <a href="/images/_ansel_image_collector/Light_Commmercial_AC_Catalog.pdf" target="_blank"><i class="fa fa-arrow-right chalk-primary"></i></a>       
             </div>
             
             
@@ -299,7 +299,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
         </div>
     </div>
     
-    {!-- ra:000000005ccc8f050000000040c2e45f --}     {!-- bloqs:end:926 --}
+    {!-- ra:0000000036cc24d10000000025d33f31 --}     {!-- bloqs:end:926 --}
 		
 		
 		
@@ -329,7 +329,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:928 vars="[]" --} {!-- ra:000000005ccc8f120000000040c2e45f --}
+	{!-- bloqs:start:928 vars="[]" --} {!-- ra:0000000036cc24c60000000025d33f31 --}
 
 <div class="container col-12 col-md-12 px-0"> 
 
@@ -340,7 +340,7 @@ a:3:{s:4:"time";i:1718334074;s:3:"ttl";i:0;s:4:"data";s:18207:"  {!-- ra:0000000
     
  
 
-{!-- ra:000000005ccc8f130000000040c2e45f --} {!-- bloqs:start:929 vars="[]" --}   {!-- ra:000000005ccc8f7f0000000040c2e45f --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-aqua-dark_1"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KnRu26EU6aw" allowfullscreen></iframe></div><div class="card-body"> <h6 class="card-overtitle">SMART PRODUCTS</h4>  <h3 class="card-title display">Make in India</h3>  <h2 class="h1">Building a stronger nation.</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:000000005ccc8f700000000040c2e45f --}     {!-- bloqs:end:929 --}
+{!-- ra:0000000036cc24c70000000025d33f31 --} {!-- bloqs:start:929 vars="[]" --}   {!-- ra:0000000036cc24ab0000000025d33f31 --}<div class="col-12 col-md-12 "><div class="card voltas-card voltas-card-video bg-aqua-dark_1"><div class="embed-responsive embed-responsive-21by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KnRu26EU6aw" allowfullscreen></iframe></div><div class="card-body"> <h6 class="card-overtitle">SMART PRODUCTS</h4>  <h3 class="card-title display">Make in India</h3>  <h2 class="h1">Building a stronger nation.</h2> </div><a class="carousel-control-prev vds-carousel-control-prev" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate"><i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div></div>  {!-- ra:0000000036cc24a40000000025d33f31 --}     {!-- bloqs:end:929 --}
     </div>
 </div>
 
