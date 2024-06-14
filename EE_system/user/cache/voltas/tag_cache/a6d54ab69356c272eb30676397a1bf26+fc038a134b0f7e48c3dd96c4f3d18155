@@ -1,0 +1,406 @@
+a:3:{s:4:"time";i:1718230584;s:3:"ttl";i:0;s:4:"data";s:27504:"  {!-- ra:000000005969380c0000000040bca302 --}  {layout:set name='seo_tags'}<title>Voltas | Leadership</title> <meta name="keywords" content="Voltas, leadership, cfo, leadership qualities, leadership skills, leadership and management, independent director, board member, Noel N Tata, Pradeep Bakshi, Anil George, Vinayak Deshpande, Debendranath Sarangi, Bahram Navroz Vakil, Anjali Bansal, Hemant Bhargava, Arun Kumar Adhikari, Zubin Dubash, Narendren Nair, Dinesh Singh, Jayant Balan"> <meta property="og:title" content="Voltas | Leadership"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/about/leadership/"> <meta property="og:description" content="The Board of Directors & Corporate Management Group of Voltas"> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="The Board of Directors & Corporate Management Group of Voltas">  <link rel="canonical" href="https://voltas.in/about/leadership/"/>  {/layout:set}      {!-- ra:0000000059693b9b0000000040bca302 --}            {!-- bloqs:start:1061 vars="[]" --}
+<!-- Don't wrap carousel in container to avoid left and right margin -->
+<!-- test 2 -->
+{exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
+
+
+
+<div id="vds-carousel-{exp:stash:get name='foo'}" class="carousel vds-carousel voltas-carousel slide">
+    <div class="carousel-inner">
+        
+ {!-- bloqs:start:1062 vars="[]" --} <div class="carousel-item  slide-quote active"> <img class="w-100 d-block" src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Leadership_Carousel_Mr._Bakshi_-_Colour1_.jpg" alt="" style="object-position:  "><div class="container">    <div class="carousel-caption voltas-carousel-caption left d-md-block col-12 col-md-7"><h4 class="h1">At Voltas, our Customers, Employees and Environment are the building blocks on which our business has expanded and sustained over the years. Deeply committed to customer-satisfaction, employee-engagement and environment-friendly technology, we have always strived for innovative product designs, disruptive technologies and IoT to build a future that is convenient and comfortable.</h4><p class="slide-text"></p><p class="quoted-by">Mr. Pradeep Bakshi<br><small>Managing Director & CEO</small></p></div>    </div></div></a>    {!-- bloqs:end:1062 --}
+    </div>
+    <!-- test --> 
+    
+</div>
+
+{!-- bloqs:end:1061 --}{!-- bloqs:start:1063 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:1063 --}{!-- bloqs:start:1064 vars="[]" --}<div class="container"><div class="row justify-content-center d-flex"><div class="col-12 col-md-10">   <div class="jumbotron muted ">   <h3 class=" ">Board of Directors</h2>    </div></div></div>  </div>  {!-- bloqs:end:1064 --}{!-- bloqs:start:1065 vars="[]" --}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		<div class="row justify-content-center d-flex vds-row-leadership">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{!-- bloqs:start:1066 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-aqua-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_8.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Noel Tata</h4>
+            <p class="card-text mb-1">Non-Executive Chairman</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Noel N. Tata has been associated with the Tata group for 40 years and currently serves on the Board of various Tata Group Companies, including as the Chairman of Trent, Tata International Limited, Voltas & Tata Investment Corporation and as the Vice Chairman of Tata Steel and Titan Company Limited. <br/><br/>
+He also serves as a Trustee on the Board of Sir Ratan Tata Trust and Sir Dorabji Tata Trust. <br/><br/>
+
+His last assignment was as the Managing director of Tata International Limited, the trading and distribution arm of the Tata Group, between August 2010 and November 2021, where he grew the company from a turnover of USD 500 million to over USD 3 billion. Prior to Tata International, Mr Tata served as the Managing Director of Trent Limited for more than 11 years, where he has overseen the growth of Trent across formats – from a one store operation in 1998 to over 500 stores across formats today. <br/><br/>
+
+Mr. Tata graduated from Sussex University (UK) and has completed the International Executive Programme (IEP) from INSEAD. 
+ <br/><br/>
+He is the son of Mr. Naval H. Tata and Mrs. Simone N. Tata.
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1066 --}{!-- bloqs:start:1067 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_9.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Pradeep Bakshi</h4>
+            <p class="card-text mb-1">Managing Director & Chief Executive Officer</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Pradeep Bakshi is the Managing Director & CEO of Voltas Limited and also among the Board of Directors for Voltbek Home Appliances Ltd. Mr. Bakshi took over as Head of Operations of UPBG, twelve years ago, with an emphatic oath of turning around the brand to its current stature. He is one of the most versatile and multi-talented executives to reach the company’s top office, having close to three decades of experience in the consumer durable industry.
+<br><br>
+Mr. Bakshi is a triumphant professional in the competitive Indian White Goods landscape. He represents the all-too-rare combination of thinker, doer and leader, and his vast expertise and experience in the Appliances domain makes him a distinct professional. Under his able leadership, Voltas has consistently grown in revenue and profitability, well ahead of the industry. In fact, Voltas achieved leadership position in Market Share, and has also scored highest in terms of Brand Equity, under his stewardship.
+<br><br>
+An enthusiastic and confident leader, Mr. Pradeep Bakshi has been the Appliances Man of the Year 2013, and has also received the President’s award for Energy Conservation, amongst many other awards and accolades during the last one decade.</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1067 --}{!-- bloqs:start:1138 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-voltas-primary w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_10.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Vinayak Deshpande</h4>
+            <p class="card-text mb-1">Non-Executive Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Vinayak Deshpande has been on the Board of Voltas Limited as a Non-Executive Director since February 2012.
+<br/><br/>
+He  was the Managing Director of Tata Projects Limited (one of India’s fastest growing engineering and construction company)  from  July 2011 till July 2022. A graduate in Chemical Engineering (1980) from IIT, Kharagpur, he has over  38 years of work experience in different roles, in diverse industries; starting with the design and sales of boilers and captive power plants at Thermax, to Industrial Automation at Tata Honeywell. At Tata Honeywell, he was the Managing Director of its India business for five years till 2004- 05, wherein he grew the company’s operations pan India, to achieve about 300% growth. Thereafter he had a successful stint as the Executive President (Operations) of Tata Teleservices.
+<br/><br/>
+During his tenure as the Managing Director of Tata Projects, the company achieved all-round excellence in its business of Industrial Infrastructure, including execution of Urban Metro system projects in four cities, Mumbai Trans Harbour Link project, a River Rejuvenation project and several High Rise building projects.  Mr. Vinayak Deshpande was conferred as the `Infrastructure Person of the Year’ for 2016-17 by 'Construction World'. `Construction Times’ awarded him as the `Best Infra CEO’ of the year 2017.
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1138 --}{!-- bloqs:start:1139 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_4.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Debendranath Sarangi</h4>
+            <p class="card-text mb-1">Independent Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Debendranath Sarangi has been on the Board of Voltas Limited as an Independent Director since  September 2014. He is a retired IAS officer (1977 batch) from the Tamil Nadu Cadre.
+<br/><br/>
+While in service, he has held high-level responsibilities in several departments including that of Chief Secretary.  
+<br/><br/>
+He was the Chairman of Tamil Nadu Transport Development Finance Corporation Limited, Chairman of Tamil Nadu Industrial Development Corporation Limited, on the board of various Government undertakings and also a nominee Director of some companies, including Titan. Mr. Sarangi holds M.A. in Political Science from University of Delhi and M.Sc. in Economics from University of Swansea, U.K.
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1139 --}{!-- bloqs:start:1070 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-voltas-primary w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_3.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Bahram Navroz Vakil</h4>
+            <p class="card-text mb-1">Independent Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Bahram Navroz Vakil has been on the board of Voltas Limited as an Independent Director since September 2014. He is a Master of Law (LL.M) from the Columbia University.
+<br/><br/>
+Mr. Bahram Vakil is one of the founding Partners of AZB and Partners, Law Firm and  amongst India’s foremost restructuring, infrastructure and project finance attorneys, and has been acknowledged as a leading project finance lawyer by most international publications for decades. 
+<br/><br/>
+He has been on several government constituted committees including the Viswanathan Committee on Bankruptcy law reform and played a key role in drafting the Insolvency and Bankruptcy code. 
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1070 --}{!-- bloqs:start:1071 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-aqua-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_1.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Anjali<br/>Bansal</h4>
+            <p class="card-text mb-1">Independent Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Ms. Anjali Bansal has been on the Board of Voltas Limited as an Independent Director since  March 2015. 
+<br/><br/>
+Ms. Anjali Bansal is a Bachelor in Computer Engineering and a Master in International Finance and Business from Columbia University. She is the founder of Avaana Capital, investing in technology and innovation-led start-ups which are catalysing climate  action and sustainability and delivering exponential returns. Ms. Anjali Bansal has mentored various successful start-ups including Delhivery, Urban Company, Darwinbox, Nykaa, Lenskart and Coverstack.  Previously, Ms. Anjali Bansal has been the Non-Executive Chairperson of Dena Bank, appointed by the Government of India to steer the resolution of the stressed bank, eventually leading to a merger with the Bank of Baroda.  Prior to that, Ms. Anjali Bansal was a Global Partner and Managing Director with TPG Growth PE, responsible for India, South East Asia, Africa and the Middle East.  She started her career as a strategy consultant with McKinsey and Co. in New York and has chaired the India Board of Women's World Banking, a leading global livelihood-promoting institution.  Ms. Anjali Bansal is on the Advisory Council to advise the Government of India for Open Network for Digital Commerce (ONDC) and was President of Bombay Chamber of Commerce and Industry.  She was listed as one of the “Most Powerful Women in Indian Business” by India’s leading publication, Business Today, and by Fortune India.  She was awarded “best women director” for Leadership, Corporate Governance, Sustainability & CSR at the 8th Asia Business Responsibility e-Summit held in November 2021.  She is a member of the Young Presidents’ Organization and a charter member of TiE.
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1071 --}{!-- bloqs:start:1073 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/card-v-sm-image_patch_2.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Arun Kumar Adhikari</h4>
+            <p class="card-text mb-1">Independent Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Arun Kumar Adhikari has been on the Board of Voltas Limited as an Independent Director since June 2017. He graduated with B. Tech (Chemical Engineering) from the Indian Institute of Technology, Kanpur in 1975 and did his MBA from Indian Institute of Management, Kolkata. He attended the Advanced Management Program in 1997 at The Wharton School, University of Pennsylvania, USA.
+<br/><br/>
+Mr. Adhikari joined Hindustan Unilever Limited (HUL) in 1977 and was with Unilever Group, working in India and overseas in series of increasingly senior roles across Sales, Marketing and Consumer Research till he retired in 2014. 
+<br/><br/>
+Post retirement from HUL in 2014, he worked as a Senior Advisor with McKinsey supporting them on Marketing and Sales strategy related areas. Mr. Adhikari is an Independent Director of UltraTech Cement Limited, Aditya Birla Capital Limited, Aditya Birla Fashion and Retail Limited and Vodafone Idea Limited.
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1073 --}{!-- bloqs:start:1074 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-voltas-primary w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/Zubin-Dubash.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Zubin<br/>Dubash</h4>
+            <p class="card-text mb-1">Independent Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Zubin  Dubash has been on the Board of Voltas Limited as an Independent Director since August 2019.  He holds a Bachelor's Degree in Commerce from Mumbai University and has done Masters in Business Administration from The Wharton School, Philadelphia. He is a Chartered Accountant from the Institute of Chartered Accountants, England and Wales and has over 41 years of international experience in finance and business development.
+<br/><br/>
+Mr. Zubin Dubash was Chief Operating Officer of Warburg Pincus India Limited and previously, Executive President of ATC Tires Private Limited. He was the Managing Director and Head India, DSP Merrill Lynch, Global Private Equity and the Group CFO and a key member of the leadership team of WNS Holdings Limited (NYSE listed company). Mr. Zubin Dubash was associated with the Tata Group, including as Director, Tata Financial Services, a division of Tata Sons and also as an Executive Director of Indian Hotels.</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1074 --}{!-- bloqs:start:1075 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-aqua-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/saurabhAgarwal.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Saurabh Mahesh Agrawal</h4>
+            <p class="card-text mb-1">Non-Executive Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Saurabh Agrawal has been on the Board of Voltas Limited as a Non-Executive Director since January 2021. Mr. Saurabh Agrawal is a Whole-time Director of Tata Sons Private Limited (Tata Sons), the Promoter company and also the Group Chief Financial Officer. In his career spanning over two decades, Mr. Saurabh Agrawal was the Head of Investment Banking in India for Bank of America Merrill Lynch and also Head of Corporate Finance business in India and South Asia for Standard Chartered Bank. Mr. Agrawal has wide-ranging experience in strategy and capital markets and has helped various large Indian and global corporates raise over US$ 10 billion from the capital markets. Mr. Saurabh Agrawal completed his graduate degree in chemical engineering from IIT Roorkee and has a post-graduate management degree from IIM Kolkata. He is on the Board of several Tata Group companies including Tata Capital Limited, Tata AIG General Insurance Company Limited, Tata AIA Life Insurance Company Limited, Tata Steel Limited, The Tata Power Company Limited, Tata Capital Limited, Tata Play Limited and Tata Power Renewable Energy Limited.</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1075 --}{!-- bloqs:start:1168 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-purple-dark_2 w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/MukundanMenon20022024.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Mukundan Menon</h4>
+            <p class="card-text mb-1">Executive Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">Mr. Mukundan Menon has done B. Tech in Mechanical Engineering, Graduate Diploma in Management, along with Executive Management programs from IIM (Indian Institute of Management) and a Leadership Excellence program from INSEAD, France.
+<br/><br/>
+Mr. Mukundan has over 37 years of Management experience, leading organisations in India and Overseas. Till recently, he held the position of the President & Chief Operating Officer of Blue Star Limited and Director of Blue Star Climatech Limited, a wholly owned subsidiary of Blue Star. He is currently the Vice-President of “Refrigeration and Air Conditioning Manufacturing Association” (RAMA) which represents leading MNC’s as well as Indian companies in this space. Mr Mukundan is an active member of the Confederation of Indian Industry (CII) India’s premier business association, representing Indian Industry, working with the Government for policy making and nation development.
+<br/><br/>
+His domain expertise covers the entire spectrum of HVAC products namely - Room Air conditioners, Commercial Air Conditioners and Commercial Refrigeration Products.
+<br/><br/>
+Mr. Mukundan is acknowledged for his strategic understanding of the Indian market opportunity with a very sharp focus on the Air conditioning and Refrigeration domain, access to networks and stake holders, operational experience to enter new markets and new product categories, scale up businesses with a clear long term strategic vision and exceptional short and mid-term execution capabilities.
+<br/><br/>
+He is a dynamic mentor with exceptional People and HR skills, with specialised knowledge in areas of thought leadership and growth orientation. He combines strong proven business acumen with a sense of purpose.
+<br/><br/>
+He has also been a speaker at various acclaimed platforms imparting his immense professional knowledge and experiences.</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1168 --}{!-- bloqs:start:1173 vars="[]" --} {!-- ra:000000005969382b0000000040bca302 --} 
+<div class="col-12 col-md-3 col-lg-3 d-flex {custom_css_class}">
+    <div class="card voltas-card leadership-card bg-voltas-primary w-100">
+        
+        <div class="card-img-mask">
+            <img src="https://devvoltas.voltasworld.com/images/people/jayeshMerchant_13052024.jpg" class="card-img-top" alt="...">
+        </div>
+          
+        <div class="card-body card-collapse-intro p-2">
+            <h4 class="card-title mb-1">Jayesh Tulsidas Merchant</h4>
+            <p class="card-text mb-1">Independent Director</p>
+            
+            <i class="fa fa-plus card-collapse-button" aria-hidden="true"></i>
+        </div>
+        <div class="card-body card-collapse-body hidden">
+            <i class="fa fa-times card-collapse-button" aria-hidden="true"></i>
+            <p class="card-text">The Board of Directors of Voltas Limited, have appointed Mr. Jayesh Merchant as an Independent Director for a term of 5 years with effect from 30th January, 2024. 
+<br/><br/>
+Mr. Jayesh Merchant is a member of the Institute of Chartered Accountants of India, a member of the Institute of Company Secretaries of India, a Commerce graduate and LL.B. from Mumbai University. 
+<br/><br/>
+Mr. Merchant is an astute leader and has worked in many leadership roles across Finance, Legal, Company Secretarial and General Management domains. With a proven track record of close to four decades, Mr. Merchant has held several responsible positions across reputed companies such as Asian Paints, UTV Software Communications, ION Exchange India and Castrol. Mr. Merchant retired as Chief Financial Officer, Company Secretary and President- Industrial JVs in November 2019 after a long tenure of 17 years with Asian Paints Limited. 
+<br/><br/>
+Mr. Jayesh Merchant is also an Independent Director of few other companies, including Trent Limited, Kotak Mahindra Trustee Limited, Bharat Serums and Vaccines Limited and Chairman/ Member of various Board Committees of companies in which he is a Director.
+</p>
+        </div>
+    </div>
+</div>
+
+
+
+{!-- ra:00000000596938240000000040bca302 --} 
+
+{!-- bloqs:end:1173 --}
+		
+		
+		
+		
+		</div>
+	</div>
+	{!-- bloqs:end:1065 --}  ";}
