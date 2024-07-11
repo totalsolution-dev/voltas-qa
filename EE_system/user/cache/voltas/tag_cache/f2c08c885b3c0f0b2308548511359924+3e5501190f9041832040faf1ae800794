@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000006854ca9000000006c76610a --}  {layout:set name='seo_tags'}<title>MEP | Water | Electrification Solutions - Voltas</title> <meta name="keywords" content="Voltas, electromechanical solutions, MEP, Water management, Smart refrigeration solutions, No. 1 MEP Turnkey Solutions Provider in India"> <meta property="og:title" content="MEP | Water | Electrification Solutions - Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/businesses/project-solutions/"> <meta property="og:description" content="Voltas is building a smarter world by engineering excellence in Electro mechanical, Water Management and Electrical distribution projects. "> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Voltas is building a smarter world by engineering excellence in Electro mechanical, Water Management and Electrical distribution projects. ">  <link rel="canonical" href="https://voltas.in/businesses/project-solutions/"/>  {/layout:set}      {!-- ra:0000000006854e36000000006c76610a --}            {!-- bloqs:start:336 vars="[]" --}
+a:3:{s:4:"time";i:1720610953;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000057c1c15a000000006787dc72 --}  {layout:set name='seo_tags'}<title>MEP | Water | Electrification Solutions - Voltas</title> <meta name="keywords" content="Voltas, electromechanical solutions, MEP, Water management, Smart refrigeration solutions, No. 1 MEP Turnkey Solutions Provider in India"> <meta property="og:title" content="MEP | Water | Electrification Solutions - Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/businesses/project-solutions/"> <meta property="og:description" content="Voltas is building a smarter world by engineering excellence in Electro mechanical, Water Management and Electrical distribution projects. "> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Voltas is building a smarter world by engineering excellence in Electro mechanical, Water Management and Electrical distribution projects. ">  <link rel="canonical" href="https://voltas.in/businesses/project-solutions/"/>  {/layout:set}      {!-- ra:0000000057c1c0a9000000006787dc72 --}            {!-- bloqs:start:336 vars="[]" --}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
 <!-- test 2 -->
 {exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
@@ -85,7 +85,7 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:0000000006854d68000000006c76610a --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">MEP </h3>   <p class="card-text chalk-primary">Providing high performance engineering design for a gamut of electromechanical solutions that are sustainable and efficient.</p>   <a href="/businesses/project-solutions/mep"><i class="fa fa-arrow-right chalk-primary"></i></a>        
+                {!-- ra:0000000057c1c16b000000006787dc72 --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">MEP </h3>   <p class="card-text chalk-primary">Providing high performance engineering design for a gamut of electromechanical solutions that are sustainable and efficient.</p>   <a href="/businesses/project-solutions/mep"><i class="fa fa-arrow-right chalk-primary"></i></a>        
             </div>
             
             
@@ -93,7 +93,7 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
         </div>
     </div>
     
-    {!-- ra:0000000006854d7c000000006c76610a --}     {!-- bloqs:end:344 --}{!-- bloqs:start:345 vars="[]" --}   {!-- ra:0000000006854d40000000006c76610a --}
+    {!-- ra:0000000057c1c17f000000006787dc72 --}     {!-- bloqs:end:344 --}{!-- bloqs:start:345 vars="[]" --}   {!-- ra:0000000057c1c143000000006787dc72 --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-gradient-vertical-blue">
         
@@ -102,12 +102,12 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
         </div>
           
         <div class="card-body">
-            {!-- ra:0000000006854d68000000006c76610a --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Electrification</h3>   <p class="card-text chalk-primary">Creating cost-effective strategies to improve power usage in a single building or across districts.</p>   <a href="/businesses/project-solutions/electrical-solutions"><i class="fa fa-arrow-right chalk-primary"></i></a>        
+            {!-- ra:0000000057c1c16b000000006787dc72 --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Electrification</h3>   <p class="card-text chalk-primary">Creating cost-effective strategies to improve power usage in a single building or across districts.</p>   <a href="/businesses/project-solutions/electrical-solutions"><i class="fa fa-arrow-right chalk-primary"></i></a>        
         </div>
     </div>
 </div>
 
-{!-- ra:0000000006854d43000000006c76610a --}     {!-- bloqs:end:345 --}
+{!-- ra:0000000057c1c142000000006787dc72 --}     {!-- bloqs:end:345 --}
 		
 		
 		
@@ -137,7 +137,7 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:347 vars="[]" --}   {!-- ra:0000000006854d40000000006c76610a --}
+	{!-- bloqs:start:347 vars="[]" --}   {!-- ra:0000000057c1c143000000006787dc72 --}
 <div class="col-12 col-md-5 col-lg-4 d-flex ">
     <div class="card voltas-card bg-slate-light_1">
         
@@ -146,12 +146,12 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
         </div>
           
         <div class="card-body">
-            {!-- ra:0000000006854d68000000006c76610a --} <h6 class="card-overtitle yellow-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Water Management </h3>   <p class="card-text chalk-primary">Promoting a multidisciplinary approach to properly manage the water cycle and its value chain.</p>   <a href="/businesses/project-solutions/water-management"><i class="fa fa-arrow-right yellow-primary"></i></a>        
+            {!-- ra:0000000057c1c16b000000006787dc72 --} <h6 class="card-overtitle yellow-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Water Management </h3>   <p class="card-text chalk-primary">Promoting a multidisciplinary approach to properly manage the water cycle and its value chain.</p>   <a href="/businesses/project-solutions/water-management"><i class="fa fa-arrow-right yellow-primary"></i></a>        
         </div>
     </div>
 </div>
 
-{!-- ra:0000000006854d43000000006c76610a --}     {!-- bloqs:end:347 --}{!-- bloqs:start:348 vars="[]" --}   
+{!-- ra:0000000057c1c142000000006787dc72 --}     {!-- bloqs:end:347 --}{!-- bloqs:start:348 vars="[]" --}   
 <div class="col-12 col-md-7 col-lg-6 d-flex ">
     
         <div class="card voltas-card voltas-card-patch w-100">
@@ -163,7 +163,7 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
 
             
             <div class="card-body col-11 col-sm-10 col-md-7">
-                {!-- ra:0000000006854d68000000006c76610a --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Customer Care</h3>   <p class="card-text chalk-primary">Delivering life-cycle solutions with a team of highly qualified engineers to provide constant care for every project completed. </p>   <a href="/businesses/project-solutions/customer-care"><i class="fa fa-arrow-right chalk-primary"></i></a>        
+                {!-- ra:0000000057c1c16b000000006787dc72 --} <h6 class="card-overtitle chalk-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Customer Care</h3>   <p class="card-text chalk-primary">Delivering life-cycle solutions with a team of highly qualified engineers to provide constant care for every project completed. </p>   <a href="/businesses/project-solutions/customer-care"><i class="fa fa-arrow-right chalk-primary"></i></a>        
             </div>
             
             
@@ -171,7 +171,7 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
         </div>
     </div>
     
-    {!-- ra:0000000006854d7c000000006c76610a --}     {!-- bloqs:end:348 --}
+    {!-- ra:0000000057c1c17f000000006787dc72 --}     {!-- bloqs:end:348 --}
 		
 		
 		
@@ -201,7 +201,7 @@ a:3:{s:4:"time";i:1720586652;s:3:"ttl";i:0;s:4:"data";s:14877:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:350 vars="[]" --}   {!-- ra:0000000006854d70000000006c76610a --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-teal_green"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Solutions_Card_Process_Refrigeration.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-right" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-right" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:0000000006854d68000000006c76610a --} <h6 class="card-overtitle yellow-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Process Refrigeration</h3>   <p class="card-text chalk-primary">Smart customised refrigeration solutions designed, installed and commissioned to enhance efficiency across multiple industries.</p>   <a href="/businesses/project-solutions/process-refrigeration"><i class="fa fa-arrow-right yellow-primary"></i></a>        </div></div></div></div></div>  {!-- ra:0000000006854d73000000006c76610a --}     {!-- bloqs:end:350 --}
+	{!-- bloqs:start:350 vars="[]" --}   {!-- ra:0000000057c1c173000000006787dc72 --} <div class="col-12 "><div class="card voltas-card bg-gradient-vertical-teal_green"><div class="row no-gutters"> <div class="col-lg-7"> <div class="card-img-mask w-100 h-100"> <img src="https://devvoltas.voltasworld.com/images/_ansel_image_collector/Business_Solutions_Card_Process_Refrigeration.jpg" class="card-img object-fit_cover h-100" alt=""></div> <a class="carousel-control-prev vds-carousel-control-prev xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="prev"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-left" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Previous</span></div></a><a class="carousel-control-next vds-carousel-control-next xl-patch-mobile" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-right" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a></div><div class="col-lg-5"><a class="carousel-control-next vds-carousel-control-next xl-patch-desktop" href="#vds-card-carousel" role="button" data-slide="next"><div class="carousel-control-plate bg-aqua-primary"><i class="fa fa-chevron-right" style="color:var(--colors-chalk-primary)" aria-hidden="true"></i> <span class="sr-only">Next</span></div></a><div class="card-body col-12 col-md-10"> {!-- ra:0000000057c1c16b000000006787dc72 --} <h6 class="card-overtitle yellow-primary">SOLUTIONS IN</h6>  <h3 class="card-title display chalk-primary">Process Refrigeration</h3>   <p class="card-text chalk-primary">Smart customised refrigeration solutions designed, installed and commissioned to enhance efficiency across multiple industries.</p>   <a href="/businesses/project-solutions/process-refrigeration"><i class="fa fa-arrow-right yellow-primary"></i></a>        </div></div></div></div></div>  {!-- ra:0000000057c1c172000000006787dc72 --}     {!-- bloqs:end:350 --}
 		
 		
 		

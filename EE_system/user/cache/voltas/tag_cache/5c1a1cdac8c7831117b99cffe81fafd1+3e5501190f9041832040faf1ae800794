@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:000000006c4982db00000000410ebba6 --}  {layout:set name='seo_tags'}<title>Careers - Opportunities | Voltas</title> <meta name="keywords" content="Voltas, Voltas career, Vacancies in tata group companies, Tata group of companies recruitment, Voltas company job, Voltas jobs, Voltas recruitment 2022"> <meta property="og:title" content="Careers - Opportunities | Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/careers/opportunities/"> <meta property="og:description" content="Join the Voltas family, build a career, view current openings at Voltas"> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Join the Voltas family, build a career, view current openings at Voltas">  <link rel="canonical" href="https://www.voltas.com/pages/careers-opportunities"/>  {/layout:set}      {!-- ra:000000006c49804400000000410ebba6 --}            {!-- bloqs:start:127 vars="[]" --}
+a:3:{s:4:"time";i:1720692030;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:000000007530f7bd00000000500c679f --}  {layout:set name='seo_tags'}<title>Careers - Opportunities | Voltas</title> <meta name="keywords" content="Voltas, Voltas career, Vacancies in tata group companies, Tata group of companies recruitment, Voltas company job, Voltas jobs, Voltas recruitment 2022"> <meta property="og:title" content="Careers - Opportunities | Voltas"> <meta property="og:type" content="website"> <meta property="og:url" content="https://www.voltas.in/careers/opportunities/"> <meta property="og:description" content="Join the Voltas family, build a career, view current openings at Voltas"> <meta property="og:image" content="https://www.voltas.in/themes/user/site/default/asset/img/logo_voltas.svg"> <meta name="robots" content="index, follow, noodp, noydir"> <meta name="revised" content="August, 23, 2021"> <meta name="HandheldFriendly" content="true"> <meta name="description" content="Join the Voltas family, build a career, view current openings at Voltas">  <link rel="canonical" href="https://www.voltas.com/pages/careers-opportunities"/>  {/layout:set}      {!-- ra:000000007530f52200000000500c679f --}            {!-- bloqs:start:127 vars="[]" --}
 <!-- Don't wrap carousel in container to avoid left and right margin -->
 <!-- test 2 -->
 {exp:stash:set name="foo"}{exp:low_random:number from="10000" to="99999"}{/exp:stash:set}
@@ -37,7 +37,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:132 vars="[]" --}   {!-- ra:000000006c49830000000000410ebba6 --} 
+	{!-- bloqs:start:132 vars="[]" --}   {!-- ra:000000007530f66600000000500c679f --} 
 <div class="col-12 ">
     <div class="card voltas-card bg-gradient-vertical-blue">
         <div class="row no-gutters">
@@ -51,7 +51,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
             </div>
             <div class="col-lg-7">
                 <div class="card-body col-12 col-md-10">
-                    {!-- ra:000000006c49831a00000000410ebba6 --} <h6 class="card-overtitle yellow-primary">recruitment</h6>  <h3 class="card-title display chalk-primary">Professionals</h3>   <p class="card-text chalk-primary">As one of the top 10 companies in the TATA group, you will have the opportunity to work with a global community of passionate individuals that, together, build smarter products, processes and projects, shaping the future of our nation and the world. You will take on challenging roles, drive solutions, seize opportunities and gain invaluable experience across Voltas's diversified businesses. As a value-driven organisation that believes in the power of people, we take your aspirations seriously.
+                    {!-- ra:000000007530f67c00000000500c679f --} <h6 class="card-overtitle yellow-primary">recruitment</h6>  <h3 class="card-title display chalk-primary">Professionals</h3>   <p class="card-text chalk-primary">As one of the top 10 companies in the TATA group, you will have the opportunity to work with a global community of passionate individuals that, together, build smarter products, processes and projects, shaping the future of our nation and the world. You will take on challenging roles, drive solutions, seize opportunities and gain invaluable experience across Voltas's diversified businesses. As a value-driven organisation that believes in the power of people, we take your aspirations seriously.
 
 </p>         <a href="https://www.linkedin.com/company/voltas-limited/jobs/" class="btn btn-outline yellow-primary mt-2 mb-2" target="_blank">apply now</a>   
                 </div>
@@ -60,7 +60,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
     </div>
 </div>
 
-{!-- ra:000000006c49831f00000000410ebba6 --}     {!-- bloqs:end:132 --}
+{!-- ra:000000007530f67900000000500c679f --}     {!-- bloqs:end:132 --}
 		
 		
 		
@@ -90,7 +90,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:135 vars="[]" --}   {!-- ra:000000006c49830000000000410ebba6 --} 
+	{!-- bloqs:start:135 vars="[]" --}   {!-- ra:000000007530f66600000000500c679f --} 
 <div class="col-12 ">
     <div class="card voltas-card bg-gradient-vertical-pink_yellow">
         <div class="row no-gutters">
@@ -104,7 +104,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
             </div>
             <div class="col-lg-7">
                 <div class="card-body col-12 col-md-10">
-                    {!-- ra:000000006c49831a00000000410ebba6 --} <h6 class="card-overtitle yellow-primary">recruitment</h6>  <h3 class="card-title display chalk-primary">Graduates</h3>   <p class="card-text chalk-primary">Our Campus Induction Program, Prarambh, is a week-long process where trainees are provided with opportunities to interact directly with senior leadership, learn the scope of our businesses first hand and forge unshakable bonds with each other. Through their one-year probation period, every trainee is taken through classroom, online and experiential training that prepare them for a successful career at Voltas.
+                    {!-- ra:000000007530f67c00000000500c679f --} <h6 class="card-overtitle yellow-primary">recruitment</h6>  <h3 class="card-title display chalk-primary">Graduates</h3>   <p class="card-text chalk-primary">Our Campus Induction Program, Prarambh, is a week-long process where trainees are provided with opportunities to interact directly with senior leadership, learn the scope of our businesses first hand and forge unshakable bonds with each other. Through their one-year probation period, every trainee is taken through classroom, online and experiential training that prepare them for a successful career at Voltas.
 
 </p>        <a href="mailto: campus@voltas.com" class="btn btn-outline yellow-primary mt-2 mb-2">Connect with us</a>    
                 </div>
@@ -113,7 +113,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
     </div>
 </div>
 
-{!-- ra:000000006c49831f00000000410ebba6 --}     {!-- bloqs:end:135 --}
+{!-- ra:000000007530f67900000000500c679f --}     {!-- bloqs:end:135 --}
 		
 		
 		
@@ -143,7 +143,7 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
 	
 	
 	
-	{!-- bloqs:start:138 vars="[]" --}   {!-- ra:000000006c49830000000000410ebba6 --} 
+	{!-- bloqs:start:138 vars="[]" --}   {!-- ra:000000007530f66600000000500c679f --} 
 <div class="col-12 ">
     <div class="card voltas-card bg-gradient-vertical-yellow_green">
         <div class="row no-gutters">
@@ -157,14 +157,14 @@ a:3:{s:4:"time";i:1720547431;s:3:"ttl";i:0;s:4:"data";s:13685:"  {!-- ra:0000000
             </div>
             <div class="col-lg-7">
                 <div class="card-body col-12 col-md-10">
-                    {!-- ra:000000006c49831a00000000410ebba6 --} <h6 class="card-overtitle yellow-primary">internship</h6>  <h3 class="card-title display chalk-primary">Interns</h3>   <p class="card-text chalk-primary">At Voltas, we plan for our future by investing in yours. Our summer and winter internship programs are available to recognised campuses across the nation. Spanning 2 to 6 months, depending on course and college parameters, these internships offer students the opportunity to discover their passion. Those that display a keen understanding of our ethos and work ethic are eligible for pre-placement employment offers.</p>        <a href="mailto: campus@voltas.com" class="btn btn-outline yellow-primary mt-2 mb-2">connect with us</a>    
+                    {!-- ra:000000007530f67c00000000500c679f --} <h6 class="card-overtitle yellow-primary">internship</h6>  <h3 class="card-title display chalk-primary">Interns</h3>   <p class="card-text chalk-primary">At Voltas, we plan for our future by investing in yours. Our summer and winter internship programs are available to recognised campuses across the nation. Spanning 2 to 6 months, depending on course and college parameters, these internships offer students the opportunity to discover their passion. Those that display a keen understanding of our ethos and work ethic are eligible for pre-placement employment offers.</p>        <a href="mailto: campus@voltas.com" class="btn btn-outline yellow-primary mt-2 mb-2">connect with us</a>    
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-{!-- ra:000000006c49831f00000000410ebba6 --}     {!-- bloqs:end:138 --}
+{!-- ra:000000007530f67900000000500c679f --}     {!-- bloqs:end:138 --}
 		
 		
 		
