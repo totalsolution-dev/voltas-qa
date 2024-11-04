@@ -1,0 +1,2 @@
+a:3:{s:4:"time";i:1730660702;s:3:"ttl";i:0;s:4:"data";s:326:"{layout='layouts/_html-wrapper'}
+{!-- ra:000000005ab33619000000003ffd14c9 --}            {layout:set name='ch' value='pages'}    {!-- ra:000000005ab33667000000003ffd14c9 --}  {layout:set name='seo_tags'}<title>Newsroom</title>   {/layout:set}      {!-- ra:000000005ab334f8000000003ffd14c9 --}               {layout:contents}  ";}
